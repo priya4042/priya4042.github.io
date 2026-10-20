@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>You're offline - Priya Tech Labs</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+<script>try{var t=localStorage.getItem("ptl-theme");if(t)document.documentElement.dataset.theme=t;var l=localStorage.getItem("ptl-lang");if(l==="hi")document.documentElement.lang="hi"}catch(e){}</script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./" aria-label="Priya Tech Labs home"><img class="mark" src="assets/mark.svg" alt="" width="30" height="30"><span>Priya Tech Labs</span></a>
+</header>
+<main class="nf">
+  <p class="nf-code" aria-hidden="true">
+    <svg viewBox="0 0 48 48" width="120" height="120" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M6 18c10-9 26-9 36 0"/><path d="M12 25c7-6 17-6 24 0"/><path d="M18 32c4-3 8-3 12 0"/><circle cx="24" cy="38" r="2.5"/><path d="M8 8l32 32"/></svg>
+  </p>
+  <h1 data-i18n="off.h">You're offline</h1>
+  <p data-i18n="off.p">This page isn't saved on your device yet. Pages you've already opened still work - try the home page, or check your connection.</p>
+  <div class="hero-actions">
+    <a class="btn btn-primary" href="./" data-i18n="nf.home">Home page</a>
+    <button class="btn btn-ghost" type="button" onclick="location.reload()" data-i18n="off.retry">Try again</button>
+  </div>
+</main>
+<script src="site.config.js"></script>
+<script src="i18n.js"></script>
+</body>
+</html>

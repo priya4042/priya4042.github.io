@@ -490,3 +490,50 @@
     up.addEventListener("click", function () { window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" }); });
   }
 })();
+
+// ---------- v5: install as an app, offline support, social links ----------
+(function () {
+  var S = window.SITE || {};
+  var mainSrc = (document.querySelector('script[src$="main.js"]') || {}).src || location.href;
+  var BASE = mainSrc.replace(/main\.js.*$/, "");
+
+  // offline support (only over http(s); browsers refuse service workers on file://)
+  if ("serviceWorker" in navigator && /^https?:/.test(location.protocol)) {
+    window.addEventListener("load", function () { navigator.serviceWorker.register(BASE + "sw.js").catch(function () {}); });
+  }
+
+  // "Install as an app" appears only when the browser offers it
+  var deferred = null;
+  window.addEventListener("beforeinstallprompt", function (e) {
+    e.preventDefault(); deferred = e;
+    document.querySelectorAll("[data-install]").forEach(function (b) { b.hidden = false; });
+  });
+  document.querySelectorAll("[data-install]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      if (!deferred) return;
+      deferred.prompt();
+      deferred.userChoice.finally(function () { deferred = null; document.querySelectorAll("[data-install]").forEach(function (x) { x.hidden = true; }); });
+    });
+  });
+  window.addEventListener("appinstalled", function () { document.querySelectorAll("[data-install]").forEach(function (x) { x.hidden = true; }); });
+
+  // social profile icons (only the ones filled in site.config.js)
+  var ICON = {
+    github: '<path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .8.1-.7.4-1.1.6-1.4-2.2-.2-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.8-4.6 5 .4.3.7.9.7 1.9v2.8c0 .3.2.6.7.5A10 10 0 0 0 12 2z"/>',
+    linkedin: '<path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.2c0-1.2 0-2.9-1.8-2.9s-2 1.4-2 2.8V21h-4z"/>',
+    instagram: '<path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0zM12 3.6c2.7 0 3 0 4.1.1 2.7.1 4 1.4 4.1 4.1.1 1.1.1 1.4.1 4.1s0 3-.1 4.1c-.1 2.7-1.4 4-4.1 4.1-1.1.1-1.4.1-4.1.1s-3 0-4.1-.1c-2.7-.1-4-1.4-4.1-4.1C3.7 15 3.6 14.7 3.6 12s0-3 .1-4.1c.1-2.7 1.4-4 4.1-4.1 1.1-.1 1.4-.2 4.2-.2zM12 2c-2.7 0-3.1 0-4.2.1C4.2 2.2 2.2 4.2 2.1 7.8 2 8.9 2 9.3 2 12s0 3.1.1 4.2c.1 3.6 2.1 5.6 5.7 5.7 1.1.1 1.5.1 4.2.1s3.1 0 4.2-.1c3.6-.1 5.6-2.1 5.7-5.7.1-1.1.1-1.5.1-4.2s0-3.1-.1-4.2c-.1-3.6-2.1-5.6-5.7-5.7C15.1 2 14.7 2 12 2z"/>',
+    youtube: '<path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8c1.6.4 7.8.4 7.8.4s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15V9l5.2 3z"/>',
+    x: '<path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.2-8.3L2 3h6.4l4.4 5.8zm-1.1 16.2h1.7L7.4 4.7H5.6z"/>'
+  };
+  var NAME = { github: "GitHub", linkedin: "LinkedIn", instagram: "Instagram", youtube: "YouTube", x: "X" };
+  var soc = S.social || {};
+  document.querySelectorAll(".socials").forEach(function (box) {
+    Object.keys(ICON).forEach(function (k) {
+      if (!soc[k]) return;
+      var a = document.createElement("a");
+      a.href = soc[k]; a.target = "_blank"; a.rel = "noopener"; a.className = "soc soc-" + k; a.setAttribute("aria-label", NAME[k]); a.title = NAME[k];
+      a.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">' + ICON[k] + "</svg>";
+      box.append(a);
+    });
+  });
+})();

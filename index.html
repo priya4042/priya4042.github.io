@@ -15,6 +15,9 @@
 <meta name="theme-color" content="#1D1B4C">
 <!-- Google Search Console: paste its <meta name="google-site-verification" ...> tag here -->
 <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
@@ -291,6 +294,27 @@
   </div>
 </section>
 
+<section class="work" id="work" aria-labelledby="work-h">
+  <div class="section-head">
+    <h2 id="work-h" data-i18n="cases.h">How I built them</h2>
+    <p data-i18n="cases.p">The problem, the hard part, and how it was solved - three of my apps up close.</p>
+  </div>
+  <div class="work-grid">
+    <a class="work-card" href="work/reelcut.html" style="--accent:#6C4CF0">
+      <div class="wc-visual"><img class="wc-icon" src="assets/apps/reelcut.png" alt="" width="64" height="64"><img class="wc-shot" src="assets/gallery/reelcut-1.webp" alt="" width="432" height="786" loading="lazy"></div>
+      <div class="wc-text"><span class="gc-meta" data-i18n="case.tag">Case study</span><h3>ReelCut: a video editor that never uploads your videos</h3><p>From a PC-powered tool to an app that edits everything on the phone, with no internet permission at all.</p></div>
+    </a>
+    <a class="work-card" href="work/committee-book.html" style="--accent:#0E7C66">
+      <div class="wc-visual"><img class="wc-icon" src="assets/apps/committee-book.png" alt="" width="64" height="64"><img class="wc-shot" src="assets/gallery/committee-book-1.webp" alt="" width="432" height="786" loading="lazy"></div>
+      <div class="wc-text"><span class="gc-meta" data-i18n="case.tag">Case study</span><h3>Committee Book: getting the money maths of a BC exactly right</h3><p>Bidding chits, partial payments and members who can check their own status - with tests guarding every rupee.</p></div>
+    </a>
+    <a class="work-card" href="work/mca-entrance-prep.html" style="--accent:#5383FF">
+      <div class="wc-visual"><img class="wc-icon" src="assets/apps/mca-entrance-prep.png" alt="" width="64" height="64"><img class="wc-shot" src="assets/gallery/mca-entrance-prep-1.webp" alt="" width="432" height="786" loading="lazy"></div>
+      <div class="wc-text"><span class="gc-meta" data-i18n="case.tag">Case study</span><h3>MCA Entrance Prep: one app for eleven entrance exams</h3><p>Every answer checked twice, every exam with its own pattern, and dates that update without an app update.</p></div>
+    </a>
+  </div>
+</section>
+
 <section class="web" id="web" aria-labelledby="web-h">
   <div class="section-head">
     <h2 id="web-h" data-i18n="web.h">Live on the web</h2>
@@ -470,6 +494,7 @@
         <li><b data-i18n="svc.web">Websites</b><span data-i18n="svc.web.p">Fast, mobile-first sites in English, Hindi or both.</span></li>
         <li><b data-i18n="svc.wapp">Web apps</b><span data-i18n="svc.wapp.p">Dashboards, admin panels and tools for your team.</span></li>
       </ul>
+      <div class="socials socials-contact"></div>
       <p class="contact-links">
         <a href="mailto:priyatechlabs9@gmail.com?subject=Project%20enquiry">priyatechlabs9@gmail.com</a>
         <a href="https://github.com/priya4042" target="_blank" rel="noopener">GitHub</a>
@@ -510,9 +535,13 @@
   </nav>
   <nav aria-label="More">
     <a href="#guides" data-i18n="nav.guides">Guides</a>
+    <a href="#work" data-i18n="nav.cases">Case studies</a>
     <a href="press.html" data-i18n="nav.press">Press kit</a>
+    <a href="site-privacy.html" data-i18n="nav.sprivacy">Privacy</a>
+    <a href="terms.html" data-i18n="nav.terms">Terms</a>
     <a href="#contact" data-i18n="nav.work">Work with me</a>
   </nav>
+  <div class="foot-extra"><div class="socials"></div><button class="btn btn-ghost install-btn" type="button" hidden data-install data-i18n="pwa.install">Install as an app</button></div>
 </footer>
 <button class="to-top" type="button" hidden aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
 

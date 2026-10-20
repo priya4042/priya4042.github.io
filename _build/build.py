@@ -6,6 +6,7 @@ from the APPS list below. Run after editing an app:   python _build/build.py
 import os, sys, json, html, glob, urllib.parse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import content as C
+import content_more as M
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://priya4042.github.io/"   # change when a custom domain is added
@@ -126,6 +127,9 @@ def head(title, desc, url, depth=1):
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#1D1B4C">
 <link rel="icon" href="{up}assets/mark.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="{up}assets/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="{up}assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="{up}manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
@@ -151,7 +155,8 @@ def header(up, home_links=True):
 def footer(up):
     return f"""<footer class="foot">
   <p>© 2026 Priya Tech Labs · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
-  <nav aria-label="Footer"><a href="{up}#apps" data-i18n="nav.apps">Apps</a><a href="{up}#web" data-i18n="nav.web">Websites</a><a href="{up}#guides" data-i18n="nav.guides">Guides</a><a href="{up}press.html" data-i18n="nav.press">Press kit</a><a href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
+  <nav aria-label="Footer"><a href="{up}#apps" data-i18n="nav.apps">Apps</a><a href="{up}#web" data-i18n="nav.web">Websites</a><a href="{up}#guides" data-i18n="nav.guides">Guides</a><a href="{up}#work" data-i18n="nav.cases">Case studies</a><a href="{up}press.html" data-i18n="nav.press">Press kit</a><a href="{up}site-privacy.html" data-i18n="nav.sprivacy">Privacy</a><a href="{up}terms.html" data-i18n="nav.terms">Terms</a><a href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
+  <div class="foot-extra"><div class="socials"></div><button class="btn btn-ghost install-btn" type="button" hidden data-install data-i18n="pwa.install">Install as an app</button></div>
 </footer>
 <button class="to-top" type="button" hidden aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
 <a class="wa" href="#" hidden aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7a.6.6 0 0 0 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.4z"/></svg></a>
@@ -245,6 +250,7 @@ def app_page(a):
 def sitemap():
     urls = [SITE_URL, f"{SITE_URL}press.html"] + [f"{SITE_URL}apps/{a['slug']}.html" for a in APPS] + \
            [f"{SITE_URL}guides/{g['slug']}.html" for g in C.GUIDES] + \
+           [f"{SITE_URL}work/{c['slug']}.html" for c in M.CASES] + [f"{SITE_URL}site-privacy.html", f"{SITE_URL}terms.html"] + \
            [f"{SITE_URL}privacy/{os.path.basename(p)}" for p in sorted(glob.glob(os.path.join(ROOT, "privacy", "*.html")))]
     body = "".join(f"<url><loc>{u}</loc></url>" for u in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n'
@@ -276,6 +282,33 @@ def og_image():
         im.paste(ic, (x, 488), m); x += 104
     im.save(os.path.join(ROOT, "assets", "og.png"), optimize=True)
 
+def device_icons():
+    """PNG icons for phones, tabs and the installable app, drawn from the brand mark."""
+    from PIL import Image, ImageDraw
+    out = os.path.join(ROOT, "assets", "icons"); os.makedirs(out, exist_ok=True)
+    def mark(size, pad, radius_frac, bg=(29, 27, 76)):
+        im = Image.new("RGBA", (size, size), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+        d.rounded_rectangle((0, 0, size - 1, size - 1), int(size * radius_frac), fill=bg + (255,))
+        inner = size - 2 * pad; tile = inner / 3.4; gap = (inner - 3 * tile) / 2
+        for i in range(9):
+            x = pad + (i % 3) * (tile + gap); y = pad + (i // 3) * (tile + gap)
+            d.rounded_rectangle((x, y, x + tile, y + tile), int(tile * 0.3), fill=(245, 165, 36) if i == 4 else (255, 255, 255))
+        return im
+    mark(512, 120, 0.22).save(os.path.join(out, "icon-512.png"))
+    mark(192, 45, 0.22).save(os.path.join(out, "icon-192.png"))
+    mark(512, 150, 0.0).save(os.path.join(out, "maskable-512.png"))          # full-bleed for Android's own mask
+    mark(180, 40, 0.0).convert("RGB").save(os.path.join(out, "apple-touch-icon.png"))
+    mark(32, 5, 0.2).save(os.path.join(out, "favicon-32.png"))
+    mark(64, 10, 0.2).save(os.path.join(ROOT, "favicon.ico"), sizes=[(16, 16), (32, 32), (48, 48), (64, 64)])
+    man = {"name": "Priya Tech Labs", "short_name": "Priya Tech Labs", "description": "Android apps and websites for money, study and everyday life.",
+           "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#14123A", "theme_color": "#1D1B4C",
+           "icons": [{"src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+                     {"src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+                     {"src": "assets/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}],
+           "shortcuts": [{"name": "Apps", "url": "./#apps"}, {"name": "Become a QuickScan tester", "url": "./apps/quickscan.html"},
+                         {"name": "Work with me", "url": "./#contact"}]}
+    json.dump(man, open(os.path.join(ROOT, "manifest.webmanifest"), "w", encoding="utf-8"), indent=1)
+
 if __name__ == "__main__":
     os.makedirs(os.path.join(ROOT, "apps"), exist_ok=True)
     os.makedirs(os.path.join(ROOT, "guides"), exist_ok=True)
@@ -292,4 +325,16 @@ if __name__ == "__main__":
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f: f.write(sitemap())
     og_image()
     C.press_zip(ROOT, APPS)
+    os.makedirs(os.path.join(ROOT, "work"), exist_ok=True)
+    for c in M.CASES:
+        with open(os.path.join(ROOT, "work", c["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(M.case_page(c, head, header, footer, SITE_URL, APPS))
+    for title, body, slug in [("Website privacy", M.SITE_PRIVACY, "site-privacy"), ("Terms of use", M.SITE_TERMS, "terms")]:
+        with open(os.path.join(ROOT, slug + ".html"), "w", encoding="utf-8") as f:
+            f.write(M.legal_page(title, body, slug, head, header, footer, SITE_URL))
+    # case studies in search too
+    idx = json.load(open(os.path.join(ROOT, "assets", "search.json"), encoding="utf-8"))
+    idx += [{"t": c["title"], "d": c["desc"], "u": f"work/{c['slug']}.html", "k": "Case study", "x": c["app"]} for c in M.CASES]
+    json.dump(idx, open(os.path.join(ROOT, "assets", "search.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    device_icons()
     print(f"built {len(APPS)} app pages, {len(C.GUIDES)} guides, press kit, search index, QR codes, sitemap, og image")

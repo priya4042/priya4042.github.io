@@ -15,6 +15,15 @@ window.SITE = {
   // GoatCounter site code (https://www.goatcounter.com, free, no cookies), e.g. "priyatechlabs". Empty = no analytics.
   goatcounter: "",
 
+  // Your profile links. Empty ones stay hidden.
+  social: {
+    github: "https://github.com/priya4042",
+    linkedin: "",
+    instagram: "",
+    youtube: "",
+    x: "",
+  },
+
   // Real quotes from testers or clients, e.g. { text: "...", name: "Rahul", role: "QuickScan tester" }. Empty = section hidden.
   quotes: [],
 };

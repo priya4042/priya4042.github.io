@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ReelCut: a video editor that never uploads your videos - Priya Tech Labs</title>
+<meta name="description" content="How a tool that needed a PC became an Android app that edits everything on the phone - with no internet permission at all.">
+<link rel="canonical" href="https://priya4042.github.io/work/reelcut.html">
+<meta property="og:title" content="ReelCut: a video editor that never uploads your videos - Priya Tech Labs">
+<meta property="og:description" content="How a tool that needed a PC became an Android app that edits everything on the phone - with no internet permission at all.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://priya4042.github.io/work/reelcut.html">
+<meta property="og:image" content="https://priya4042.github.io/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1D1B4C">
+<link rel="icon" href="../assets/mark.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("ptl-theme");if(t)document.documentElement.dataset.theme=t;var l=localStorage.getItem("ptl-lang");if(l==="hi")document.documentElement.lang="hi"}catch(e){}</script>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../" aria-label="Priya Tech Labs home"><img class="mark" src="../assets/mark.svg" alt="" width="30" height="30"><span>Priya Tech Labs</span></a>
+  <nav aria-label="Main"><a href="../#apps" data-i18n="nav.apps">Apps</a><a href="../#web" data-i18n="nav.web">Websites</a><a href="../#about" data-i18n="nav.about">About</a><a class="nav-cta" href="../#contact" data-i18n="nav.work">Work with me</a></nav>
+  <div class="toggles">
+    <button class="tgl" data-search-open aria-label="Search apps and sites" title="Search (Ctrl+K)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
+    <button class="tgl" data-lang-toggle aria-label="Switch language">हिंदी</button>
+    <button class="tgl" data-theme-toggle aria-label="Switch dark mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="sun" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/><path class="moon-i" d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg></button>
+  </div>
+</header>
+<main id="main" class="guide case">
+  <article>
+    <p class="crumbs"><a href="../#work" data-i18n="nav.cases">Case studies</a></p>
+    <div class="case-head"><img src="../assets/apps/reelcut.png" alt="" width="72" height="72"><h1>ReelCut: a video editor that never uploads your videos</h1></div>
+    <p class="guide-lede">How a tool that needed a PC became an Android app that edits everything on the phone - with no internet permission at all.</p>
+    <dl class="case-facts"><div><dt>Platform</dt><dd>Android</dd></div><div><dt>Built with</dt><dd>Flutter, FFmpeg, ML Kit</dd></div><div><dt>Status</dt><dd>Ready for Google Play</dd></div></dl>
+    <div class="case-shots"><img src="../assets/gallery/reelcut-1.webp" alt="ReelCut screen 1" width="432" height="786" loading="lazy"><img src="../assets/gallery/reelcut-2.webp" alt="ReelCut screen 2" width="432" height="786" loading="lazy"></div>
+    <div class="guide-body">
+<h2>The problem</h2>
+<p>Creators who film long videos - talks, classes, podcasts - want short vertical clips for Shorts and Reels. The popular tools upload the whole video to a server first, cost money, or both. I wanted something free that never sends anyone's video anywhere.</p>
+<h2>The first version, and why I threw it away</h2>
+<p>The first ReelCut was a phone remote for a program running on my PC: the phone sent the video, the PC cut it with FFmpeg and sent the clips back. It worked, but it meant a server, and a server means hosting costs and your videos on someone else's computer. Not what I promised.</p>
+<h2>What I built instead</h2>
+<ul class="check">
+  <li><strong>All editing on the phone.</strong> The full FFmpeg video engine runs inside the app: cutting, cropping to 9:16, 1:1 or 4:5, titles, watermark and background music.</li>
+  <li><strong>Face-aware cropping.</strong> Google's on-device ML Kit finds the face in a frame, so the vertical crop keeps the speaker in shot.</li>
+  <li><strong>Highlights.</strong> It measures how loud each moment is and suggests the liveliest parts as clips.</li>
+  <li><strong>No internet permission.</strong> The app literally cannot send data off the phone - and its Play Store data-safety form says "no data collected".</li>
+</ul>
+<h2>The hard part</h2>
+<p>A full video engine is big. Built for every kind of phone at once, the app was huge - so it ships as an Android App Bundle, and Google Play delivers only the version each phone's processor needs.</p>
+<h2>Where it is now</h2>
+<p>Finished, signed and ready for its Google Play listing. Free, with no ads and no account.</p>
+</div>
+    <a class="guide-app" href="../apps/reelcut.html"><img src="../assets/apps/reelcut.png" alt="" width="56" height="56"><span><b>ReelCut</b>Turn your own long videos into Shorts, Reels and TikToks, entirely on your phone.</span></a>
+    <div class="case-cta"><h2 data-i18n="case.cta">Want something like this built?</h2><a class="btn btn-primary" href="../#contact" data-i18n="nav.work">Work with me</a></div>
+  </article>
+  <section class="guide-more"><h2 data-i18n="case.more">More case studies</h2><div class="guide-grid"><a class="guide-card" href="committee-book.html"><span class="gc-meta">Case study</span><h3>Committee Book: getting the money maths of a BC exactly right</h3><p>Turning the notebook that runs a savings group into an app - with bidding chits, partial payments and members who can check their own status.</p></a><a class="guide-card" href="mca-entrance-prep.html"><span class="gc-meta">Case study</span><h3>MCA Entrance Prep: one app for eleven entrance exams</h3><p>Building a study app where every answer has been checked twice, every exam has its own pattern, and exam dates update without an app update.</p></a></div></section>
+</main>
+<footer class="foot">
+  <p>© 2026 Priya Tech Labs · <a href="mailto:priyatechlabs9@gmail.com">priyatechlabs9@gmail.com</a></p>
+  <nav aria-label="Footer"><a href="../#apps" data-i18n="nav.apps">Apps</a><a href="../#web" data-i18n="nav.web">Websites</a><a href="../#guides" data-i18n="nav.guides">Guides</a><a href="../#work" data-i18n="nav.cases">Case studies</a><a href="../press.html" data-i18n="nav.press">Press kit</a><a href="../site-privacy.html" data-i18n="nav.sprivacy">Privacy</a><a href="../terms.html" data-i18n="nav.terms">Terms</a><a href="../#contact" data-i18n="nav.work">Work with me</a></nav>
+  <div class="foot-extra"><div class="socials"></div><button class="btn btn-ghost install-btn" type="button" hidden data-install data-i18n="pwa.install">Install as an app</button></div>
+</footer>
+<button class="to-top" type="button" hidden aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+<a class="wa" href="#" hidden aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7a.6.6 0 0 0 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.4z"/></svg></a>
+<script src="../site.config.js"></script>
+<script src="../i18n.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>
