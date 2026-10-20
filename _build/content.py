@@ -82,7 +82,7 @@ def esc(s): return html.escape(s, quote=True)
 def guide_page(g, head, header, footer, site_url, apps):
     url = f"{site_url}guides/{g['slug']}.html"
     others = "".join(f'<a class="guide-card" href="{o["slug"]}.html"><span class="gc-meta">{o["mins"]} min read</span><h3>{esc(o["title"])}</h3><p>{esc(o["desc"])}</p></a>'
-                     for o in GUIDES if o["slug"] != g["slug"])
+                     for o in [x for x in GUIDES if x["slug"] != g["slug"]][:3])
     app = next((a for a in apps if a["slug"] == g["app"]), None)
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": g["title"], "description": g["desc"],
           "datePublished": g["date"], "author": {"@type": "Person", "name": "Priya Kumari"},

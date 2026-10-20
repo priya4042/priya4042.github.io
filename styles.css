@@ -990,3 +990,10 @@ html, body { overflow-x: clip; }
   .case-facts { grid-template-columns: 1fr; }
   .case-head { flex-direction: column; align-items: flex-start; }
 }
+
+/* v6 - guides page */
+.see-all { margin-top: 26px; }
+.guides-index .press-hero { padding-bottom: 10px; }
+.guide-filters { margin: 10px 0 24px; }
+.guide-all { padding-bottom: 80px; }
+.guide-card[hidden] { display: none; }

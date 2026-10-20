@@ -7,6 +7,9 @@ import os, sys, json, html, glob, urllib.parse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import content as C
 import content_more as M
+import content_guides as G
+for _g in C.GUIDES: _g.setdefault("cat", G.CATS.get(_g["slug"], "Apps"))
+C.GUIDES.extend(G.MORE_GUIDES)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://priya4042.github.io/"   # change when a custom domain is added
@@ -155,7 +158,7 @@ def header(up, home_links=True):
 def footer(up):
     return f"""<footer class="foot">
   <p>© 2026 Priya Tech Labs · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
-  <nav aria-label="Footer"><a href="{up}#apps" data-i18n="nav.apps">Apps</a><a href="{up}#web" data-i18n="nav.web">Websites</a><a href="{up}#guides" data-i18n="nav.guides">Guides</a><a href="{up}#work" data-i18n="nav.cases">Case studies</a><a href="{up}press.html" data-i18n="nav.press">Press kit</a><a href="{up}site-privacy.html" data-i18n="nav.sprivacy">Privacy</a><a href="{up}terms.html" data-i18n="nav.terms">Terms</a><a href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
+  <nav aria-label="Footer"><a href="{up}#apps" data-i18n="nav.apps">Apps</a><a href="{up}#web" data-i18n="nav.web">Websites</a><a href="{up}#guides" data-i18n="nav.guides">Guides</a><a href="{up}#work" data-i18n="nav.cases">Case studies</a><a href="{up}press.html" data-i18n="nav.press">Press kit</a><a href="{up}site-privacy.html" data-i18n="nav.sprivacy">Privacy</a><a href="{up}terms.html" data-i18n="nav.terms">Terms</a><a href="{up}accessibility.html" data-i18n="nav.a11y">Accessibility</a><a href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
   <div class="foot-extra"><div class="socials"></div><button class="btn btn-ghost install-btn" type="button" hidden data-install data-i18n="pwa.install">Install as an app</button></div>
 </footer>
 <button class="to-top" type="button" hidden aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
@@ -250,7 +253,7 @@ def app_page(a):
 def sitemap():
     urls = [SITE_URL, f"{SITE_URL}press.html"] + [f"{SITE_URL}apps/{a['slug']}.html" for a in APPS] + \
            [f"{SITE_URL}guides/{g['slug']}.html" for g in C.GUIDES] + \
-           [f"{SITE_URL}work/{c['slug']}.html" for c in M.CASES] + [f"{SITE_URL}site-privacy.html", f"{SITE_URL}terms.html"] + \
+           [f"{SITE_URL}work/{c['slug']}.html" for c in M.CASES] + [f"{SITE_URL}site-privacy.html", f"{SITE_URL}terms.html", f"{SITE_URL}accessibility.html", f"{SITE_URL}guides/"] + \
            [f"{SITE_URL}privacy/{os.path.basename(p)}" for p in sorted(glob.glob(os.path.join(ROOT, "privacy", "*.html")))]
     body = "".join(f"<url><loc>{u}</loc></url>" for u in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n'
@@ -329,7 +332,10 @@ if __name__ == "__main__":
     for c in M.CASES:
         with open(os.path.join(ROOT, "work", c["slug"] + ".html"), "w", encoding="utf-8") as f:
             f.write(M.case_page(c, head, header, footer, SITE_URL, APPS))
-    for title, body, slug in [("Website privacy", M.SITE_PRIVACY, "site-privacy"), ("Terms of use", M.SITE_TERMS, "terms")]:
+    with open(os.path.join(ROOT, "guides", "index.html"), "w", encoding="utf-8") as f:
+        f.write(G.guides_index(C.GUIDES, head, header, footer, SITE_URL))
+    for title, body, slug in [("Website privacy", M.SITE_PRIVACY, "site-privacy"), ("Terms of use", M.SITE_TERMS, "terms"),
+                              ("Accessibility", G.A11Y, "accessibility")]:
         with open(os.path.join(ROOT, slug + ".html"), "w", encoding="utf-8") as f:
             f.write(M.legal_page(title, body, slug, head, header, footer, SITE_URL))
     # case studies in search too

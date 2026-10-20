@@ -42,7 +42,7 @@
   chips.forEach(function (c) {
     c.addEventListener("click", function () {
       var f = c.dataset.filter;
-      if (document.startViewTransition && !reduce) document.startViewTransition(function () { applyFilter(f); });
+      if (document.startViewTransition && !reduce) { var vt = document.startViewTransition(function () { applyFilter(f); }); if (vt && vt.ready) vt.ready.catch(function () {}); }
       else applyFilter(f);
     });
   });
@@ -534,6 +534,24 @@
       a.href = soc[k]; a.target = "_blank"; a.rel = "noopener"; a.className = "soc soc-" + k; a.setAttribute("aria-label", NAME[k]); a.title = NAME[k];
       a.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true">' + ICON[k] + "</svg>";
       box.append(a);
+    });
+  });
+})();
+
+// ---------- v6: guide topic filter ----------
+(function () {
+  var chips = document.querySelectorAll("[data-gfilter]"), cards = document.querySelectorAll("[data-gcat]");
+  if (!chips.length) return;
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  cards.forEach(function (c, i) { c.style.viewTransitionName = "g-" + i; });
+  function apply(f) {
+    chips.forEach(function (c) { var on = c.dataset.gfilter === f; c.classList.toggle("is-on", on); c.setAttribute("aria-pressed", on ? "true" : "false"); });
+    cards.forEach(function (c) { c.hidden = !(f === "all" || c.dataset.gcat === f); });
+  }
+  chips.forEach(function (c) {
+    c.addEventListener("click", function () {
+      var f = c.dataset.gfilter;
+      if (document.startViewTransition && !reduce) { var vt = document.startViewTransition(function () { apply(f); }); if (vt && vt.ready) vt.ready.catch(function () {}); } else apply(f);
     });
   });
 })();
