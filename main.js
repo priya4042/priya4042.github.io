@@ -294,3 +294,199 @@
     });
   }
 })();
+
+// ---------- v4: quiz, search, share, press kit, back to top ----------
+(function () {
+  var t = window.t || function (k, en) { return en; };
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var mainSrc = ($('script[src$="main.js"]') || {}).src || location.href;
+  var BASE = mainSrc.replace(/main\.js.*$/, "");
+
+  // reveal the new blocks too
+  var newGroups = [".prom", ".guide-card", ".proc-list li", ".client-faq", ".quiz-card", ".press-block", ".press-hero", ".ap-share", ".guide article", ".guide-more"];
+  newGroups.forEach(function (sel) {
+    $$(sel).forEach(function (el, i) { if (!el.hasAttribute("data-reveal")) { el.setAttribute("data-reveal", ""); el.style.setProperty("--d", Math.min(i % 6, 5)); } });
+  });
+  if ("IntersectionObserver" in window && !reduce) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+    $$("[data-reveal]:not(.in)").forEach(function (el) { io.observe(el); });
+  } else { $$("[data-reveal]").forEach(function (el) { el.classList.add("in"); }); }
+
+  // ---------- "which app is right for me?" ----------
+  var APPS = {
+    "quickscan": ["QuickScan", "Scan or create any QR code or barcode, fast and offline."],
+    "spendly": ["Spendly", "A private, offline money manager for income, spending, budgets and savings."],
+    "committee-book": ["Committee Book", "Run your committee, BC or chit group: who paid, whose turn it is, and how much cash is in hand."],
+    "dues": ["Dues", "Never miss a bill, recharge, EMI, subscription or warranty date again."],
+    "mca-entrance-prep": ["MCA Entrance Prep", "Complete preparation for NIMCET and 10 other MCA entrance exams, with no ads."],
+    "daily-english": ["Daily English", "Learn to speak English with a coach that listens and checks your pronunciation."],
+    "dotnet-prep": ["DotNet Interview Prep", "About 1,300 .NET, C#, SQL, DSA and system design interview questions with answers, offline."],
+    "reelcut": ["ReelCut", "Turn your own long videos into Shorts, Reels and TikToks, entirely on your phone."]
+  };
+  var Q = {
+    start: { q: ["quiz.q1", "What do you want help with?"], o: [
+      [["quiz.o.money", "Money"], "money"], [["quiz.o.study", "Studying"], "study"],
+      [["quiz.o.tools", "Everyday tools"], "tools"], [["quiz.o.video", "Making videos"], "=reelcut"]] },
+    money: { q: ["quiz.q2", "Which one sounds like you?"], o: [
+      [["quiz.o.track", "I want to see where my money goes"], "=spendly"], [["quiz.o.bills", "I keep forgetting bills and EMIs"], "=dues"],
+      [["quiz.o.bc", "I run a committee or BC"], "=committee-book"]] },
+    study: { q: ["quiz.q2", "Which one sounds like you?"], o: [
+      [["quiz.o.mca", "I'm preparing for an MCA entrance exam"], "=mca-entrance-prep"], [["quiz.o.eng", "I want to speak English confidently"], "=daily-english"],
+      [["quiz.o.net", "I have .NET job interviews coming up"], "=dotnet-prep"]] },
+    tools: { q: ["quiz.q2", "Which one sounds like you?"], o: [
+      [["quiz.o.qr", "I scan or make QR codes"], "=quickscan"], [["quiz.o.due", "I need reminders for due dates"], "=dues"],
+      [["quiz.o.short", "I want Shorts from my long videos"], "=reelcut"]] }
+  };
+  var quiz = $("[data-quiz]");
+  function swap(fn) {
+    if (!quiz) return;
+    if (reduce) { fn(); return; }
+    quiz.classList.add("q-out");
+    setTimeout(function () { fn(); quiz.classList.remove("q-out"); quiz.classList.add("q-in"); setTimeout(function () { quiz.classList.remove("q-in"); }, 450); }, 220);
+  }
+  function step(key, n) {
+    var s = Q[key];
+    quiz.innerHTML = '<p class="q-step">' + t("quiz.step", "Question") + " " + n + " / 2</p><h3 class=\"q-q\">" + t(s.q[0], s.q[1]) + '</h3><div class="q-opts"></div>';
+    var box = $(".q-opts", quiz);
+    s.o.forEach(function (o, i) {
+      var b = document.createElement("button");
+      b.type = "button"; b.className = "q-opt"; b.style.setProperty("--d", i); b.textContent = t(o[0][0], o[0][1]);
+      b.addEventListener("click", function () {
+        var go = o[1];
+        swap(function () { if (go.charAt(0) === "=") result(go.slice(1)); else step(go, n + 1); });
+      });
+      box.append(b);
+    });
+  }
+  function result(slug) {
+    var a = APPS[slug];
+    quiz.innerHTML = '<div class="q-result"><img src="' + BASE + "assets/apps/" + slug + '.png" alt="" width="84" height="84">' +
+      '<div><p class="q-step">' + t("quiz.pick", "Your app") + "</p><h3>" + a[0] + "</h3><p>" + t("app." + slug, a[1]) + "</p>" +
+      '<div class="q-actions"><a class="btn btn-primary" href="' + BASE + "apps/" + slug + '.html">' + t("cta.details", "See details") + "</a>" +
+      '<button class="btn btn-ghost q-again" type="button">' + t("quiz.again", "Start again") + "</button></div></div></div>";
+    $(".q-again", quiz).addEventListener("click", function () { swap(function () { step("start", 1); }); });
+  }
+  if (quiz) { step("start", 1); document.addEventListener("ptl:lang", function () { step("start", 1); }); }
+
+  // ---------- search (Ctrl+K, / or the search button) ----------
+  var data = null, dlg = null, input, list, cur = 0, shown = [];
+  function load() {
+    if (data) return Promise.resolve(data);
+    return fetch(BASE + "assets/search.json").then(function (r) { return r.json(); }).then(function (d) { data = d; return d; }).catch(function () { data = []; return data; });
+  }
+  function build() {
+    dlg = document.createElement("div");
+    dlg.className = "search"; dlg.hidden = true;
+    dlg.innerHTML = '<div class="search-back" data-close></div><div class="search-box" role="dialog" aria-modal="true" aria-label="Search">' +
+      '<div class="search-in"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>' +
+      '<input type="search" placeholder="' + t("search.ph", "Search apps, websites and guides") + '" aria-label="Search" autocomplete="off">' +
+      '<kbd>Esc</kbd></div><ul class="search-list" role="listbox"></ul><p class="search-foot">' + t("search.foot", "Enter to open, arrows to move") + "</p></div>";
+    document.body.append(dlg);
+    input = $("input", dlg); list = $(".search-list", dlg);
+    input.addEventListener("input", render);
+    dlg.addEventListener("click", function (e) { if (e.target.hasAttribute("data-close")) close(); });
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowDown") { e.preventDefault(); move(1); }
+      else if (e.key === "ArrowUp") { e.preventDefault(); move(-1); }
+      else if (e.key === "Enter" && shown[cur]) { e.preventDefault(); openItem(shown[cur]); }
+      else if (e.key === "Escape") close();
+    });
+  }
+  function score(it, words) {
+    var hay = (it.t + " " + it.d + " " + (it.x || "")).toLowerCase(), title = it.t.toLowerCase(), desc = it.d.toLowerCase(), s = 0;
+    for (var i = 0; i < words.length; i++) {
+      var w = words[i];
+      if (hay.indexOf(w) < 0) return -1;
+      s += title.indexOf(w) === 0 ? 6 : title.indexOf(w) >= 0 ? 4 : desc.indexOf(w) >= 0 ? 2 : 1;
+    }
+    return s + (it.k === "App" ? 0.5 : 0);
+  }
+  function render() {
+    var q = input.value.trim().toLowerCase(), words = q.split(/\s+/).filter(Boolean);
+    shown = (data || []).map(function (it) { return [words.length ? score(it, words) : (it.k === "App" ? 1 : 0), it]; })
+      .filter(function (x) { return x[0] >= 0; }).sort(function (a, b) { return b[0] - a[0]; }).slice(0, 8).map(function (x) { return x[1]; });
+    cur = 0;
+    list.innerHTML = "";
+    if (!shown.length) { list.innerHTML = '<li class="search-empty">' + t("search.none", "Nothing found. Try another word.") + "</li>"; return; }
+    shown.forEach(function (it, i) {
+      var li = document.createElement("li");
+      li.setAttribute("role", "option"); li.className = "search-item" + (i === 0 ? " is-cur" : "");
+      li.innerHTML = (it.i ? '<img src="' + BASE + it.i + '" alt="" width="36" height="36">' : '<span class="si-k">' + it.k.charAt(0) + "</span>") +
+        "<span><b></b><small></small></span><em></em>";
+      $("b", li).textContent = it.t; $("small", li).textContent = it.d; $("em", li).textContent = it.k;
+      li.addEventListener("click", function () { openItem(it); });
+      li.addEventListener("mousemove", function () { if (cur !== i) { cur = i; mark(); } });
+      list.append(li);
+    });
+  }
+  function mark() { $$(".search-item", list).forEach(function (li, i) { li.classList.toggle("is-cur", i === cur); if (i === cur) li.scrollIntoView({ block: "nearest" }); }); }
+  function move(d) { if (!shown.length) return; cur = (cur + d + shown.length) % shown.length; mark(); }
+  function openItem(it) {
+    var u = /^https?:/.test(it.u) ? it.u : BASE + it.u;
+    close();
+    if (/^https?:/.test(it.u) && it.u.indexOf(location.host) < 0) window.open(u, "_blank", "noopener"); else location.href = u;
+  }
+  var lastFocus = null;
+  function open() {
+    if (!dlg) build();
+    lastFocus = document.activeElement;
+    dlg.hidden = false; document.documentElement.classList.add("no-scroll");
+    requestAnimationFrame(function () { dlg.classList.add("is-open"); });
+    input.value = ""; load().then(render); input.focus();
+  }
+  function close() {
+    if (!dlg || dlg.hidden) return;
+    dlg.classList.remove("is-open"); document.documentElement.classList.remove("no-scroll");
+    setTimeout(function () { dlg.hidden = true; }, reduce ? 0 : 200);
+    if (lastFocus) lastFocus.focus({ preventScroll: true });
+  }
+  $$("[data-search-open]").forEach(function (b) { b.addEventListener("click", open); });
+  document.addEventListener("keydown", function (e) {
+    var typing = /input|textarea|select/i.test((document.activeElement || {}).tagName || "");
+    if ((e.key === "k" || e.key === "K") && (e.ctrlKey || e.metaKey)) { e.preventDefault(); open(); }
+    else if (e.key === "/" && !typing) { e.preventDefault(); open(); }
+  });
+
+  // ---------- share buttons (app pages) ----------
+  function flash(btn, text) {
+    var old = btn.textContent; btn.textContent = text; btn.classList.add("is-done");
+    setTimeout(function () { btn.textContent = old; btn.classList.remove("is-done"); }, 1600);
+  }
+  function copy(text) {
+    if (navigator.clipboard) return navigator.clipboard.writeText(text);
+    var ta = document.createElement("textarea"); ta.value = text; document.body.append(ta); ta.select();
+    try { document.execCommand("copy"); } catch (e) {}
+    ta.remove(); return Promise.resolve();
+  }
+  $$("[data-copy-link]").forEach(function (b) {
+    b.addEventListener("click", function () { copy(b.closest("[data-share-url]").dataset.shareUrl).then(function () { flash(b, t("msg.copied", "Copied")); }); });
+  });
+  $$("[data-native-share]").forEach(function (b) {
+    if (!navigator.share) return;
+    b.hidden = false;
+    b.addEventListener("click", function () {
+      var box = b.closest("[data-share-url]");
+      navigator.share({ title: document.title, text: box.dataset.shareText, url: box.dataset.shareUrl }).catch(function () {});
+    });
+  });
+
+  // ---------- press kit: copy colours and the description ----------
+  $$("[data-copy]").forEach(function (b) {
+    b.addEventListener("click", function () { copy(b.dataset.copy).then(function () { var s = $("span", b), o = s.textContent; s.textContent = t("msg.copied", "Copied"); setTimeout(function () { s.textContent = o; }, 1400); }); });
+  });
+  $$("[data-copy-text]").forEach(function (b) {
+    b.addEventListener("click", function () { copy(b.parentNode.querySelector("p").textContent.trim()).then(function () { flash(b, t("msg.copied", "Copied")); }); });
+  });
+
+  // ---------- back to top ----------
+  var up = $(".to-top");
+  if (up) {
+    var onS = function () { up.hidden = window.scrollY < 900; };
+    window.addEventListener("scroll", onS, { passive: true }); onS();
+    up.addEventListener("click", function () { window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" }); });
+  }
+})();

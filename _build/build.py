@@ -3,7 +3,9 @@
 Builds the per-app pages (apps/<slug>.html), sitemap.xml and the share image (assets/og.png)
 from the APPS list below. Run after editing an app:   python _build/build.py
 """
-import os, json, html, glob
+import os, sys, json, html, glob, urllib.parse
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import content as C
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://priya4042.github.io/"   # change when a custom domain is added
@@ -140,6 +142,7 @@ def header(up, home_links=True):
   <a class="brand" href="{up}" aria-label="Priya Tech Labs home"><img class="mark" src="{up}assets/mark.svg" alt="" width="30" height="30"><span>Priya Tech Labs</span></a>
   <nav aria-label="Main">{nav}<a class="nav-cta" href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
   <div class="toggles">
+    <button class="tgl" data-search-open aria-label="Search apps and sites" title="Search (Ctrl+K)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
     <button class="tgl" data-lang-toggle aria-label="Switch language">हिंदी</button>
     <button class="tgl" data-theme-toggle aria-label="Switch dark mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="sun" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/><path class="moon-i" d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg></button>
   </div>
@@ -148,8 +151,9 @@ def header(up, home_links=True):
 def footer(up):
     return f"""<footer class="foot">
   <p>© 2026 Priya Tech Labs · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
-  <nav aria-label="Footer"><a href="{up}#apps" data-i18n="nav.apps">Apps</a><a href="{up}#web" data-i18n="nav.web">Websites</a><a href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
+  <nav aria-label="Footer"><a href="{up}#apps" data-i18n="nav.apps">Apps</a><a href="{up}#web" data-i18n="nav.web">Websites</a><a href="{up}#guides" data-i18n="nav.guides">Guides</a><a href="{up}press.html" data-i18n="nav.press">Press kit</a><a href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
 </footer>
+<button class="to-top" type="button" hidden aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
 <a class="wa" href="#" hidden aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7a.6.6 0 0 0 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.4z"/></svg></a>
 <script src="{up}site.config.js"></script>
 <script src="{up}i18n.js"></script>
@@ -221,13 +225,26 @@ def app_page(a):
   </section>
   <section class="ap-faq"><h2 data-i18n="page.faq">Questions people ask</h2>{faq}
     <p class="ap-links">{' '.join(links)}</p></section>
+  <section class="ap-share" aria-labelledby="sh-h">
+    <div class="share-copy">
+      <h2 id="sh-h" data-i18n="share.h">Share {esc(a['short'])}</h2>
+      <p data-i18n="{'share.p.test' if a['status'] == 'testing' else 'share.p'}">{'Every tester helps it reach Google Play sooner. Send it to a friend.' if a['status'] == 'testing' else 'Know someone who needs this? Send it their way.'}</p>
+      <div class="share-btns" data-share-url="{url}" data-share-text="{esc(a['short'])} - {esc(a['what'])}">
+        <a class="btn btn-wa" href="https://wa.me/?text={html.escape(urllib.parse.quote(a['short'] + ' - ' + a['what'] + ' ' + url))}" target="_blank" rel="noopener" data-i18n="share.wa">Share on WhatsApp</a>
+        <button class="btn btn-ghost" type="button" data-copy-link data-i18n="share.copy">Copy link</button>
+        <button class="btn btn-ghost" type="button" data-native-share hidden data-i18n="share.more">More options</button>
+      </div>
+    </div>
+    <figure class="qr"><img src="../assets/qr/{a['slug']}.svg" alt="QR code that opens this page" width="180" height="180" loading="lazy"><figcaption data-i18n="share.qr">Scan to open on your phone</figcaption></figure>
+  </section>
   <section class="ap-more"><h2 data-i18n="page.more">More apps</h2><div class="more-row">{others}</div></section>
 </main>
 <script type="application/ld+json">{json.dumps(ld)}</script>
 {footer("../")}"""
 
 def sitemap():
-    urls = [SITE_URL] + [f"{SITE_URL}apps/{a['slug']}.html" for a in APPS] + \
+    urls = [SITE_URL, f"{SITE_URL}press.html"] + [f"{SITE_URL}apps/{a['slug']}.html" for a in APPS] + \
+           [f"{SITE_URL}guides/{g['slug']}.html" for g in C.GUIDES] + \
            [f"{SITE_URL}privacy/{os.path.basename(p)}" for p in sorted(glob.glob(os.path.join(ROOT, "privacy", "*.html")))]
     body = "".join(f"<url><loc>{u}</loc></url>" for u in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n'
@@ -261,8 +278,18 @@ def og_image():
 
 if __name__ == "__main__":
     os.makedirs(os.path.join(ROOT, "apps"), exist_ok=True)
+    os.makedirs(os.path.join(ROOT, "guides"), exist_ok=True)
+    C.qr_codes(ROOT, SITE_URL, APPS)
     for a in APPS:
         with open(os.path.join(ROOT, "apps", a["slug"] + ".html"), "w", encoding="utf-8") as f: f.write(app_page(a))
+    for g in C.GUIDES:
+        with open(os.path.join(ROOT, "guides", g["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(C.guide_page(g, head, header, footer, SITE_URL, APPS))
+    with open(os.path.join(ROOT, "press.html"), "w", encoding="utf-8") as f:
+        f.write(C.press_page(head, header, footer, SITE_URL, APPS))
+    with open(os.path.join(ROOT, "assets", "search.json"), "w", encoding="utf-8") as f:
+        json.dump(C.search_index(APPS), f, ensure_ascii=False)
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f: f.write(sitemap())
     og_image()
-    print(f"built {len(APPS)} app pages, sitemap.xml, assets/og.png")
+    C.press_zip(ROOT, APPS)
+    print(f"built {len(APPS)} app pages, {len(C.GUIDES)} guides, press kit, search index, QR codes, sitemap, og image")

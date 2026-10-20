@@ -35,6 +35,7 @@
     <a class="nav-cta" href="#contact" data-i18n="nav.work">Work with me</a>
   </nav>
   <div class="toggles">
+    <button class="tgl" data-search-open aria-label="Search apps and sites" title="Search (Ctrl+K)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
     <button class="tgl" data-lang-toggle aria-label="Switch language">हिंदी</button>
     <button class="tgl" data-theme-toggle aria-label="Switch dark mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="sun" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/><path class="moon-i" d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg></button>
   </div>
@@ -279,6 +280,17 @@
   </div>
 </section>
 
+
+<section class="quiz-sec" id="quiz" aria-labelledby="quiz-h">
+  <div class="quiz-card">
+    <div class="quiz-intro">
+      <h2 id="quiz-h" data-i18n="quiz.h">Not sure where to start?</h2>
+      <p data-i18n="quiz.p">Answer two quick questions and I'll point you to the right app.</p>
+    </div>
+    <div class="quiz" data-quiz aria-live="polite"></div>
+  </div>
+</section>
+
 <section class="web" id="web" aria-labelledby="web-h">
   <div class="section-head">
     <h2 id="web-h" data-i18n="web.h">Live on the web</h2>
@@ -313,6 +325,28 @@
       <div class="browser"><div class="bar"><i></i><i></i><i></i><span>librisphere-lms</span></div><div class="scrollshot" role="img" aria-label="LibriSphere library dashboard" style="background-image:url(assets/sites/librisphere-lms-tall.webp)"></div></div>
       <div class="site-text"><h3>LibriSphere</h3><p data-i18n="site.librisphere">Library management for small libraries: books, members, issuing and returns, and overdue alerts.</p><span class="visit" data-i18n="visit">Open the site</span></div>
     </a>
+  </div>
+</section>
+
+
+<section class="promises" aria-labelledby="prom-h">
+  <div class="section-head"><h2 id="prom-h" data-i18n="prom.h">Three promises in every app</h2></div>
+  <div class="prom-grid">
+    <article class="prom">
+      <svg class="prom-ic" viewBox="0 0 48 48" aria-hidden="true"><rect x="13" y="4" width="22" height="40" rx="5"/><path d="M20 38h8"/><path d="M19 22l4 4 7-8"/></svg>
+      <h3 data-i18n="prom.1.h">Your data stays on your phone</h3>
+      <p data-i18n="prom.1.p">No sign-up and no server of mine holding your money, bills or study records.</p>
+    </article>
+    <article class="prom">
+      <svg class="prom-ic" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 18c10-9 26-9 36 0"/><path d="M12 25c7-6 17-6 24 0"/><path d="M18 32c4-3 8-3 12 0"/><circle cx="24" cy="38" r="2.5"/><path d="M8 8l32 32"/></svg>
+      <h3 data-i18n="prom.2.h">Works without internet</h3>
+      <p data-i18n="prom.2.p">On a train, in a basement, with no data left - the app still opens and still works.</p>
+    </article>
+    <article class="prom">
+      <svg class="prom-ic" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 10h20"/><path d="M16 6v4"/><path d="M10 10c2 8 8 14 14 16"/><path d="M22 10c-2 8-8 14-14 16"/><path d="M26 42l8-20 8 20"/><path d="M29 35h10"/></svg>
+      <h3 data-i18n="prom.3.h">Speaks Hindi too</h3>
+      <p data-i18n="prom.3.p">Most of my apps switch between English and Hindi, so the whole family can use them.</p>
+    </article>
   </div>
 </section>
 
@@ -360,6 +394,39 @@
         <li>SQL Server</li><li>Supabase</li><li>Python</li><li>FastAPI</li><li>AdMob</li><li>Google Play</li>
       </ul>
     </div>
+  </div>
+</section>
+
+
+<section class="guides" id="guides" aria-labelledby="guides-h">
+  <div class="section-head">
+    <h2 id="guides-h" data-i18n="guides.h">Guides</h2>
+    <p data-i18n="guides.p">Short, practical reads from building these apps.</p>
+  </div>
+  <div class="guide-grid">
+    <a class="guide-card" href="guides/join-google-play-test.html"><span class="gc-meta">3 min read</span><h3>How to join an Android app's test on Google Play</h3><p>What a closed test is, why new apps need 12 testers for 14 days, and the four steps to join one.</p></a>
+    <a class="guide-card" href="guides/run-a-committee-fairly.html"><span class="gc-meta">4 min read</span><h3>How to run a committee (BC) fairly: a simple checklist</h3><p>Fix the rules before the first collection, write everything down, and keep everyone informed.</p></a>
+    <a class="guide-card" href="guides/why-my-apps-work-offline.html"><span class="gc-meta">3 min read</span><h3>Why my apps work offline - and what that means for your data</h3><p>No accounts, no servers holding your records, and the one thing you should do to keep your data safe.</p></a>
+  </div>
+</section>
+
+<section class="process" id="process" aria-labelledby="proc-h">
+  <div class="section-head">
+    <h2 id="proc-h" data-i18n="proc.h">How I work with you</h2>
+    <p data-i18n="proc.p">From the first message to the app on Google Play.</p>
+  </div>
+  <ol class="proc-list">
+    <li><span class="proc-n">1</span><h3 data-i18n="proc.1.h">Tell me the idea</h3><p data-i18n="proc.1.p">A few lines on what you need and who will use it. I reply with questions, a plan and a quote.</p></li>
+    <li><span class="proc-n">2</span><h3 data-i18n="proc.2.h">Plan the screens</h3><p data-i18n="proc.2.p">We agree what each screen does before any code is written, so there are no surprises.</p></li>
+    <li><span class="proc-n">3</span><h3 data-i18n="proc.3.h">Build and test</h3><p data-i18n="proc.3.p">You try real builds on your phone as they come together, and your feedback shapes the next one.</p></li>
+    <li><span class="proc-n">4</span><h3 data-i18n="proc.4.h">Launch and look after it</h3><p data-i18n="proc.4.p">Store listing, screenshots and privacy policy done, then updates when you need them.</p></li>
+  </ol>
+  <div class="client-faq">
+    <h3 data-i18n="cfaq.h">Questions clients ask</h3>
+    <details><summary data-i18n="cfaq.1.q">How much does an app or website cost?</summary><p data-i18n="cfaq.1.a">It depends on what it needs to do. Send a short description and I'll reply with a clear quote - no obligation.</p></details>
+    <details><summary data-i18n="cfaq.2.q">How long will it take?</summary><p data-i18n="cfaq.2.a">That depends on the size of the project too. You'll get a timeline together with the quote, before anything starts.</p></details>
+    <details><summary data-i18n="cfaq.3.q">Can you publish it on Google Play for me?</summary><p data-i18n="cfaq.3.a">Yes - the store listing, screenshots, privacy policy and the release itself, on your own developer account.</p></details>
+    <details><summary data-i18n="cfaq.4.q">Can the website or app be in Hindi?</summary><p data-i18n="cfaq.4.a">Yes - English, Hindi or both, with a switch like the one on this site.</p></details>
   </div>
 </section>
 
@@ -441,7 +508,13 @@
     <a href="privacy/daily-english.html">Daily English</a>
     <a href="privacy/dotnet-prep.html">DotNet Interview Prep</a>
   </nav>
+  <nav aria-label="More">
+    <a href="#guides" data-i18n="nav.guides">Guides</a>
+    <a href="press.html" data-i18n="nav.press">Press kit</a>
+    <a href="#contact" data-i18n="nav.work">Work with me</a>
+  </nav>
 </footer>
+<button class="to-top" type="button" hidden aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
 
 <a class="wa" href="#" hidden aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7a.6.6 0 0 0 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.4z"/></svg></a>
 
