@@ -10,6 +10,11 @@ import content_more as M
 import content_guides as G
 for _g in C.GUIDES: _g.setdefault("cat", G.CATS.get(_g["slug"], "Apps"))
 C.GUIDES.extend(G.MORE_GUIDES)
+import content_guides2 as G2
+C.GUIDES.extend(G2.GUIDES3)
+import content_hi as H
+C.HI.update(H.HI)
+import content_sites as SP
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://priya4042.github.io/"   # change when a custom domain is added
@@ -253,7 +258,7 @@ def app_page(a):
 def sitemap():
     urls = [SITE_URL, f"{SITE_URL}press.html"] + [f"{SITE_URL}apps/{a['slug']}.html" for a in APPS] + \
            [f"{SITE_URL}guides/{g['slug']}.html" for g in C.GUIDES] + \
-           [f"{SITE_URL}work/{c['slug']}.html" for c in M.CASES] + [f"{SITE_URL}site-privacy.html", f"{SITE_URL}terms.html", f"{SITE_URL}accessibility.html", f"{SITE_URL}guides/"] + \
+           [f"{SITE_URL}work/{c['slug']}.html" for c in M.CASES] + [f"{SITE_URL}site-privacy.html", f"{SITE_URL}terms.html", f"{SITE_URL}accessibility.html", f"{SITE_URL}guides/"] + [f"{SITE_URL}sites/{s['slug']}.html" for s in SP.SITE_PAGES] + \
            [f"{SITE_URL}privacy/{os.path.basename(p)}" for p in sorted(glob.glob(os.path.join(ROOT, "privacy", "*.html")))]
     body = "".join(f"<url><loc>{u}</loc></url>" for u in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n'
@@ -343,4 +348,16 @@ if __name__ == "__main__":
     idx += [{"t": c["title"], "d": c["desc"], "u": f"work/{c['slug']}.html", "k": "Case study", "x": c["app"]} for c in M.CASES]
     json.dump(idx, open(os.path.join(ROOT, "assets", "search.json"), "w", encoding="utf-8"), ensure_ascii=False)
     device_icons()
+    os.makedirs(os.path.join(ROOT, "sites"), exist_ok=True)
+    SP.site_qrs(ROOT)
+    for sp in SP.SITE_PAGES:
+        with open(os.path.join(ROOT, "sites", sp["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(SP.site_page(sp, head, header, footer, SITE_URL, None))
+    # websites in search open their own page
+    idx = json.load(open(os.path.join(ROOT, "assets", "search.json"), encoding="utf-8"))
+    by_name = {s["name"]: s for s in SP.SITE_PAGES}
+    for it in idx:
+        if it["k"] == "Website" and it["t"] in by_name:
+            s = by_name[it["t"]]; it["u"] = f"sites/{s['slug']}.html"; it["x"] = " ".join([s["name"], s["cat"]] + s["feats"])
+    json.dump(idx, open(os.path.join(ROOT, "assets", "search.json"), "w", encoding="utf-8"), ensure_ascii=False)
     print(f"built {len(APPS)} app pages, {len(C.GUIDES)} guides, press kit, search index, QR codes, sitemap, og image")

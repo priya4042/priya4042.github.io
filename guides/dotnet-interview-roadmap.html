@@ -37,10 +37,10 @@
 <main id="main" class="guide">
   <article>
     <p class="crumbs"><a href="../#guides" data-i18n="nav.guides">Guides</a></p>
-    <h1>.NET interview prep: what to study, in what order</h1>
-    <p class="guide-meta"><time datetime="2026-10-20">20 October 2026</time><span>4 min read</span><span>Priya Kumari</span></p>
-    <p class="guide-lede">A roadmap for .NET developers preparing for product-company interviews - from C# fundamentals to system design and stories.</p>
-    <div class="guide-body">
+    <h1><span data-only="en">.NET interview prep: what to study, in what order</span><span data-only="hi" lang="hi">.NET इंटरव्यू की तैयारी: क्या पढ़ें, किस क्रम में</span></h1>
+    <p class="guide-meta"><time datetime="2026-10-20">20 October 2026</time><span><span data-only="en">4 min read</span><span data-only="hi" lang="hi">4 मिनट</span></span><span>Priya Kumari</span></p>
+    <p class="guide-lede"><span data-only="en">A roadmap for .NET developers preparing for product-company interviews - from C# fundamentals to system design and stories.</span><span data-only="hi" lang="hi">प्रोडक्ट कंपनियों के इंटरव्यू की तैयारी कर रहे .NET डेवलपर्स के लिए रोडमैप - C# के बेसिक से सिस्टम डिज़ाइन और अपनी कहानियों तक।</span></p>
+    <div class="guide-body" data-only="en">
 <p>.NET interviews at product companies usually test four things: the language and runtime, data and APIs, problem solving, and how you talk about your own work. Studying them in the right order saves weeks.</p>
 <h2>1. C# and the runtime (week 1-2)</h2>
 <ul class="check">
@@ -65,9 +65,34 @@
 <h2>Practise offline</h2>
 <p><a href="../apps/dotnet-prep.html">DotNet Interview Prep</a> follows this order: about 1,300 questions with answers across C#, .NET, SQL, DSA and system design, the Blind 75 and 18 DSA patterns, mock interviews, spaced revision and a STAR story builder. Everything works offline.</p>
 </div>
+    <div class="guide-body" data-only="hi" lang="hi">
+<p>प्रोडक्ट कंपनियों के .NET इंटरव्यू आमतौर पर चार चीज़ें परखते हैं: भाषा और रनटाइम, डेटा और API, प्रॉब्लम सॉल्विंग, और आप अपने काम के बारे में कैसे बात करते हैं। इन्हें सही क्रम में पढ़ने से हफ़्तों की बचत होती है।</p>
+<h2>1. C# और रनटाइम (हफ़्ता 1-2)</h2>
+<ul class="check">
+  <li>वैल्यू बनाम रेफ़रेंस टाइप, बॉक्सिंग, struct बनाम class, immutability और records</li>
+  <li>Generics, delegates, events, lambdas और LINQ (और LINQ कब धीमा होता है)</li>
+  <li>async/await: Task क्या है, <code>async void</code> ख़तरनाक क्यों है, डेडलॉक और <code>ConfigureAwait</code></li>
+  <li>गार्बेज कलेक्शन के बेसिक, IDisposable और using स्टेटमेंट</li>
+</ul>
+<h2>2. ASP.NET Core, डेटा और SQL (हफ़्ता 2-3)</h2>
+<ul class="check">
+  <li>मिडलवेयर पाइपलाइन, डिपेंडेंसी इंजेक्शन और सर्विस लाइफ़टाइम</li>
+  <li>REST डिज़ाइन, स्टेटस कोड, ऑथेंटिकेशन बनाम ऑथराइज़ेशन</li>
+  <li>Entity Framework Core: ट्रैकिंग, N+1 क्वेरी, माइग्रेशन</li>
+  <li>SQL: joins, indexes, transactions और isolation levels - मौक़े पर क्वेरी लिखने की उम्मीद रखें</li>
+</ul>
+<h2>3. डेटा स्ट्रक्चर और एल्गोरिदम (हफ़्ता 3-6)</h2>
+<p>यूँ ही सवाल हल न करें। पैटर्न सीखें - two pointers, sliding window, binary search, BFS/DFS, heaps, dynamic programming - और हर एक के कुछ सवाल अभ्यास करें। Blind 75 जैसी जानी-मानी लिस्ट ज़्यादातर पूछी जाने वाली चीज़ें कवर करती है।</p>
+<h2>4. सिस्टम डिज़ाइन (हफ़्ता 5-7)</h2>
+<p>मिड-लेवल और ऊपर के रोल के लिए: कैशिंग, क्यू, डेटाबेस बनाम सर्च इंडेक्स, रीड और राइट को स्केल करना, और किसी जानी-पहचानी चीज़ का डिज़ाइन, जैसे URL शॉर्टनर या नोटिफ़िकेशन सर्विस। फ़ायदे-नुक़सान ज़ोर से समझाने का अभ्यास करें।</p>
+<h2>5. आपकी कहानियाँ (पूरी तैयारी के दौरान)</h2>
+<p>अपने काम की पाँच-छह असली कहानियाँ STAR फ़ॉर्मेट में तैयार करें - स्थिति, काम, क़दम, नतीजा: कोई मुश्किल बग, कोई असहमति, कोई डेडलाइन, कुछ जो आप अब अलग करते। Amazon समेत कई कंपनियाँ इन्हें कोडिंग राउंड जितना ही महत्व देती हैं।</p>
+<h2>ऑफ़लाइन अभ्यास करें</h2>
+<p><a href="../apps/dotnet-prep.html">DotNet Interview Prep</a> इसी क्रम में चलता है: C#, .NET, SQL, DSA और सिस्टम डिज़ाइन के लगभग 1,300 सवाल-जवाब, Blind 75 और 18 DSA पैटर्न, मॉक इंटरव्यू, स्पेस्ड रिवीज़न और STAR स्टोरी बिल्डर। सब कुछ ऑफ़लाइन चलता है।</p>
+</div>
     <a class="guide-app" href="../apps/dotnet-prep.html"><img src="../assets/apps/dotnet-prep.png" alt="" width="56" height="56"><span><b>DotNet Interview Prep</b>About 1,300 .NET, C#, SQL, DSA and system design interview questions with answers, offline.</span></a>
   </article>
-  <section class="guide-more"><h2 data-i18n="guides.more">More guides</h2><div class="guide-grid"><a class="guide-card" href="join-google-play-test.html"><span class="gc-meta">3 min read</span><h3>How to join an Android app&#x27;s test on Google Play</h3><p>What a closed test is, why new apps need 12 testers for 14 days, and the four steps to join one.</p></a><a class="guide-card" href="run-a-committee-fairly.html"><span class="gc-meta">4 min read</span><h3>How to run a committee (BC) fairly: a simple checklist</h3><p>Fix the rules before the first collection, write everything down, and keep everyone informed - a checklist for small savings groups.</p></a><a class="guide-card" href="why-my-apps-work-offline.html"><span class="gc-meta">3 min read</span><h3>Why my apps work offline - and what that means for your data</h3><p>No accounts, no servers holding your records: how offline-first apps keep your data on your phone, and how to keep it safe.</p></a></div></section>
+  <section class="guide-more"><h2 data-i18n="guides.more">More guides</h2><div class="guide-grid"><a class="guide-card" href="join-google-play-test.html"><span class="gc-meta"><span data-only="en">3 min read</span><span data-only="hi" lang="hi">3 मिनट</span></span><h3><span data-only="en">How to join an Android app&#x27;s test on Google Play</span><span data-only="hi" lang="hi">Google Play पर किसी Android ऐप के टेस्ट में कैसे जुड़ें</span></h3><p><span data-only="en">What a closed test is, why new apps need 12 testers for 14 days, and the four steps to join one.</span><span data-only="hi" lang="hi">क्लोज़्ड टेस्ट क्या है, नए ऐप्स को 14 दिन के लिए 12 टेस्टर क्यों चाहिए, और जुड़ने के चार आसान स्टेप।</span></p></a><a class="guide-card" href="run-a-committee-fairly.html"><span class="gc-meta"><span data-only="en">4 min read</span><span data-only="hi" lang="hi">4 मिनट</span></span><h3><span data-only="en">How to run a committee (BC) fairly: a simple checklist</span><span data-only="hi" lang="hi">कमेटी (BC) ईमानदारी से कैसे चलाएँ: एक आसान चेकलिस्ट</span></h3><p><span data-only="en">Fix the rules before the first collection, write everything down, and keep everyone informed - a checklist for small savings groups.</span><span data-only="hi" lang="hi">पहली किस्त से पहले नियम तय करें, सब कुछ लिखें और सबको जानकारी देते रहें - छोटे बचत समूहों के लिए चेकलिस्ट।</span></p></a><a class="guide-card" href="why-my-apps-work-offline.html"><span class="gc-meta"><span data-only="en">3 min read</span><span data-only="hi" lang="hi">3 मिनट</span></span><h3><span data-only="en">Why my apps work offline - and what that means for your data</span><span data-only="hi" lang="hi">मेरे ऐप्स बिना इंटरनेट क्यों चलते हैं - और आपके डेटा के लिए इसका मतलब</span></h3><p><span data-only="en">No accounts, no servers holding your records: how offline-first apps keep your data on your phone, and how to keep it safe.</span><span data-only="hi" lang="hi">न अकाउंट, न आपका रिकॉर्ड रखने वाला सर्वर: ऑफ़लाइन ऐप्स आपका डेटा फ़ोन पर कैसे रखते हैं, और उसे सुरक्षित कैसे रखें।</span></p></a></div></section>
 </main>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": ".NET interview prep: what to study, in what order", "description": "A roadmap for .NET developers preparing for product-company interviews - from C# fundamentals to system design and stories.", "datePublished": "2026-10-20", "author": {"@type": "Person", "name": "Priya Kumari"}, "publisher": {"@type": "Organization", "name": "Priya Tech Labs"}, "mainEntityOfPage": "https://priya4042.github.io/guides/dotnet-interview-roadmap.html", "image": "https://priya4042.github.io/assets/og.png"}</script>
 <footer class="foot">

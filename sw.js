@@ -1,5 +1,5 @@
 // Offline support: always fetch fresh when online (so updates show at once), fall back to the saved copy when offline.
-const CACHE = "ptl-v6";
+const CACHE = "ptl-v7";
 const CORE = ["./", "index.html", "styles.css", "main.js", "i18n.js", "site.config.js", "offline.html",
               "assets/mark.svg", "assets/icons/icon-192.png", "assets/search.json"];
 

@@ -79,9 +79,21 @@ GUIDES = [
 
 def esc(s): return html.escape(s, quote=True)
 
+
+HI = {}   # slug -> (title, desc, body) in Hindi, filled by build.py
+
+def bi(en, hi):
+    """English + Hindi side by side; CSS shows the one matching the page language."""
+    if not hi: return en
+    return f'<span data-only="en">{en}</span><span data-only="hi" lang="hi">{hi}</span>'
+
+def read_label(mins):
+    return bi(f"{mins} min read", f"{mins} मिनट")
+
 def guide_page(g, head, header, footer, site_url, apps):
     url = f"{site_url}guides/{g['slug']}.html"
-    others = "".join(f'<a class="guide-card" href="{o["slug"]}.html"><span class="gc-meta">{o["mins"]} min read</span><h3>{esc(o["title"])}</h3><p>{esc(o["desc"])}</p></a>'
+    h = HI.get(g["slug"], ("", "", ""))
+    others = "".join(f'<a class="guide-card" href="{o["slug"]}.html"><span class="gc-meta">{read_label(o["mins"])}</span><h3>{bi(esc(o["title"]), HI.get(o["slug"], ("",))[0])}</h3><p>{bi(esc(o["desc"]), HI.get(o["slug"], ("", ""))[1])}</p></a>'
                      for o in [x for x in GUIDES if x["slug"] != g["slug"]][:3])
     app = next((a for a in apps if a["slug"] == g["app"]), None)
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": g["title"], "description": g["desc"],
@@ -95,10 +107,11 @@ def guide_page(g, head, header, footer, site_url, apps):
 <main id="main" class="guide">
   <article>
     <p class="crumbs"><a href="../#guides" data-i18n="nav.guides">Guides</a></p>
-    <h1>{esc(g['title'])}</h1>
-    <p class="guide-meta"><time datetime="{g['date']}">20 October 2026</time><span>{g['mins']} min read</span><span>Priya Kumari</span></p>
-    <p class="guide-lede">{esc(g['desc'])}</p>
-    <div class="guide-body">{g['body']}</div>
+    <h1>{bi(esc(g['title']), h[0])}</h1>
+    <p class="guide-meta"><time datetime="{g['date']}">20 October 2026</time><span>{read_label(g['mins'])}</span><span>Priya Kumari</span></p>
+    <p class="guide-lede">{bi(esc(g['desc']), h[1])}</p>
+    <div class="guide-body" data-only="en">{g['body']}</div>
+    {('<div class="guide-body" data-only="hi" lang="hi">' + h[2] + '</div>') if h[2] else ''}
     {cta}
   </article>
   <section class="guide-more"><h2 data-i18n="guides.more">More guides</h2><div class="guide-grid">{others}</div></section>

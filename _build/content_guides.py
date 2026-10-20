@@ -164,9 +164,10 @@ def guides_index(guides, head, header, footer, site_url):
     cats = ["Money", "Study", "Apps", "Video"]
     chips = '<button class="chip is-on" data-gfilter="all" aria-pressed="true" data-i18n="filter.all2">All</button>' + "".join(
         f'<button class="chip" data-gfilter="{c}" aria-pressed="false" data-i18n="gcat.{c.lower()}">{c}</button>' for c in cats)
+    import content as C
     cards = "".join(
-        f'<a class="guide-card" data-gcat="{g.get("cat", "Apps")}" href="{g["slug"]}.html"><span class="gc-meta">{g.get("cat", "Apps")} - {g["mins"]} min read</span>'
-        f'<h3>{esc(g["title"])}</h3><p>{esc(g["desc"])}</p></a>' for g in guides)
+        f'<a class="guide-card" data-gcat="{g.get("cat", "Apps")}" href="{g["slug"]}.html"><span class="gc-meta">{C.read_label(g["mins"])}</span>'
+        f'<h3>{C.bi(esc(g["title"]), C.HI.get(g["slug"], ("",))[0])}</h3><p>{C.bi(esc(g["desc"]), C.HI.get(g["slug"], ("", ""))[1])}</p></a>' for g in guides)
     return f"""{head('Guides - Priya Tech Labs', 'Practical guides on money, study, video and Android apps from Priya Tech Labs.', url)}
 {header("../")}
 <main id="main" class="guide guides-index">

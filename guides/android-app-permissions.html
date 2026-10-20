@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Android app permissions, explained simply - Priya Tech Labs</title>
+<meta name="description" content="What each common permission lets an app do, which ones deserve a second look, and how to check what your apps can access.">
+<link rel="canonical" href="https://priya4042.github.io/guides/android-app-permissions.html">
+<meta property="og:title" content="Android app permissions, explained simply - Priya Tech Labs">
+<meta property="og:description" content="What each common permission lets an app do, which ones deserve a second look, and how to check what your apps can access.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://priya4042.github.io/guides/android-app-permissions.html">
+<meta property="og:image" content="https://priya4042.github.io/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1D1B4C">
+<link rel="icon" href="../assets/mark.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("ptl-theme");if(t)document.documentElement.dataset.theme=t;var l=localStorage.getItem("ptl-lang");if(l==="hi")document.documentElement.lang="hi"}catch(e){}</script>
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../" aria-label="Priya Tech Labs home"><img class="mark" src="../assets/mark.svg" alt="" width="30" height="30"><span>Priya Tech Labs</span></a>
+  <nav aria-label="Main"><a href="../#apps" data-i18n="nav.apps">Apps</a><a href="../#web" data-i18n="nav.web">Websites</a><a href="../#about" data-i18n="nav.about">About</a><a class="nav-cta" href="../#contact" data-i18n="nav.work">Work with me</a></nav>
+  <div class="toggles">
+    <button class="tgl" data-search-open aria-label="Search apps and sites" title="Search (Ctrl+K)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
+    <button class="tgl" data-lang-toggle aria-label="Switch language">हिंदी</button>
+    <button class="tgl" data-theme-toggle aria-label="Switch dark mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="sun" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/><path class="moon-i" d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg></button>
+  </div>
+</header>
+<main id="main" class="guide">
+  <article>
+    <p class="crumbs"><a href="../#guides" data-i18n="nav.guides">Guides</a></p>
+    <h1><span data-only="en">Android app permissions, explained simply</span><span data-only="hi" lang="hi">Android ऐप की अनुमतियाँ, आसान भाषा में</span></h1>
+    <p class="guide-meta"><time datetime="2026-10-20">20 October 2026</time><span><span data-only="en">3 min read</span><span data-only="hi" lang="hi">3 मिनट</span></span><span>Priya Kumari</span></p>
+    <p class="guide-lede"><span data-only="en">What each common permission lets an app do, which ones deserve a second look, and how to check what your apps can access.</span><span data-only="hi" lang="hi">हर आम अनुमति ऐप को क्या करने देती है, किन पर दोबारा सोचना चाहिए, और कैसे देखें कि आपके ऐप्स किस चीज़ तक पहुँच रखते हैं।</span></p>
+    <div class="guide-body" data-only="en">
+<p>When an app asks for a permission, it's asking for a key to something on your phone. Most requests are reasonable. A few deserve a pause.</p>
+<h2>The common ones</h2>
+<ul class="check">
+  <li><strong>Camera</strong> - takes photos or scans codes. Expected in a scanner or a camera app; odd in a calculator.</li>
+  <li><strong>Microphone</strong> - hears you. Fine for voice notes or pronunciation practice; ask why if the app has nothing to do with sound.</li>
+  <li><strong>Photos and videos</strong> - reads your gallery. Newer Android lets you share only selected photos instead of everything.</li>
+  <li><strong>Location</strong> - knows where you are. "Only while using the app" is enough for almost every app.</li>
+  <li><strong>Contacts, SMS and call logs</strong> - very personal. Be careful with any app that wants these without an obvious reason.</li>
+  <li><strong>Notifications</strong> - sends reminders. Harmless, but you can turn them off any time.</li>
+  <li><strong>Internet</strong> - granted automatically. It's why an app can send data anywhere, which is why apps that work without it are so private.</li>
+</ul>
+<h2>Check your phone in two minutes</h2>
+<p>Open <strong>Settings &gt; Security &amp; privacy &gt; Privacy &gt; Permission manager</strong> (the path differs a little by phone). Pick a permission like Location or Microphone and see which apps have it. Remove it from anything that doesn't need it.</p>
+<h2>Read the data-safety section</h2>
+<p>Every app on Google Play has a "Data safety" section that says what it collects and shares. It takes 30 seconds to read before you install.</p>
+<h2>How my apps handle it</h2>
+<p>My apps ask only for what a feature needs, and only when you use that feature. <a href="../apps/reelcut.html">ReelCut</a> doesn't even have internet permission, so your videos physically can't leave your phone.</p>
+</div>
+    <div class="guide-body" data-only="hi" lang="hi">
+<p>जब कोई ऐप अनुमति माँगता है, तो वह आपके फ़ोन की किसी चीज़ की चाबी माँग रहा होता है। ज़्यादातर माँगें ठीक होती हैं। कुछ पर रुककर सोचना चाहिए।</p>
+<h2>आम अनुमतियाँ</h2>
+<ul class="check">
+  <li><strong>कैमरा</strong> - फ़ोटो लेता है या कोड स्कैन करता है। स्कैनर या कैमरा ऐप में ठीक; कैलकुलेटर में अजीब।</li>
+  <li><strong>माइक्रोफ़ोन</strong> - आपको सुनता है। वॉइस नोट या उच्चारण अभ्यास के लिए ठीक; अगर ऐप का आवाज़ से कोई लेना-देना नहीं तो पूछें क्यों।</li>
+  <li><strong>फ़ोटो और वीडियो</strong> - आपकी गैलरी पढ़ता है। नए Android में सब कुछ के बजाय सिर्फ़ चुनी हुई फ़ोटो शेयर कर सकते हैं।</li>
+  <li><strong>लोकेशन</strong> - जानता है आप कहाँ हैं। लगभग हर ऐप के लिए "सिर्फ़ ऐप इस्तेमाल करते समय" काफ़ी है।</li>
+  <li><strong>कॉन्टैक्ट, SMS और कॉल लॉग</strong> - बहुत निजी। बिना साफ़ वजह इन्हें माँगने वाले ऐप से सावधान रहें।</li>
+  <li><strong>नोटिफ़िकेशन</strong> - रिमाइंडर भेजता है। नुक़सानदेह नहीं, और कभी भी बंद कर सकते हैं।</li>
+  <li><strong>इंटरनेट</strong> - अपने आप मिलती है। इसी से ऐप कहीं भी डेटा भेज सकता है, इसलिए बिना इसके चलने वाले ऐप इतने निजी होते हैं।</li>
+</ul>
+<h2>दो मिनट में अपना फ़ोन जाँचें</h2>
+<p><strong>Settings &gt; Security &amp; privacy &gt; Privacy &gt; Permission manager</strong> खोलें (रास्ता फ़ोन के हिसाब से थोड़ा अलग हो सकता है)। Location या Microphone जैसी अनुमति चुनें और देखें किन ऐप्स के पास है। जिसे ज़रूरत न हो उससे हटा दें।</p>
+<h2>डेटा-सुरक्षा सेक्शन पढ़ें</h2>
+<p>Google Play पर हर ऐप का "Data safety" सेक्शन होता है जो बताता है कि वह क्या इकट्ठा और शेयर करता है। इंस्टॉल करने से पहले पढ़ने में 30 सेकंड लगते हैं।</p>
+<h2>मेरे ऐप्स इसे कैसे संभालते हैं</h2>
+<p>मेरे ऐप्स सिर्फ़ वही माँगते हैं जो किसी फ़ीचर को चाहिए, और तभी जब आप वह फ़ीचर इस्तेमाल करें। <a href="../apps/reelcut.html">ReelCut</a> के पास तो इंटरनेट की अनुमति ही नहीं है, इसलिए आपके वीडियो फ़ोन से बाहर जा ही नहीं सकते।</p>
+</div>
+    <a class="guide-app" href="../apps/reelcut.html"><img src="../assets/apps/reelcut.png" alt="" width="56" height="56"><span><b>ReelCut</b>Turn your own long videos into Shorts, Reels and TikToks, entirely on your phone.</span></a>
+  </article>
+  <section class="guide-more"><h2 data-i18n="guides.more">More guides</h2><div class="guide-grid"><a class="guide-card" href="join-google-play-test.html"><span class="gc-meta"><span data-only="en">3 min read</span><span data-only="hi" lang="hi">3 मिनट</span></span><h3><span data-only="en">How to join an Android app&#x27;s test on Google Play</span><span data-only="hi" lang="hi">Google Play पर किसी Android ऐप के टेस्ट में कैसे जुड़ें</span></h3><p><span data-only="en">What a closed test is, why new apps need 12 testers for 14 days, and the four steps to join one.</span><span data-only="hi" lang="hi">क्लोज़्ड टेस्ट क्या है, नए ऐप्स को 14 दिन के लिए 12 टेस्टर क्यों चाहिए, और जुड़ने के चार आसान स्टेप।</span></p></a><a class="guide-card" href="run-a-committee-fairly.html"><span class="gc-meta"><span data-only="en">4 min read</span><span data-only="hi" lang="hi">4 मिनट</span></span><h3><span data-only="en">How to run a committee (BC) fairly: a simple checklist</span><span data-only="hi" lang="hi">कमेटी (BC) ईमानदारी से कैसे चलाएँ: एक आसान चेकलिस्ट</span></h3><p><span data-only="en">Fix the rules before the first collection, write everything down, and keep everyone informed - a checklist for small savings groups.</span><span data-only="hi" lang="hi">पहली किस्त से पहले नियम तय करें, सब कुछ लिखें और सबको जानकारी देते रहें - छोटे बचत समूहों के लिए चेकलिस्ट।</span></p></a><a class="guide-card" href="why-my-apps-work-offline.html"><span class="gc-meta"><span data-only="en">3 min read</span><span data-only="hi" lang="hi">3 मिनट</span></span><h3><span data-only="en">Why my apps work offline - and what that means for your data</span><span data-only="hi" lang="hi">मेरे ऐप्स बिना इंटरनेट क्यों चलते हैं - और आपके डेटा के लिए इसका मतलब</span></h3><p><span data-only="en">No accounts, no servers holding your records: how offline-first apps keep your data on your phone, and how to keep it safe.</span><span data-only="hi" lang="hi">न अकाउंट, न आपका रिकॉर्ड रखने वाला सर्वर: ऑफ़लाइन ऐप्स आपका डेटा फ़ोन पर कैसे रखते हैं, और उसे सुरक्षित कैसे रखें।</span></p></a></div></section>
+</main>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Android app permissions, explained simply", "description": "What each common permission lets an app do, which ones deserve a second look, and how to check what your apps can access.", "datePublished": "2026-10-20", "author": {"@type": "Person", "name": "Priya Kumari"}, "publisher": {"@type": "Organization", "name": "Priya Tech Labs"}, "mainEntityOfPage": "https://priya4042.github.io/guides/android-app-permissions.html", "image": "https://priya4042.github.io/assets/og.png"}</script>
+<footer class="foot">
+  <p>© 2026 Priya Tech Labs · <a href="mailto:priyatechlabs9@gmail.com">priyatechlabs9@gmail.com</a></p>
+  <nav aria-label="Footer"><a href="../#apps" data-i18n="nav.apps">Apps</a><a href="../#web" data-i18n="nav.web">Websites</a><a href="../#guides" data-i18n="nav.guides">Guides</a><a href="../#work" data-i18n="nav.cases">Case studies</a><a href="../press.html" data-i18n="nav.press">Press kit</a><a href="../site-privacy.html" data-i18n="nav.sprivacy">Privacy</a><a href="../terms.html" data-i18n="nav.terms">Terms</a><a href="../accessibility.html" data-i18n="nav.a11y">Accessibility</a><a href="../#contact" data-i18n="nav.work">Work with me</a></nav>
+  <div class="foot-extra"><div class="socials"></div><button class="btn btn-ghost install-btn" type="button" hidden data-install data-i18n="pwa.install">Install as an app</button></div>
+</footer>
+<button class="to-top" type="button" hidden aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
+<a class="wa" href="#" hidden aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7a.6.6 0 0 0 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.4z"/></svg></a>
+<script src="../site.config.js"></script>
+<script src="../i18n.js"></script>
+<script src="../main.js"></script>
+</body>
+</html>
