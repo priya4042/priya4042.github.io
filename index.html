@@ -18,14 +18,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
-<script>try{var t=localStorage.getItem("ptl-theme");if(t)document.documentElement.dataset.theme=t;var l=localStorage.getItem("ptl-lang");if(l==="hi")document.documentElement.lang="hi"}catch(e){}</script>
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("ptl-theme");if(t)document.documentElement.dataset.theme=t;var l=localStorage.getItem("ptl-lang");if(l==="hi")document.documentElement.lang="hi"}catch(e){}</script>
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Priya Tech Labs","url":"https://priya4042.github.io/","logo":"https://priya4042.github.io/assets/og.png","email":"priyatechlabs9@gmail.com","founder":{"@type":"Person","name":"Priya Kumari"},"sameAs":["https://github.com/priya4042"]}</script>
 </head>
 <body>
 <a class="skip" href="#apps" data-i18n="skip">Skip to content</a>
+<div class="progress" aria-hidden="true"><i></i></div>
 
-<header class="top">
+<header class="top on-hero">
   <a class="brand" href="#" aria-label="Priya Tech Labs home"><img class="mark" src="assets/mark.svg" alt="" width="30" height="30"><span>Priya Tech Labs</span></a>
   <nav aria-label="Main">
     <a href="#apps" data-i18n="nav.apps">Apps</a>
@@ -40,6 +41,15 @@
 </header>
 
 <main>
+<div class="hero-band">
+<div class="aurora" aria-hidden="true"><i class="b1"></i><i class="b2"></i><i class="b3"></i></div>
+<div class="floaters" aria-hidden="true">
+  <img class="f f1" src="assets/apps/spendly.png" alt=""><img class="f f2" src="assets/apps/mca-entrance-prep.png" alt="">
+  <img class="f f3" src="assets/apps/reelcut.png" alt=""><img class="f f4" src="assets/apps/committee-book.png" alt="">
+  <img class="f f5" src="assets/apps/daily-english.png" alt=""><img class="f f6" src="assets/apps/dotnet-prep.png" alt="">
+  <img class="f f7" src="assets/apps/dues.png" alt=""><img class="f f8" src="assets/apps/quickscan.png" alt="">
+  <img class="f f9" src="assets/apps/app-hub.png" alt=""><span class="f f10 spark"></span><span class="f f11 spark"></span><span class="f f12 spark"></span>
+</div>
 <section class="hero">
   <div class="hero-copy">
     <h1 data-i18n="hero.h1">Small apps that make everyday India a little easier.</h1>
@@ -87,6 +97,15 @@
     </div>
   </div>
 </section>
+</div>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track">
+  <span><img src="assets/apps/quickscan.png" alt="">QuickScan</span><span><img src="assets/apps/spendly.png" alt="">Spendly</span>
+  <span><img src="assets/apps/committee-book.png" alt="">Committee Book</span><span><img src="assets/apps/dues.png" alt="">Dues</span>
+  <span><img src="assets/apps/mca-entrance-prep.png" alt="">MCA Entrance Prep</span><span><img src="assets/apps/daily-english.png" alt="">Daily English</span>
+  <span><img src="assets/apps/dotnet-prep.png" alt="">DotNet Interview Prep</span><span><img src="assets/apps/reelcut.png" alt="">ReelCut</span>
+  <span class="tk-web">Daily Rashifal</span><span class="tk-web">MCA Prep Hub</span><span class="tk-web">Finvest Pro</span><span class="tk-web">StackPrep</span>
+</div></div>
 
 <section class="apps" id="apps" aria-labelledby="apps-h">
   <div class="section-head">
@@ -267,11 +286,11 @@
   </div>
   <div class="sites">
     <a class="site site-wide" href="https://priya4042.github.io/daily-rashifal/" target="_blank" rel="noopener">
-      <div class="browser"><div class="bar"><i></i><i></i><i></i><span>priya4042.github.io/daily-rashifal</span></div><img src="assets/sites/daily-rashifal.webp" alt="Daily Rashifal home page" width="800" height="500" loading="lazy"></div>
+      <div class="browser"><div class="bar"><i></i><i></i><i></i><span>priya4042.github.io/daily-rashifal</span></div><div class="scrollshot" role="img" aria-label="Daily Rashifal home page" style="background-image:url(assets/sites/daily-rashifal-tall.webp)"></div></div>
       <div class="site-text"><h3>Daily Rashifal</h3><p data-i18n="site.daily-rashifal">Free daily horoscope for all 12 signs in English and Hindi: love, career, health, money and your lucky number.</p><span class="visit" data-i18n="visit">Open the site</span></div>
     </a>
     <a class="site" href="https://priya4042.github.io/mca-prep-hub/" target="_blank" rel="noopener">
-      <div class="browser"><div class="bar"><i></i><i></i><i></i><span>mca-prep-hub</span></div><img src="assets/sites/mca-prep-hub.webp" alt="MCA Prep Hub dashboard" width="800" height="500" loading="lazy"></div>
+      <div class="browser"><div class="bar"><i></i><i></i><i></i><span>mca-prep-hub</span></div><div class="scrollshot" role="img" aria-label="MCA Prep Hub dashboard" style="background-image:url(assets/sites/mca-prep-hub-tall.webp)"></div></div>
       <div class="site-text"><h3>MCA Prep Hub</h3><p data-i18n="site.mca-prep-hub">A free study site for MCA CET and NIMCET, with about 690 practice questions and a Test Me quiz.</p><span class="visit" data-i18n="visit">Open the site</span></div>
     </a>
     <a class="site" href="https://priya4042.github.io/finvest-pro/" target="_blank" rel="noopener">
@@ -287,11 +306,11 @@
       <div class="site-text"><h3>AnmieLove</h3><p data-i18n="site.anmielove">Type a prompt and get an animated video in anime, Ghibli, K-drama or cartoon style.</p><span class="visit" data-i18n="visit">Open the site</span></div>
     </a>
     <a class="site" href="https://priya4042.github.io/wellness-bloom-women-health-blog/" target="_blank" rel="noopener">
-      <div class="browser"><div class="bar"><i></i><i></i><i></i><span>wellness-bloom</span></div><img src="assets/sites/wellness-bloom-women-health-blog.webp" alt="Wellness Bloom blog home" width="800" height="500" loading="lazy"></div>
+      <div class="browser"><div class="bar"><i></i><i></i><i></i><span>wellness-bloom</span></div><div class="scrollshot" role="img" aria-label="Wellness Bloom blog home" style="background-image:url(assets/sites/wellness-bloom-women-health-blog-tall.webp)"></div></div>
       <div class="site-text"><h3>Wellness Bloom</h3><p data-i18n="site.wellness-bloom">A women's health blog with practical guides on hair, thyroid, periods, digestion and fat loss.</p><span class="visit" data-i18n="visit">Open the site</span></div>
     </a>
     <a class="site" href="https://priya4042.github.io/librisphere-lms/" target="_blank" rel="noopener">
-      <div class="browser"><div class="bar"><i></i><i></i><i></i><span>librisphere-lms</span></div><img src="assets/sites/librisphere-lms.webp" alt="LibriSphere library dashboard" width="800" height="500" loading="lazy"></div>
+      <div class="browser"><div class="bar"><i></i><i></i><i></i><span>librisphere-lms</span></div><div class="scrollshot" role="img" aria-label="LibriSphere library dashboard" style="background-image:url(assets/sites/librisphere-lms-tall.webp)"></div></div>
       <div class="site-text"><h3>LibriSphere</h3><p data-i18n="site.librisphere">Library management for small libraries: books, members, issuing and returns, and overdue alerts.</p><span class="visit" data-i18n="visit">Open the site</span></div>
     </a>
   </div>
