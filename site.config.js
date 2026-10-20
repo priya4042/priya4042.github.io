@@ -3,7 +3,7 @@ window.SITE = {
   email: "priyatechlabs9@gmail.com",
 
   // WhatsApp number with country code, digits only, e.g. "919876543210". Empty = button hidden.
-  whatsapp: "",
+  whatsapp: "919736373826",
 
   // Free form inbox (https://formspree.io -> New form -> copy the endpoint, e.g. "https://formspree.io/f/abcdwxyz").
   // Empty = forms open the visitor's email app with everything filled in instead.
