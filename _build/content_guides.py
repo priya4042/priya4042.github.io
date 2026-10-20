@@ -146,11 +146,11 @@ A11Y = """
   <li><strong>Screen readers.</strong> Pages use proper headings, landmarks and labels; images have text alternatives, and decorative ones are hidden from screen readers.</li>
   <li><strong>Less motion.</strong> If your device is set to reduce motion, the animations on this site switch off.</li>
   <li><strong>Colour and contrast.</strong> Text is chosen to be readable against its background, and there is a dark mode.</li>
-  <li><strong>Language.</strong> The whole site can be switched to Hindi with the button at the top.</li>
+  <li><strong>Language.</strong> The site - including all guides and app pages - can be switched to Hindi with the button at the top.</li>
   <li><strong>Zoom.</strong> Pages work when zoomed in and on small screens without sideways scrolling.</li>
 </ul>
 <h2>Known gaps</h2>
-<p>The guides and the feature lists on app pages are in English only. Screenshots of the apps show the English versions.</p>
+<p>The case studies, privacy policies and press kit are in English only. Screenshots of the apps show the English versions.</p>
 <h2>Tell me about a problem</h2>
 <p>If something on this site is hard to use with your setup, email <a href="mailto:priyatechlabs9@gmail.com">priyatechlabs9@gmail.com</a> and say which page and what went wrong. I'll fix it.</p>
 """

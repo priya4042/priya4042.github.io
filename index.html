@@ -20,7 +20,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap"></noscript>
 <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("ptl-theme");if(t)document.documentElement.dataset.theme=t;var l=localStorage.getItem("ptl-lang");if(l==="hi")document.documentElement.lang="hi"}catch(e){}</script>
 <link rel="stylesheet" href="styles.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Priya Tech Labs","url":"https://priya4042.github.io/","logo":"https://priya4042.github.io/assets/og.png","email":"priyatechlabs9@gmail.com","founder":{"@type":"Person","name":"Priya Kumari"},"sameAs":["https://github.com/priya4042"]}</script>
@@ -69,7 +69,7 @@
       <div class="phone-status" aria-hidden="true"><span>10:30</span><span class="dots"><i></i><i></i><i></i></span></div>
       <div class="notif" aria-hidden="true">
         <img src="assets/apps/quickscan.png" alt="">
-        <div><b>QuickScan</b><span>Testing on Google Play. Testers wanted.</span></div>
+        <div><b>QuickScan</b><span><span data-only="en">Testing on Google Play. Testers wanted.</span><span data-only="hi" lang="hi">Google Play पर टेस्टिंग में। टेस्टर चाहिए।</span></span></div>
       </div>
       <ul class="home-grid" aria-label="Apps - tap one to open it">
         <li><button data-name="QuickScan" data-icon="assets/apps/quickscan.png" data-shot="assets/shots/quickscan.webp" data-href="apps/quickscan.html"><img src="assets/apps/quickscan.png" alt=""><span>QuickScan</span></button></li>
@@ -87,7 +87,7 @@
       </ul>
       <div class="widget" aria-hidden="true">
         <span class="moon"></span>
-        <div><b>Daily Rashifal</b><span>Your free daily horoscope, in English and Hindi</span></div>
+        <div><b>Daily Rashifal</b><span><span data-only="en">Your free daily horoscope, in English and Hindi</span><span data-only="hi" lang="hi">मुफ़्त रोज़ का राशिफल, अंग्रेज़ी और हिंदी में</span></span></div>
       </div>
       <p class="phone-hint" data-i18n="phone.tap">Tap any app</p>
 
@@ -136,10 +136,10 @@
         </div>
         <p class="what" data-i18n="app.quickscan">Scan or create any QR code or barcode, fast and offline.</p>
         <ul class="feats">
-          <li>Smart results for Wi-Fi, UPI payments, contacts and events</li>
-          <li>Create 12 code types with your own logo and caption</li>
-          <li>Saved codes, history, batch scanning with CSV export</li>
-          <li>English and Hindi</li>
+          <li><span data-only="en">Smart results for Wi-Fi, UPI payments, contacts and events</span><span data-only="hi" lang="hi">Wi-Fi, UPI भुगतान, कॉन्टैक्ट और इवेंट के लिए स्मार्ट नतीजे</span></li>
+          <li><span data-only="en">Create 12 code types with your own logo and caption</span><span data-only="hi" lang="hi">अपने लोगो और कैप्शन के साथ 12 तरह के कोड बनाएँ</span></li>
+          <li><span data-only="en">Saved codes, history, batch scanning with CSV export</span><span data-only="hi" lang="hi">सेव किए कोड, हिस्ट्री, CSV एक्सपोर्ट के साथ बैच स्कैनिंग</span></li>
+          <li><span data-only="en">English and Hindi</span><span data-only="hi" lang="hi">अंग्रेज़ी और हिंदी</span></li>
         </ul>
         <form class="inline-form" data-form="tester" data-app="QuickScan">
           <label class="sr" for="tg-home" data-i18n="form.gmail">Your Gmail address</label>
@@ -165,9 +165,9 @@
       </div>
       <p class="what" data-i18n="app.spendly">A private, offline money manager for income, spending, budgets and savings.</p>
       <ul class="feats">
-        <li>Wallets, budgets, recurring entries and savings goals</li>
-        <li>Udhaar (lend and borrow), bill splitting and EMI tracking</li>
-        <li>Charts, calendar heatmap, PIN or fingerprint lock</li>
+        <li><span data-only="en">Wallets, budgets, recurring entries and savings goals</span><span data-only="hi" lang="hi">वॉलेट, बजट, दोहराई जाने वाली एंट्री और बचत लक्ष्य</span></li>
+        <li><span data-only="en">Udhaar (lend and borrow), bill splitting and EMI tracking</span><span data-only="hi" lang="hi">उधार (लेन-देन), बिल बाँटना और EMI ट्रैकिंग</span></li>
+        <li><span data-only="en">Charts, calendar heatmap, PIN or fingerprint lock</span><span data-only="hi" lang="hi">चार्ट, कैलेंडर हीटमैप, PIN या फ़िंगरप्रिंट लॉक</span></li>
       </ul>
       <div class="actions">
         <a class="link" href="apps/spendly.html" data-i18n="cta.details">See details</a>
@@ -183,9 +183,9 @@
       </div>
       <p class="what" data-i18n="app.committee-book">Run your committee, BC or chit group: who paid, whose turn it is, and how much cash is in hand.</p>
       <ul class="feats">
-        <li>Turn order or lucky draw, partial payments and late fines</li>
-        <li>Bidding chits, with members viewing live once you approve them</li>
-        <li>WhatsApp and UPI reminders, PDF statements, Hindi</li>
+        <li><span data-only="en">Turn order or lucky draw, partial payments and late fines</span><span data-only="hi" lang="hi">तय क्रम या लकी ड्रॉ, आंशिक भुगतान और देरी पर जुर्माना</span></li>
+        <li><span data-only="en">Bidding chits, with members viewing live once you approve them</span><span data-only="hi" lang="hi">बोली वाली चिट, आपकी मंज़ूरी के बाद सदस्य लाइव देखते हैं</span></li>
+        <li><span data-only="en">WhatsApp and UPI reminders, PDF statements, Hindi</span><span data-only="hi" lang="hi">WhatsApp और UPI रिमाइंडर, PDF स्टेटमेंट, हिंदी</span></li>
       </ul>
       <div class="actions">
         <a class="link" href="apps/committee-book.html" data-i18n="cta.details">See details</a>
@@ -201,9 +201,9 @@
       </div>
       <p class="what" data-i18n="app.dues">Never miss a bill, recharge, EMI, subscription or warranty date again.</p>
       <ul class="feats">
-        <li>Reminders before the due date, on the day and when overdue</li>
-        <li>Pay straight from the reminder with UPI</li>
-        <li>Calendar view, spending insights and EMI progress</li>
+        <li><span data-only="en">Reminders before the due date, on the day and when overdue</span><span data-only="hi" lang="hi">तारीख़ से पहले, उसी दिन और बकाया होने पर रिमाइंडर</span></li>
+        <li><span data-only="en">Pay straight from the reminder with UPI</span><span data-only="hi" lang="hi">रिमाइंडर से सीधे UPI से भुगतान</span></li>
+        <li><span data-only="en">Calendar view, spending insights and EMI progress</span><span data-only="hi" lang="hi">कैलेंडर व्यू, ख़र्च की जानकारी और EMI की प्रगति</span></li>
       </ul>
       <div class="actions">
         <a class="link" href="apps/dues.html" data-i18n="cta.details">See details</a>
@@ -217,9 +217,9 @@
       </div>
       <p class="what" data-i18n="app.mca-entrance-prep">Complete preparation for NIMCET and 10 other MCA entrance exams, with no ads.</p>
       <ul class="feats">
-        <li>Thousands of past-paper questions and 48 predicted papers</li>
-        <li>An easy trick for every question, timed real-format mocks</li>
-        <li>Study plan, exam-date reminders, college cut-offs and rank prediction</li>
+        <li><span data-only="en">Thousands of past-paper questions and 48 predicted papers</span><span data-only="hi" lang="hi">पिछले पेपरों के हज़ारों सवाल और 48 अनुमानित पेपर</span></li>
+        <li><span data-only="en">An easy trick for every question, timed real-format mocks</span><span data-only="hi" lang="hi">हर सवाल की आसान ट्रिक, असली फ़ॉर्मेट में टाइम्ड मॉक</span></li>
+        <li><span data-only="en">Study plan, exam-date reminders, college cut-offs and rank prediction</span><span data-only="hi" lang="hi">स्टडी प्लान, परीक्षा तारीख़ के रिमाइंडर, कॉलेज कट-ऑफ़ और रैंक अनुमान</span></li>
       </ul>
       <div class="actions">
         <a class="link" href="apps/mca-entrance-prep.html" data-i18n="cta.details">See details</a>
@@ -235,9 +235,9 @@
       </div>
       <p class="what" data-i18n="app.daily-english">Learn to speak English with a coach that listens and checks your pronunciation.</p>
       <ul class="feats">
-        <li>Speak a word or sentence and get a score</li>
-        <li>US and UK audio, grammar, phrases and two-person dialogues</li>
-        <li>Quizzes, favourites and a daily reminder</li>
+        <li><span data-only="en">Speak a word or sentence and get a score</span><span data-only="hi" lang="hi">शब्द या वाक्य बोलें और स्कोर पाएँ</span></li>
+        <li><span data-only="en">US and UK audio, grammar, phrases and two-person dialogues</span><span data-only="hi" lang="hi">US और UK ऑडियो, ग्रामर, वाक्यांश और दो लोगों की बातचीत</span></li>
+        <li><span data-only="en">Quizzes, favourites and a daily reminder</span><span data-only="hi" lang="hi">क्विज़, फ़ेवरेट और रोज़ का रिमाइंडर</span></li>
       </ul>
       <div class="actions">
         <a class="link" href="apps/daily-english.html" data-i18n="cta.details">See details</a>
@@ -252,9 +252,9 @@
       </div>
       <p class="what" data-i18n="app.dotnet-prep">About 1,300 .NET, C#, SQL, DSA and system design interview questions with answers, offline.</p>
       <ul class="feats">
-        <li>Blind 75, 18 DSA patterns and system design</li>
-        <li>Mock interviews, quizzes and spaced-repetition review</li>
-        <li>STAR story builder and a readiness score</li>
+        <li><span data-only="en">Blind 75, 18 DSA patterns and system design</span><span data-only="hi" lang="hi">Blind 75, 18 DSA पैटर्न और सिस्टम डिज़ाइन</span></li>
+        <li><span data-only="en">Mock interviews, quizzes and spaced-repetition review</span><span data-only="hi" lang="hi">मॉक इंटरव्यू, क्विज़ और स्पेस्ड-रिपिटिशन रिवीज़न</span></li>
+        <li><span data-only="en">STAR story builder and a readiness score</span><span data-only="hi" lang="hi">STAR स्टोरी बिल्डर और रेडीनेस स्कोर</span></li>
       </ul>
       <div class="actions">
         <a class="link" href="apps/dotnet-prep.html" data-i18n="cta.details">See details</a>
@@ -270,9 +270,9 @@
       </div>
       <p class="what" data-i18n="app.reelcut">Turn your own long videos into Shorts, Reels and TikToks, entirely on your phone.</p>
       <ul class="feats">
-        <li>Auto-split into clips, or let it pick the highlights</li>
-        <li>Face-centred crop for 9:16, 1:1 and 4:5</li>
-        <li>Titles, watermark and music. Works offline and collects nothing</li>
+        <li><span data-only="en">Auto-split into clips, or let it pick the highlights</span><span data-only="hi" lang="hi">अपने आप क्लिप में बाँटें, या हाइलाइट चुनने दें</span></li>
+        <li><span data-only="en">Face-centred crop for 9:16, 1:1 and 4:5</span><span data-only="hi" lang="hi">9:16, 1:1 और 4:5 के लिए चेहरे पर केंद्रित क्रॉप</span></li>
+        <li><span data-only="en">Titles, watermark and music. Works offline and collects nothing</span><span data-only="hi" lang="hi">टाइटल, वॉटरमार्क और म्यूज़िक। ऑफ़लाइन चलता है और कुछ इकट्ठा नहीं करता</span></li>
       </ul>
       <div class="actions">
         <a class="link" href="apps/reelcut.html" data-i18n="cta.details">See details</a>
@@ -302,15 +302,15 @@
   <div class="work-grid">
     <a class="work-card" href="work/reelcut.html" style="--accent:#6C4CF0">
       <div class="wc-visual"><img class="wc-icon" src="assets/apps/reelcut.png" alt="" width="64" height="64"><img class="wc-shot" src="assets/gallery/reelcut-1.webp" alt="" width="432" height="786" loading="lazy"></div>
-      <div class="wc-text"><span class="gc-meta" data-i18n="case.tag">Case study</span><h3>ReelCut: a video editor that never uploads your videos</h3><p>From a PC-powered tool to an app that edits everything on the phone, with no internet permission at all.</p></div>
+      <div class="wc-text"><span class="gc-meta" data-i18n="case.tag">Case study</span><h3><span data-only="en">ReelCut: a video editor that never uploads your videos</span><span data-only="hi" lang="hi">ReelCut: ऐसा वीडियो एडिटर जो आपके वीडियो कभी अपलोड नहीं करता</span></h3><p><span data-only="en">From a PC-powered tool to an app that edits everything on the phone, with no internet permission at all.</span><span data-only="hi" lang="hi">PC पर चलने वाले टूल से ऐसे ऐप तक जो सब कुछ फ़ोन पर एडिट करता है, बिना इंटरनेट की अनुमति के।</span></p></div>
     </a>
     <a class="work-card" href="work/committee-book.html" style="--accent:#0E7C66">
       <div class="wc-visual"><img class="wc-icon" src="assets/apps/committee-book.png" alt="" width="64" height="64"><img class="wc-shot" src="assets/gallery/committee-book-1.webp" alt="" width="432" height="786" loading="lazy"></div>
-      <div class="wc-text"><span class="gc-meta" data-i18n="case.tag">Case study</span><h3>Committee Book: getting the money maths of a BC exactly right</h3><p>Bidding chits, partial payments and members who can check their own status - with tests guarding every rupee.</p></div>
+      <div class="wc-text"><span class="gc-meta" data-i18n="case.tag">Case study</span><h3><span data-only="en">Committee Book: getting the money maths of a BC exactly right</span><span data-only="hi" lang="hi">Committee Book: BC का पैसों का हिसाब बिल्कुल सही करना</span></h3><p><span data-only="en">Bidding chits, partial payments and members who can check their own status - with tests guarding every rupee.</span><span data-only="hi" lang="hi">बोली वाली चिट, आंशिक भुगतान और ख़ुद अपना हिसाब देखने वाले सदस्य - हर रुपये की जाँच टेस्ट से।</span></p></div>
     </a>
     <a class="work-card" href="work/mca-entrance-prep.html" style="--accent:#5383FF">
       <div class="wc-visual"><img class="wc-icon" src="assets/apps/mca-entrance-prep.png" alt="" width="64" height="64"><img class="wc-shot" src="assets/gallery/mca-entrance-prep-1.webp" alt="" width="432" height="786" loading="lazy"></div>
-      <div class="wc-text"><span class="gc-meta" data-i18n="case.tag">Case study</span><h3>MCA Entrance Prep: one app for eleven entrance exams</h3><p>Every answer checked twice, every exam with its own pattern, and dates that update without an app update.</p></div>
+      <div class="wc-text"><span class="gc-meta" data-i18n="case.tag">Case study</span><h3><span data-only="en">MCA Entrance Prep: one app for eleven entrance exams</span><span data-only="hi" lang="hi">MCA Entrance Prep: ग्यारह प्रवेश परीक्षाओं के लिए एक ऐप</span></h3><p><span data-only="en">Every answer checked twice, every exam with its own pattern, and dates that update without an app update.</span><span data-only="hi" lang="hi">हर जवाब दो बार जाँचा गया, हर परीक्षा का अपना पैटर्न, और तारीख़ें जो ऐप अपडेट के बिना बदलती हैं।</span></p></div>
     </a>
   </div>
 </section>
@@ -391,21 +391,20 @@
     <p data-i18n="lab.p">Things I'm building next, and tools I made for my own work. Not public yet.</p>
   </div>
   <ul class="lab-list">
-    <li><span class="tile tile-ipo">IR</span><div><h3>IPO Radar</h3><p>Track Indian IPOs and see your real odds of getting an allotment. Android.</p></div><span class="tag" data-i18n="tag.dev">In development</span></li>
-    <li><span class="tile tile-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h12M13 6l6 6-6 6"/></svg></span><div><h3>Arrow Slide</h3><p>A calm puzzle game: slide every arrow off the board in the right order. Android.</p></div><span class="tag" data-i18n="tag.dev">In development</span></li>
-    <li><img src="assets/apps/app-hub.png" alt="" width="44" height="44" loading="lazy"><div><h3>App Hub</h3><p>One desktop window for every project's builds, git, releases and store status. Windows, Mac and Linux.</p></div><span class="tag" data-i18n="tag.own">My own tool</span></li>
-    <li><img src="assets/apps/bug-tracker.svg" alt="" width="44" height="44" loading="lazy"><div><h3>Bug Tracker</h3><p>A bug tracker for small teams that runs from a single file. Developers can't close their own bugs.</p></div><span class="tag" data-i18n="tag.own">My own tool</span></li>
-    <li><img src="assets/apps/interviewprep.png" alt="" width="44" height="44" loading="lazy"><div><h3>InterviewPrep</h3><p>Hears your answers, reads model answers aloud and records your practice. Web app.</p></div><span class="tag" data-i18n="tag.dev">In development</span></li>
-    <li><span class="tile tile-play">P</span><div><h3>Playground</h3><p>44 quick games for every age, with multiplayer rooms. Web app.</p></div><span class="tag" data-i18n="tag.dev">In development</span></li>
-    <li><span class="tile tile-axon">A</span><div><h3>Axon</h3><p>An AI assistant platform with agents, tools and document search. Web app.</p></div><span class="tag" data-i18n="tag.dev">In development</span></li>
+    <li><span class="tile tile-ipo">IR</span><div><h3>IPO Radar</h3><p><span data-only="en">Track Indian IPOs and see your real odds of getting an allotment. Android.</span><span data-only="hi" lang="hi">भारतीय IPO ट्रैक करें और अलॉटमेंट मिलने की असली संभावना देखें। Android।</span></p></div><span class="tag" data-i18n="tag.dev">In development</span></li>
+    <li><span class="tile tile-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h12M13 6l6 6-6 6"/></svg></span><div><h3>Arrow Slide</h3><p><span data-only="en">A calm puzzle game: slide every arrow off the board in the right order. Android.</span><span data-only="hi" lang="hi">एक शांत पहेली गेम: हर तीर को सही क्रम में बोर्ड से बाहर खिसकाएँ। Android।</span></p></div><span class="tag" data-i18n="tag.dev">In development</span></li>
+    <li><img src="assets/apps/app-hub.png" alt="" width="44" height="44" loading="lazy"><div><h3>App Hub</h3><p><span data-only="en">One desktop window for every project's builds, git, releases and store status. Windows, Mac and Linux.</span><span data-only="hi" lang="hi">हर प्रोजेक्ट के बिल्ड, git, रिलीज़ और स्टोर स्टेटस के लिए एक डेस्कटॉप विंडो। Windows, Mac और Linux।</span></p></div><span class="tag" data-i18n="tag.own">My own tool</span></li>
+    <li><img src="assets/apps/bug-tracker.svg" alt="" width="44" height="44" loading="lazy"><div><h3>Bug Tracker</h3><p><span data-only="en">A bug tracker for small teams that runs from a single file. Developers can't close their own bugs.</span><span data-only="hi" lang="hi">छोटी टीमों के लिए बग ट्रैकर जो एक फ़ाइल से चलता है। डेवलपर अपने ही बग बंद नहीं कर सकते।</span></p></div><span class="tag" data-i18n="tag.own">My own tool</span></li>
+    <li><img src="assets/apps/interviewprep.png" alt="" width="44" height="44" loading="lazy"><div><h3>InterviewPrep</h3><p><span data-only="en">Hears your answers, reads model answers aloud and records your practice. Web app.</span><span data-only="hi" lang="hi">आपके जवाब सुनता है, मॉडल जवाब पढ़कर सुनाता है और आपका अभ्यास रिकॉर्ड करता है। वेब ऐप।</span></p></div><span class="tag" data-i18n="tag.dev">In development</span></li>
+    <li><span class="tile tile-play">P</span><div><h3>Playground</h3><p><span data-only="en">44 quick games for every age, with multiplayer rooms. Web app.</span><span data-only="hi" lang="hi">हर उम्र के लिए 44 छोटे गेम, मल्टीप्लेयर रूम के साथ। वेब ऐप।</span></p></div><span class="tag" data-i18n="tag.dev">In development</span></li>
+    <li><span class="tile tile-axon">A</span><div><h3>Axon</h3><p><span data-only="en">An AI assistant platform with agents, tools and document search. Web app.</span><span data-only="hi" lang="hi">एजेंट, टूल और डॉक्यूमेंट सर्च वाला AI असिस्टेंट प्लेटफ़ॉर्म। वेब ऐप।</span></p></div><span class="tag" data-i18n="tag.dev">In development</span></li>
   </ul>
 </section>
 
 <section class="about" id="about" aria-labelledby="about-h">
   <div class="about-grid">
-    <div class="about-photo">
-      <!-- add your photo as assets/me.jpg (square, about 800x800) -->
-      <img src="assets/me.jpg" alt="Priya Kumari" width="400" height="400">
+    <div class="about-photo no-photo">
+      <img data-photo alt="Priya Kumari" width="400" height="400" hidden>
       <span class="initials" aria-hidden="true">PK</span>
     </div>
     <div class="about-copy">

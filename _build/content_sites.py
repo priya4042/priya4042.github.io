@@ -57,15 +57,18 @@ SITE_PAGES = [
 ]
 
 def site_page(sp, head, header, footer, site_url, segno_dir):
+    import content as C, content_hi_pages as HP
+    hi = HP.SITE_HI.get(sp["slug"], {})
     url = f"{site_url}sites/{sp['slug']}.html"
     if sp["tall"]:
         visual = f'<div class="scrollshot sp-shot" role="img" aria-label="{esc(sp["name"])} preview" style="background-image:url(../assets/sites/{sp["shot"]}-tall.webp)"></div>'
     else:
         visual = f'<img class="sp-shot" src="../assets/sites/{sp["shot"]}.webp" alt="{esc(sp["name"])} preview" width="800" height="500">'
-    feats = "".join(f"<li>{esc(f)}</li>" for f in sp["feats"])
+    hf = hi.get("feats", [])
+    feats = "".join(f"<li>{C.bi(esc(f), hf[i] if i < len(hf) else '')}</li>" for i, f in enumerate(sp["feats"]))
     others = "".join(f'<a class="more-site" href="{o["slug"]}.html"><span>{esc(o["name"])}</span><small>{esc(o["cat"])}</small></a>'
                      for o in SITE_PAGES if o["slug"] != sp["slug"])
-    note = f'<p class="sp-note">{esc(sp["note"])}</p>' if sp.get("note") else ""
+    note = f'<p class="sp-note">{C.bi(esc(sp["note"]), hi.get("note", ""))}</p>' if sp.get("note") else ""
     guide = f'<p class="sp-guide"><a class="link" href="../guides/{sp["guide"]}.html" data-i18n="sp.guide">Read the related guide</a></p>' if sp.get("guide") else ""
     ld = {"@context": "https://schema.org", "@type": "WebApplication", "name": sp["name"], "url": sp["url"], "description": sp["what"],
           "applicationCategory": sp["cat"], "operatingSystem": "Any (web browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "INR"},
@@ -78,15 +81,15 @@ def site_page(sp, head, header, footer, site_url, segno_dir):
       <p class="crumbs"><a href="../#web" data-i18n="nav.web">Websites</a> / {esc(sp['cat'])}</p>
       <h1>{esc(sp['name'])}</h1>
       <span class="badge badge-live" data-i18n="badge.web">Live now</span>
-      <p class="ap-what">{esc(sp['what'])}</p>
+      <p class="ap-what">{C.bi(esc(sp['what']), hi.get('what', ''))}</p>
       <p class="ap-meta"><span data-i18n="meta.web">Website</span><span>{esc(sp['langs'])}</span><span data-i18n="meta.free">Free</span><span data-i18n="meta.noinstall">Nothing to install</span></p>
       <a class="btn btn-primary" href="{sp['url']}" target="_blank" rel="noopener" data-i18n="visit">Open the site</a>
       {note}
     </div>
-    <a class="browser sp-frame" href="{sp['url']}" target="_blank" rel="noopener" aria-label="Open {esc(sp['name'])}"><div class="bar"><i></i><i></i><i></i><span>{esc(sp['url'].replace('https://', ''))}</span></div>{visual}</a>
+    <a class="browser sp-frame" href="{sp['url']}" target="_blank" rel="noopener"><div class="bar"><i></i><i></i><i></i><span>{esc(sp['url'].replace('https://', ''))}</span></div>{visual}</a>
   </section>
   <section class="ap-about">
-    <div><h2 data-i18n="page.about">What it does</h2><p>{esc(sp['about'])}</p>{guide}</div>
+    <div><h2 data-i18n="page.about">What it does</h2><p>{C.bi(esc(sp['about']), hi.get('about', ''))}</p>{guide}</div>
     <div><h2 data-i18n="page.features">Features</h2><ul class="feats">{feats}</ul></div>
   </section>
   <section class="ap-share" aria-labelledby="sh-h">

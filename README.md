@@ -20,7 +20,7 @@ All in `site.config.js`:
 
 Other files:
 
-- **Your photo**: save it as `assets/me.jpg` (square, about 800x800). Until then the About section shows "PK".
+- **Your photo**: save it as `assets/me.jpg` (square, about 800x800), then set `photo: "assets/me.jpg"` in `site.config.js`. Until then the About section shows "PK".
 - **Google Search Console**: paste its `google-site-verification` meta tag where the comment says in `index.html`, then submit `sitemap.xml`.
 - **Custom domain** (e.g. priyatechlabs.in): add a file `CNAME` containing just the domain, point the domain's DNS to GitHub Pages,
   then change `SITE_URL` in `_build/build.py` and the `https://priya4042.github.io/` links in `index.html`, `robots.txt` and the meta tags.

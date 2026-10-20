@@ -1016,3 +1016,8 @@ html[lang="hi"] [data-only="en"] { display: none !important; }
 .more-site span { font-weight: 680; color: var(--head); }
 .more-site small { color: var(--muted); font-size: .82rem; }
 @media (max-width: 860px) { .sp-hero { grid-template-columns: 1fr; } .sp-frame { order: -1; } }
+
+/* stronger text on the green badge (WCAG AA contrast) */
+.badge-live { color: #0A5F42; }
+:root[data-theme="dark"] .badge-live { color: #6BE3B4; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .badge-live { color: #6BE3B4; } }

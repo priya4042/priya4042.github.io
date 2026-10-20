@@ -2,6 +2,9 @@
 window.SITE = {
   email: "priyatechlabs9@gmail.com",
 
+  // Your photo for the About section: save it as assets/me.jpg, then set this to "assets/me.jpg". Empty = shows "PK".
+  photo: "",
+
   // WhatsApp number with country code, digits only, e.g. "919876543210". Empty = button hidden.
   whatsapp: "919736373826",
 

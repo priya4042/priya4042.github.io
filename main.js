@@ -181,10 +181,10 @@
   }
 
   // ---------- About photo: falls back to initials if assets/me.jpg isn't there ----------
-  var photo = $(".about-photo img");
-  if (photo) {
-    var fail = function () { photo.parentNode.classList.add("no-photo"); };
-    if (photo.complete && !photo.naturalWidth) fail(); else photo.addEventListener("error", fail);
+  var photo = $(".about-photo img[data-photo]");
+  if (photo && S.photo) {
+    photo.addEventListener("load", function () { photo.hidden = false; photo.parentNode.classList.remove("no-photo"); });
+    photo.src = S.photo;
   }
 
   // ---------- screenshot gallery (app pages) ----------

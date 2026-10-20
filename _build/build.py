@@ -15,6 +15,8 @@ C.GUIDES.extend(G2.GUIDES3)
 import content_hi as H
 C.HI.update(H.HI)
 import content_sites as SP
+import content_hi_pages as HP
+import content_og as OG
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://priya4042.github.io/"   # change when a custom domain is added
@@ -117,6 +119,14 @@ BADGE = {"testing": ("badge-testing", "Testing on Google Play", "badge.testing")
 
 def esc(s): return html.escape(s, quote=True)
 
+def og_for(url):
+    """The page's own share image, or the site-wide one."""
+    rel = url.replace(SITE_URL, "")
+    for prefix, kind in (("apps/", "app"), ("guides/", "guide"), ("work/", "case"), ("sites/", "site")):
+        if rel.startswith(prefix) and rel.endswith(".html"):
+            return f"{SITE_URL}assets/og/{kind}-{rel[len(prefix):-5]}.png"
+    return f"{SITE_URL}assets/og.png"
+
 def head(title, desc, url, depth=1):
     up = "../" * depth
     return f"""<!doctype html>
@@ -131,7 +141,9 @@ def head(title, desc, url, depth=1):
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{url}">
-<meta property="og:image" content="{SITE_URL}assets/og.png">
+<meta property="og:image" content="{og_for(url)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#1D1B4C">
 <link rel="icon" href="{up}assets/mark.svg" type="image/svg+xml">
@@ -140,7 +152,7 @@ def head(title, desc, url, depth=1):
 <link rel="manifest" href="{up}manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap"></noscript>
 <script>document.documentElement.classList.add("js");try{{var t=localStorage.getItem("ptl-theme");if(t)document.documentElement.dataset.theme=t;var l=localStorage.getItem("ptl-lang");if(l==="hi")document.documentElement.lang="hi"}}catch(e){{}}</script>
 <link rel="stylesheet" href="{up}styles.css">
 </head>"""
@@ -206,8 +218,11 @@ def app_page(a):
     <div class="g-btns"><button class="g-btn" data-g="-1" aria-label="Previous screen"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button><button class="g-btn" data-g="1" aria-label="Next screen"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button></div></div>
   <ul class="g-track" tabindex="0" aria-label="Screenshots, scroll sideways">{imgs}</ul>
 </section>"""
-    feats = "".join(f"<li>{esc(f)}</li>" for f in a["feats"])
-    faq = "".join(f"<details><summary>{esc(q)}</summary><p>{esc(ans)}</p></details>" for q, ans in a["faq"])
+    hi = HP.APP_HI.get(a["slug"], {})
+    hf = hi.get("feats", []); hq = hi.get("faq", [])
+    feats = "".join(f"<li>{C.bi(esc(f), hf[i] if i < len(hf) else '')}</li>" for i, f in enumerate(a["feats"]))
+    faq = "".join(f"<details><summary>{C.bi(esc(q), hq[i][0] if i < len(hq) else '')}</summary><p>{C.bi(esc(ans), hq[i][1] if i < len(hq) else '')}</p></details>"
+                  for i, (q, ans) in enumerate(a["faq"]))
     links = []
     if a["privacy"]: links.append(f'<a class="link" href="{a["privacy"]}" data-i18n="link.privacy">Privacy policy</a>')
     if a["github"]: links.append(f'<a class="link" href="{a["github"]}" target="_blank" rel="noopener" data-i18n="link.code">View the code</a>')
@@ -233,7 +248,7 @@ def app_page(a):
   </section>
   {gallery}
   <section class="ap-about">
-    <div><h2 data-i18n="page.about">What it does</h2><p>{esc(a['about'])}</p></div>
+    <div><h2 data-i18n="page.about">What it does</h2><p>{C.bi(esc(a['about']), hi.get('about', ''))}</p></div>
     <div><h2 data-i18n="page.features">Features</h2><ul class="feats">{feats}</ul></div>
   </section>
   <section class="ap-faq"><h2 data-i18n="page.faq">Questions people ask</h2>{faq}
@@ -348,6 +363,7 @@ if __name__ == "__main__":
     idx += [{"t": c["title"], "d": c["desc"], "u": f"work/{c['slug']}.html", "k": "Case study", "x": c["app"]} for c in M.CASES]
     json.dump(idx, open(os.path.join(ROOT, "assets", "search.json"), "w", encoding="utf-8"), ensure_ascii=False)
     device_icons()
+    OG.build_all(ROOT, APPS, C.GUIDES, M.CASES, SP.SITE_PAGES)
     os.makedirs(os.path.join(ROOT, "sites"), exist_ok=True)
     SP.site_qrs(ROOT)
     for sp in SP.SITE_PAGES:
