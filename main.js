@@ -1,15 +1,30 @@
-// app filter: Money / Study / Tools
 (function () {
-  var chips = document.querySelectorAll(".filters .chip");
-  var apps = document.querySelectorAll(".app-list .app");
+  var S = window.SITE || {};
+  var t = window.t || function (k, en) { return en; };
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
 
+  // ---------- theme ----------
+  function setTheme(v) {
+    document.documentElement.dataset.theme = v;
+    try { localStorage.setItem("ptl-theme", v); } catch (e) {}
+  }
+  $$("[data-theme-toggle]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var cur = document.documentElement.dataset.theme ||
+        (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      setTheme(cur === "dark" ? "light" : "dark");
+    });
+  });
+
+  // ---------- app filter (home) ----------
+  var chips = $$(".filters .chip"), apps = $$(".app-list .app");
   apps.forEach(function (a, i) {
     if (a.querySelector(".peek")) a.classList.add("has-peek");
     a.style.viewTransitionName = "app-" + i;
   });
-
-  function apply(filter) {
+  function applyFilter(filter) {
     chips.forEach(function (c) {
       var on = c.dataset.filter === filter;
       c.classList.toggle("is-on", on);
@@ -20,16 +35,174 @@
       a.classList.remove("is-wide");
     });
     // an odd number of small cards leaves a hole - let the last one take the full row
-    var small = Array.prototype.filter.call(apps, function (a) { return !a.hidden && !a.classList.contains("app-feature"); });
+    var small = apps.filter(function (a) { return !a.hidden && !a.classList.contains("app-feature"); });
     if (small.length % 2 === 1) small[small.length - 1].classList.add("is-wide");
   }
-  apply("all");
-
+  if (apps.length) applyFilter("all");
   chips.forEach(function (c) {
     c.addEventListener("click", function () {
       var f = c.dataset.filter;
-      if (document.startViewTransition && !reduce) document.startViewTransition(function () { apply(f); });
-      else apply(f);
+      if (document.startViewTransition && !reduce) document.startViewTransition(function () { applyFilter(f); });
+      else applyFilter(f);
     });
   });
+
+  // ---------- hero phone: tap an icon to open the app ----------
+  var phone = $(".phone"), screen = $(".app-screen");
+  if (phone && screen) {
+    var last = null;
+    function openApp(btn) {
+      var d = btn.dataset;
+      last = btn;
+      var pr = phone.getBoundingClientRect(), ir = btn.querySelector("img,.tile").getBoundingClientRect();
+      screen.style.setProperty("--ox", (ir.left + ir.width / 2 - pr.left) + "px");
+      screen.style.setProperty("--oy", (ir.top + ir.height / 2 - pr.top) + "px");
+      $(".as-name", screen).textContent = d.name;
+      $(".as-icon", screen).src = d.icon || "";
+      $(".as-icon", screen).hidden = !d.icon;
+      var shot = $(".as-shot", screen), info = $(".as-info", screen);
+      if (d.shot) { shot.src = d.shot; shot.alt = d.name + " screen"; shot.hidden = false; info.hidden = true; }
+      else {
+        shot.hidden = true; info.hidden = false;
+        $(".as-line", screen).textContent = t(d.key || "", d.line || "");
+      }
+      var more = $(".as-more", screen);
+      more.href = d.href || "#apps";
+      more.textContent = d.href && d.href.indexOf("#contact") === 0 ? t("nav.work", "Work with me") : t("cta.details", "See details");
+      screen.hidden = false;
+      phone.classList.add("is-open");
+      $(".as-close", screen).focus({ preventScroll: true });
+    }
+    function closeApp() {
+      if (screen.hidden) return;
+      phone.classList.remove("is-open");
+      phone.classList.add("is-closing");
+      setTimeout(function () {
+        screen.hidden = true; phone.classList.remove("is-closing");
+        if (last) last.focus({ preventScroll: true });
+      }, reduce ? 0 : 260);
+    }
+    $$(".home-grid button").forEach(function (b) { b.addEventListener("click", function () { openApp(b); }); });
+    $(".as-close", screen).addEventListener("click", closeApp);
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeApp(); });
+  }
+
+  // ---------- menu: highlight the section on screen ----------
+  var navLinks = $$(".top nav a[href^='#']");
+  if ("IntersectionObserver" in window && navLinks.length) {
+    var map = {};
+    navLinks.forEach(function (a) { map[a.getAttribute("href").slice(1)] = a; });
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting && map[en.target.id]) {
+          navLinks.forEach(function (a) { a.classList.remove("is-here"); });
+          map[en.target.id].classList.add("is-here");
+        }
+      });
+    }, { rootMargin: "-45% 0px -50% 0px" });
+    Object.keys(map).forEach(function (id) { var el = document.getElementById(id); if (el) io.observe(el); });
+  }
+
+  // ---------- forms: Formspree when configured, otherwise the visitor's email app ----------
+  function mailto(subject, lines) {
+    return "mailto:" + (S.email || "priyatechlabs9@gmail.com") + "?subject=" + encodeURIComponent(subject) +
+      "&body=" + encodeURIComponent(lines.join("\n"));
+  }
+  function describe(form) {
+    var kind = form.dataset.form, app = form.dataset.app || "", fd = new FormData(form);
+    var picked = fd.getAll("apps");
+    if (kind === "tester") return { subject: "I'd like to test " + app, lines: ["Please add me as a tester for " + app + ".", "My Gmail: " + fd.get("email")] };
+    if (kind === "notify") {
+      var which = app ? [app] : picked;
+      return { subject: "Tell me when " + (which.join(", ") || "your apps") + " launch", lines: ["Please email me when these launch: " + (which.join(", ") || "any app"), "Email: " + fd.get("email")] };
+    }
+    return { subject: "Project enquiry from " + (fd.get("name") || "the website"),
+      lines: ["Name: " + (fd.get("name") || ""), "Email: " + (fd.get("email") || ""), "Needs: " + (fd.get("need") || ""), "", fd.get("message") || ""] };
+  }
+  $$("form[data-form]").forEach(function (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var msg = $(".form-msg", form), btn = $("button[type=submit]", form), info = describe(form);
+      if (form.dataset.form === "notify" && !form.dataset.app && !new FormData(form).getAll("apps").length) {
+        msg.textContent = t("msg.pick", "Tick at least one app."); return;
+      }
+      if (!S.formEndpoint) {
+        msg.textContent = t("msg.mail", "Opening your email app - press send there.");
+        window.location.href = mailto(info.subject, info.lines);
+        return;
+      }
+      var fd = new FormData(form);
+      fd.append("form", form.dataset.form); fd.append("_subject", info.subject);
+      if (form.dataset.app) fd.append("app", form.dataset.app);
+      btn.disabled = true; msg.textContent = t("msg.sending", "Sending...");
+      fetch(S.formEndpoint, { method: "POST", body: fd, headers: { Accept: "application/json" } })
+        .then(function (r) {
+          if (!r.ok) throw new Error(r.status);
+          msg.textContent = t("msg.sent", "Thank you! Got it.");
+          form.reset(); form.classList.add("is-done");
+        })
+        .catch(function () { msg.textContent = t("msg.fail", "That didn't send. Please email priyatechlabs9@gmail.com directly."); })
+        .then(function () { btn.disabled = false; });
+    });
+  });
+
+  // ---------- QuickScan tester counter ----------
+  function renderCount() {
+    var tc = S.testers || {};
+    $$(".tester-count").forEach(function (el) {
+      if (typeof tc.joined !== "number") { el.hidden = true; return; }
+      var need = tc.needed || 12, n = Math.min(tc.joined, need);
+      el.hidden = false;
+      $("i", el).style.width = (100 * n / need) + "%";
+      $("span", el).textContent = t("msg.testers", "{n} of {m} testers joined").replace("{n}", n).replace("{m}", need);
+    });
+  }
+  renderCount();
+  document.addEventListener("ptl:lang", renderCount);
+
+  // ---------- quotes (only real ones, from site.config.js) ----------
+  var qs = $("#quotes");
+  if (qs && S.quotes && S.quotes.length) {
+    var list = $(".quote-list", qs);
+    S.quotes.forEach(function (q) {
+      var fig = document.createElement("figure");
+      var bq = document.createElement("blockquote"); bq.textContent = q.text;
+      var cap = document.createElement("figcaption"); cap.textContent = q.name + (q.role ? ", " + q.role : "");
+      fig.append(bq, cap); list.append(fig);
+    });
+    qs.hidden = false;
+  }
+
+  // ---------- WhatsApp ----------
+  var wa = $(".wa");
+  if (wa && S.whatsapp) {
+    wa.href = "https://wa.me/" + String(S.whatsapp).replace(/\D/g, "") + "?text=" + encodeURIComponent("Hi Priya, I found you through Priya Tech Labs.");
+    wa.target = "_blank"; wa.rel = "noopener"; wa.hidden = false;
+  }
+
+  // ---------- About photo: falls back to initials if assets/me.jpg isn't there ----------
+  var photo = $(".about-photo img");
+  if (photo) {
+    var fail = function () { photo.parentNode.classList.add("no-photo"); };
+    if (photo.complete && !photo.naturalWidth) fail(); else photo.addEventListener("error", fail);
+  }
+
+  // ---------- screenshot gallery (app pages) ----------
+  $$(".gallery").forEach(function (g) {
+    var track = $(".g-track", g);
+    $$(".g-btn", g).forEach(function (b) {
+      b.addEventListener("click", function () {
+        var w = track.querySelector("li").getBoundingClientRect().width + 16;
+        track.scrollBy({ left: w * Number(b.dataset.g), behavior: reduce ? "auto" : "smooth" });
+      });
+    });
+  });
+
+  // ---------- privacy-friendly visit counter ----------
+  if (S.goatcounter) {
+    var gc = document.createElement("script");
+    gc.async = true; gc.src = "https://gc.zgo.at/count.js";
+    gc.dataset.goatcounter = "https://" + S.goatcounter + ".goatcounter.com/count";
+    document.body.append(gc);
+  }
 })();

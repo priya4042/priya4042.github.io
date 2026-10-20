@@ -4,5 +4,5 @@
 .policy p, .policy li { color: var(--text); }
 .policy p + p { margin-top: 12px; }
 .policy ul { padding-left: 1.2em; display: grid; gap: 6px; }
-.policy a { color: var(--ink); text-decoration-color: var(--marigold); text-decoration-thickness: 2px; text-underline-offset: 3px; word-break: break-word; }
+.policy a { color: var(--head); text-decoration-color: var(--marigold); text-decoration-thickness: 2px; text-underline-offset: 3px; word-break: break-word; }
 .policy em { color: var(--muted); font-style: normal; }
