@@ -17,6 +17,7 @@ C.HI.update(H.HI)
 import content_sites as SP
 import content_hi_pages as HP
 import content_og as OG
+import content_tools as T
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://priya4042.github.io/"   # change when a custom domain is added
@@ -122,7 +123,7 @@ def esc(s): return html.escape(s, quote=True)
 def og_for(url):
     """The page's own share image, or the site-wide one."""
     rel = url.replace(SITE_URL, "")
-    for prefix, kind in (("apps/", "app"), ("guides/", "guide"), ("work/", "case"), ("sites/", "site")):
+    for prefix, kind in (("apps/", "app"), ("guides/", "guide"), ("work/", "case"), ("sites/", "site"), ("tools/", "tool")):
         if rel.startswith(prefix) and rel.endswith(".html"):
             return f"{SITE_URL}assets/og/{kind}-{rel[len(prefix):-5]}.png"
     return f"{SITE_URL}assets/og.png"
@@ -175,7 +176,7 @@ def header(up, home_links=True):
 def footer(up):
     return f"""<footer class="foot">
   <p>© 2026 Priya Tech Labs · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
-  <nav aria-label="Footer"><a href="{up}#apps" data-i18n="nav.apps">Apps</a><a href="{up}#web" data-i18n="nav.web">Websites</a><a href="{up}#guides" data-i18n="nav.guides">Guides</a><a href="{up}#work" data-i18n="nav.cases">Case studies</a><a href="{up}press.html" data-i18n="nav.press">Press kit</a><a href="{up}site-privacy.html" data-i18n="nav.sprivacy">Privacy</a><a href="{up}terms.html" data-i18n="nav.terms">Terms</a><a href="{up}accessibility.html" data-i18n="nav.a11y">Accessibility</a><a href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
+  <nav aria-label="Footer"><a href="{up}#apps" data-i18n="nav.apps">Apps</a><a href="{up}#web" data-i18n="nav.web">Websites</a><a href="{up}#guides" data-i18n="nav.guides">Guides</a><a href="{up}tools/" data-i18n="nav.tools">Free tools</a><a href="{up}#work" data-i18n="nav.cases">Case studies</a><a href="{up}press.html" data-i18n="nav.press">Press kit</a><a href="{up}site-privacy.html" data-i18n="nav.sprivacy">Privacy</a><a href="{up}terms.html" data-i18n="nav.terms">Terms</a><a href="{up}accessibility.html" data-i18n="nav.a11y">Accessibility</a><a href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
   <div class="foot-extra"><div class="socials"></div><button class="btn btn-ghost install-btn" type="button" hidden data-install data-i18n="pwa.install">Install as an app</button></div>
 </footer>
 <button class="to-top" type="button" hidden aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
@@ -273,7 +274,7 @@ def app_page(a):
 def sitemap():
     urls = [SITE_URL, f"{SITE_URL}press.html"] + [f"{SITE_URL}apps/{a['slug']}.html" for a in APPS] + \
            [f"{SITE_URL}guides/{g['slug']}.html" for g in C.GUIDES] + \
-           [f"{SITE_URL}work/{c['slug']}.html" for c in M.CASES] + [f"{SITE_URL}site-privacy.html", f"{SITE_URL}terms.html", f"{SITE_URL}accessibility.html", f"{SITE_URL}guides/"] + [f"{SITE_URL}sites/{s['slug']}.html" for s in SP.SITE_PAGES] + \
+           [f"{SITE_URL}work/{c['slug']}.html" for c in M.CASES] + [f"{SITE_URL}site-privacy.html", f"{SITE_URL}terms.html", f"{SITE_URL}accessibility.html", f"{SITE_URL}guides/"] + [f"{SITE_URL}sites/{s['slug']}.html" for s in SP.SITE_PAGES] + [f"{SITE_URL}tools/"] + [f"{SITE_URL}tools/{t['slug']}.html" for t in T.TOOLS] + \
            [f"{SITE_URL}privacy/{os.path.basename(p)}" for p in sorted(glob.glob(os.path.join(ROOT, "privacy", "*.html")))]
     body = "".join(f"<url><loc>{u}</loc></url>" for u in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n'
@@ -364,6 +365,16 @@ if __name__ == "__main__":
     json.dump(idx, open(os.path.join(ROOT, "assets", "search.json"), "w", encoding="utf-8"), ensure_ascii=False)
     device_icons()
     OG.build_all(ROOT, APPS, C.GUIDES, M.CASES, SP.SITE_PAGES)
+    os.makedirs(os.path.join(ROOT, "tools"), exist_ok=True)
+    for t in T.TOOLS:
+        with open(os.path.join(ROOT, "tools", t["slug"] + ".html"), "w", encoding="utf-8") as f:
+            f.write(T.tool_page(t, head, header, footer, SITE_URL, APPS))
+        OG.card("Free tool", t["name"], t["desc"], os.path.join(ROOT, "assets", "og", f"tool-{t['slug']}.png"))
+    with open(os.path.join(ROOT, "tools", "index.html"), "w", encoding="utf-8") as f:
+        f.write(T.tools_index(head, header, footer, SITE_URL))
+    idx = json.load(open(os.path.join(ROOT, "assets", "search.json"), encoding="utf-8"))
+    idx = [i for i in idx if i["k"] != "Tool"] + [{"t": t["name"], "d": t["desc"], "u": f"tools/{t['slug']}.html", "k": "Tool", "x": t["name"] + " calculator free online"} for t in T.TOOLS]
+    json.dump(idx, open(os.path.join(ROOT, "assets", "search.json"), "w", encoding="utf-8"), ensure_ascii=False)
     os.makedirs(os.path.join(ROOT, "sites"), exist_ok=True)
     SP.site_qrs(ROOT)
     for sp in SP.SITE_PAGES:
