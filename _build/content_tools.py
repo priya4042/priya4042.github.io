@@ -151,6 +151,7 @@ def tool_page(t, head, header, footer, site_url, apps):
   </section>
   {note}
   <section class="tool-how"><h2 data-i18n="tool.how">How it's calculated</h2><p>{t['how']}</p>{related}</section>
+  {__import__("explore").explore("../", t["app"], "tool", t["slug"], apps) if t.get("app") else ""}
   <section class="ap-more"><h2 data-i18n="tool.more">More free tools</h2><div class="tool-grid">{others}</div></section>
 </main>
 <script src="../assets/vendor/qrcode.min.js" defer></script>

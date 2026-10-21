@@ -93,7 +93,8 @@ def read_label(mins):
 def guide_page(g, head, header, footer, site_url, apps):
     url = f"{site_url}guides/{g['slug']}.html"
     h = HI.get(g["slug"], ("", "", ""))
-    others = "".join(f'<a class="guide-card" href="{o["slug"]}.html"><span class="gc-meta">{read_label(o["mins"])}</span><h3>{bi(esc(o["title"]), HI.get(o["slug"], ("",))[0])}</h3><p>{bi(esc(o["desc"]), HI.get(o["slug"], ("", ""))[1])}</p></a>'
+    import explore as E
+    others = "".join(f'<a class="guide-card" href="{o["slug"]}.html">{E.thumb("../", "guide", o["slug"])}<span class="gc-meta">{read_label(o["mins"])}</span><h3>{bi(esc(o["title"]), HI.get(o["slug"], ("",))[0])}</h3><p>{bi(esc(o["desc"]), HI.get(o["slug"], ("", ""))[1])}</p></a>'
                      for o in [x for x in GUIDES if x["slug"] != g["slug"]][:3])
     app = next((a for a in apps if a["slug"] == g["app"]), None)
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": g["title"], "description": g["desc"],
@@ -110,10 +111,18 @@ def guide_page(g, head, header, footer, site_url, apps):
     <h1>{bi(esc(g['title']), h[0])}</h1>
     <p class="guide-meta"><time datetime="{g['date']}">20 October 2026</time><span>{read_label(g['mins'])}</span><span>Priya Kumari</span></p>
     <p class="guide-lede">{bi(esc(g['desc']), h[1])}</p>
-    <div class="guide-body" data-only="en">{g['body']}</div>
-    {('<div class="guide-body" data-only="hi" lang="hi">' + h[2] + '</div>') if h[2] else ''}
-    {cta}
+    <div class="guide-layout">
+      <aside class="toc" aria-label="Contents"><p class="toc-h">{bi("On this page", "इस पेज पर")}</p>
+        <ol data-only="en">{E.toc(g['body'], 'e')}</ol>{('<ol data-only="hi" lang="hi">' + E.toc(h[2], 'h') + '</ol>') if h[2] else ''}</aside>
+      <div class="guide-text">
+        <div class="guide-body" data-only="en">{E.add_ids(g['body'], 'e')}</div>
+        {('<div class="guide-body" data-only="hi" lang="hi">' + E.add_ids(h[2], 'h') + '</div>') if h[2] else ''}
+        {cta}
+        {E.prev_next(GUIDES, GUIDES.index(g), lambda x: x["slug"] + ".html", lambda x: x["title"], lambda x: HI.get(x["slug"], ("",))[0])}
+      </div>
+    </div>
   </article>
+  {E.explore("../", g.get("app") or "", "guide", g["slug"], apps) if g.get("app") else ""}
   <section class="guide-more"><h2 data-i18n="guides.more">More guides</h2><div class="guide-grid">{others}</div></section>
 </main>
 <script type="application/ld+json">{json.dumps(ld)}</script>

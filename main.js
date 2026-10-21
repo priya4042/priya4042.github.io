@@ -555,3 +555,49 @@
     });
   });
 })();
+
+// ---------- v10: phone menu drawer ----------
+(function () {
+  var drawer = document.getElementById("drawer"), btn = document.querySelector("[data-menu-open]");
+  if (!drawer || !btn) return;
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function open() {
+    drawer.hidden = false; btn.setAttribute("aria-expanded", "true"); document.documentElement.classList.add("no-scroll");
+    requestAnimationFrame(function () { drawer.classList.add("is-open"); });
+    var first = drawer.querySelector("summary, a, button"); if (first) first.focus({ preventScroll: true });
+  }
+  function close() {
+    if (drawer.hidden) return;
+    drawer.classList.remove("is-open"); btn.setAttribute("aria-expanded", "false"); document.documentElement.classList.remove("no-scroll");
+    setTimeout(function () { drawer.hidden = true; }, reduce ? 0 : 300);
+    btn.focus({ preventScroll: true });
+  }
+  btn.addEventListener("click", open);
+  drawer.querySelectorAll("[data-menu-close]").forEach(function (b) { b.addEventListener("click", close); });
+  drawer.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", close); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") close(); });
+})();
+
+// ---------- v11: app page screenshot slideshow + guide contents highlight ----------
+(function () {
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var slides = document.querySelector("[data-slides]");
+  if (slides && !reduce) {
+    var imgs = slides.querySelectorAll("img"), i = 0;
+    if (imgs.length > 1) setInterval(function () {
+      if (document.hidden) return;
+      imgs[i].classList.remove("on"); i = (i + 1) % imgs.length; imgs[i].classList.add("on");
+    }, 3000);
+  }
+  // highlight the section being read in the guide's contents list
+  var links = Array.prototype.slice.call(document.querySelectorAll(".toc a"));
+  if (links.length && "IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        links.forEach(function (a) { a.classList.toggle("is-here", a.getAttribute("href") === "#" + e.target.id); });
+      });
+    }, { rootMargin: "-20% 0px -70% 0px" });
+    document.querySelectorAll(".guide-body h2[id]").forEach(function (h) { io.observe(h); });
+  }
+})();

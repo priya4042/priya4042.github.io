@@ -166,7 +166,7 @@ def guides_index(guides, head, header, footer, site_url):
         f'<button class="chip" data-gfilter="{c}" aria-pressed="false" data-i18n="gcat.{c.lower()}">{c}</button>' for c in cats)
     import content as C
     cards = "".join(
-        f'<a class="guide-card" data-gcat="{g.get("cat", "Apps")}" href="{g["slug"]}.html"><span class="gc-meta">{C.read_label(g["mins"])}</span>'
+        f'<a class="guide-card" data-gcat="{g.get("cat", "Apps")}" href="{g["slug"]}.html"><img class="gc-thumb" src="../assets/og/thumb/guide-{g["slug"]}.webp" alt="" width="480" height="252" loading="lazy"><span class="gc-meta">{C.read_label(g["mins"])}</span>'
         f'<h3>{C.bi(esc(g["title"]), C.HI.get(g["slug"], ("",))[0])}</h3><p>{C.bi(esc(g["desc"]), C.HI.get(g["slug"], ("", ""))[1])}</p></a>' for g in guides)
     return f"""{head('Guides - Priya Tech Labs', 'Practical guides on money, study, video and Android apps from Priya Tech Labs.', url)}
 {header("../")}

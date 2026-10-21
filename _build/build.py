@@ -18,6 +18,7 @@ import content_sites as SP
 import content_hi_pages as HP
 import content_og as OG
 import content_tools as T
+import explore as E
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://priya4042.github.io/"   # change when a custom domain is added
@@ -159,26 +160,23 @@ def head(title, desc, url, depth=1):
 </head>"""
 
 def header(up, home_links=True):
-    nav = (f'<a href="{up}#apps" data-i18n="nav.apps">Apps</a><a href="{up}#web" data-i18n="nav.web">Websites</a>'
-           f'<a href="{up}#about" data-i18n="nav.about">About</a>')
+    import chrome
     return f"""<body>
 <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
-<header class="top">
-  <a class="brand" href="{up}" aria-label="Priya Tech Labs home"><img class="mark" src="{up}assets/mark.svg" alt="" width="30" height="30"><span>Priya Tech Labs</span></a>
-  <nav aria-label="Main">{nav}<a class="nav-cta" href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
-  <div class="toggles">
-    <button class="tgl" data-search-open aria-label="Search apps and sites" title="Search (Ctrl+K)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
-    <button class="tgl" data-lang-toggle aria-label="Switch language">हिंदी</button>
-    <button class="tgl" data-theme-toggle aria-label="Switch dark mode"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="sun" d="M12 4V2m0 20v-2m8-8h2M2 12h2m13.66-5.66 1.41-1.41M4.93 19.07l1.41-1.41m0-11.32L4.93 4.93m14.14 14.14-1.41-1.41M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10z"/><path class="moon-i" d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></svg></button>
-  </div>
-</header>"""
+<div class="progress" aria-hidden="true"><i></i></div>
+{chrome.header_html(up, APPS, SP.SITE_PAGES, T.TOOLS, C.GUIDES)}"""
+
+PRIVACY_LINKS = [("QuickScan", "https://sites.google.com/view/quickscan-app-privacy/home"), ("ReelCut", "privacy/reelcut.html"),
+                 ("Committee Book", "privacy/committee-book.html"), ("MCA Entrance Prep", "privacy/mca-entrance-prep.html"),
+                 ("Daily English", "privacy/daily-english.html"), ("DotNet Interview Prep", "privacy/dotnet-prep.html")]
+
+def footer_block(up):
+    import chrome
+    links = [(n, h if h.startswith("http") else up + h) for n, h in PRIVACY_LINKS]
+    return chrome.footer_html(up, APPS, SP.SITE_PAGES, T.TOOLS, C.GUIDES, EMAIL, links)
 
 def footer(up):
-    return f"""<footer class="foot">
-  <p>© 2026 Priya Tech Labs · <a href="mailto:{EMAIL}">{EMAIL}</a></p>
-  <nav aria-label="Footer"><a href="{up}#apps" data-i18n="nav.apps">Apps</a><a href="{up}#web" data-i18n="nav.web">Websites</a><a href="{up}#guides" data-i18n="nav.guides">Guides</a><a href="{up}tools/" data-i18n="nav.tools">Free tools</a><a href="{up}#work" data-i18n="nav.cases">Case studies</a><a href="{up}press.html" data-i18n="nav.press">Press kit</a><a href="{up}site-privacy.html" data-i18n="nav.sprivacy">Privacy</a><a href="{up}terms.html" data-i18n="nav.terms">Terms</a><a href="{up}accessibility.html" data-i18n="nav.a11y">Accessibility</a><a href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
-  <div class="foot-extra"><div class="socials"></div><button class="btn btn-ghost install-btn" type="button" hidden data-install data-i18n="pwa.install">Install as an app</button></div>
-</footer>
+    return f"""{footer_block(up)}
 <button class="to-top" type="button" hidden aria-label="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
 <a class="wa" href="#" hidden aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7a.6.6 0 0 0 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.1-.3-.2-.6-.4z"/></svg></a>
 <script src="{up}site.config.js"></script>
@@ -222,6 +220,11 @@ def app_page(a):
     hi = HP.APP_HI.get(a["slug"], {})
     hf = hi.get("feats", []); hq = hi.get("faq", [])
     feats = "".join(f"<li>{C.bi(esc(f), hf[i] if i < len(hf) else '')}</li>" for i, f in enumerate(a["feats"]))
+    phone = ""
+    if a["shots"]:
+        lazy = ' loading="lazy"'
+        shots = "".join(f'<img class="{"on" if i == 1 else ""}" src="../assets/gallery/{a["slug"]}-{i}.webp" alt="" width="432" height="786"{"" if i == 1 else lazy}>' for i in range(1, a["shots"] + 1))
+        phone = f'<div class="ap-phone" aria-hidden="true"><div class="ap-screens" data-slides>{shots}</div></div>'
     faq = "".join(f"<details><summary>{C.bi(esc(q), hq[i][0] if i < len(hq) else '')}</summary><p>{C.bi(esc(ans), hq[i][1] if i < len(hq) else '')}</p></details>"
                   for i, (q, ans) in enumerate(a["faq"]))
     links = []
@@ -236,7 +239,7 @@ def app_page(a):
     return f"""{head(f"{a['name']} - Priya Tech Labs", a["what"], url)}
 {header("../")}
 <main id="main" class="app-page" style="--app-accent:{a.get('accent', '#1D1B4C')}">
-  <section class="ap-hero">
+  <section class="ap-hero{' has-phone' if a['shots'] else ''}">
     <img class="ap-icon" src="../assets/apps/{a['slug']}.png" alt="{esc(a['short'])} icon" width="112" height="112">
     <div class="ap-copy">
       <p class="crumbs"><a href="../#apps" data-i18n="nav.apps">Apps</a> / <span data-i18n="cat.{a['cat'].lower()}">{a['cat']}</span></p>
@@ -246,6 +249,7 @@ def app_page(a):
       <p class="ap-meta">{''.join(meta)}</p>
       {cta(a)}
     </div>
+    {phone}
   </section>
   {gallery}
   <section class="ap-about">
@@ -266,7 +270,9 @@ def app_page(a):
     </div>
     <figure class="qr"><img src="../assets/qr/{a['slug']}.svg" alt="QR code that opens this page" width="180" height="180" loading="lazy"><figcaption data-i18n="share.qr">Scan to open on your phone</figcaption></figure>
   </section>
+  {E.explore("../", a["slug"], "app", a["slug"], APPS)}
   <section class="ap-more"><h2 data-i18n="page.more">More apps</h2><div class="more-row">{others}</div></section>
+  {E.prev_next(APPS, APPS.index(a), lambda x: x["slug"] + ".html", lambda x: x["short"])}
 </main>
 <script type="application/ld+json">{json.dumps(ld)}</script>
 {footer("../")}"""
@@ -365,6 +371,7 @@ if __name__ == "__main__":
     json.dump(idx, open(os.path.join(ROOT, "assets", "search.json"), "w", encoding="utf-8"), ensure_ascii=False)
     device_icons()
     OG.build_all(ROOT, APPS, C.GUIDES, M.CASES, SP.SITE_PAGES)
+    E.make_thumbs(ROOT, APPS)
     os.makedirs(os.path.join(ROOT, "tools"), exist_ok=True)
     for t in T.TOOLS:
         with open(os.path.join(ROOT, "tools", t["slug"] + ".html"), "w", encoding="utf-8") as f:
@@ -387,4 +394,9 @@ if __name__ == "__main__":
         if it["k"] == "Website" and it["t"] in by_name:
             s = by_name[it["t"]]; it["u"] = f"sites/{s['slug']}.html"; it["x"] = " ".join([s["name"], s["cat"]] + s["feats"])
     json.dump(idx, open(os.path.join(ROOT, "assets", "search.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    import chrome, re as _re
+    ip = os.path.join(ROOT, "index.html"); h = open(ip, encoding="utf-8").read()
+    h = _re.sub(r"<!--HEADER-->.*?<!--/HEADER-->", lambda m: "<!--HEADER-->" + chrome.header_html("", APPS, SP.SITE_PAGES, T.TOOLS, C.GUIDES, on_hero=True) + "<!--/HEADER-->", h, flags=_re.S)
+    h = _re.sub(r"<!--FOOTER-->.*?<!--/FOOTER-->", lambda m: "<!--FOOTER-->" + footer_block("") + "<!--/FOOTER-->", h, flags=_re.S)
+    open(ip, "w", encoding="utf-8").write(h)
     print(f"built {len(APPS)} app pages, {len(C.GUIDES)} guides, press kit, search index, QR codes, sitemap, og image")
