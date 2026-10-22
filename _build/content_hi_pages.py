@@ -123,3 +123,7 @@ HOME_HI = {
  "44 quick games for every age, with multiplayer rooms. Web app.": "हर उम्र के लिए 44 छोटे गेम, मल्टीप्लेयर रूम के साथ। वेब ऐप।",
  "An AI assistant platform with agents, tools and document search. Web app.": "एजेंट, टूल और डॉक्यूमेंट सर्च वाला AI असिस्टेंट प्लेटफ़ॉर्म। वेब ऐप।",
 }
+
+
+import content_apps_new as _NA
+APP_HI.update(_NA.APP_HI)

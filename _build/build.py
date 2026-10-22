@@ -19,6 +19,8 @@ import content_hi_pages as HP
 import content_og as OG
 import content_tools as T
 import explore as E
+import content_apps_new as NA
+import downloads as DLS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://priya4042.github.io/"   # change when a custom domain is added
@@ -103,6 +105,7 @@ APPS = [
          faq=[("Does it need internet?", "No. All questions and answers are in the app."),
               ("Is it only for .NET?", "The core is .NET and C#, but DSA, SQL and system design apply to any backend role.")],
          privacy="../privacy/dotnet-prep.html", github="https://github.com/priya4042/dotnet-prep", shots=5),
+    # FormReady, Hisaab and Panchang come from content_apps_new.py (inserted below)
     dict(slug="reelcut", name="ReelCut", short="ReelCut", status="soon", cat="Tools",
          package="com.reelcut.app", version="1.0.0", langs="English", offline=True, ads=False,
          what="Turn your own long videos into Shorts, Reels and TikToks, entirely on your phone.",
@@ -114,6 +117,8 @@ APPS = [
               ("Can I use it with YouTube links?", "No - ReelCut works with videos you recorded or own.")],
          privacy="../privacy/reelcut.html", github="https://github.com/priya4042/reelcut", shots=2),
 ]
+_rc = [i for i, a in enumerate(APPS) if a['slug'] == 'reelcut'][0]
+APPS[_rc:_rc] = NA.APPS
 
 BADGE = {"testing": ("badge-testing", "Testing on Google Play", "badge.testing"),
          "soon": ("badge-soon", "Coming to Google Play", "badge.soon"),
@@ -187,6 +192,9 @@ def footer(up):
 </html>"""
 
 def cta(a):
+    return _cta(a) + DLS.block(a, '../')
+
+def _cta(a):
     if a["status"] == "live" and a.get("play"):
         return f'<a class="btn btn-primary" href="{a["play"]}" target="_blank" rel="noopener" data-i18n="cta.play">Get it on Google Play</a>'
     if a["status"] == "testing":
@@ -281,7 +289,7 @@ def app_page(a):
 def sitemap():
     urls = [SITE_URL, f"{SITE_URL}press.html"] + [f"{SITE_URL}apps/{a['slug']}.html" for a in APPS] + \
            [f"{SITE_URL}guides/{g['slug']}.html" for g in C.GUIDES] + \
-           [f"{SITE_URL}work/{c['slug']}.html" for c in M.CASES] + [f"{SITE_URL}site-privacy.html", f"{SITE_URL}terms.html", f"{SITE_URL}accessibility.html", f"{SITE_URL}guides/"] + [f"{SITE_URL}sites/{s['slug']}.html" for s in SP.SITE_PAGES] + [f"{SITE_URL}tools/"] + [f"{SITE_URL}tools/{t['slug']}.html" for t in T.TOOLS] + \
+           [f"{SITE_URL}work/{c['slug']}.html" for c in M.CASES] + [f"{SITE_URL}download.html", f"{SITE_URL}site-privacy.html", f"{SITE_URL}terms.html", f"{SITE_URL}accessibility.html", f"{SITE_URL}guides/"] + [f"{SITE_URL}sites/{s['slug']}.html" for s in SP.SITE_PAGES] + [f"{SITE_URL}tools/"] + [f"{SITE_URL}tools/{t['slug']}.html" for t in T.TOOLS] + \
            [f"{SITE_URL}privacy/{os.path.basename(p)}" for p in sorted(glob.glob(os.path.join(ROOT, "privacy", "*.html")))]
     body = "".join(f"<url><loc>{u}</loc></url>" for u in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{body}</urlset>\n'
@@ -354,6 +362,7 @@ if __name__ == "__main__":
     with open(os.path.join(ROOT, "assets", "search.json"), "w", encoding="utf-8") as f:
         json.dump(C.search_index(APPS), f, ensure_ascii=False)
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f: f.write(sitemap())
+    with open(os.path.join(ROOT, "download.html"), "w", encoding="utf-8") as f: f.write(DLS.page(APPS, head, header, footer, SITE_URL))
     og_image()
     C.press_zip(ROOT, APPS)
     os.makedirs(os.path.join(ROOT, "work"), exist_ok=True)
@@ -399,5 +408,40 @@ if __name__ == "__main__":
     ip = os.path.join(ROOT, "index.html"); h = open(ip, encoding="utf-8").read()
     h = _re.sub(r"<!--HEADER-->.*?<!--/HEADER-->", lambda m: "<!--HEADER-->" + chrome.header_html("", APPS, SP.SITE_PAGES, T.TOOLS, C.GUIDES, on_hero=True) + "<!--/HEADER-->", h, flags=_re.S)
     h = _re.sub(r"<!--FOOTER-->.*?<!--/FOOTER-->", lambda m: "<!--FOOTER-->" + footer_block("") + "<!--/FOOTER-->", h, flags=_re.S)
+    # home: cards for the newer apps, and download buttons on every app card
+    def _card(a):
+        hf = HP.APP_HI.get(a["slug"], {}).get("feats", [])
+        li = "".join(f'<li><span data-only="en">{esc(f)}</span><span data-only="hi" lang="hi">{esc(hf[i]) if i < len(hf) else ""}</span></li>' for i, f in enumerate(a["feats"][:3]))
+        dc = {"Money": "money", "Study": "study"}.get(a["cat"], "tools")
+        return f"""    <article class="app" data-cat="{dc}">
+      <div class="app-top">
+        <img class="icon" src="assets/apps/{a['slug']}.png" alt="{esc(a['short'])} icon" width="56" height="56" loading="lazy">
+        <div><h3><a href="apps/{a['slug']}.html">{esc(a['short'])}</a></h3><span class="badge badge-soon" data-i18n="badge.soon">Coming to Google Play</span></div>
+      </div>
+      <p class="what" data-i18n="app.{a['slug']}">{esc(a['what'])}</p>
+      <ul class="feats">{li}</ul>
+      <div class="actions">
+        <a class="link" href="apps/{a['slug']}.html" data-i18n="cta.details">See details</a>
+        <a class="link" href="{a['privacy']}" data-i18n="link.privacy">Privacy policy</a>
+      </div>
+      <img class="peek" src="assets/shots/{a['slug']}.webp" alt="" width="540" height="983" loading="lazy">
+    </article>
+"""
+    new_cards = "<!--NEWAPPS-->\n" + "".join(_card(a) for a in NA.APPS) + "    <!--/NEWAPPS-->"
+    if "<!--NEWAPPS-->" in h:
+        h = _re.sub(r"<!--NEWAPPS-->.*?<!--/NEWAPPS-->", lambda m: new_cards, h, flags=_re.S)
+    else:
+        i = h.index('<article class="app" data-cat="tools">', h.index('id="apps"') + 2000)
+        h = h[:i] + new_cards + "\n\n    " + h[i:]
+    h = _re.sub(r"<!--DL-->.*?<!--/DL-->\s*", "", h, flags=_re.S)
+    for a in APPS:
+        blk = DLS.block(a, "")
+        if not blk:
+            continue
+        k = h.find(f'href="apps/{a["slug"]}.html" data-i18n="cta.details"')
+        if k < 0:
+            continue
+        j = h.rfind('<div class="actions">', 0, k)
+        h = h[:j] + "<!--DL-->" + blk + "<!--/DL-->\n        " + h[j:]
     open(ip, "w", encoding="utf-8").write(h)
     print(f"built {len(APPS)} app pages, {len(C.GUIDES)} guides, press kit, search index, QR codes, sitemap, og image")

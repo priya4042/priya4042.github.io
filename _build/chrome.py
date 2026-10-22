@@ -38,7 +38,7 @@ def header_html(up, apps, sites, tools, guides, on_hero=False):
         drawer += f'<details class="dr-g"{" open" if key == "apps" else ""}><summary data-i18n="{i18n}">{label}</summary><div class="dr-list">{lis}<a class="dr-all" href="{allhref}">{label} &rarr;</a></div></details>'
     return f"""<header class="top{' on-hero' if on_hero else ''}">
   <a class="brand" href="{up or './'}" aria-label="Priya Tech Labs home"><img class="mark" src="{up}assets/mark.svg" alt="" width="30" height="30"><span>Priya Tech Labs</span></a>
-  <nav class="mainnav" aria-label="Main">{items}<a class="nav-top nav-plain" href="{up}#about" data-i18n="nav.about">About</a><a class="nav-cta" href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
+  <nav class="mainnav" aria-label="Main">{items}<a class="nav-top nav-plain" href="{up}download.html" data-i18n="nav.dl">Download apps</a><a class="nav-top nav-plain" href="{up}#about" data-i18n="nav.about">About</a><a class="nav-cta" href="{up}#contact" data-i18n="nav.work">Work with me</a></nav>
   <div class="toggles">
     <button class="tgl" data-search-open aria-label="Search apps and sites" title="Search (Ctrl+K)">{ICON_SEARCH}</button>
     <button class="tgl" data-lang-toggle aria-label="Switch language">हिंदी</button>
@@ -52,6 +52,7 @@ def header_html(up, apps, sites, tools, guides, on_hero=False):
     <div class="drawer-head"><b>Priya Tech Labs</b><button class="tgl" data-menu-close aria-label="Close menu"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
     {drawer}
     <a class="dr-link" href="{up}#work" data-i18n="nav.cases">Case studies</a>
+    <a class="dr-link" href="{up}download.html" data-i18n="nav.dl">Download apps</a>
     <a class="dr-link" href="{up}#about" data-i18n="nav.about">About</a>
     <a class="btn btn-primary dr-cta" href="{up}#contact" data-i18n="nav.work">Work with me</a>
   </nav>

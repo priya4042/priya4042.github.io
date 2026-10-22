@@ -1,0 +1,78 @@
+# -*- coding: utf-8 -*-
+"""FormReady, Hisaab and Panchang as apps (they were websites first). Same fields as APPS in build.py."""
+
+APPS = [
+    dict(slug="formready", name="FormReady: Exam Photo & PDF", short="FormReady", status="soon", cat="Study", accent="#16245C",
+         package="com.priyatechlabs.formready", version="1.0.0", langs="English, Hindi", offline=True, ads=True,
+         what="Make your photo, signature and documents fit any Indian exam form, in the exact KB and pixels.",
+         about="FormReady does the fiddly part of SSC, IBPS, UPSC, NEET, JEE, CUET and RRB forms on your phone: photos and signatures in the exact size, a white background, scanned and merged PDFs under the size limit, and a calendar of form dates with reminders. Nothing is uploaded.",
+         feats=["Photo and signature resizer with presets for every major exam",
+                "White background, signature straightening and camera scanning",
+                "Merge, compress and split PDFs; images to PDF",
+                "Exam calendar, admit card and result alerts, age eligibility",
+                "Exam checklist and an application tracker with reminders",
+                "Typing test with Inscript and Krutidev keys, Krutidev to Unicode"],
+         faq=[("Are my photos uploaded anywhere?", "No. Everything happens on your phone."),
+              ("Are the sizes official?", "They are taken from the official notifications. Always check the latest notice for your exam, as limits can change."),
+              ("Does it work offline?", "Yes. Only the exam calendar and alerts need the internet to refresh.")],
+         privacy="https://priya4042.github.io/privacy/formready-app.html", github="", shots=4),
+    dict(slug="hisaab", name="Hisaab: Tax, EMI, SIP, GST", short="Hisaab", status="soon", cat="Money", accent="#0E4D45",
+         package="com.priyatechlabs.hisaab", version="1.0.0", langs="English, Hindi", offline=True, ads=True,
+         what="26 money calculators for Indian households, updated for Budget 2026, with the working shown line by line.",
+         about="Hisaab works out the money sums a household does: income tax old vs new, in-hand salary, GST, FD, PPF, SIP, EMI, gold, gratuity, capital gains and more. It also plans tax saving before 31 March, reminds you of EMIs and SIPs, makes rent receipts and splits trip expenses.",
+         feats=["Income tax old vs new regime, tax-saving planner and ITR helper",
+                "EMI, loan eligibility, compare loans, prepayment, car loan or cash",
+                "FD, RD, PPF, SIP, NPS, EPF, Sukanya Samriddhi and goal planner",
+                "GST, gold price, capital gains, gratuity, HRA and rent receipts",
+                "Saved calculations on a home-screen widget, EMI and SIP reminders",
+                "Monthly budget and trip expense splitting, results read aloud"],
+         faq=[("Is it updated for the new tax rules?", "Yes, for FY 2026-27 (Budget 2026). Rates such as PPF are updated every quarter without an app update."),
+              ("Is my data stored online?", "No. Everything stays on your phone."),
+              ("Can I trust the numbers for filing?", "Use them for planning. Check final figures with your employer, bank or a tax professional.")],
+         privacy="https://priya4042.github.io/privacy/hisaab-app.html", github="", shots=4),
+    dict(slug="panchang", name="Panchang: Tithi & Muhurat", short="Panchang", status="soon", cat="Utility", accent="#B71C1C",
+         package="com.priyatechlabs.panchang", version="1.0.0", langs="English, Hindi", offline=True, ads=True,
+         what="Today's Hindu panchang for your city, with muhurat, festivals, aarti and reminders.",
+         about="Panchang shows the tithi, nakshatra, yoga and karana with their end times, sunrise, moonrise, Rahu Kaal, Choghadiya and Hora for 151 Indian cities and 57 abroad. It lists every festival and vrat from 2025 to 2030 with its story, keeps family tithi dates, and reads aartis aloud.",
+         feats=["Daily panchang with exact end times, Choghadiya and Hora",
+                "Muhurat dates for marriage, griha pravesh and purchases",
+                "Festivals and vrats 2025-2030 with stories and reminders",
+                "Hanuman Chalisa and aartis with read-aloud",
+                "My dates: tithi birthdays and shraddh, birth rashi",
+                "Tamil, Bengali, Malayalam, Gujarati and Marathi calendars"],
+         faq=[("How accurate are the dates?", "Sun and moon positions come from proven astronomy with the Lahiri ayanamsa, and festival dates are checked against published calendars. Local customs can keep a festival a day apart."),
+              ("Does it make predictions?", "No. It gives positions and dates only."),
+              ("Does it work abroad?", "Yes, for 57 cities abroad or your own location, in local time.")],
+         privacy="https://priya4042.github.io/privacy/panchang-app.html", github="", shots=4),
+]
+
+APP_HI = {
+    "formready": dict(
+        about="FormReady SSC, IBPS, UPSC, NEET, JEE, CUET और RRB फ़ॉर्म का झंझट वाला काम आपके फ़ोन पर करता है: सही साइज़ में फ़ोटो और सिग्नेचर, सफ़ेद बैकग्राउंड, साइज़ सीमा में स्कैन और जोड़ी गई PDF, और रिमाइंडर के साथ फ़ॉर्म की तारीखों का कैलेंडर। कुछ भी अपलोड नहीं होता।",
+        feats=["हर बड़ी परीक्षा के प्रीसेट के साथ फ़ोटो और सिग्नेचर रीसाइज़र", "सफ़ेद बैकग्राउंड, सिग्नेचर सीधा करना और कैमरा स्कैन", "PDF जोड़ें, छोटी करें और अलग करें; तस्वीरों से PDF",
+               "परीक्षा कैलेंडर, एडमिट कार्ड और रिज़ल्ट अलर्ट, उम्र पात्रता", "परीक्षा चेकलिस्ट और रिमाइंडर के साथ आवेदन ट्रैकर", "इनस्क्रिप्ट और कृतिदेव कीज़ से टाइपिंग टेस्ट, कृतिदेव से यूनिकोड"],
+        faq=[("क्या मेरी फ़ोटो कहीं अपलोड होती है?", "नहीं। सब कुछ आपके फ़ोन पर होता है।"),
+             ("क्या साइज़ आधिकारिक हैं?", "ये आधिकारिक नोटिफ़िकेशन से लिए गए हैं। सीमा बदल सकती है, इसलिए अपनी परीक्षा का नया नोटिस ज़रूर देखें।"),
+             ("क्या यह ऑफ़लाइन चलता है?", "हाँ। सिर्फ़ परीक्षा कैलेंडर और अलर्ट रिफ़्रेश करने के लिए इंटरनेट चाहिए।")]),
+    "hisaab": dict(
+        about="Hisaab घर के पैसों का हर हिसाब करता है: पुरानी बनाम नई व्यवस्था में इनकम टैक्स, हाथ में सैलरी, GST, FD, PPF, SIP, EMI, सोना, ग्रेच्युटी, कैपिटल गेन और भी बहुत कुछ। यह 31 मार्च से पहले टैक्स बचत की योजना बनाता है, EMI और SIP याद दिलाता है, किराया रसीद बनाता है और ट्रिप का खर्च बाँटता है।",
+        feats=["पुरानी बनाम नई व्यवस्था में इनकम टैक्स, टैक्स बचत प्लानर और ITR हेल्पर", "EMI, लोन पात्रता, लोन की तुलना, प्रीपेमेंट, कार लोन या कैश",
+               "FD, RD, PPF, SIP, NPS, EPF, सुकन्या समृद्धि और लक्ष्य प्लानर", "GST, सोने का दाम, कैपिटल गेन, ग्रेच्युटी, HRA और किराया रसीद",
+               "होम स्क्रीन विजेट पर सेव किए हिसाब, EMI और SIP रिमाइंडर", "मासिक बजट और ट्रिप खर्च बाँटना, नतीजे सुनें"],
+        faq=[("क्या यह नए टैक्स नियमों के अनुसार है?", "हाँ, FY 2026-27 (बजट 2026) के अनुसार। PPF जैसी दरें हर तिमाही बिना ऐप अपडेट के बदल जाती हैं।"),
+             ("क्या मेरा डेटा ऑनलाइन रहता है?", "नहीं। सब कुछ आपके फ़ोन पर रहता है।"),
+             ("क्या रिटर्न भरने के लिए इन आँकड़ों पर भरोसा करें?", "इन्हें योजना के लिए इस्तेमाल करें। अंतिम आँकड़े कंपनी, बैंक या टैक्स सलाहकार से जाँचें।")]),
+    "panchang": dict(
+        about="Panchang 151 भारतीय और विदेश के 57 शहरों के लिए तिथि, नक्षत्र, योग और करण उनके खत्म होने के समय के साथ, सूर्योदय, चंद्रोदय, राहु काल, चौघड़िया और होरा दिखाता है। इसमें 2025 से 2030 तक हर त्योहार और व्रत उसकी कथा के साथ है, परिवार की तिथियाँ सहेजी जाती हैं, और आरती पढ़कर सुनाई जाती है।",
+        feats=["खत्म होने के सही समय के साथ रोज़ का पंचांग, चौघड़िया और होरा", "विवाह, गृह प्रवेश और खरीदारी के मुहूर्त", "2025-2030 के त्योहार और व्रत, कथा और रिमाइंडर के साथ",
+               "हनुमान चालीसा और आरती, पढ़कर सुनाने के साथ", "मेरी तारीखें: तिथि से जन्मदिन और श्राद्ध, जन्म राशि", "तमिल, बंगाली, मलयालम, गुजराती और मराठी कैलेंडर"],
+        faq=[("तारीखें कितनी सही हैं?", "सूर्य और चंद्रमा की स्थिति भरोसेमंद खगोल गणना और लाहिरी अयनांश से है, और त्योहारों की तारीखें छपे कैलेंडर से जाँची गई हैं। स्थानीय परंपरा में त्योहार एक दिन आगे-पीछे हो सकता है।"),
+             ("क्या यह भविष्यवाणी करता है?", "नहीं। यह सिर्फ़ स्थिति और तारीखें देता है।"),
+             ("क्या यह विदेश में चलता है?", "हाँ, विदेश के 57 शहरों या आपकी लोकेशन के लिए, वहाँ के समय में।")]),
+}
+
+I18N = {
+    "app.formready": "किसी भी भारतीय परीक्षा फ़ॉर्म के लिए अपनी फ़ोटो, सिग्नेचर और दस्तावेज़ सही KB और पिक्सेल में तैयार करें।",
+    "app.hisaab": "भारतीय घरों के लिए 26 पैसों के कैलकुलेटर, बजट 2026 के अनुसार, लाइन दर लाइन हिसाब के साथ।",
+    "app.panchang": "आपके शहर का आज का हिंदू पंचांग, मुहूर्त, त्योहार, आरती और रिमाइंडर के साथ।",
+}
