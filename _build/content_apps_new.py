@@ -44,6 +44,20 @@ APPS = [
               ("Does it make predictions?", "No. It gives positions and dates only."),
               ("Does it work abroad?", "Yes, for 57 cities abroad or your own location, in local time.")],
          privacy="https://priya4042.github.io/privacy/panchang-app.html", github="", shots=4),
+    dict(slug="biodata", name="Vivah Biodata: Marriage Biodata", short="Vivah Biodata", status="soon", cat="Utility", accent="#8E1B3A",
+         package="com.priyatechlabs.biodata", version="1.0.0", langs="English, Hindi", offline=True, ads=True,
+         what="Make a beautiful marriage biodata in Hindi or English, with your photo, and share it as a PDF.",
+         about="Vivah Biodata turns your details into a neat, one-page marriage biodata. Fill in personal, education, family and contact details, add a photo, pick one of six designs and an opening line for your faith, and share a sharp PDF or picture on WhatsApp. Nothing leaves your phone.",
+         feats=["Personal, education, family and contact sections you can change freely",
+                "Six designs, your photo framed, and a title of your choice",
+                "Opening line for every faith, such as Shri Ganeshaya Namah, Om, Ik Onkar or Bismillah",
+                "Biodata in Hindi or English, with Hindi printed correctly",
+                "Share a PDF or picture on WhatsApp, or print it",
+                "Copies for brothers and sisters, backup to a file"],
+         faq=[("Is my biodata uploaded anywhere?", "No. Your details and photo stay on your phone. Only the PDF you choose to share leaves it."),
+              ("Can I make it in Hindi?", "Yes. Choose Hindi for the biodata and every label prints in Hindi; you can type your details in Hindi or English."),
+              ("Does it fit on one page?", "Yes. Long biodatas shrink to fit one A4 page.")],
+         privacy="https://priya4042.github.io/privacy/biodata-app.html", github="", shots=4),
 ]
 
 APP_HI = {
@@ -62,6 +76,14 @@ APP_HI = {
         faq=[("क्या यह नए टैक्स नियमों के अनुसार है?", "हाँ, FY 2026-27 (बजट 2026) के अनुसार। PPF जैसी दरें हर तिमाही बिना ऐप अपडेट के बदल जाती हैं।"),
              ("क्या मेरा डेटा ऑनलाइन रहता है?", "नहीं। सब कुछ आपके फ़ोन पर रहता है।"),
              ("क्या रिटर्न भरने के लिए इन आँकड़ों पर भरोसा करें?", "इन्हें योजना के लिए इस्तेमाल करें। अंतिम आँकड़े कंपनी, बैंक या टैक्स सलाहकार से जाँचें।")]),
+    "biodata": dict(
+        about="Vivah Biodata आपकी जानकारी को साफ़, एक पेज के विवाह बायोडाटा में बदल देता है। व्यक्तिगत, शिक्षा, परिवार और संपर्क की जानकारी भरें, फ़ोटो जोड़ें, छह में से एक डिज़ाइन और अपने धर्म की शुरुआती पंक्ति चुनें, और साफ़ PDF या फ़ोटो WhatsApp पर शेयर करें। कुछ भी फ़ोन से बाहर नहीं जाता।",
+        feats=["व्यक्तिगत, शिक्षा, परिवार और संपर्क के भाग, जिन्हें आप जैसे चाहें बदलें", "छह डिज़ाइन, फ़्रेम में आपकी फ़ोटो, और अपनी पसंद का शीर्षक",
+               "हर धर्म की शुरुआती पंक्ति, जैसे श्री गणेशाय नमः, ॐ, इक ओंकार या बिस्मिल्लाह", "हिंदी या अंग्रेज़ी में बायोडाटा, हिंदी सही छपती है",
+               "PDF या फ़ोटो WhatsApp पर शेयर करें, या प्रिंट करें", "भाई-बहनों के लिए कॉपी, फ़ाइल में बैकअप"],
+        faq=[("क्या मेरा बायोडाटा कहीं अपलोड होता है?", "नहीं। आपकी जानकारी और फ़ोटो फ़ोन पर ही रहती है। सिर्फ़ वही PDF बाहर जाती है जो आप शेयर करते हैं।"),
+             ("क्या मैं इसे हिंदी में बना सकता/सकती हूँ?", "हाँ। बायोडाटा के लिए हिंदी चुनें, हर लेबल हिंदी में छपेगा; जानकारी हिंदी या अंग्रेज़ी में लिखें।"),
+             ("क्या यह एक पेज में आता है?", "हाँ। लंबा बायोडाटा भी एक A4 पेज में आ जाता है।")]),
     "panchang": dict(
         about="Panchang 151 भारतीय और विदेश के 57 शहरों के लिए तिथि, नक्षत्र, योग और करण उनके खत्म होने के समय के साथ, सूर्योदय, चंद्रोदय, राहु काल, चौघड़िया और होरा दिखाता है। इसमें 2025 से 2030 तक हर त्योहार और व्रत उसकी कथा के साथ है, परिवार की तिथियाँ सहेजी जाती हैं, और आरती पढ़कर सुनाई जाती है।",
         feats=["खत्म होने के सही समय के साथ रोज़ का पंचांग, चौघड़िया और होरा", "विवाह, गृह प्रवेश और खरीदारी के मुहूर्त", "2025-2030 के त्योहार और व्रत, कथा और रिमाइंडर के साथ",
@@ -74,5 +96,6 @@ APP_HI = {
 I18N = {
     "app.formready": "किसी भी भारतीय परीक्षा फ़ॉर्म के लिए अपनी फ़ोटो, सिग्नेचर और दस्तावेज़ सही KB और पिक्सेल में तैयार करें।",
     "app.hisaab": "भारतीय घरों के लिए 26 पैसों के कैलकुलेटर, बजट 2026 के अनुसार, लाइन दर लाइन हिसाब के साथ।",
+    "app.biodata": "अपनी फ़ोटो के साथ हिंदी या अंग्रेज़ी में सुंदर विवाह बायोडाटा बनाएँ और PDF शेयर करें।",
     "app.panchang": "आपके शहर का आज का हिंदू पंचांग, मुहूर्त, त्योहार, आरती और रिमाइंडर के साथ।",
 }
