@@ -25,6 +25,7 @@ DL = {
     "tuition": ("tuition_app", "1.0.0"),
     "shagun": ("shagun_app", "1.0.0"),
     "vehicle": ("vehicle_app", "1.0.0"),
+    "hindi-typing": ("hindi_typing_app", "1.0.0"),
 }
 
 def files(slug):

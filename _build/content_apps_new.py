@@ -128,6 +128,20 @@ APPS = [
               ("Why do I need to fill the tank full?", "Mileage is measured between two full tanks. Partial top-ups in between are counted in the next full one, so the figure stays honest."),
               ("Does it work for CNG and electric?", "Yes. CNG is counted in kg and electric in kWh, so mileage shows as km per kg or km per kWh.")],
          privacy="https://priya4042.github.io/privacy/vehicle-app.html", github="", shots=4),
+    dict(slug="hindi-typing", name="Hindi Typing: Inscript, Krutidev", short="Hindi Typing", status="soon", cat="Study", accent="#0D5C63",
+         package="com.priyatechlabs.hinditype", version="1.0.0", langs="English, Hindi", offline=True, ads=True,
+         what="Learn Hindi typing in Inscript or Krutidev with key-by-key lessons and timed tests.",
+         about="Hindi Typing teaches the Inscript and Krutidev (Remington) layouts row by row. The next key lights up on the keyboard with the finger to use, so your hands learn the positions. Then practise on exam-style passages for 2 to 15 minutes and see your net speed, accuracy and every wrong word. Connect a USB or Bluetooth keyboard to practise as in the exam hall.",
+         feats=["Lessons row by row, then Shift and common words",
+                "The next key lights up, with the finger to use",
+                "Timed tests on exam-style passages, 2 to 15 minutes",
+                "Net and gross speed, accuracy and every wrong word",
+                "Works with a USB or Bluetooth keyboard, or on screen",
+                "Key charts and a Krutidev to Unicode converter"],
+         faq=[("Which layout should I learn?", "The one your exam allows. Typing tests differ, so check your exam notice. Inscript is the standard Unicode Hindi keyboard; Krutidev follows the Remington typewriter."),
+              ("How are Krutidev letters like ऊ typed?", "On a computer they need Alt codes. The app gives them their own keys so you can still practise every word."),
+              ("Is my speed the same as the exam result?", "Exams count speed and mistakes in their own ways. The app shows net and gross speed and wrong words so you can see where you stand.")],
+         privacy="https://priya4042.github.io/privacy/hindi-typing-app.html", github="", shots=4),
 ]
 
 APP_HI = {
@@ -154,6 +168,14 @@ APP_HI = {
         faq=[("क्या मेरा बायोडाटा कहीं अपलोड होता है?", "नहीं। आपकी जानकारी और फ़ोटो फ़ोन पर ही रहती है। सिर्फ़ वही PDF बाहर जाती है जो आप शेयर करते हैं।"),
              ("क्या मैं इसे हिंदी में बना सकता/सकती हूँ?", "हाँ। बायोडाटा के लिए हिंदी चुनें, हर लेबल हिंदी में छपेगा; जानकारी हिंदी या अंग्रेज़ी में लिखें।"),
              ("क्या यह एक पेज में आता है?", "हाँ। लंबा बायोडाटा भी एक A4 पेज में आ जाता है।")]),
+    "hindi-typing": dict(
+        about="हिंदी टाइपिंग इनस्क्रिप्ट और कृतिदेव (रेमिंगटन) लेआउट रो दर रो सिखाता है। कीबोर्ड पर अगली की चमकती है और कौन-सी उँगली लगानी है बताया जाता है, ताकि हाथ जगहें सीख जाएँ। फिर 2 से 15 मिनट के परीक्षा जैसे पैराग्राफ़ पर अभ्यास करें और शुद्ध गति, शुद्धता और हर ग़लत शब्द देखें। परीक्षा हॉल जैसे अभ्यास के लिए USB या ब्लूटूथ कीबोर्ड लगाएँ।",
+        feats=["रो दर रो पाठ, फिर शिफ़्ट और आम शब्द", "अगली की चमकती है, साथ में कौन-सी उँगली",
+               "परीक्षा जैसे पैराग्राफ़ पर 2 से 15 मिनट के टेस्ट", "शुद्ध और कुल गति, शुद्धता और हर ग़लत शब्द",
+               "USB या ब्लूटूथ कीबोर्ड से, या स्क्रीन पर", "की चार्ट और कृतिदेव से यूनिकोड कन्वर्टर"],
+        faq=[("कौन-सा लेआउट सीखूँ?", "जो आपकी परीक्षा में चलता है। टाइपिंग टेस्ट अलग-अलग होते हैं, इसलिए परीक्षा का नोटिस देखें। इनस्क्रिप्ट मानक यूनिकोड हिंदी कीबोर्ड है; कृतिदेव रेमिंगटन टाइपराइटर जैसा है।"),
+             ("ऊ जैसे कृतिदेव अक्षर कैसे टाइप होते हैं?", "कंप्यूटर पर इनके लिए Alt कोड लगते हैं। ऐप में इनकी अलग कीज़ हैं ताकि हर शब्द का अभ्यास हो सके।"),
+             ("क्या मेरी गति परीक्षा के नतीजे जैसी है?", "परीक्षाएँ गति और ग़लतियाँ अपने तरीके से गिनती हैं। ऐप शुद्ध और कुल गति और ग़लत शब्द दिखाता है ताकि आप अपनी स्थिति समझ सकें।")]),
     "vehicle": dict(
         about="गाड़ी बुक आपकी गाड़ी की डायरी है। तेल भरवाते समय मीटर रीडिंग लिखें, यह एक फ़ुल टंकी से अगली तक असली माइलेज और प्रति किलोमीटर ख़र्च निकालता है। हर सर्विस, मरम्मत और चालान एक जगह रखें, देखें अगली सर्विस कब है, और बीमा, PUC या लाइसेंस ख़त्म होने से 30, 7 और 1 दिन पहले याद पाएँ।",
         feats=["एक फ़ुल टंकी से अगली तक असली माइलेज, प्रति किलोमीटर ख़र्च के साथ", "रकम और रेट डालें, लीटर अपने आप भर जाएगा",
@@ -207,6 +229,7 @@ I18N = {
     "app.formready": "किसी भी भारतीय परीक्षा फ़ॉर्म के लिए अपनी फ़ोटो, सिग्नेचर और दस्तावेज़ सही KB और पिक्सेल में तैयार करें।",
     "app.hisaab": "भारतीय घरों के लिए 26 पैसों के कैलकुलेटर, बजट 2026 के अनुसार, लाइन दर लाइन हिसाब के साथ।",
     "app.biodata": "अपनी फ़ोटो के साथ हिंदी या अंग्रेज़ी में सुंदर विवाह बायोडाटा बनाएँ और PDF शेयर करें।",
+    "app.hindi-typing": "इनस्क्रिप्ट या कृतिदेव में हिंदी टाइपिंग सीखें, की दर की पाठ और समय वाले टेस्ट के साथ।",
     "app.vehicle": "बाइक या कार का तेल और माइलेज, सर्विस का हिसाब, और बीमा व PUC ख़त्म होने से पहले याद।",
     "app.shagun": "शादी और कार्यक्रमों में दिया और मिला शगुन लिखें, और जानें कितना लौटाना है।",
     "app.tuition": "अपनी ट्यूशन चलाएँ: बैच, विद्यार्थी, महीने की फ़ीस और हाज़िरी, WhatsApp पर फ़ीस रिमाइंडर के साथ।",
