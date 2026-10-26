@@ -86,6 +86,20 @@ APPS = [
               ("My area's bigha is different. What do I do?", "Open the Units tab and set your value. Biswa and biswansi change with it."),
               ("How do I measure an uneven plot?", "Choose 4 sides, enter all four sides and the diagonal from corner A to corner C. The area is then exact.")],
          privacy="https://priya4042.github.io/privacy/zameen-app.html", github="", shots=4),
+    dict(slug="tuition", name="Tuition Book: Fees, Attendance", short="Tuition Book", status="soon", cat="Study", accent="#4B3A99",
+         package="com.priyatechlabs.tuition", version="1.0.0", langs="English, Hindi", offline=True, ads=True,
+         what="Run your tuition classes: batches, students, monthly fees and attendance, with fee reminders on WhatsApp.",
+         about="Tuition Book keeps a tutor's register on the phone. Add batches and students, mark attendance by tapping only who is absent, and see for any month who has paid, part paid or not paid. Old dues carry forward on their own, and polite fee reminders and receipts go to parents on WhatsApp, with your UPI ID if you like.",
+         feats=["Batches with class days, time and fee; students with the parent's WhatsApp number",
+                "Attendance in seconds: everyone starts present, tap who is absent",
+                "Monthly fees from the joining month; payments clear the oldest dues first",
+                "Collected versus expected for every month, with paid, part paid and due",
+                "Fee reminders and receipts on WhatsApp, one after another",
+                "Attendance and fee-day reminders, backup to a file"],
+         faq=[("Is my students' data uploaded anywhere?", "No. Names, numbers, fees and attendance stay on your phone. Only the messages you choose to send leave it."),
+              ("What if a fee goes up?", "Change the fee on the student's page. It applies from this month; earlier months keep the old fee."),
+              ("Can parents use it?", "It is made for tutors. Parents get reminders and receipts on WhatsApp.")],
+         privacy="https://priya4042.github.io/privacy/tuition-app.html", github="", shots=4),
 ]
 
 APP_HI = {
@@ -112,6 +126,14 @@ APP_HI = {
         faq=[("क्या मेरा बायोडाटा कहीं अपलोड होता है?", "नहीं। आपकी जानकारी और फ़ोटो फ़ोन पर ही रहती है। सिर्फ़ वही PDF बाहर जाती है जो आप शेयर करते हैं।"),
              ("क्या मैं इसे हिंदी में बना सकता/सकती हूँ?", "हाँ। बायोडाटा के लिए हिंदी चुनें, हर लेबल हिंदी में छपेगा; जानकारी हिंदी या अंग्रेज़ी में लिखें।"),
              ("क्या यह एक पेज में आता है?", "हाँ। लंबा बायोडाटा भी एक A4 पेज में आ जाता है।")]),
+    "tuition": dict(
+        about="Tuition Book ट्यूशन टीचर का रजिस्टर फ़ोन पर रखता है। बैच और विद्यार्थी जोड़ें, सिर्फ़ अनुपस्थित को दबाकर हाज़िरी लगाएँ, और किसी भी महीने देखें किसने फ़ीस दी, आधी दी या नहीं दी। पुराना बकाया अपने आप आगे जुड़ता है, और अभिभावकों को WhatsApp पर फ़ीस रिमाइंडर और रसीद जाती है, चाहें तो आपकी UPI आईडी के साथ।",
+        feats=["क्लास के दिन, समय और फ़ीस के साथ बैच; अभिभावक के WhatsApp नंबर के साथ विद्यार्थी", "सेकंडों में हाज़िरी: सब पहले से हाज़िर, सिर्फ़ अनुपस्थित को दबाएँ",
+               "जुड़ने के महीने से फ़ीस; भुगतान सबसे पुराना बकाया पहले चुकाता है", "हर महीने कितनी मिली और कितनी मिलनी है, जमा, आधी और बाकी के साथ",
+               "WhatsApp पर एक-एक करके फ़ीस रिमाइंडर और रसीद", "हाज़िरी और फ़ीस के दिन का रिमाइंडर, फ़ाइल में बैकअप"],
+        faq=[("क्या विद्यार्थियों का डेटा कहीं अपलोड होता है?", "नहीं। नाम, नंबर, फ़ीस और हाज़िरी आपके फ़ोन पर रहती है। सिर्फ़ वही संदेश बाहर जाते हैं जो आप भेजते हैं।"),
+             ("फ़ीस बढ़ जाए तो?", "विद्यार्थी के पेज पर फ़ीस बदलें। यह इस महीने से लगेगी; पिछले महीने पुरानी फ़ीस पर रहेंगे।"),
+             ("क्या अभिभावक इसे चला सकते हैं?", "यह ट्यूशन टीचर के लिए बना है। अभिभावकों को WhatsApp पर रिमाइंडर और रसीद मिलती है।")]),
     "zameen": dict(
         about="ज़मीन नपाई आपके राज्य में चलने वाली ज़मीन इकाइयाँ उसी तरह बदलता है, पक्का और कच्चा बीघा जैसे स्थानीय अंतर अलग रखते हुए। भुजाओं से प्लॉट नापें, टेढ़े चार भुजा वाले प्लॉट भी, और किसी भी रेट पर कीमत निकालें। जहाँ ज़िलों में मान अलग है, ऐप यह बताता है और पटवारी या रजिस्ट्री वाला मान डालने देता है।",
         feats=["24 राज्यों की इकाइयाँ, पूर्वी और पश्चिमी उत्तर प्रदेश, पक्का और कच्चा राजस्थान और असम की दोनों घाटियाँ", "2 बीघा 5 बिस्वा 10 बिस्वांसी जैसी मिली-जुली मात्रा, दोनों तरफ़",
@@ -141,6 +163,7 @@ I18N = {
     "app.formready": "किसी भी भारतीय परीक्षा फ़ॉर्म के लिए अपनी फ़ोटो, सिग्नेचर और दस्तावेज़ सही KB और पिक्सेल में तैयार करें।",
     "app.hisaab": "भारतीय घरों के लिए 26 पैसों के कैलकुलेटर, बजट 2026 के अनुसार, लाइन दर लाइन हिसाब के साथ।",
     "app.biodata": "अपनी फ़ोटो के साथ हिंदी या अंग्रेज़ी में सुंदर विवाह बायोडाटा बनाएँ और PDF शेयर करें।",
+    "app.tuition": "अपनी ट्यूशन चलाएँ: बैच, विद्यार्थी, महीने की फ़ीस और हाज़िरी, WhatsApp पर फ़ीस रिमाइंडर के साथ।",
     "app.zameen": "अपने राज्य के बीघा, बिस्वा, कनाल, कट्ठा, गुंठा बदलें, और प्लॉट का क्षेत्रफल और कीमत निकालें।",
     "app.rozana": "दूध, अख़बार और रोज़ आने वाली चीज़ों का हिसाब रखें और महीने का बिल WhatsApp के लिए तैयार पाएँ।",
     "app.panchang": "आपके शहर का आज का हिंदू पंचांग, मुहूर्त, त्योहार, आरती और रिमाइंडर के साथ।",
