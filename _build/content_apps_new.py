@@ -114,6 +114,20 @@ APPS = [
               ("How is the suggested amount worked out?", "It takes the last gift they gave you, adds about 10 percent and rounds to a familiar amount ending in 1, like 551 or 1,201. It is only a suggestion."),
               ("Can I move my old diary into the app?", "Yes. Add a function for each old event and type the entries in; the quick entry row makes it fast.")],
          privacy="https://priya4042.github.io/privacy/shagun-app.html", github="", shots=4),
+    dict(slug="vehicle", name="Vehicle Book: Mileage & Papers", short="Vehicle Book", status="soon", cat="Utility", accent="#1F3A4D",
+         package="com.priyatechlabs.vehicle", version="1.0.0", langs="English, Hindi", offline=True, ads=True,
+         what="Track your bike's or car's fuel and mileage, keep a service log, and get reminded before insurance and PUC expire.",
+         about="Vehicle Book is your vehicle's diary. Note the meter reading when you fill up and it measures real mileage from one full tank to the next, with the cost per km. Keep every service, repair and challan in one place, see when the next service is due, and get reminders 30, 7 and 1 days before your insurance, PUC or licence runs out.",
+         feats=["Real mileage from one full tank to the next, with cost per km",
+                "Type the amount and rate, and the litres fill in by themselves",
+                "Services, tyres, battery, repairs, tolls and challans in one log",
+                "Next service due by kilometres or months, whichever comes first",
+                "Reminders before insurance, PUC, RC and licence expire",
+                "Several vehicles, monthly spending chart, backup to a file"],
+         faq=[("Does it connect to Parivahan or the RTO?", "No. It only keeps the dates you enter, on your phone, and reminds you before they pass."),
+              ("Why do I need to fill the tank full?", "Mileage is measured between two full tanks. Partial top-ups in between are counted in the next full one, so the figure stays honest."),
+              ("Does it work for CNG and electric?", "Yes. CNG is counted in kg and electric in kWh, so mileage shows as km per kg or km per kWh.")],
+         privacy="https://priya4042.github.io/privacy/vehicle-app.html", github="", shots=4),
 ]
 
 APP_HI = {
@@ -140,6 +154,14 @@ APP_HI = {
         faq=[("क्या मेरा बायोडाटा कहीं अपलोड होता है?", "नहीं। आपकी जानकारी और फ़ोटो फ़ोन पर ही रहती है। सिर्फ़ वही PDF बाहर जाती है जो आप शेयर करते हैं।"),
              ("क्या मैं इसे हिंदी में बना सकता/सकती हूँ?", "हाँ। बायोडाटा के लिए हिंदी चुनें, हर लेबल हिंदी में छपेगा; जानकारी हिंदी या अंग्रेज़ी में लिखें।"),
              ("क्या यह एक पेज में आता है?", "हाँ। लंबा बायोडाटा भी एक A4 पेज में आ जाता है।")]),
+    "vehicle": dict(
+        about="गाड़ी बुक आपकी गाड़ी की डायरी है। तेल भरवाते समय मीटर रीडिंग लिखें, यह एक फ़ुल टंकी से अगली तक असली माइलेज और प्रति किलोमीटर ख़र्च निकालता है। हर सर्विस, मरम्मत और चालान एक जगह रखें, देखें अगली सर्विस कब है, और बीमा, PUC या लाइसेंस ख़त्म होने से 30, 7 और 1 दिन पहले याद पाएँ।",
+        feats=["एक फ़ुल टंकी से अगली तक असली माइलेज, प्रति किलोमीटर ख़र्च के साथ", "रकम और रेट डालें, लीटर अपने आप भर जाएगा",
+               "सर्विस, टायर, बैटरी, मरम्मत, टोल और चालान एक जगह", "अगली सर्विस किलोमीटर या महीनों से, जो पहले आए",
+               "बीमा, PUC, RC और लाइसेंस ख़त्म होने से पहले रिमाइंडर", "कई गाड़ियाँ, महीनेवार ख़र्च का चार्ट, फ़ाइल में बैकअप"],
+        faq=[("क्या यह परिवहन या RTO से जुड़ता है?", "नहीं। यह सिर्फ़ आपकी डाली तारीखें आपके फ़ोन पर रखता है और उनसे पहले याद दिलाता है।"),
+             ("टंकी फ़ुल क्यों करानी है?", "माइलेज दो फ़ुल टंकियों के बीच नापा जाता है। बीच में थोड़ा तेल भरवाया तो वह अगली फ़ुल टंकी में जुड़ जाता है, ताकि माइलेज सही रहे।"),
+             ("क्या यह CNG और इलेक्ट्रिक के लिए चलता है?", "हाँ। CNG किलो में और इलेक्ट्रिक kWh में गिना जाता है, इसलिए माइलेज km प्रति किलो या km प्रति kWh में दिखता है।")]),
     "shagun": dict(
         about="शगुन रजिस्टर आपके फ़ोन पर परिवार की शगुन डायरी है। अपने कार्यक्रम में हर मेहमान का शगुन पल में लिखें, दूसरों के कार्यक्रम में आपने क्या दिया उसका हिसाब रखें, और हर परिवार का पूरा हिसाब देखें। उनके अगले कार्यक्रम के लिए ऐप 1 वाली सही रकम सुझाता है, और उनका आख़िरी और सबसे बड़ा शगुन दिखाता है।",
         feats=["कार्यक्रम में ही जल्दी लिखें, नाम के सुझाव और एक टैप वाली रकम के साथ", "नकद, साड़ी या चाँदी के सिक्के जैसा सामान, या दोनों",
@@ -185,6 +207,7 @@ I18N = {
     "app.formready": "किसी भी भारतीय परीक्षा फ़ॉर्म के लिए अपनी फ़ोटो, सिग्नेचर और दस्तावेज़ सही KB और पिक्सेल में तैयार करें।",
     "app.hisaab": "भारतीय घरों के लिए 26 पैसों के कैलकुलेटर, बजट 2026 के अनुसार, लाइन दर लाइन हिसाब के साथ।",
     "app.biodata": "अपनी फ़ोटो के साथ हिंदी या अंग्रेज़ी में सुंदर विवाह बायोडाटा बनाएँ और PDF शेयर करें।",
+    "app.vehicle": "बाइक या कार का तेल और माइलेज, सर्विस का हिसाब, और बीमा व PUC ख़त्म होने से पहले याद।",
     "app.shagun": "शादी और कार्यक्रमों में दिया और मिला शगुन लिखें, और जानें कितना लौटाना है।",
     "app.tuition": "अपनी ट्यूशन चलाएँ: बैच, विद्यार्थी, महीने की फ़ीस और हाज़िरी, WhatsApp पर फ़ीस रिमाइंडर के साथ।",
     "app.zameen": "अपने राज्य के बीघा, बिस्वा, कनाल, कट्ठा, गुंठा बदलें, और प्लॉट का क्षेत्रफल और कीमत निकालें।",

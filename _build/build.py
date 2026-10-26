@@ -174,7 +174,7 @@ def header(up, home_links=True):
 PRIVACY_LINKS = [("QuickScan", "https://sites.google.com/view/quickscan-app-privacy/home"), ("ReelCut", "privacy/reelcut.html"),
                  ("Committee Book", "privacy/committee-book.html"), ("MCA Entrance Prep", "privacy/mca-entrance-prep.html"),
                  ("Daily English", "privacy/daily-english.html"), ("DotNet Interview Prep", "privacy/dotnet-prep.html"),
-                 ("FormReady app", "privacy/formready-app.html"), ("Hisaab app", "privacy/hisaab-app.html"), ("Panchang app", "privacy/panchang-app.html"), ("Vivah Biodata app", "privacy/biodata-app.html"), ("Rozana app", "privacy/rozana-app.html"), ("Zameen Napai app", "privacy/zameen-app.html"), ("Tuition Book app", "privacy/tuition-app.html"), ("Shagun Register app", "privacy/shagun-app.html")]
+                 ("FormReady app", "privacy/formready-app.html"), ("Hisaab app", "privacy/hisaab-app.html"), ("Panchang app", "privacy/panchang-app.html"), ("Vivah Biodata app", "privacy/biodata-app.html"), ("Rozana app", "privacy/rozana-app.html"), ("Zameen Napai app", "privacy/zameen-app.html"), ("Tuition Book app", "privacy/tuition-app.html"), ("Shagun Register app", "privacy/shagun-app.html"), ("Vehicle Book app", "privacy/vehicle-app.html")]
 
 def footer_block(up):
     import chrome
