@@ -72,6 +72,20 @@ APPS = [
               ("What if the milkman raises the rate?", "Enter the new rate and the date it starts. Days before that keep the old rate on the bill."),
               ("I am going away for a week. What do I do?", "Use Days off and pick the dates. Every delivery is marked off at once.")],
          privacy="https://priya4042.github.io/privacy/rozana-app.html", github="", shots=4),
+    dict(slug="zameen", name="Zameen Napai: Land Calculator", short="Zameen Napai", status="soon", cat="Utility", accent="#2F6B3A",
+         package="com.priyatechlabs.zameen", version="1.0.0", langs="English, Hindi", offline=True, ads=True,
+         what="Convert bigha, biswa, kanal, katha, guntha and more for your state, and find a plot's area and price.",
+         about="Zameen Napai converts land units the way they are used in your state, with local variants such as pucca and kaccha bigha kept apart. Measure a plot from its sides, including uneven four-sided plots, and work out the price at any rate. Where values differ between districts, the app says so and lets you set the value your patwari or sale deed uses.",
+         feats=["Land units for 24 states, with east and west Uttar Pradesh, pucca and kaccha Rajasthan and both Assam valleys",
+                "Mixed amounts such as 2 bigha 5 biswa 10 biswansi, both ways",
+                "Plot area from sides in feet, metres, gaj or karam; add the diagonal for an exact area",
+                "Price at a rate per gaj, per bigha or any unit, with stamp duty and other costs",
+                "Set your own area's value; the smaller units follow",
+                "Saved plots, sharing, works offline"],
+         faq=[("Are the values official?", "No. They are the usual values for each state, taken from revenue rules and checked against several references. Units differ between districts, so confirm with your patwari, lekhpal or sale deed."),
+              ("My area's bigha is different. What do I do?", "Open the Units tab and set your value. Biswa and biswansi change with it."),
+              ("How do I measure an uneven plot?", "Choose 4 sides, enter all four sides and the diagonal from corner A to corner C. The area is then exact.")],
+         privacy="https://priya4042.github.io/privacy/zameen-app.html", github="", shots=4),
 ]
 
 APP_HI = {
@@ -98,6 +112,14 @@ APP_HI = {
         faq=[("क्या मेरा बायोडाटा कहीं अपलोड होता है?", "नहीं। आपकी जानकारी और फ़ोटो फ़ोन पर ही रहती है। सिर्फ़ वही PDF बाहर जाती है जो आप शेयर करते हैं।"),
              ("क्या मैं इसे हिंदी में बना सकता/सकती हूँ?", "हाँ। बायोडाटा के लिए हिंदी चुनें, हर लेबल हिंदी में छपेगा; जानकारी हिंदी या अंग्रेज़ी में लिखें।"),
              ("क्या यह एक पेज में आता है?", "हाँ। लंबा बायोडाटा भी एक A4 पेज में आ जाता है।")]),
+    "zameen": dict(
+        about="ज़मीन नपाई आपके राज्य में चलने वाली ज़मीन इकाइयाँ उसी तरह बदलता है, पक्का और कच्चा बीघा जैसे स्थानीय अंतर अलग रखते हुए। भुजाओं से प्लॉट नापें, टेढ़े चार भुजा वाले प्लॉट भी, और किसी भी रेट पर कीमत निकालें। जहाँ ज़िलों में मान अलग है, ऐप यह बताता है और पटवारी या रजिस्ट्री वाला मान डालने देता है।",
+        feats=["24 राज्यों की इकाइयाँ, पूर्वी और पश्चिमी उत्तर प्रदेश, पक्का और कच्चा राजस्थान और असम की दोनों घाटियाँ", "2 बीघा 5 बिस्वा 10 बिस्वांसी जैसी मिली-जुली मात्रा, दोनों तरफ़",
+               "फ़ुट, मीटर, गज़ या करम में भुजाओं से क्षेत्रफल; सटीक के लिए कर्ण डालें", "प्रति गज़, प्रति बीघा या किसी भी इकाई के रेट पर कीमत, स्टांप ड्यूटी के साथ",
+               "अपने इलाके का मान डालें; छोटी इकाइयाँ साथ बदलती हैं", "सेव किए प्लॉट, शेयर, बिना इंटरनेट"],
+        faq=[("क्या मान सरकारी हैं?", "नहीं। ये हर राज्य के आम मान हैं, राजस्व नियमों से लिए और कई स्रोतों से जाँचे। ज़िलों में इकाइयाँ अलग होती हैं, इसलिए पटवारी, लेखपाल या रजिस्ट्री से पक्का करें।"),
+             ("मेरे इलाके का बीघा अलग है, क्या करूँ?", "इकाइयाँ टैब खोलें और अपना मान डालें। बिस्वा और बिस्वांसी साथ बदल जाएँगे।"),
+             ("टेढ़ा प्लॉट कैसे नापूँ?", "4 भुजा चुनें, चारों भुजाएँ और कोने A से कोने C तक कर्ण डालें। तब क्षेत्रफल सटीक आएगा।")]),
     "rozana": dict(
         about="Rozana हर दिन घर आने वाली हर चीज़ का हिसाब रखता है: दूध, अख़बार, पानी की कैन, टिफ़िन और भी। जिस दिन कुछ नहीं आया, आधा आया या ज़्यादा आया, उसे दबाएँ, भुगतान लिखें, और महीने के आख़िर में बदले रेट और पुराने बकाये के साथ बिल तैयार, जिसे WhatsApp पर बेचने वाले को भेज सकते हैं।",
         feats=["हर चीज़ के लिए रोज़ की मात्रा, रेट और बेचने वाला; रोज़, एक दिन छोड़कर या चुने हुए दिन", "कैलेंडर में कोई भी दिन दबाएँ: नहीं आया, आधा या ज़्यादा",
@@ -119,6 +141,7 @@ I18N = {
     "app.formready": "किसी भी भारतीय परीक्षा फ़ॉर्म के लिए अपनी फ़ोटो, सिग्नेचर और दस्तावेज़ सही KB और पिक्सेल में तैयार करें।",
     "app.hisaab": "भारतीय घरों के लिए 26 पैसों के कैलकुलेटर, बजट 2026 के अनुसार, लाइन दर लाइन हिसाब के साथ।",
     "app.biodata": "अपनी फ़ोटो के साथ हिंदी या अंग्रेज़ी में सुंदर विवाह बायोडाटा बनाएँ और PDF शेयर करें।",
+    "app.zameen": "अपने राज्य के बीघा, बिस्वा, कनाल, कट्ठा, गुंठा बदलें, और प्लॉट का क्षेत्रफल और कीमत निकालें।",
     "app.rozana": "दूध, अख़बार और रोज़ आने वाली चीज़ों का हिसाब रखें और महीने का बिल WhatsApp के लिए तैयार पाएँ।",
     "app.panchang": "आपके शहर का आज का हिंदू पंचांग, मुहूर्त, त्योहार, आरती और रिमाइंडर के साथ।",
 }
