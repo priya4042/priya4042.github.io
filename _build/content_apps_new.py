@@ -58,6 +58,20 @@ APPS = [
               ("Can I make it in Hindi?", "Yes. Choose Hindi for the biodata and every label prints in Hindi; you can type your details in Hindi or English."),
               ("Does it fit on one page?", "Yes. Long biodatas shrink to fit one A4 page.")],
          privacy="https://priya4042.github.io/privacy/biodata-app.html", github="", shots=4),
+    dict(slug="rozana", name="Rozana: Milk and Daily Hisaab", short="Rozana", status="soon", cat="Money", accent="#23408E",
+         package="com.priyatechlabs.rozana", version="1.0.0", langs="English, Hindi", offline=True, ads=True,
+         what="Keep the daily hisaab of milk, newspaper and other deliveries, and get the month bill ready for WhatsApp.",
+         about="Rozana keeps track of everything that comes to your door each day: milk, newspaper, water cans, tiffin and more. Tap the days something did not come, came half or came extra, record what you paid, and at the end of the month the bill is worked out, rate changes and old dues included, ready to send to the seller on WhatsApp.",
+         feats=["Usual quantity, rate and seller for each delivery; every day, alternate days or chosen weekdays",
+                "Tap any day on the calendar: did not come, half or extra",
+                "Rate went up mid-month? Earlier days keep the old rate",
+                "Payments in cash or UPI, with dues and advance carried into the next month",
+                "Month bill to the seller on WhatsApp, as text or a picture",
+                "Evening check and bill-day reminders, backup to a file"],
+         faq=[("Is my data uploaded anywhere?", "No. Everything stays on your phone. Only the bill you choose to send leaves it."),
+              ("What if the milkman raises the rate?", "Enter the new rate and the date it starts. Days before that keep the old rate on the bill."),
+              ("I am going away for a week. What do I do?", "Use Days off and pick the dates. Every delivery is marked off at once.")],
+         privacy="https://priya4042.github.io/privacy/rozana-app.html", github="", shots=4),
 ]
 
 APP_HI = {
@@ -84,6 +98,14 @@ APP_HI = {
         faq=[("क्या मेरा बायोडाटा कहीं अपलोड होता है?", "नहीं। आपकी जानकारी और फ़ोटो फ़ोन पर ही रहती है। सिर्फ़ वही PDF बाहर जाती है जो आप शेयर करते हैं।"),
              ("क्या मैं इसे हिंदी में बना सकता/सकती हूँ?", "हाँ। बायोडाटा के लिए हिंदी चुनें, हर लेबल हिंदी में छपेगा; जानकारी हिंदी या अंग्रेज़ी में लिखें।"),
              ("क्या यह एक पेज में आता है?", "हाँ। लंबा बायोडाटा भी एक A4 पेज में आ जाता है।")]),
+    "rozana": dict(
+        about="Rozana हर दिन घर आने वाली हर चीज़ का हिसाब रखता है: दूध, अख़बार, पानी की कैन, टिफ़िन और भी। जिस दिन कुछ नहीं आया, आधा आया या ज़्यादा आया, उसे दबाएँ, भुगतान लिखें, और महीने के आख़िर में बदले रेट और पुराने बकाये के साथ बिल तैयार, जिसे WhatsApp पर बेचने वाले को भेज सकते हैं।",
+        feats=["हर चीज़ के लिए रोज़ की मात्रा, रेट और बेचने वाला; रोज़, एक दिन छोड़कर या चुने हुए दिन", "कैलेंडर में कोई भी दिन दबाएँ: नहीं आया, आधा या ज़्यादा",
+               "बीच महीने रेट बढ़ा? पुराने दिन पुराने रेट पर ही रहेंगे", "नकद या UPI भुगतान, बकाया और एडवांस अगले महीने में जुड़ता है",
+               "महीने का बिल WhatsApp पर टेक्स्ट या फ़ोटो की तरह", "शाम को याद और बिल के दिन का रिमाइंडर, फ़ाइल में बैकअप"],
+        faq=[("क्या मेरा डेटा कहीं अपलोड होता है?", "नहीं। सब कुछ आपके फ़ोन पर रहता है। सिर्फ़ वही बिल बाहर जाता है जो आप भेजते हैं।"),
+             ("दूध वाला रेट बढ़ा दे तो?", "नया रेट और उसकी शुरुआत की तारीख डालें। उससे पहले के दिन बिल में पुराने रेट पर रहेंगे।"),
+             ("मैं एक हफ़्ते बाहर जा रहा/रही हूँ, क्या करूँ?", "छुट्टी के दिन चुनें और तारीखें डालें। हर चीज़ की छुट्टी एक साथ लग जाएगी।")]),
     "panchang": dict(
         about="Panchang 151 भारतीय और विदेश के 57 शहरों के लिए तिथि, नक्षत्र, योग और करण उनके खत्म होने के समय के साथ, सूर्योदय, चंद्रोदय, राहु काल, चौघड़िया और होरा दिखाता है। इसमें 2025 से 2030 तक हर त्योहार और व्रत उसकी कथा के साथ है, परिवार की तिथियाँ सहेजी जाती हैं, और आरती पढ़कर सुनाई जाती है।",
         feats=["खत्म होने के सही समय के साथ रोज़ का पंचांग, चौघड़िया और होरा", "विवाह, गृह प्रवेश और खरीदारी के मुहूर्त", "2025-2030 के त्योहार और व्रत, कथा और रिमाइंडर के साथ",
@@ -97,5 +119,6 @@ I18N = {
     "app.formready": "किसी भी भारतीय परीक्षा फ़ॉर्म के लिए अपनी फ़ोटो, सिग्नेचर और दस्तावेज़ सही KB और पिक्सेल में तैयार करें।",
     "app.hisaab": "भारतीय घरों के लिए 26 पैसों के कैलकुलेटर, बजट 2026 के अनुसार, लाइन दर लाइन हिसाब के साथ।",
     "app.biodata": "अपनी फ़ोटो के साथ हिंदी या अंग्रेज़ी में सुंदर विवाह बायोडाटा बनाएँ और PDF शेयर करें।",
+    "app.rozana": "दूध, अख़बार और रोज़ आने वाली चीज़ों का हिसाब रखें और महीने का बिल WhatsApp के लिए तैयार पाएँ।",
     "app.panchang": "आपके शहर का आज का हिंदू पंचांग, मुहूर्त, त्योहार, आरती और रिमाइंडर के साथ।",
 }

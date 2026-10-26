@@ -20,6 +20,7 @@ DL = {
     "hisaab": ("hisaab_app", "1.0.0"),
     "panchang": ("panchang_app", "1.0.0"),
     "biodata": ("biodata_app", "1.0.0"),
+    "rozana": ("rozana_app", "1.0.0"),
 }
 
 def files(slug):
