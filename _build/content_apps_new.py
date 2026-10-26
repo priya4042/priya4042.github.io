@@ -100,6 +100,20 @@ APPS = [
               ("What if a fee goes up?", "Change the fee on the student's page. It applies from this month; earlier months keep the old fee."),
               ("Can parents use it?", "It is made for tutors. Parents get reminders and receipts on WhatsApp.")],
          privacy="https://priya4042.github.io/privacy/tuition-app.html", github="", shots=4),
+    dict(slug="shagun", name="Shagun Register: Gift Tracker", short="Shagun Register", status="soon", cat="Utility", accent="#A3302A",
+         package="com.priyatechlabs.shagun", version="1.0.0", langs="English, Hindi", offline=True, ads=True,
+         what="Record shagun given and received at weddings and functions, and know what to give back.",
+         about="Shagun Register is the family shagun diary on your phone. Write down each guest's gift during your own function in a second, keep track of what you gave at others' functions, and see every family's account. For their next function, the app suggests a fitting amount ending in 1, and shows their last and biggest gift.",
+         feats=["Quick entry during a function, with name suggestions and one-tap amounts",
+                "Cash, items such as a saree or silver coin, or both",
+                "Every family's account: what they gave you and what you gave them",
+                "Suggested return gift ending in 1, with their last and biggest gift",
+                "A list of the people you owe a return gift to",
+                "Share a function's list or export it to Excel, backup to a file"],
+         faq=[("Is my register uploaded anywhere?", "No. Names, amounts and functions stay on your phone. Only the lists you choose to share leave it."),
+              ("How is the suggested amount worked out?", "It takes the last gift they gave you, adds about 10 percent and rounds to a familiar amount ending in 1, like 551 or 1,201. It is only a suggestion."),
+              ("Can I move my old diary into the app?", "Yes. Add a function for each old event and type the entries in; the quick entry row makes it fast.")],
+         privacy="https://priya4042.github.io/privacy/shagun-app.html", github="", shots=4),
 ]
 
 APP_HI = {
@@ -126,6 +140,14 @@ APP_HI = {
         faq=[("क्या मेरा बायोडाटा कहीं अपलोड होता है?", "नहीं। आपकी जानकारी और फ़ोटो फ़ोन पर ही रहती है। सिर्फ़ वही PDF बाहर जाती है जो आप शेयर करते हैं।"),
              ("क्या मैं इसे हिंदी में बना सकता/सकती हूँ?", "हाँ। बायोडाटा के लिए हिंदी चुनें, हर लेबल हिंदी में छपेगा; जानकारी हिंदी या अंग्रेज़ी में लिखें।"),
              ("क्या यह एक पेज में आता है?", "हाँ। लंबा बायोडाटा भी एक A4 पेज में आ जाता है।")]),
+    "shagun": dict(
+        about="शगुन रजिस्टर आपके फ़ोन पर परिवार की शगुन डायरी है। अपने कार्यक्रम में हर मेहमान का शगुन पल में लिखें, दूसरों के कार्यक्रम में आपने क्या दिया उसका हिसाब रखें, और हर परिवार का पूरा हिसाब देखें। उनके अगले कार्यक्रम के लिए ऐप 1 वाली सही रकम सुझाता है, और उनका आख़िरी और सबसे बड़ा शगुन दिखाता है।",
+        feats=["कार्यक्रम में ही जल्दी लिखें, नाम के सुझाव और एक टैप वाली रकम के साथ", "नकद, साड़ी या चाँदी के सिक्के जैसा सामान, या दोनों",
+               "हर परिवार का हिसाब: उन्होंने क्या दिया और आपने क्या दिया", "1 वाली सुझाई रकम, उनके आख़िरी और सबसे बड़े शगुन के साथ",
+               "जिन्हें शगुन लौटाना है उनकी सूची", "कार्यक्रम की सूची शेयर करें या Excel में निकालें, फ़ाइल में बैकअप"],
+        faq=[("क्या मेरा रजिस्टर कहीं अपलोड होता है?", "नहीं। नाम, रकम और कार्यक्रम आपके फ़ोन पर रहते हैं। सिर्फ़ वही सूची बाहर जाती है जो आप शेयर करते हैं।"),
+             ("सुझाई रकम कैसे निकलती है?", "उन्होंने आपको आख़िरी बार जो दिया, उसमें लगभग 10 प्रतिशत जोड़कर 551 या 1,201 जैसी 1 वाली रकम बनाई जाती है। यह सिर्फ़ सुझाव है।"),
+             ("क्या पुरानी डायरी ऐप में डाल सकते हैं?", "हाँ। हर पुराने कार्यक्रम के लिए एक कार्यक्रम जोड़ें और प्रविष्टियाँ लिखें; जल्दी लिखने वाली लाइन से यह तेज़ होता है।")]),
     "tuition": dict(
         about="Tuition Book ट्यूशन टीचर का रजिस्टर फ़ोन पर रखता है। बैच और विद्यार्थी जोड़ें, सिर्फ़ अनुपस्थित को दबाकर हाज़िरी लगाएँ, और किसी भी महीने देखें किसने फ़ीस दी, आधी दी या नहीं दी। पुराना बकाया अपने आप आगे जुड़ता है, और अभिभावकों को WhatsApp पर फ़ीस रिमाइंडर और रसीद जाती है, चाहें तो आपकी UPI आईडी के साथ।",
         feats=["क्लास के दिन, समय और फ़ीस के साथ बैच; अभिभावक के WhatsApp नंबर के साथ विद्यार्थी", "सेकंडों में हाज़िरी: सब पहले से हाज़िर, सिर्फ़ अनुपस्थित को दबाएँ",
@@ -163,6 +185,7 @@ I18N = {
     "app.formready": "किसी भी भारतीय परीक्षा फ़ॉर्म के लिए अपनी फ़ोटो, सिग्नेचर और दस्तावेज़ सही KB और पिक्सेल में तैयार करें।",
     "app.hisaab": "भारतीय घरों के लिए 26 पैसों के कैलकुलेटर, बजट 2026 के अनुसार, लाइन दर लाइन हिसाब के साथ।",
     "app.biodata": "अपनी फ़ोटो के साथ हिंदी या अंग्रेज़ी में सुंदर विवाह बायोडाटा बनाएँ और PDF शेयर करें।",
+    "app.shagun": "शादी और कार्यक्रमों में दिया और मिला शगुन लिखें, और जानें कितना लौटाना है।",
     "app.tuition": "अपनी ट्यूशन चलाएँ: बैच, विद्यार्थी, महीने की फ़ीस और हाज़िरी, WhatsApp पर फ़ीस रिमाइंडर के साथ।",
     "app.zameen": "अपने राज्य के बीघा, बिस्वा, कनाल, कट्ठा, गुंठा बदलें, और प्लॉट का क्षेत्रफल और कीमत निकालें।",
     "app.rozana": "दूध, अख़बार और रोज़ आने वाली चीज़ों का हिसाब रखें और महीने का बिल WhatsApp के लिए तैयार पाएँ।",
