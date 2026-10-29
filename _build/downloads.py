@@ -19,14 +19,14 @@ DL = {
     "formready": ("formready_app", "1.0.0"),
     "hisaab": ("hisaab_app", "1.0.0"),
     "panchang": ("panchang_app", "1.0.0"),
-    "biodata": ("biodata_app", "1.4.0"),
-    "rozana": ("rozana_app", "1.4.0"),
-    "zameen": ("zameen_app", "1.4.0"),
-    "tuition": ("tuition_app", "1.4.0"),
-    "shagun": ("shagun_app", "1.4.0"),
-    "vehicle": ("vehicle_app", "1.4.0"),
-    "hindi-typing": ("hindi_typing_app", "1.4.0"),
-    "yojana": ("yojana_app", "1.3.0"),
+    "biodata": ("biodata_app", "1.5.0"),
+    "rozana": ("rozana_app", "1.5.0"),
+    "zameen": ("zameen_app", "1.5.0"),
+    "tuition": ("tuition_app", "1.5.0"),
+    "shagun": ("shagun_app", "1.5.0"),
+    "vehicle": ("vehicle_app", "1.5.0"),
+    "hindi-typing": ("hindi_typing_app", "1.5.0"),
+    "yojana": ("yojana_app", "1.4.0"),
 }
 
 def files(slug):
