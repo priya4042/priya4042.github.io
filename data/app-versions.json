@@ -2,88 +2,88 @@
   "schema": 1,
   "apps": {
     "biodata": {
-      "version": "1.5.2",
-      "build": 8,
+      "version": "1.5.3",
+      "build": 9,
       "url": "https://priya4042.github.io/apps/biodata.html"
     },
     "rozana": {
-      "version": "1.5.2",
-      "build": 8,
+      "version": "1.5.3",
+      "build": 9,
       "url": "https://priya4042.github.io/apps/rozana.html"
     },
     "zameen": {
-      "version": "1.5.2",
-      "build": 8,
+      "version": "1.5.3",
+      "build": 9,
       "url": "https://priya4042.github.io/apps/zameen.html"
     },
     "tuition": {
-      "version": "1.5.2",
-      "build": 8,
+      "version": "1.5.3",
+      "build": 9,
       "url": "https://priya4042.github.io/apps/tuition.html"
     },
     "shagun": {
-      "version": "1.5.2",
-      "build": 8,
+      "version": "1.5.3",
+      "build": 9,
       "url": "https://priya4042.github.io/apps/shagun.html"
     },
     "vehicle": {
-      "version": "1.5.2",
-      "build": 8,
+      "version": "1.5.3",
+      "build": 9,
       "url": "https://priya4042.github.io/apps/vehicle.html"
     },
     "hindi-typing": {
-      "version": "1.5.2",
-      "build": 8,
+      "version": "1.5.3",
+      "build": 9,
       "url": "https://priya4042.github.io/apps/hindi-typing.html"
     },
     "yojana": {
-      "version": "1.4.2",
-      "build": 7,
+      "version": "1.4.3",
+      "build": 8,
       "url": "https://priya4042.github.io/apps/yojana.html"
     },
     "dawai": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2,
       "url": "https://priya4042.github.io/apps/dawai.html"
     },
     "kaamwali": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2,
       "url": "https://priya4042.github.io/apps/kaamwali.html"
     },
     "sabcalc": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2,
       "url": "https://priya4042.github.io/apps/sabcalc.html"
     },
     "aarti": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2,
       "url": "https://priya4042.github.io/apps/aarti.html"
     },
     "rashan": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2,
       "url": "https://priya4042.github.io/apps/rashan.html"
     },
     "habit": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2,
       "url": "https://priya4042.github.io/apps/habit.html"
     },
     "padhai": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2,
       "url": "https://priya4042.github.io/apps/padhai.html"
     },
     "saheli": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2,
       "url": "https://priya4042.github.io/apps/saheli.html"
     },
     "docpocket": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2,
       "url": "https://priya4042.github.io/apps/docpocket.html"
     }
   }
