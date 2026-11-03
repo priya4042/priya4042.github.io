@@ -150,6 +150,11 @@
       var k = el.dataset.i18nPh;
       el.placeholder = lang === "hi" && HI[k] ? HI[k] : el.dataset.enPh;
     });
+    document.querySelectorAll("img[data-src-hi]").forEach(function (im) {
+      if (im.dataset.srcEn === undefined) { im.dataset.srcEn = im.getAttribute("src"); im.dataset.altEn = im.alt; }
+      im.src = lang === "hi" ? im.dataset.srcHi : im.dataset.srcEn;
+      im.alt = lang === "hi" ? im.dataset.altHi : im.dataset.altEn;
+    });
     document.querySelectorAll("[data-lang-toggle]").forEach(function (b) {
       b.textContent = lang === "hi" ? "English" : "हिंदी";
       b.setAttribute("aria-label", lang === "hi" ? "Switch to English" : "हिंदी में देखें");

@@ -25,6 +25,7 @@ import downloads as DLS
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://priya4042.github.io/"   # change when a custom domain is added
 EMAIL = "priyatechlabs9@gmail.com"
+STORE_GALLERY = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "store_gallery.json"), encoding="utf-8"))
 
 # status: "testing" | "soon" | "live"   (live -> set play to the Play Store URL)
 APPS = [
@@ -221,6 +222,10 @@ def app_page(a):
     gallery = ""
     if a["shots"]:
         imgs = "".join(f'<li><img src="../assets/gallery/{a["slug"]}-{i}.webp" alt="{esc(a["short"])} screen {i}" width="432" height="786" loading="lazy"></li>' for i in range(1, a["shots"] + 1))
+        sg = STORE_GALLERY.get(a["slug"])
+        if sg:  # captioned store screenshots, Hindi ones swapped in by i18n.js
+            g = "../assets/gallery/store/" + a["slug"]
+            imgs = "".join(f'<li><img class="store" src="{g}-en-{i}.webp" data-src-hi="{g}-hi-{i}.webp" alt="{esc(sg["en"][i - 1])}" data-alt-hi="{esc(sg["hi"][i - 1])}" width="432" height="768" loading="lazy"></li>' for i in range(1, 5))
         gallery = f"""<section class="gallery" aria-labelledby="g-h">
   <div class="gallery-head"><h2 id="g-h" data-i18n="page.screens">Screens</h2>
     <div class="g-btns"><button class="g-btn" data-g="-1" aria-label="Previous screen"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button><button class="g-btn" data-g="1" aria-label="Next screen"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button></div></div>
