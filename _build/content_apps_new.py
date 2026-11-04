@@ -197,6 +197,15 @@ APPS = [
               ("Are my documents uploaded?", "No. Pages and details are encrypted and kept only on your phone. There is no account and no server. A copy leaves the phone only when you share it."),
               ("What if I forget my backup password?", "The backup cannot be opened without it, and there is no way to recover it. The app warns you before making a backup.")],
          privacy="https://priya4042.github.io/privacy/docpocket-app.html", github="", shots=4),
+    dict(slug="bhakti", name="Bhakti Dhara: Aarti, Bhajan TV", short="Bhakti Dhara", status="soon", cat="Utility", accent="#8E1B3A",
+         package="com.priyatechlabs.bhakti", version="1.0.0", langs="English, Hindi, Marathi, Gujarati, Bengali, Tamil, Telugu, Kannada", offline=False, ads=True,
+         what="Aarti, bhajan, katha and mantra videos from official YouTube channels, by deity, day and festival, with live temple darshan.",
+         about="Bhakti Dhara brings aartis, bhajans, katha, mantras and chalisas together in one simple app, made for the whole family and easy for elders to use. Every day opens on that day's deity and aarti, festival videos appear as a festival comes near, and temple channels open their live darshan. Videos come only from the official YouTube channels of the music labels and temples that own them, and play through YouTube's own player with its own ads. Nothing is downloaded. Bhakti Dhara is not made by YouTube, Google, any temple or any music label.",
+         feats=["Aaj ka Darshan: each day opens on that day's deity and aarti, with one big button to play it", "About 150 aartis, bhajans, mantras, chalisas and kathas, only from official channels such as T-Series Bhakti Sagar, Shemaroo Bhakti and Rajshri Soul", "By deity and by type: aarti, bhajan, mantra, chalisa, katha, stuti and stotra", "Festival videos on the home screen as Diwali, Navratri, Janmashtami, Shivratri and other festivals come near", "Live darshan from the official channels of temples such as Somnath, Mahakal Ujjain, Kashi Vishwanath, Siddhivinayak and Tirumala", "Favourites, your own playlists, continue watching, and search in English, Hindi or Hinglish", "Share on WhatsApp, \"Read the words\" for aartis and chalisas, morning and evening aarti reminders", "Big buttons, large text, dark mode; English, Hindi, Marathi, Gujarati, Bengali, Tamil, Telugu and Kannada"],
+         faq=[("Does it need internet?", "Videos play from YouTube, so they need internet. Your lists, favourites and playlists open without it."),
+              ("Are there ads while a video plays?", "The app shows no ads of its own on the video screen. The YouTube player may show YouTube's own ads, which YouTube controls."),
+              ("Can I download videos?", "No. Every video stays on YouTube and plays through YouTube's official player, as YouTube's rules require.")],
+         privacy="https://priya4042.github.io/privacy/bhakti-app.html", github="", shots=0),
 ]
 
 APP_HI = {
@@ -324,6 +333,12 @@ APP_HI = {
         faq=[("क्या यह सरकारी ऐप है?", "नहीं। डॉक्यूमेंट पॉकेट Priya Tech Labs का बनाया है और किसी सरकारी विभाग या सेवा से जुड़ा नहीं है। यह आपकी अपनी निजी कॉपी रखता है; ये जाँचे हुए या क़ानूनी रूप से मान्य दस्तावेज़ नहीं हैं।"),
              ("क्या मेरे दस्तावेज़ अपलोड होते हैं?", "नहीं। पेज और जानकारी एन्क्रिप्ट होकर सिर्फ़ आपके फ़ोन पर रहती है। कोई अकाउंट नहीं, कोई सर्वर नहीं। कॉपी तभी बाहर जाती है जब आप शेयर करते हैं।"),
              ("बैकअप का पासवर्ड भूल जाऊँ तो?", "उसके बिना बैकअप नहीं खुलेगा, और उसे वापस पाने का कोई तरीका नहीं है। बैकअप बनाने से पहले ऐप यह बताता है।")]),
+    "bhakti": dict(
+        about="भक्ति धारा आरती, भजन, कथा, मंत्र और चालीसा एक आसान ऐप में लाता है, पूरे परिवार के लिए और बुज़ुर्गों के लिए चलाने में आसान। हर दिन उस वार के देवता और आरती से खुलता है, त्योहार पास आने पर उसके वीडियो आते हैं, और मंदिरों के चैनल लाइव दर्शन खोलते हैं। वीडियो सिर्फ़ उन संगीत कंपनियों और मंदिरों के आधिकारिक YouTube चैनलों से हैं जिनके वे हैं, और YouTube के अपने प्लेयर में उसके अपने विज्ञापनों के साथ चलते हैं। कुछ भी डाउनलोड नहीं होता। भक्ति धारा YouTube, Google, किसी मंदिर या किसी संगीत कंपनी का बनाया हुआ नहीं है।",
+        feats=["आज का दर्शन: हर दिन उस वार के देवता और आरती से खुलता है, चलाने के लिए एक बड़ा बटन", "लगभग 150 आरती, भजन, मंत्र, चालीसा और कथा, सिर्फ़ T-Series Bhakti Sagar, Shemaroo Bhakti और Rajshri Soul जैसे आधिकारिक चैनलों से", "देवता और प्रकार के हिसाब से: आरती, भजन, मंत्र, चालीसा, कथा, स्तुति और स्तोत्र", "दीवाली, नवरात्रि, जन्माष्टमी, शिवरात्रि जैसे त्योहार पास आने पर होम पर उनके वीडियो", "सोमनाथ, महाकाल उज्जैन, काशी विश्वनाथ, सिद्धिविनायक और तिरुमला जैसे मंदिरों के आधिकारिक चैनलों से लाइव दर्शन", "पसंदीदा, आपकी अपनी प्लेलिस्ट, जहाँ छोड़ा वहीं से देखें, और अंग्रेज़ी, हिंदी या हिंग्लिश में खोज", "WhatsApp पर भेजें, आरती और चालीसा के लिए \"शब्द पढ़ें\", सुबह और शाम आरती की याद", "बड़े बटन, बड़े अक्षर, डार्क मोड; अंग्रेज़ी, हिंदी, मराठी, गुजराती, बांग्ला, तमिल, तेलुगु और कन्नड़"],
+        faq=[("क्या इंटरनेट चाहिए?", "वीडियो YouTube से चलते हैं, इसलिए इंटरनेट चाहिए। आपकी सूचियाँ, पसंदीदा और प्लेलिस्ट बिना इंटरनेट भी खुलती हैं।"),
+             ("क्या वीडियो चलते समय विज्ञापन आते हैं?", "वीडियो वाले पन्ने पर ऐप अपना कोई विज्ञापन नहीं दिखाता। YouTube प्लेयर YouTube के अपने विज्ञापन दिखा सकता है, जो YouTube तय करता है।"),
+             ("क्या वीडियो डाउनलोड कर सकते हैं?", "नहीं। हर वीडियो YouTube पर ही रहता है और YouTube के आधिकारिक प्लेयर में चलता है, जैसा YouTube के नियम कहते हैं।")]),
 }
 
 I18N = {
@@ -347,4 +362,5 @@ I18N = {
     "app.padhai": "अभिभावकों के लिए स्कूल डायरी: होमवर्क, टाइम-टेबल, टेस्ट, फ़ीस और कल का स्कूल बैग।",
     "app.saheli": "निजी पीरियड और प्रेगनेंसी डायरी जो सिर्फ़ आपके फ़ोन पर रहती है। सिर्फ़ अंदाज़े, डॉक्टरी सलाह नहीं।",
     "app.docpocket": "परिवार के दस्तावेज़ों की कॉपी फ़ोन में लॉक रखें और फ़ोटो या एक PDF में झट से शेयर करें। सरकारी ऐप नहीं।",
+    "app.bhakti": "आधिकारिक YouTube चैनलों से आरती, भजन, कथा और मंत्र के वीडियो, देवता, वार और त्योहार के हिसाब से, मंदिरों के लाइव दर्शन के साथ।",
 }

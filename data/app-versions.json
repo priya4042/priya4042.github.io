@@ -85,6 +85,11 @@
       "version": "1.0.2",
       "build": 3,
       "url": "https://priya4042.github.io/apps/docpocket.html"
+    },
+    "bhakti": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/bhakti.html"
     }
   }
 }

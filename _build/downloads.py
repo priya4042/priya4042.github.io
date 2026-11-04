@@ -36,6 +36,7 @@ DL = {
     "padhai": ("padhai_app", "1.0.2"),
     "saheli": ("saheli_app", "1.0.2"),
     "docpocket": ("docpocket_app", "1.0.2"),
+    "bhakti": ("bhakti_app", "1.0.0"),
 }
 
 def files(slug):

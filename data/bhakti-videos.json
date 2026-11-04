@@ -1,0 +1,3111 @@
+{
+ "format": 1,
+ "version": 1,
+ "checked": "2026-11-04",
+ "videos": [
+  {
+   "id": "Yuex2EnsGiY",
+   "en": "Jai Ganesh Deva",
+   "hi": "जय गणेश देवा",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ganesh",
+   "type": "aarti",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "q72FRIUFcvM",
+   "en": "Sukhkarta Dukhharta",
+   "hi": "सुखकर्ता दुःखहर्ता",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "aarti",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Marathi",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiMarathi",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "WEZN-NaQkZk",
+   "en": "Sukhkarta Dukhharta",
+   "hi": "सुखकर्ता दुःखहर्ता",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ganesh",
+   "type": "aarti",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Marathi",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiMarathi",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "WyHFSjN0miU",
+   "en": "Ganesh Chalisa",
+   "hi": "गणेश चालीसा",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ganesh",
+   "type": "chalisa",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "uCW2oRJybgs",
+   "en": "Ganesh Chalisa",
+   "hi": "गणेश चालीसा",
+   "singerEn": "Suresh Wadkar",
+   "singerHi": "सुरेश वाडकर",
+   "deity": "ganesh",
+   "type": "chalisa",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "wMdz2YcjV2A",
+   "en": "Om Gan Ganapataye Namah",
+   "hi": "ॐ गं गणपतये नमः",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ganesh",
+   "type": "mantra",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "Gh_K_wBQBWo",
+   "en": "Om Gan Ganapataye Namah",
+   "hi": "ॐ गं गणपतये नमः",
+   "singerEn": "Suresh Wadkar",
+   "singerHi": "सुरेश वाडकर",
+   "deity": "ganesh",
+   "type": "mantra",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "qoRfRztxllA",
+   "en": "Om Shri Ganeshaya Namah",
+   "hi": "ॐ श्री गणेशाय नमः",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ganesh",
+   "type": "mantra",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "-2cmPbOpH2s",
+   "en": "Sankat Nashan Ganesh Stotra",
+   "hi": "संकटनाशन गणेश स्तोत्र",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ganesh",
+   "type": "stuti",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "VpATv_6pCPE",
+   "en": "Ganpati Atharvashirsha",
+   "hi": "गणपति अथर्वशीर्ष",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ganesh",
+   "type": "stuti",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "qpJ8dFMgtGs",
+   "en": "Ganpati Atharvashirsha",
+   "hi": "गणपति अथर्वशीर्ष",
+   "singerEn": "Sooryagayathri",
+   "singerHi": "सूर्यगायत्री",
+   "deity": "ganesh",
+   "type": "stuti",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "8rXpSGpX1EA",
+   "en": "Vakratunda Mahakaya",
+   "hi": "वक्रतुण्ड महाकाय",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "stuti",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "NfkolJ02KPE",
+   "en": "Ganesh Amritwani",
+   "hi": "गणेश अमृतवाणी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ganesh",
+   "type": "stuti",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "uZbOzOIlv4o",
+   "en": "Prathmesh Jai Ganesh",
+   "hi": "प्रथमेश जय गणेश",
+   "singerEn": "Suresh Wadkar",
+   "singerHi": "सुरेश वाडकर",
+   "deity": "ganesh",
+   "type": "bhajan",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "QyERH3_3Ag8",
+   "en": "Ab Sab Shubh Hoga",
+   "hi": "अब सब शुभ होगा",
+   "singerEn": "Anup Jalota",
+   "singerHi": "अनूप जलोटा",
+   "deity": "ganesh",
+   "type": "bhajan",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "AHQrgIz0WGg",
+   "en": "Om Jai Shiv Omkara",
+   "hi": "ॐ जय शिव ओंकारा",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "shiv",
+   "type": "aarti",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "Og_SivYZiQw",
+   "en": "Shiv Chalisa",
+   "hi": "शिव चालीसा",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "shiv",
+   "type": "chalisa",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "b4Tt5eglNE4",
+   "en": "Om Namah Shivaya Dhun",
+   "hi": "ॐ नमः शिवाय धुन",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "shiv",
+   "type": "mantra",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "WiVJLFRbFSw",
+   "en": "Om Namah Shivaya",
+   "hi": "ॐ नमः शिवाय",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "shiv",
+   "type": "mantra",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "adyjwFgXRNY",
+   "en": "Mahamrityunjaya Mantra",
+   "hi": "महामृत्युंजय मंत्र",
+   "singerEn": "Shankar Sahney",
+   "singerHi": "शंकर साहनी",
+   "deity": "shiv",
+   "type": "mantra",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "a60rLwdDQ8I",
+   "en": "Mahamrityunjaya Mantra",
+   "hi": "महामृत्युंजय मंत्र",
+   "singerEn": "Suresh Wadkar",
+   "singerHi": "सुरेश वाडकर",
+   "deity": "shiv",
+   "type": "mantra",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "dMmLD-amq0E",
+   "en": "Karpur Gauram Karunavtaram",
+   "hi": "कर्पूरगौरं करुणावतारं",
+   "singerEn": "Hari Om Sharan",
+   "singerHi": "हरि ओम शरण",
+   "deity": "shiv",
+   "type": "mantra",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "S980-z1qx3g",
+   "en": "Shiv Tandav Stotram",
+   "hi": "शिव तांडव स्तोत्रम्",
+   "singerEn": "Shankar Mahadevan",
+   "singerHi": "शंकर महादेवन",
+   "deity": "shiv",
+   "type": "stuti",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "T0ur0HL6d5M",
+   "en": "Shiv Tandav Stotram",
+   "hi": "शिव तांडव स्तोत्रम्",
+   "singerEn": "Sachet Tandon, Parampara Tandon",
+   "singerHi": "सचेत टंडन, परम्परा टंडन",
+   "deity": "shiv",
+   "type": "stuti",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series",
+   "channelUrl": "https://www.youtube.com/@tseries",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "3G3e1UCK-5w",
+   "en": "Lingashtakam",
+   "hi": "लिंगाष्टकम्",
+   "singerEn": "S. P. Balasubrahmanyam",
+   "singerHi": "एस. पी. बालसुब्रह्मण्यम",
+   "deity": "shiv",
+   "type": "stuti",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "9ZYzLZZN_ok",
+   "en": "Shiv Rudrashtakam",
+   "hi": "शिव रुद्राष्टकम्",
+   "singerEn": "Sarath Santosh",
+   "singerHi": "सरथ संतोष",
+   "deity": "shiv",
+   "type": "stuti",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "RMKBloDKRcw",
+   "en": "Shiv Rudrashtakam",
+   "hi": "शिव रुद्राष्टकम्",
+   "singerEn": "Prathana Ratheesh",
+   "singerHi": "प्रार्थना रथीश",
+   "deity": "shiv",
+   "type": "stuti",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "keEyt08PruA",
+   "en": "Shiv Amritwani",
+   "hi": "शिव अमृतवाणी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "shiv",
+   "type": "stuti",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "lmnkeqpd_8U",
+   "en": "Har Har Mahadev Shambhu",
+   "hi": "हर हर महादेव शंभू",
+   "singerEn": "Narendra Chanchal",
+   "singerHi": "नरेंद्र चंचल",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "QY0iMVCk4mw",
+   "en": "Shiv Bhajan Sangrah",
+   "hi": "शिव भजन संग्रह",
+   "singerEn": "Narendra Chanchal",
+   "singerHi": "नरेंद्र चंचल",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "HCfPMYXhXVk",
+   "en": "Shiv Shankar Beda Paar Karo",
+   "hi": "शिव शंकर बेड़ा पार करो",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "4nt0-MsuY3M",
+   "en": "Shiv Shankar Ko Jisne Pooja",
+   "hi": "शिव शंकर को जिसने पूजा",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "Tn3fQz9kZzc",
+   "en": "Babam Bam",
+   "hi": "बबम बम",
+   "singerEn": "Kailash Kher",
+   "singerHi": "कैलाश खेर",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "SonyMusicIndiaVEVO",
+   "channelUrl": "https://www.youtube.com/@sonymusicindiaVEVO",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "gmXzGgyZoII",
+   "en": "Aarti Kije Hanuman Lala Ki",
+   "hi": "आरती कीजै हनुमान लला की",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "hanuman",
+   "type": "aarti",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "X9t-SlFxCWI",
+   "en": "Aarti Kije Hanuman Lala Ki",
+   "hi": "आरती कीजै हनुमान लला की",
+   "singerEn": "Hari Om Sharan",
+   "singerHi": "हरि ओम शरण",
+   "deity": "hanuman",
+   "type": "aarti",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "HSmjdnH8gQs",
+   "en": "Hanuman Chalisa",
+   "hi": "हनुमान चालीसा",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "hanuman",
+   "type": "chalisa",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "YPTfysi46io",
+   "en": "Hanuman Chalisa",
+   "hi": "हनुमान चालीसा",
+   "singerEn": "Lata Mangeshkar",
+   "singerHi": "लता मंगेशकर",
+   "deity": "hanuman",
+   "type": "chalisa",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "h1lT6cxwsPw",
+   "en": "Bajrang Baan",
+   "hi": "बजरंग बाण",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "hanuman",
+   "type": "stuti",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "v2sQ_mstFak",
+   "en": "Bajrang Baan",
+   "hi": "बजरंग बाण",
+   "singerEn": "Lata Mangeshkar",
+   "singerHi": "लता मंगेशकर",
+   "deity": "hanuman",
+   "type": "stuti",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "3yM1xSwK7S8",
+   "en": "Sankat Mochan Hanuman Ashtak",
+   "hi": "संकटमोचन हनुमान अष्टक",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "hanuman",
+   "type": "stuti",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "x-BqlfpQ-Wo",
+   "en": "Sankat Mochan Hanuman Ashtak",
+   "hi": "संकटमोचन हनुमान अष्टक",
+   "singerEn": "Narendra Chanchal",
+   "singerHi": "नरेंद्र चंचल",
+   "deity": "hanuman",
+   "type": "stuti",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "kVtmUeI9n4o",
+   "en": "Hanuman Amritwani",
+   "hi": "हनुमान अमृतवाणी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "hanuman",
+   "type": "stuti",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "VBM9c292C7A",
+   "en": "Om Shri Hanumate Namah",
+   "hi": "ॐ श्री हनुमते नमः",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "hanuman",
+   "type": "mantra",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "6DH_6o6c6vE",
+   "en": "Hanuman Gayatri Mantra",
+   "hi": "हनुमान गायत्री मंत्र",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "hanuman",
+   "type": "mantra",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "0XrddJPG-Zc",
+   "en": "Mangalmurti Maruti Nandan",
+   "hi": "मंगलमूर्ति मारुति नंदन",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "hanuman",
+   "type": "bhajan",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "V4Xo2fGkvuY",
+   "en": "Kaahe Garje",
+   "hi": "काहे गरजे",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "hanuman",
+   "type": "bhajan",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "b5FUADElUC8",
+   "en": "Keejo Kesari Ke Laal",
+   "hi": "कीजो केसरी के लाल",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "hanuman",
+   "type": "bhajan",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "ZV--Zno4lNQ",
+   "en": "Hanuman Tumhara Kya Kehna",
+   "hi": "हनुमान तुम्हारा क्या कहना",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "hanuman",
+   "type": "bhajan",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "eeyT0lHFUBE",
+   "en": "Hey Bajrangi Balkari",
+   "hi": "हे बजरंगी बलकारी",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "hanuman",
+   "type": "bhajan",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "7WnP3k2qsYM",
+   "en": "Hanuman Jab Chale",
+   "hi": "हनुमान जब चले",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "hanuman",
+   "type": "bhajan",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "rdJxkMDlGDw",
+   "en": "Shree Ram Janki Rehte Hain Mere Seene Mein",
+   "hi": "श्री राम जानकी रहते हैं मेरे सीने में",
+   "singerEn": "Brijraj Singh Lakkha",
+   "singerHi": "बृजराज सिंह लक्खा",
+   "deity": "hanuman",
+   "type": "bhajan",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "tCOXSHzWMPc",
+   "en": "Om Jai Jai Shani Maharaj",
+   "hi": "ॐ जय जय शनि महाराज",
+   "singerEn": "Babita Sharma",
+   "singerHi": "बबीता शर्मा",
+   "deity": "shani",
+   "type": "aarti",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "wcHpEtz7sN8",
+   "en": "Shani Aarti",
+   "hi": "शनि आरती",
+   "singerEn": "Shailendra Bhartti",
+   "singerHi": "शैलेन्द्र भारती",
+   "deity": "shani",
+   "type": "aarti",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "-6itxDwwzo0",
+   "en": "Shani Chalisa",
+   "hi": "शनि चालीसा",
+   "singerEn": "Mahendra Kapoor",
+   "singerHi": "महेंद्र कपूर",
+   "deity": "shani",
+   "type": "chalisa",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "4EsA_dOmwIA",
+   "en": "Shani Chalisa",
+   "hi": "शनि चालीसा",
+   "singerEn": "Kumar Vishu",
+   "singerHi": "कुमार विशु",
+   "deity": "shani",
+   "type": "chalisa",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "Ji3uNbnyXvw",
+   "en": "Om Sham Shanaishcharaya Namah",
+   "hi": "ॐ शं शनैश्चराय नमः",
+   "singerEn": "Chand Kumar",
+   "singerHi": "चाँद कुमार",
+   "deity": "shani",
+   "type": "mantra",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "uEnmdlIyhxE",
+   "en": "Nilanjana Samabhasam",
+   "hi": "नीलांजन समाभासं",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shani",
+   "type": "mantra",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "zEsFUNRPVwU",
+   "en": "Shani Raksha Stavah",
+   "hi": "शनि रक्षा स्तवः",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shani",
+   "type": "stuti",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "HjGpS4x1p0A",
+   "en": "Bole Shanidev Hanuman Ji Se",
+   "hi": "बोले शनि देव हनुमान जी से",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "shani",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "182xubj0LqI",
+   "en": "Aarti Shri Ramayan Ji Ki",
+   "hi": "आरती श्री रामायण जी की",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "ram",
+   "type": "aarti",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "YpON101glHQ",
+   "en": "Aarti Shri Ramayan Ji Ki",
+   "hi": "आरती श्री रामायण जी की",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ram",
+   "type": "aarti",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "cpACekVWexc",
+   "en": "Aarti Kije Shri Raghuvar Ki",
+   "hi": "आरती कीजे श्री रघुवर की",
+   "singerEn": "S. P. Balasubrahmanyam",
+   "singerHi": "एस. पी. बालासुब्रमण्यम",
+   "deity": "ram",
+   "type": "aarti",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "Tips Bhakti Prem",
+   "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "TDSqvK3Hb1w",
+   "en": "Shri Ram Chalisa",
+   "hi": "श्री राम चालीसा",
+   "singerEn": "Suresh Wadkar",
+   "singerHi": "सुरेश वाडकर",
+   "deity": "ram",
+   "type": "chalisa",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "xSm89S6tK18",
+   "en": "Shri Ramchandra Kripalu Bhajman",
+   "hi": "श्री रामचंद्र कृपालु भजमन",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ram",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "zlShDehRhQU",
+   "en": "Shri Ramchandra Kripalu Bhajman",
+   "hi": "श्री रामचंद्र कृपालु भजमन",
+   "singerEn": "Anup Jalota",
+   "singerHi": "अनूप जलोटा",
+   "deity": "ram",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "Tips Bhakti Prem",
+   "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "B241lEeK_as",
+   "en": "Shri Ram Jai Ram Jai Jai Ram",
+   "hi": "श्री राम जय राम जय जय राम",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ram",
+   "type": "mantra",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "kScxvPdCT4w",
+   "en": "Shri Ram Jai Ram Jai Jai Ram Dhun 108 Times",
+   "hi": "श्री राम जय राम जय जय राम धुन 108 बार",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ram",
+   "type": "mantra",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "-f-TGQ4Z2L0",
+   "en": "Shri Ram Amritwani",
+   "hi": "श्री राम अमृतवाणी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ram",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "vgPiJ_VPbPw",
+   "en": "Raghunandan Raghav Ram Hare",
+   "hi": "रघुनंदन राघव राम हरे",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ram",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "aPgdu-rWpd0",
+   "en": "Ram Se Bada Ram Ka Naam",
+   "hi": "राम से बड़ा राम का नाम",
+   "singerEn": "Narendra Chanchal",
+   "singerHi": "नरेंद्र चंचल",
+   "deity": "ram",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "SAHgiBxY2X8",
+   "en": "Shri Ram Gatha",
+   "hi": "श्री राम गाथा",
+   "singerEn": "Kumar Vishu",
+   "singerHi": "कुमार विशु",
+   "deity": "ram",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "FEMR5alT7CY",
+   "en": "Aarti Kunj Bihari Ki",
+   "hi": "आरती कुंज बिहारी की",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "krishna",
+   "type": "aarti",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "EMO1AT1UQf0",
+   "en": "Aarti Kunj Bihari Ki",
+   "hi": "आरती कुंज बिहारी की",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "krishna",
+   "type": "aarti",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "sKpcFJ8Q6YE",
+   "en": "Om Jai Shri Krishna Hare",
+   "hi": "ॐ जय श्री कृष्ण हरे",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "krishna",
+   "type": "aarti",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "fgYjYixZUtA",
+   "en": "Shri Krishna Chalisa",
+   "hi": "श्री कृष्ण चालीसा",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "chalisa",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "XX5aZijGlvY",
+   "en": "Shri Krishna Chalisa",
+   "hi": "श्री कृष्ण चालीसा",
+   "singerEn": "Anup Jalota",
+   "singerHi": "अनूप जलोटा",
+   "deity": "krishna",
+   "type": "chalisa",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "_LYXvCQdLRk",
+   "en": "Hare Rama Hare Krishna Mahamantra",
+   "hi": "हरे रामा हरे कृष्णा महामंत्र",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "krishna",
+   "type": "mantra",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "Ewhp6hSme9A",
+   "en": "Hare Krishna Hare Rama Dhun",
+   "hi": "हरे कृष्णा हरे रामा धुन",
+   "singerEn": "Tripti Shakya",
+   "singerHi": "तृप्ति शाक्य",
+   "deity": "krishna",
+   "type": "mantra",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "keKHklrKXKc",
+   "en": "Om Namo Bhagavate Vasudevaya",
+   "hi": "ॐ नमो भगवते वासुदेवाय",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "mantra",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Tips Bhakti Prem",
+   "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "YQZjnJ4T7no",
+   "en": "Achyutam Keshavam",
+   "hi": "अच्युतम केशवम",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "XE1ANx0go6E",
+   "en": "Madhurashtakam",
+   "hi": "मधुराष्टकम्",
+   "singerEn": "M. S. Subbulakshmi",
+   "singerHi": "एम. एस. सुब्बुलक्ष्मी",
+   "deity": "krishna",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Saregama Carnatic Classical",
+   "channelUrl": "https://www.youtube.com/@saregamacarnaticclassical",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "YIU-7ZesjTU",
+   "en": "Madhurashtakam (Adharam Madhuram)",
+   "hi": "मधुराष्टकम् (अधरं मधुरं)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Spiritual Mantra",
+   "channelUrl": "https://www.youtube.com/@spiritualmantra",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "xeYzjXEP9Mc",
+   "en": "Govind Bolo Hari Gopal Bolo",
+   "hi": "गोविंद बोलो हरि गोपाल बोलो",
+   "singerEn": "Vaishali Samant",
+   "singerHi": "वैशाली सामंत",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "AQSjr8V1jpA",
+   "en": "Nand Ghar Anand Bhayo",
+   "hi": "नंद घर आनंद भयो",
+   "singerEn": "Kumar Vishu",
+   "singerHi": "कुमार विशु",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "K5p5ItqqUNU",
+   "en": "Itna To Karna Swami Jab Pran Tan Se Nikle",
+   "hi": "इतना तो करना स्वामी जब प्राण तन से निकले",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "XGUs2vtxcHQ",
+   "en": "Hey Krishna Gopal Hari",
+   "hi": "हे कृष्णा गोपाल हरी",
+   "singerEn": "Jagjit Singh",
+   "singerHi": "जगजीत सिंह",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Saregama Bhakti",
+   "channelUrl": "https://www.youtube.com/@SaregamaBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "gCepjHW_QTg",
+   "en": "Aisa Kaun Hai Jiske Bin",
+   "hi": "ऐसा कौन है जिसके बिन",
+   "singerEn": "Anup Jalota",
+   "singerHi": "अनूप जलोटा",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Saregama Bhakti",
+   "channelUrl": "https://www.youtube.com/@SaregamaBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "NE3SWh9_vR4",
+   "en": "Om Jai Jagdish Hare",
+   "hi": "ॐ जय जगदीश हरे",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "vishnu",
+   "type": "aarti",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "jRvu06C6y84",
+   "en": "Om Jai Jagdish Hare",
+   "hi": "ॐ जय जगदीश हरे",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "vishnu",
+   "type": "aarti",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "cwPHTXJkcho",
+   "en": "Shri Satyanarayan Aarti (Om Jai Lakshmi Ramana)",
+   "hi": "श्री सत्यनारायण आरती (ॐ जय लक्ष्मी रमणा)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "vishnu",
+   "type": "aarti",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "yPiSJP34-QM",
+   "en": "Shri Vishnu Chalisa",
+   "hi": "श्री विष्णु चालीसा",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "vishnu",
+   "type": "chalisa",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "I9dTtvbL6Zk",
+   "en": "Vishnu Sahasranamam",
+   "hi": "विष्णु सहस्रनाम स्तोत्रम्",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "vishnu",
+   "type": "stuti",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "0tubv1OKDjg",
+   "en": "Vishnu Sahasranamam",
+   "hi": "विष्णु सहस्रनामम्",
+   "singerEn": "M. S. Subbulakshmi",
+   "singerHi": "एम. एस. सुब्बुलक्ष्मी",
+   "deity": "vishnu",
+   "type": "stuti",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "Saregama Carnatic Classical",
+   "channelUrl": "https://www.youtube.com/@saregamacarnaticclassical",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "mnoIy0tPhEc",
+   "en": "Achyutashtakam (Achyutam Keshavam)",
+   "hi": "अच्युताष्टकम् (अच्युतम केशवम)",
+   "singerEn": "Uthara Unnikrishnan",
+   "singerHi": "उथरा उन्नीकृष्णन",
+   "deity": "vishnu",
+   "type": "stuti",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "Strumm Spiritual",
+   "channelUrl": "https://www.youtube.com/@StrummSpiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "9PXIcw99XIU",
+   "en": "Shri Satyanarayan Vrat Katha",
+   "hi": "श्री सत्यनारायण व्रत कथा",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "vishnu",
+   "type": "katha",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "4JNWG-PzfLU",
+   "en": "Brihaspativar Vrat Katha",
+   "hi": "बृहस्पतिवार व्रत कथा",
+   "singerEn": "Ds Pal",
+   "singerHi": "डी. एस. पाल",
+   "deity": "vishnu",
+   "type": "katha",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "Sonotek Bhakti",
+   "channelUrl": "https://www.youtube.com/@SonotekBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "Ol-XtIgMbX8",
+   "en": "Jai Jai Satyanarayan Swami",
+   "hi": "जय जय सत्यनारायण स्वामी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "vishnu",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "y-DlC0amqDQ",
+   "en": "Maine Satya Ka Vrat Apnaya",
+   "hi": "मैंने सत्य का व्रत अपनाया",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "vishnu",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "Y1-ULW8ESj8",
+   "en": "Shirdi Sai Baba Kakad Aarti",
+   "hi": "शिरडी साईबाबा काकड़ आरती",
+   "singerEn": "Pramod Medhi",
+   "singerHi": "प्रमोद मेधी",
+   "deity": "sai",
+   "type": "aarti",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "Y3zvMjJhoLk",
+   "en": "Shirdi Sai Baba Dhoop Aarti",
+   "hi": "शिरडी साईबाबा धूप आरती",
+   "singerEn": "Pramod Medhi",
+   "singerHi": "प्रमोद मेधी",
+   "deity": "sai",
+   "type": "aarti",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "tG4IVlgKuZE",
+   "en": "Aarti Sai Baba Saukhya Datar Jeeva",
+   "hi": "आरती साईबाबा सौख्यदातार जीवा",
+   "singerEn": "Palak Muchhal",
+   "singerHi": "पलक मुच्छल",
+   "deity": "sai",
+   "type": "aarti",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Tips Bhakti Prem",
+   "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "jeDfls2rQmk",
+   "en": "Shri Sai Chalisa",
+   "hi": "श्री साई चालीसा",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "sai",
+   "type": "chalisa",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "mRDy5jHFMq4",
+   "en": "Shri Sai Chalisa",
+   "hi": "श्री साई चालीसा",
+   "singerEn": "Desh Gaurav",
+   "singerHi": "देश गौरव",
+   "deity": "sai",
+   "type": "chalisa",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "ibDaextX8HY",
+   "en": "Om Sai Namo Namah",
+   "hi": "ॐ साई नमो नमः",
+   "singerEn": "Suresh Wadkar",
+   "singerHi": "सुरेश वाडकर",
+   "deity": "sai",
+   "type": "mantra",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "-h5__qZMWEs",
+   "en": "Om Sai Ram Om Sai Shyam Dhun",
+   "hi": "ॐ साई राम ॐ साई श्याम धुन",
+   "singerEn": "Suresh Wadkar",
+   "singerHi": "सुरेश वाडकर",
+   "deity": "sai",
+   "type": "mantra",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "pDiA34z2BrQ",
+   "en": "O Shirdi Ke Sai",
+   "hi": "ओ शिरडी के साई",
+   "singerEn": "Anup Jalota",
+   "singerHi": "अनूप जलोटा",
+   "deity": "sai",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "OLui1rZ9ZG8",
+   "en": "Om Jai Surya Bhagwan Aarti",
+   "hi": "ॐ जय सूर्य भगवान आरती",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "surya",
+   "type": "aarti",
+   "days": [
+    7
+   ],
+   "fest": [
+    "makar-sankranti",
+    "chhath"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "-gHr_DAKAyQ",
+   "en": "Surya Chalisa",
+   "hi": "सूर्य चालीसा",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "surya",
+   "type": "chalisa",
+   "days": [
+    7
+   ],
+   "fest": [
+    "makar-sankranti",
+    "chhath"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "HCnloqMOWVw",
+   "en": "Aditya Hridayam",
+   "hi": "आदित्य हृदयम्",
+   "singerEn": "Rajalakshmi Sanjay",
+   "singerHi": "राजलक्ष्मी संजय",
+   "deity": "surya",
+   "type": "stuti",
+   "days": [
+    7
+   ],
+   "fest": [
+    "makar-sankranti",
+    "chhath"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "BtkAw8TpO9g",
+   "en": "Aditya Hridayam Stotra",
+   "hi": "आदित्य हृदय स्तोत्र",
+   "singerEn": "Ben E Mohan",
+   "singerHi": "बेन ई मोहन",
+   "deity": "surya",
+   "type": "stuti",
+   "days": [
+    7
+   ],
+   "fest": [
+    "makar-sankranti",
+    "chhath"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "WzJ28NZhpdA",
+   "en": "Surya Gayatri Mantra 108 Times",
+   "hi": "सूर्य गायत्री मंत्र 108 बार",
+   "singerEn": "Jaydeep Bagwadkar",
+   "singerHi": "जयदीप बगवाडकर",
+   "deity": "surya",
+   "type": "mantra",
+   "days": [
+    7
+   ],
+   "fest": [
+    "makar-sankranti",
+    "chhath"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "6EC6BmGCkiI",
+   "en": "Om Hrim Suryaya Namah",
+   "hi": "ॐ ह्रीं सूर्याय नमः",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "surya",
+   "type": "mantra",
+   "days": [
+    7
+   ],
+   "fest": [
+    "makar-sankranti",
+    "chhath"
+   ],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "cKxzIPjbi7k",
+   "en": "Ravivar Vrat Katha",
+   "hi": "रविवार व्रत कथा",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "surya",
+   "type": "katha",
+   "days": [
+    7
+   ],
+   "fest": [
+    "makar-sankranti",
+    "chhath"
+   ],
+   "channel": "Sonotek Bhakti",
+   "channelUrl": "https://www.youtube.com/@SonotekBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "yz_wShbADFU",
+   "en": "Arghya Chadhao Prani",
+   "hi": "अर्घ्य चढ़ाओ प्राणी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "surya",
+   "type": "bhajan",
+   "days": [
+    7
+   ],
+   "fest": [
+    "makar-sankranti",
+    "chhath"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "-rKAOaS7Q3I",
+   "en": "Jai Ambe Gauri",
+   "hi": "जय अम्बे गौरी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "durga",
+   "type": "aarti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "dVTUUtOHUCA",
+   "en": "Ambe Tu Hai Jagdambe Kali",
+   "hi": "अम्बे तू है जगदम्बे काली",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "durga",
+   "type": "aarti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "yergs8DU1ds",
+   "en": "Ambe Tu Hai Jagdambe Kali",
+   "hi": "अम्बे तू है जगदम्बे काली",
+   "singerEn": "Narendra Chanchal",
+   "singerHi": "नरेंद्र चंचल",
+   "deity": "durga",
+   "type": "aarti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Tips Bhakti Prem",
+   "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "lhyEQhFPPtU",
+   "en": "Jai Santoshi Mata Aarti",
+   "hi": "जय संतोषी माता आरती",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "durga",
+   "type": "aarti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "RQTXD23-JLg",
+   "en": "Shree Durga Chalisa",
+   "hi": "श्री दुर्गा चालीसा",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "durga",
+   "type": "chalisa",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "dcGpeJF2vyQ",
+   "en": "Santoshi Mata Vrat Katha",
+   "hi": "संतोषी माता व्रत कथा",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "durga",
+   "type": "katha",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "cdlS1XC3Gus",
+   "en": "Om Aim Hreem Kleem Chamundaye Vichche",
+   "hi": "ॐ ऐं ह्रीं क्लीं चामुण्डायै विच्चे",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "durga",
+   "type": "mantra",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "iytJm3XCPjc",
+   "en": "Sarva Mangala Mangalye",
+   "hi": "सर्व मंगल मांगल्ये",
+   "singerEn": "Hema Malini",
+   "singerHi": "हेमा मालिनी",
+   "deity": "durga",
+   "type": "mantra",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "JmZQJ__Ii8w",
+   "en": "Ya Devi Sarvabhuteshu",
+   "hi": "या देवी सर्वभूतेषु",
+   "singerEn": "Pratibha Singh Baghel",
+   "singerHi": "प्रतिभा सिंह बघेल",
+   "deity": "durga",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "7CdiA0rZ8qo",
+   "en": "Aigiri Nandini",
+   "hi": "अयि गिरिनन्दिनि",
+   "singerEn": "Rajalakshmee Sanjay",
+   "singerHi": "राजलक्ष्मी संजय",
+   "deity": "durga",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "B1IoqRjqn8A",
+   "en": "Mahishasura Mardini Stotram",
+   "hi": "महिषासुर मर्दिनी स्तोत्रम्",
+   "singerEn": "Uma Mohan",
+   "singerHi": "उमा मोहन",
+   "deity": "durga",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "cS2gRhH6it4",
+   "en": "Shri Durga Stuti",
+   "hi": "श्री दुर्गा स्तुति",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "durga",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "3hu1okBa4Pc",
+   "en": "Pyara Saja Hai Tera Dwar Bhawani",
+   "hi": "प्यारा सजा है तेरा द्वार भवानी",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "durga",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "9eI8dJyJB8Y",
+   "en": "Maa Bhetein",
+   "hi": "माँ भेंटें",
+   "singerEn": "Narendra Chanchal",
+   "singerHi": "नरेंद्र चंचल",
+   "deity": "durga",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "VARWVhn5uWM",
+   "en": "Main Kyun Bolun Jai Mata Ki",
+   "hi": "मैं क्यों बोलूं जय माता की",
+   "singerEn": "Suresh Wadkar",
+   "singerHi": "सुरेश वाडकर",
+   "deity": "durga",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "UdIin-oNxf8",
+   "en": "Jai Jai Hey Santoshi Mata",
+   "hi": "जय जय हे संतोषी माता",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "durga",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "5ttUSe1Jp-Q",
+   "en": "Om Jai Lakshmi Mata",
+   "hi": "ॐ जय लक्ष्मी माता",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "lakshmi",
+   "type": "aarti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "otWnO-2pwuM",
+   "en": "Lakshmi Chalisa",
+   "hi": "लक्ष्मी चालीसा",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "lakshmi",
+   "type": "chalisa",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "FbsrJZ-DbT4",
+   "en": "Shree Mahalakshmi Mantra",
+   "hi": "श्री महालक्ष्मी मंत्र",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "lakshmi",
+   "type": "mantra",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "YHhrkNCXFzs",
+   "en": "Lakshmi Beej Mantra",
+   "hi": "लक्ष्मी बीज मंत्र",
+   "singerEn": "Anuradha Paudwal, Suresh Wadkar",
+   "singerHi": "अनुराधा पौडवाल, सुरेश वाडकर",
+   "deity": "lakshmi",
+   "type": "mantra",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "fmhxRe81oqg",
+   "en": "Mahalakshmi Ashtakam",
+   "hi": "महालक्ष्मी अष्टकम्",
+   "singerEn": "Maithili Thakur",
+   "singerHi": "मैथिली ठाकुर",
+   "deity": "lakshmi",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "ThznwYxJ8po",
+   "en": "Shri Suktam",
+   "hi": "श्री सूक्तम्",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "lakshmi",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "ChW9B-FpKhg",
+   "en": "Shri Suktam",
+   "hi": "श्री सूक्तम्",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "lakshmi",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "dDPp5WNqavI",
+   "en": "Mahalakshmi Vrat Katha",
+   "hi": "महालक्ष्मी व्रत कथा",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "lakshmi",
+   "type": "katha",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Spiritual Mantra",
+   "channelUrl": "https://www.youtube.com/@spiritualmantra",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "KQ_IKdbQvfY",
+   "en": "Vaibhav Lakshmi Vrat Katha",
+   "hi": "वैभव लक्ष्मी व्रत कथा",
+   "singerEn": "D S Pal",
+   "singerHi": "डी एस पाल",
+   "deity": "lakshmi",
+   "type": "katha",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Sonotek Bhakti",
+   "channelUrl": "https://www.youtube.com/@SonotekBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "gr7szeX7tkg",
+   "en": "Shri Lakshmi Amritwani",
+   "hi": "श्री लक्ष्मी अमृतवाणी",
+   "singerEn": "Kavita Paudwal",
+   "singerHi": "कविता पौडवाल",
+   "deity": "lakshmi",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "ltoNTXe6_lM",
+   "en": "Om Jai Saraswati Mata",
+   "hi": "ॐ जय सरस्वती माता",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "saraswati",
+   "type": "aarti",
+   "days": [],
+   "fest": [
+    "vasant-panchami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "dR39jtACMTg",
+   "en": "Saraswati Chalisa",
+   "hi": "सरस्वती चालीसा",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "saraswati",
+   "type": "chalisa",
+   "days": [],
+   "fest": [
+    "vasant-panchami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "V5wHXqvtA1s",
+   "en": "Saraswati Mantra",
+   "hi": "सरस्वती मंत्र",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "saraswati",
+   "type": "mantra",
+   "days": [],
+   "fest": [
+    "vasant-panchami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "bAIGsVl9flU",
+   "en": "Ya Kundendu Tushar Haar Dhavala",
+   "hi": "या कुन्देन्दुतुषारहारधवला",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "saraswati",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "vasant-panchami"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "0tewmEl8fmA",
+   "en": "Ya Kundendu Tushar Haar Dhavala",
+   "hi": "या कुन्देन्दुतुषारहारधवला",
+   "singerEn": "P Unnikrishnan",
+   "singerHi": "पी उन्नीकृष्णन",
+   "deity": "saraswati",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "vasant-panchami"
+   ],
+   "channel": "Strumm Spiritual",
+   "channelUrl": "https://www.youtube.com/@StrummSpiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "xD87wvPCHXc",
+   "en": "Saraswati Amritwani",
+   "hi": "सरस्वती अमृतवाणी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "saraswati",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "vasant-panchami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "DWbb9SoCeGA",
+   "en": "Gayatri Mantra",
+   "hi": "गायत्री मंत्र",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "general",
+   "type": "mantra",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "nwRoHC83wx0",
+   "en": "Gayatri Mantra",
+   "hi": "गायत्री मंत्र",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "general",
+   "type": "mantra",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "1Xzqp1_g7s4",
+   "en": "Om Chanting",
+   "hi": "ॐ उच्चारण",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "general",
+   "type": "mantra",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "XwVPW4sjlc0",
+   "en": "Shanti Mantra",
+   "hi": "शांति मंत्र",
+   "singerEn": "Pandit Jasraj",
+   "singerHi": "पंडित जसराज",
+   "deity": "general",
+   "type": "mantra",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "OggE330vhko",
+   "en": "Shanti Path",
+   "hi": "शांति पाठ",
+   "singerEn": "Uma Mohan",
+   "singerHi": "उमा मोहन",
+   "deity": "general",
+   "type": "mantra",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "PJMUzlvkP4I",
+   "en": "Asato Ma Sadgamaya",
+   "hi": "असतो मा सद्गमय",
+   "singerEn": "Ritika Sahni",
+   "singerHi": "रितिका साहनी",
+   "deity": "general",
+   "type": "mantra",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "Vwyo62x9yC4",
+   "en": "Asato Ma Sadgamaya",
+   "hi": "असतो मा सद्गमय",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "general",
+   "type": "mantra",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "t2TGoZ2Tyz4",
+   "en": "Twameva Mata Cha Pita Twameva",
+   "hi": "त्वमेव माता च पिता त्वमेव",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "general",
+   "type": "stuti",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Saregama Bhakti",
+   "channelUrl": "https://www.youtube.com/@SaregamaBhakti",
+   "secs": null,
+   "checked": "2026-11-04"
+  },
+  {
+   "id": "_olAwGp5GYw",
+   "en": "Twameva Mata Cha Pita Twameva",
+   "hi": "त्वमेव माता च पिता त्वमेव",
+   "singerEn": "Mandar Apte",
+   "singerHi": "मंदार आप्टे",
+   "deity": "general",
+   "type": "stuti",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": null,
+   "checked": "2026-11-04"
+  }
+ ],
+ "live": [
+  {
+   "key": "somnath",
+   "en": "Somnath Temple",
+   "hi": "सोमनाथ मंदिर",
+   "placeEn": "Somnath, Gujarat",
+   "placeHi": "सोमनाथ, गुजरात",
+   "deity": "shiv",
+   "channel": "Somnath Temple - Official Channel",
+   "channelUrl": "https://www.youtube.com/@SomnathTempleOfficialChannel",
+   "sample": "Es9WHwipMn4",
+   "notesEn": "Daily live darshan and aarti. Aarti at 7:00 AM, 12:00 noon and 7:00 PM; darshan 6:00 AM to 10:00 PM (as stated by Shree Somnath Trust)",
+   "notesHi": "रोज़ाना लाइव दर्शन और आरती। आरती सुबह 7:00, दोपहर 12:00 और शाम 7:00 बजे; दर्शन सुबह 6:00 से रात 10:00 बजे तक (श्री सोमनाथ ट्रस्ट के अनुसार)",
+   "checked": "2026-11-04"
+  },
+  {
+   "key": "bhalka",
+   "en": "Bhalka Tirth (Krishna Dham)",
+   "hi": "भालका तीर्थ (कृष्ण धाम)",
+   "placeEn": "Veraval, Gujarat",
+   "placeHi": "वेरावल, गुजरात",
+   "deity": "krishna",
+   "channel": "Shri Somnath Temple Official",
+   "channelUrl": "https://www.youtube.com/@shreesomnathtempleofficial",
+   "sample": "7emna0o_UCw",
+   "notesEn": "Daily live darshan from Bhalka Tirth (and the Shree Ram Temple at Somnath), run by Shree Somnath Trust",
+   "notesHi": "भालका तीर्थ (और सोमनाथ के श्री राम मंदिर) से रोज़ाना लाइव दर्शन, श्री सोमनाथ ट्रस्ट द्वारा",
+   "checked": "2026-11-04"
+  },
+  {
+   "key": "mahakal",
+   "en": "Shri Mahakaleshwar Jyotirlinga",
+   "hi": "श्री महाकालेश्वर ज्योतिर्लिंग",
+   "placeEn": "Ujjain, Madhya Pradesh",
+   "placeHi": "उज्जैन, मध्य प्रदेश",
+   "deity": "shiv",
+   "channel": "Shrimahakaleshwarjyotirlingam",
+   "channelUrl": "https://www.youtube.com/@shrimahakaleshwarjyotirlingamm",
+   "sample": "t6Vk0ayVmm4",
+   "notesEn": "Live streams from the temple. Aarti times per the temple committee (Kartik to Falgun): Bhasma Aarti 4:00-6:00 AM, Bhog Aarti 10:30-11:15 AM, Sandhya Aarti 6:30-7:15 PM, Shayan Aarti 10:30-11:00 PM",
+   "notesHi": "मंदिर से लाइव प्रसारण। मंदिर समिति के अनुसार आरती समय (कार्तिक से फाल्गुन): भस्म आरती सुबह 4:00-6:00, भोग आरती 10:30-11:15, संध्या आरती शाम 6:30-7:15, शयन आरती रात 10:30-11:00",
+   "checked": "2026-11-04"
+  },
+  {
+   "key": "kashi",
+   "en": "Shri Kashi Vishwanath Temple",
+   "hi": "श्री काशी विश्वनाथ मंदिर",
+   "placeEn": "Varanasi, Uttar Pradesh",
+   "placeHi": "वाराणसी, उत्तर प्रदेश",
+   "deity": "shiv",
+   "channel": "Shree Kashi Vishwanath Mandir Trust",
+   "channelUrl": "https://www.youtube.com/@ShreeKashiVishwanathMandir",
+   "sample": "I_xm59bXxKQ",
+   "notesEn": "Live darshan of Shri Kashi Vishwanath Dham (the trust says it is paused for now due to renovation work). Aartis: Mangala 3:00-4:00 AM, Bhog 11:15 AM-12:20 PM, Sandhya 7:00-8:15 PM, Shringar 9:00-10:15 PM, Shayan 10:30-11:00 PM",
+   "notesHi": "श्री काशी विश्वनाथ धाम के लाइव दर्शन (ट्रस्ट के अनुसार निर्माण कार्य के कारण अभी अस्थायी रूप से बंद)। आरती: मंगला सुबह 3:00-4:00, भोग 11:15-12:20, संध्या शाम 7:00-8:15, श्रृंगार रात 9:00-10:15, शयन 10:30-11:00",
+   "checked": "2026-11-04"
+  },
+  {
+   "key": "siddhivinayak",
+   "en": "Shree Siddhivinayak Temple",
+   "hi": "श्री सिद्धिविनायक मंदिर",
+   "placeEn": "Prabhadevi, Mumbai",
+   "placeHi": "प्रभादेवी, मुंबई",
+   "deity": "ganesh",
+   "channel": "Shree Siddhivinayak Ganapati Temple Trust",
+   "channelUrl": "https://www.youtube.com/@ShreeSiddhivinayakTemple",
+   "sample": "oWdSHxrwcBI",
+   "notesEn": "Live stream embedded on the trust's Live Darshan page. Kakad Aarti 5:30-6:00 AM, Dhup Aarti 7:00 PM, Aarti 7:30-8:00 PM, Shejaarti 9:50 PM (Tuesdays differ)",
+   "notesHi": "ट्रस्ट के लाइव दर्शन पेज पर लाइव प्रसारण। काकड़ आरती सुबह 5:30-6:00, धूप आरती शाम 7:00, आरती 7:30-8:00, शेजारती रात 9:50 (मंगलवार को अलग समय)",
+   "checked": "2026-11-04"
+  },
+  {
+   "key": "tirumala",
+   "en": "Tirumala Sri Venkateswara Temple",
+   "hi": "तिरुमला श्री वेंकटेश्वर मंदिर",
+   "placeEn": "Tirumala, Andhra Pradesh",
+   "placeHi": "तिरुमला, आंध्र प्रदेश",
+   "deity": "vishnu",
+   "channel": "SVBC TTD",
+   "channelUrl": "https://www.youtube.com/@svbcttd",
+   "sample": "XxdarKTmJ8c",
+   "notesEn": "TTD's own Sri Venkateswara Bhakthi Channel; live streams of Tirumala sevas and programmes such as Nadaneerajanam and Sahasra Deepalankarana Seva",
+   "notesHi": "टीटीडी का अपना श्री वेंकटेश्वर भक्ति चैनल; तिरुमला की सेवाओं और कार्यक्रमों (नादनीराजनम, सहस्र दीपालंकार सेवा) का लाइव प्रसारण",
+   "checked": "2026-11-04"
+  },
+  {
+   "key": "mayapur",
+   "en": "ISKCON Mayapur (Sri Mayapur Chandrodaya Mandir)",
+   "hi": "इस्कॉन मायापुर (श्री मायापुर चंद्रोदय मंदिर)",
+   "placeEn": "Mayapur, West Bengal",
+   "placeHi": "मायापुर, पश्चिम बंगाल",
+   "deity": "krishna",
+   "channel": "Mayapur TV",
+   "channelUrl": "https://www.youtube.com/@MayapurTVOfficial",
+   "sample": "9b1WmFOIJA4",
+   "notesEn": "Daily aratis from ISKCON's world headquarters streamed live, including Mangal Arati and Sandhya Arati",
+   "notesHi": "इस्कॉन मुख्यालय से रोज़ाना आरती का लाइव प्रसारण, मंगल आरती और संध्या आरती सहित",
+   "checked": "2026-11-04"
+  },
+  {
+   "key": "iskcon_vrindavan",
+   "en": "ISKCON Vrindavan (Sri Sri Krishna Balaram Mandir)",
+   "hi": "इस्कॉन वृंदावन (श्री श्री कृष्ण बलराम मंदिर)",
+   "placeEn": "Vrindavan, Uttar Pradesh",
+   "placeHi": "वृंदावन, उत्तर प्रदेश",
+   "deity": "krishna",
+   "channel": "ISKCON Vrindavan",
+   "channelUrl": "https://www.youtube.com/@ISKCONVrndavan",
+   "sample": "nVgekBjSdrY",
+   "notesEn": "Live Mangal Arati, darshan arati and Guru Puja from Krishna Balaram Mandir, plus daily classes",
+   "notesHi": "कृष्ण बलराम मंदिर से मंगल आरती, दर्शन आरती और गुरु पूजा का लाइव प्रसारण, साथ में रोज़ाना कक्षाएँ",
+   "checked": "2026-11-04"
+  }
+ ]
+}
