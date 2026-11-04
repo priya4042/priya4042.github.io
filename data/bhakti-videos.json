@@ -1,6 +1,6 @@
 {
  "format": 1,
- "version": 1,
+ "version": 2026110401,
  "checked": "2026-11-04",
  "videos": [
   {
@@ -21,7 +21,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "q72FRIUFcvM",
@@ -41,7 +42,8 @@
    "channel": "T-Series Bhakti Marathi",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiMarathi",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "mr"
   },
   {
    "id": "WEZN-NaQkZk",
@@ -61,7 +63,8 @@
    "channel": "T-Series Bhakti Marathi",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiMarathi",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "mr"
   },
   {
    "id": "WyHFSjN0miU",
@@ -81,7 +84,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "uCW2oRJybgs",
@@ -101,7 +105,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "wMdz2YcjV2A",
@@ -121,7 +126,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "Gh_K_wBQBWo",
@@ -141,7 +147,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "qoRfRztxllA",
@@ -161,7 +168,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "-2cmPbOpH2s",
@@ -181,7 +189,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "VpATv_6pCPE",
@@ -201,7 +210,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "qpJ8dFMgtGs",
@@ -221,7 +231,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "8rXpSGpX1EA",
@@ -241,7 +252,8 @@
    "channel": "Shemaroo Bhakti",
    "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "NfkolJ02KPE",
@@ -261,7 +273,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "uZbOzOIlv4o",
@@ -281,7 +294,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "QyERH3_3Ag8",
@@ -301,7 +315,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "AHQrgIz0WGg",
@@ -320,7 +335,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "Og_SivYZiQw",
@@ -339,7 +355,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "b4Tt5eglNE4",
@@ -358,7 +375,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "WiVJLFRbFSw",
@@ -377,7 +395,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "adyjwFgXRNY",
@@ -396,7 +415,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "a60rLwdDQ8I",
@@ -415,7 +435,8 @@
    "channel": "Shemaroo Bhakti",
    "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "dMmLD-amq0E",
@@ -434,7 +455,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "S980-z1qx3g",
@@ -453,7 +475,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "T0ur0HL6d5M",
@@ -472,7 +495,8 @@
    "channel": "T-Series",
    "channelUrl": "https://www.youtube.com/@tseries",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "3G3e1UCK-5w",
@@ -491,7 +515,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "9ZYzLZZN_ok",
@@ -510,7 +535,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "RMKBloDKRcw",
@@ -529,7 +555,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "keEyt08PruA",
@@ -548,7 +575,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "lmnkeqpd_8U",
@@ -567,7 +595,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "QY0iMVCk4mw",
@@ -586,7 +615,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "HCfPMYXhXVk",
@@ -605,7 +635,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "4nt0-MsuY3M",
@@ -624,7 +655,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "Tn3fQz9kZzc",
@@ -643,7 +675,8 @@
    "channel": "SonyMusicIndiaVEVO",
    "channelUrl": "https://www.youtube.com/@sonymusicindiaVEVO",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "gmXzGgyZoII",
@@ -663,7 +696,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "X9t-SlFxCWI",
@@ -683,7 +717,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "HSmjdnH8gQs",
@@ -703,7 +738,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "YPTfysi46io",
@@ -723,7 +759,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "h1lT6cxwsPw",
@@ -743,7 +780,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "v2sQ_mstFak",
@@ -763,7 +801,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "3yM1xSwK7S8",
@@ -783,7 +822,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "x-BqlfpQ-Wo",
@@ -803,7 +843,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "kVtmUeI9n4o",
@@ -823,7 +864,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "VBM9c292C7A",
@@ -843,7 +885,8 @@
    "channel": "Rajshri Soul",
    "channelUrl": "https://www.youtube.com/@rajshrisoul",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "6DH_6o6c6vE",
@@ -863,7 +906,8 @@
    "channel": "Rajshri Soul",
    "channelUrl": "https://www.youtube.com/@rajshrisoul",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "0XrddJPG-Zc",
@@ -883,7 +927,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "V4Xo2fGkvuY",
@@ -903,7 +948,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "b5FUADElUC8",
@@ -923,7 +969,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "ZV--Zno4lNQ",
@@ -943,7 +990,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "eeyT0lHFUBE",
@@ -963,7 +1011,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "7WnP3k2qsYM",
@@ -983,7 +1032,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "rdJxkMDlGDw",
@@ -1003,7 +1053,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "tCOXSHzWMPc",
@@ -1020,7 +1071,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "wcHpEtz7sN8",
@@ -1037,7 +1089,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "-6itxDwwzo0",
@@ -1054,7 +1107,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "4EsA_dOmwIA",
@@ -1071,7 +1125,8 @@
    "channel": "Shemaroo Bhakti",
    "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "Ji3uNbnyXvw",
@@ -1088,7 +1143,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "uEnmdlIyhxE",
@@ -1105,7 +1161,8 @@
    "channel": "Shemaroo Bhakti",
    "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "zEsFUNRPVwU",
@@ -1122,7 +1179,8 @@
    "channel": "Rajshri Soul",
    "channelUrl": "https://www.youtube.com/@rajshrisoul",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "HjGpS4x1p0A",
@@ -1139,7 +1197,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "182xubj0LqI",
@@ -1158,7 +1217,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "YpON101glHQ",
@@ -1177,7 +1237,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "cpACekVWexc",
@@ -1196,7 +1257,8 @@
    "channel": "Tips Bhakti Prem",
    "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "TDSqvK3Hb1w",
@@ -1215,7 +1277,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "xSm89S6tK18",
@@ -1234,7 +1297,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "zlShDehRhQU",
@@ -1253,7 +1317,8 @@
    "channel": "Tips Bhakti Prem",
    "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "B241lEeK_as",
@@ -1272,7 +1337,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "kScxvPdCT4w",
@@ -1291,7 +1357,8 @@
    "channel": "Rajshri Soul",
    "channelUrl": "https://www.youtube.com/@rajshrisoul",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "-f-TGQ4Z2L0",
@@ -1310,7 +1377,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "vgPiJ_VPbPw",
@@ -1329,7 +1397,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "aPgdu-rWpd0",
@@ -1348,7 +1417,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "SAHgiBxY2X8",
@@ -1367,7 +1437,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "FEMR5alT7CY",
@@ -1385,7 +1456,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "EMO1AT1UQf0",
@@ -1403,7 +1475,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "sKpcFJ8Q6YE",
@@ -1421,7 +1494,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "fgYjYixZUtA",
@@ -1439,7 +1513,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "XX5aZijGlvY",
@@ -1457,7 +1532,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "_LYXvCQdLRk",
@@ -1475,7 +1551,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "Ewhp6hSme9A",
@@ -1493,7 +1570,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "keKHklrKXKc",
@@ -1511,7 +1589,8 @@
    "channel": "Tips Bhakti Prem",
    "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "YQZjnJ4T7no",
@@ -1529,7 +1608,8 @@
    "channel": "Shemaroo Bhakti",
    "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "XE1ANx0go6E",
@@ -1547,7 +1627,8 @@
    "channel": "Saregama Carnatic Classical",
    "channelUrl": "https://www.youtube.com/@saregamacarnaticclassical",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "YIU-7ZesjTU",
@@ -1565,7 +1646,8 @@
    "channel": "Spiritual Mantra",
    "channelUrl": "https://www.youtube.com/@spiritualmantra",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "xeYzjXEP9Mc",
@@ -1583,7 +1665,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "AQSjr8V1jpA",
@@ -1601,7 +1684,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "K5p5ItqqUNU",
@@ -1619,7 +1703,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "XGUs2vtxcHQ",
@@ -1637,7 +1722,8 @@
    "channel": "Saregama Bhakti",
    "channelUrl": "https://www.youtube.com/@SaregamaBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "gCepjHW_QTg",
@@ -1655,7 +1741,8 @@
    "channel": "Saregama Bhakti",
    "channelUrl": "https://www.youtube.com/@SaregamaBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "NE3SWh9_vR4",
@@ -1672,7 +1759,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "jRvu06C6y84",
@@ -1689,7 +1777,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "cwPHTXJkcho",
@@ -1706,7 +1795,8 @@
    "channel": "Shemaroo Bhakti",
    "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "yPiSJP34-QM",
@@ -1723,7 +1813,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "I9dTtvbL6Zk",
@@ -1740,7 +1831,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "0tubv1OKDjg",
@@ -1757,7 +1849,8 @@
    "channel": "Saregama Carnatic Classical",
    "channelUrl": "https://www.youtube.com/@saregamacarnaticclassical",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "mnoIy0tPhEc",
@@ -1774,7 +1867,8 @@
    "channel": "Strumm Spiritual",
    "channelUrl": "https://www.youtube.com/@StrummSpiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "9PXIcw99XIU",
@@ -1791,7 +1885,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "4JNWG-PzfLU",
@@ -1808,7 +1903,8 @@
    "channel": "Sonotek Bhakti",
    "channelUrl": "https://www.youtube.com/@SonotekBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "Ol-XtIgMbX8",
@@ -1825,7 +1921,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "y-DlC0amqDQ",
@@ -1842,7 +1939,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "Y1-ULW8ESj8",
@@ -1861,7 +1959,8 @@
    "channel": "Shemaroo Bhakti",
    "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "mr"
   },
   {
    "id": "Y3zvMjJhoLk",
@@ -1880,7 +1979,8 @@
    "channel": "Shemaroo Bhakti",
    "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "mr"
   },
   {
    "id": "tG4IVlgKuZE",
@@ -1899,7 +1999,8 @@
    "channel": "Tips Bhakti Prem",
    "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "mr"
   },
   {
    "id": "jeDfls2rQmk",
@@ -1918,7 +2019,8 @@
    "channel": "Shemaroo Bhakti",
    "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "mRDy5jHFMq4",
@@ -1937,7 +2039,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "ibDaextX8HY",
@@ -1956,7 +2059,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "-h5__qZMWEs",
@@ -1975,7 +2079,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "pDiA34z2BrQ",
@@ -1994,7 +2099,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "OLui1rZ9ZG8",
@@ -2014,7 +2120,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "-gHr_DAKAyQ",
@@ -2034,7 +2141,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "HCnloqMOWVw",
@@ -2054,7 +2162,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "BtkAw8TpO9g",
@@ -2074,7 +2183,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "WzJ28NZhpdA",
@@ -2094,7 +2204,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "6EC6BmGCkiI",
@@ -2114,7 +2225,8 @@
    "channel": "Rajshri Soul",
    "channelUrl": "https://www.youtube.com/@rajshrisoul",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "cKxzIPjbi7k",
@@ -2134,7 +2246,8 @@
    "channel": "Sonotek Bhakti",
    "channelUrl": "https://www.youtube.com/@SonotekBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "yz_wShbADFU",
@@ -2154,7 +2267,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "-rKAOaS7Q3I",
@@ -2174,7 +2288,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "dVTUUtOHUCA",
@@ -2194,7 +2309,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "yergs8DU1ds",
@@ -2214,7 +2330,8 @@
    "channel": "Tips Bhakti Prem",
    "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "lhyEQhFPPtU",
@@ -2234,7 +2351,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "RQTXD23-JLg",
@@ -2254,7 +2372,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "dcGpeJF2vyQ",
@@ -2274,7 +2393,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "cdlS1XC3Gus",
@@ -2294,7 +2414,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "iytJm3XCPjc",
@@ -2314,7 +2435,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "JmZQJ__Ii8w",
@@ -2334,7 +2456,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "7CdiA0rZ8qo",
@@ -2354,7 +2477,8 @@
    "channel": "Rajshri Soul",
    "channelUrl": "https://www.youtube.com/@rajshrisoul",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "B1IoqRjqn8A",
@@ -2374,7 +2498,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "cS2gRhH6it4",
@@ -2394,7 +2519,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "3hu1okBa4Pc",
@@ -2414,7 +2540,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "9eI8dJyJB8Y",
@@ -2434,7 +2561,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "VARWVhn5uWM",
@@ -2454,7 +2582,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "UdIin-oNxf8",
@@ -2474,7 +2603,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "5ttUSe1Jp-Q",
@@ -2493,7 +2623,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "otWnO-2pwuM",
@@ -2512,7 +2643,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "FbsrJZ-DbT4",
@@ -2531,7 +2663,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "YHhrkNCXFzs",
@@ -2550,7 +2683,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "fmhxRe81oqg",
@@ -2569,7 +2703,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "ThznwYxJ8po",
@@ -2588,7 +2723,8 @@
    "channel": "Rajshri Soul",
    "channelUrl": "https://www.youtube.com/@rajshrisoul",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "ChW9B-FpKhg",
@@ -2607,7 +2743,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "dDPp5WNqavI",
@@ -2626,7 +2763,8 @@
    "channel": "Spiritual Mantra",
    "channelUrl": "https://www.youtube.com/@spiritualmantra",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "KQ_IKdbQvfY",
@@ -2645,7 +2783,8 @@
    "channel": "Sonotek Bhakti",
    "channelUrl": "https://www.youtube.com/@SonotekBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "gr7szeX7tkg",
@@ -2664,7 +2803,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "ltoNTXe6_lM",
@@ -2681,7 +2821,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "dR39jtACMTg",
@@ -2698,7 +2839,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "V5wHXqvtA1s",
@@ -2715,7 +2857,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "bAIGsVl9flU",
@@ -2732,7 +2875,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "0tewmEl8fmA",
@@ -2749,7 +2893,8 @@
    "channel": "Strumm Spiritual",
    "channelUrl": "https://www.youtube.com/@StrummSpiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "xD87wvPCHXc",
@@ -2766,7 +2911,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "hi"
   },
   {
    "id": "DWbb9SoCeGA",
@@ -2791,7 +2937,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "nwRoHC83wx0",
@@ -2816,7 +2963,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "1Xzqp1_g7s4",
@@ -2841,7 +2989,8 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "XwVPW4sjlc0",
@@ -2866,7 +3015,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "OggE330vhko",
@@ -2891,7 +3041,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "PJMUzlvkP4I",
@@ -2916,7 +3067,8 @@
    "channel": "Times Music Spiritual",
    "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "Vwyo62x9yC4",
@@ -2941,7 +3093,8 @@
    "channel": "Rajshri Soul",
    "channelUrl": "https://www.youtube.com/@rajshrisoul",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "t2TGoZ2Tyz4",
@@ -2966,7 +3119,8 @@
    "channel": "Saregama Bhakti",
    "channelUrl": "https://www.youtube.com/@SaregamaBhakti",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
   },
   {
    "id": "_olAwGp5GYw",
@@ -2991,7 +3145,4445 @@
    "channel": "T-Series Bhakti Sagar",
    "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
    "secs": null,
-   "checked": "2026-11-04"
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "E5493ZnF4ms",
+   "en": "Khatu Shyam Ji Ki Aarti",
+   "hi": "खाटू श्याम जी की आरती",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "khatu",
+   "type": "aarti",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 376,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "9Qu5R3PQcuE",
+   "en": "Om Jai Shree Shyam Hare",
+   "hi": "ॐ जय श्री श्याम हरे",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "khatu",
+   "type": "aarti",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": 526,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "4QTbMBqp5B8",
+   "en": "Shri Khatu Shyam Chalisa",
+   "hi": "श्री खाटू श्याम चालीसा",
+   "singerEn": "Kumar Vishu",
+   "singerHi": "कुमार विशु",
+   "deity": "khatu",
+   "type": "chalisa",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": 569,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "6Cdte1Y-Pb8",
+   "en": "Khatu Shyam Amritwani",
+   "hi": "खाटू श्याम अमृतवाणी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "khatu",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 288,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "YUZYAAhs1CY",
+   "en": "Khatu Shyam Dhani",
+   "hi": "खाटू श्याम धणी",
+   "singerEn": "Bobby Fakeera",
+   "singerHi": "बॉबी फकीरा",
+   "deity": "khatu",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 346,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "QtOX0rkAteo",
+   "en": "Khatu Wale Shyam Dhani",
+   "hi": "खाटू वाले श्याम धणी",
+   "singerEn": "Yukti Vig",
+   "singerHi": "युक्ति विग",
+   "deity": "khatu",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 444,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "6I2wzS2Bues",
+   "en": "Dena Hai To De De Sanware",
+   "hi": "देना है तो दे दे सांवरे",
+   "singerEn": "Pt. Ram Avtar Sharma",
+   "singerHi": "पं. राम अवतार शर्मा",
+   "deity": "khatu",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 394,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "84gTzCjjHek",
+   "en": "Har Gyaras Ko",
+   "hi": "हर ग्यारस को",
+   "singerEn": "Brijraj Singh Lakkha",
+   "singerHi": "बृजराज सिंह लक्खा",
+   "deity": "khatu",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 400,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "X6OYaUvlTvo",
+   "en": "Kismat Ko Badalte Dekha",
+   "hi": "किस्मत को बदलते देखा",
+   "singerEn": "Brijraj Singh Lakkha",
+   "singerHi": "बृजराज सिंह लक्खा",
+   "deity": "khatu",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 398,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "C5S3eI3aQi8",
+   "en": "Mere Pass Mere Shyam",
+   "hi": "मेरे पास मेरे श्याम",
+   "singerEn": "Sandeep Kapoor",
+   "singerHi": "संदीप कपूर",
+   "deity": "khatu",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 386,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "i6ZPDxpR9MI",
+   "en": "Wo Raja Khatu Da",
+   "hi": "वो राजा खाटू दा",
+   "singerEn": "Khushboo Radha",
+   "singerHi": "खुशबू राधा",
+   "deity": "khatu",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 243,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "LqKh4cLVvu0",
+   "en": "Khatu Wale Shyam Ne Mujhko Jeena Sikha Diya",
+   "hi": "खाटू वाले श्याम ने मुझको जीना सिखा दिया",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "khatu",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": 288,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "WQ_OtxesD8E",
+   "en": "Ye Hai Mere Shyam Ka Dar",
+   "hi": "ये है मेरे श्याम का दर",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "khatu",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Haryanvi Bhakti",
+   "channelUrl": "https://www.youtube.com/@tseriesharyanvibhakti",
+   "secs": 341,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "ir-gR0_X8II",
+   "en": "Khatu Shyam Babaji",
+   "hi": "खाटू श्याम बाबाजी",
+   "singerEn": "Sunny Brothers",
+   "singerHi": "सनी ब्रदर्स",
+   "deity": "khatu",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Saregama Bhakti",
+   "channelUrl": "https://www.youtube.com/@SaregamaBhakti",
+   "secs": 244,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "7MhfQOgWMyc",
+   "en": "Shanaishwara Shanaishwara",
+   "hi": "शनैश्वरा शनैश्वरा",
+   "singerEn": "Anuradha Paudwal, Hariharan",
+   "singerHi": "अनुराधा पौडवाल, हरिहरन",
+   "deity": "shani",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 419,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "aLJ-hnoGdS8",
+   "en": "Kshama Karo Kshama Karo",
+   "hi": "क्षमा करो क्षमा करो",
+   "singerEn": "Sonu Nigam, Anuradha Paudwal",
+   "singerHi": "सोनू निगम, अनुराधा पौडवाल",
+   "deity": "shani",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 363,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "7fz9HZBUVQQ",
+   "en": "Ye Hai Shani Katha Re Mere Bhai",
+   "hi": "ये है शनि कथा रे मेरे भाई",
+   "singerEn": "Mahendra Kapoor",
+   "singerHi": "महेंद्र कपूर",
+   "deity": "shani",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 364,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "X_jWC_8HDvI",
+   "en": "Shree Shanidev Amritwani",
+   "hi": "श्री शनिदेव अमृतवाणी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "shani",
+   "type": "stuti",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 279,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "V6_IRKHXOPY",
+   "en": "Shani Gatha",
+   "hi": "शनि गाथा",
+   "singerEn": "Kumar Vishu",
+   "singerHi": "कुमार विशु",
+   "deity": "shani",
+   "type": "katha",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 3786,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "xi6lmFf8UZk",
+   "en": "Om Praam Preem Praum Sah Shanaischaraya Namah",
+   "hi": "ॐ प्रां प्रीं प्रौं सः शनैश्चराय नमः",
+   "singerEn": "Narendra Chanchal",
+   "singerHi": "नरेंद्र चंचल",
+   "deity": "shani",
+   "type": "mantra",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 425,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "jQg52ber1-U",
+   "en": "Sampoorna Shaneshchar Stotra",
+   "hi": "सम्पूर्ण शनैश्चर स्तोत्र",
+   "singerEn": "Shankar Mahadevan",
+   "singerHi": "शंकर महादेवन",
+   "deity": "shani",
+   "type": "stuti",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": 454,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "hcq0FqDhrW0",
+   "en": "Dashrath Krit Shani Stotra",
+   "hi": "दशरथ कृत शनि स्तोत्र",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shani",
+   "type": "stuti",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 223,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "4HNbwEiHPlg",
+   "en": "Shani Mantra 108 Times",
+   "hi": "शनि मंत्र 108 बार",
+   "singerEn": "Suresh Wadkar",
+   "singerHi": "सुरेश वाडकर",
+   "deity": "shani",
+   "type": "mantra",
+   "days": [
+    6
+   ],
+   "fest": [],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": 4552,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "RxaGJIuIcx4",
+   "en": "Aarti Saibaba (Gheuniya Pancharati)",
+   "hi": "आरती साईबाबा (घेऊनिया पंचारती)",
+   "singerEn": "Lata Mangeshkar",
+   "singerHi": "लता मंगेशकर",
+   "deity": "sai",
+   "type": "aarti",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": 251,
+   "checked": "2026-11-04",
+   "lang": "mr"
+  },
+  {
+   "id": "k8W64L0xU_c",
+   "en": "Sai Baba Shej Aarti",
+   "hi": "साईं बाबा शेज आरती",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "sai",
+   "type": "aarti",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": 1027,
+   "checked": "2026-11-04",
+   "lang": "mr"
+  },
+  {
+   "id": "0eYfxSyfssk",
+   "en": "Shirdi Sai Baba Madhyan Aarti",
+   "hi": "शिरडी साईं बाबा मध्यान्ह आरती",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "sai",
+   "type": "aarti",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 1197,
+   "checked": "2026-11-04",
+   "lang": "mr"
+  },
+  {
+   "id": "bQwSXJEjQXg",
+   "en": "Sai Amritwani",
+   "hi": "साईं अमृतवाणी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "sai",
+   "type": "stuti",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 1188,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "S1kjDPnqGi4",
+   "en": "Sai Ram Sai Ram Sai Sai Ram Dhun",
+   "hi": "साईं राम साईं राम साईं साईं राम धुन",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "sai",
+   "type": "mantra",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 527,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "SsWWzYgkZ4s",
+   "en": "Main Deewana Tera Sai",
+   "hi": "मैं दीवाना तेरा साईं",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "sai",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 405,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "8u6MgSDL08g",
+   "en": "Sai Rehem Nazar Karna",
+   "hi": "साईं रहम नज़र करना",
+   "singerEn": "Alka Yagnik",
+   "singerHi": "अलका याग्निक",
+   "deity": "sai",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Tips Bhakti Prem",
+   "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
+   "secs": 492,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "n4QTAZsZNDY",
+   "en": "Sai Amritwani (Telugu)",
+   "hi": "साईं अमृतवाणी (तेलुगु)",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "sai",
+   "type": "stuti",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 2910,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "RZY6kVsNwSQ",
+   "en": "Shree Bhaktamar Stotra",
+   "hi": "श्री भक्तामर स्तोत्र",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "jain",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 2898,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "1q03yinxx5U",
+   "en": "Mahavir Amritwani",
+   "hi": "महावीर अमृतवाणी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "jain",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 2924,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "bLTacIt-hw4",
+   "en": "Prabhu Patit Pawan (Mahavir Stuti)",
+   "hi": "प्रभु पतित पावन (महावीर स्तुति)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 199,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "slhbVjA-qdk",
+   "en": "Jai Jai Aarti Aadi Jinanda",
+   "hi": "जय जय आरती आदि जिणंदा",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "aarti",
+   "days": [],
+   "fest": [],
+   "channel": "Saregama Jain Stavans",
+   "channelUrl": "https://www.youtube.com/@SaregamaJainStavans",
+   "secs": 198,
+   "checked": "2026-11-04",
+   "lang": "gu"
+  },
+  {
+   "id": "JoUiKbmc_4I",
+   "en": "Chintamani Mari Chinta Chur",
+   "hi": "चिंतामणि मारी चिंता चूर",
+   "singerEn": "Mahesh Maru",
+   "singerHi": "महेश मारू",
+   "deity": "jain",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Saregama Jain Stavans",
+   "channelUrl": "https://www.youtube.com/@SaregamaJainStavans",
+   "secs": 432,
+   "checked": "2026-11-04",
+   "lang": "gu"
+  },
+  {
+   "id": "jFJRt4Fe6A0",
+   "en": "Parmatma",
+   "hi": "परमात्मा",
+   "singerEn": "Manan Sanghvi",
+   "singerHi": "मनन संघवी",
+   "deity": "jain",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Saregama Jain Stavans",
+   "channelUrl": "https://www.youtube.com/@SaregamaJainStavans",
+   "secs": 194,
+   "checked": "2026-11-04",
+   "lang": "gu"
+  },
+  {
+   "id": "HeVOoc8T_eE",
+   "en": "Sonama Sugandh Bhade",
+   "hi": "सोनामां सुगंध भळे",
+   "singerEn": "Nikesh Sanghvi",
+   "singerHi": "निकेश संघवी",
+   "deity": "jain",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Saregama Jain Stavans",
+   "channelUrl": "https://www.youtube.com/@SaregamaJainStavans",
+   "secs": 346,
+   "checked": "2026-11-04",
+   "lang": "gu"
+  },
+  {
+   "id": "FsRkAzWH-uI",
+   "en": "Japji Sahib",
+   "hi": "जपजी साहिब",
+   "singerEn": "Prof. Satnam Singh Sethi",
+   "singerHi": "प्रो. सतनाम सिंह सेठी",
+   "deity": "sikh",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 1239,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "xXtdgt9p9i0",
+   "en": "Japji Sahib",
+   "hi": "जपजी साहिब",
+   "singerEn": "Bhai Harbans Singh",
+   "singerHi": "भाई हरबंस सिंह",
+   "deity": "sikh",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 1035,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "ewDbSUpLJYw",
+   "en": "Rehras Sahib",
+   "hi": "रहरास साहिब",
+   "singerEn": "Bhai Jaskaran Singh Patiala Wale",
+   "singerHi": "भाई जसकरण सिंह पटियाला वाले",
+   "deity": "sikh",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Gurbani Shabad Kirtan - Amritt Saagar",
+   "channelUrl": "https://www.youtube.com/@amrittsaagar",
+   "secs": 1106,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "byoRDrYkYS0",
+   "en": "Rehras Sahib",
+   "hi": "रहरास साहिब",
+   "singerEn": "Bhai Harbans Singh",
+   "singerHi": "भाई हरबंस सिंह",
+   "deity": "sikh",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 1111,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "f288bghaEP4",
+   "en": "Sukhmani Sahib",
+   "hi": "सुखमनी साहिब",
+   "singerEn": "Prof. Satnam Singh Sethi",
+   "singerHi": "प्रो. सतनाम सिंह सेठी",
+   "deity": "sikh",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 4265,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "wTeUxSEo3tc",
+   "en": "Sukhmani Sahib (Kirtan)",
+   "hi": "सुखमनी साहिब (कीर्तन)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "sikh",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Gurbani Shabad Kirtan - Amritt Saagar",
+   "channelUrl": "https://www.youtube.com/@amrittsaagar",
+   "secs": 9327,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "AhZ9Kpwyv0Q",
+   "en": "Kirtan Sohila",
+   "hi": "कीर्तन सोहिला",
+   "singerEn": "Bhai Jaskaran Singh Patiala Wale",
+   "singerHi": "भाई जसकरण सिंह पटियाला वाले",
+   "deity": "sikh",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Gurbani Shabad Kirtan - Amritt Saagar",
+   "channelUrl": "https://www.youtube.com/@amrittsaagar",
+   "secs": 226,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "SGomQmwc0CE",
+   "en": "Kirtan Sohila",
+   "hi": "कीर्तन सोहिला",
+   "singerEn": "Bhai Harbans Singh",
+   "singerHi": "भाई हरबंस सिंह",
+   "deity": "sikh",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 228,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "BIRKGDXDfTk",
+   "en": "Aarti (Sodar Rehras)",
+   "hi": "आरती (सोदर रहरास)",
+   "singerEn": "Bhai Tarlochan Singh",
+   "singerHi": "भाई तरलोचन सिंह",
+   "deity": "sikh",
+   "type": "aarti",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 924,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "YN9SiKx6eY0",
+   "en": "Aath Pehar Salahe",
+   "hi": "आठ पहर सालाहे",
+   "singerEn": "Bhai Harjinder Singh (Srinagar Wale)",
+   "singerHi": "भाई हरजिंदर सिंह (श्रीनगर वाले)",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 358,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "ek10jXsxmT0",
+   "en": "Charan Kamal Tere Dhoye Dhoye Peevan",
+   "hi": "चरण कमल तेरे धोए धोए पीवां",
+   "singerEn": "Bhai Harjinder Singh, Bhai Maninder Singh",
+   "singerHi": "भाई हरजिंदर सिंह, भाई मनिंदर सिंह",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 621,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "qz0yxrBiQSM",
+   "en": "Sabh Jot Teri Jagjeevana",
+   "hi": "सभ जोत तेरी जगजीवना",
+   "singerEn": "Bhai Harjinder Singh",
+   "singerHi": "भाई हरजिंदर सिंह",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 707,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "gVp1ULqzpMk",
+   "en": "Nanak Chinta Mat Karho",
+   "hi": "नानक चिंता मत करहु",
+   "singerEn": "Bhai Harjinder Singh",
+   "singerHi": "भाई हरजिंदर सिंह",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 926,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "F6QSw03qRiI",
+   "en": "Tum Karoh Daya Mere Sai",
+   "hi": "तुम करहु दइआ मेरे साई",
+   "singerEn": "Bhai Satvinder Singh, Bhai Harvinder Singh",
+   "singerHi": "भाई सतविंदर सिंह, भाई हरविंदर सिंह",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 801,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "Gxmxts_wqsM",
+   "en": "Sabhna Vich Tu Vartada Saaha",
+   "hi": "सभना विच तू वरतदा साहा",
+   "singerEn": "Bhai Satvinder Singh, Bhai Harvinder Singh",
+   "singerHi": "भाई सतविंदर सिंह, भाई हरविंदर सिंह",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 846,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "Vm6M2wGQZPY",
+   "en": "Sa Rasna Dhan Dhan Hai",
+   "hi": "सा रसना धन धन है",
+   "singerEn": "Bhai Sarabjit Singh",
+   "singerHi": "भाई सरबजीत सिंह",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Shabad Gurbani",
+   "channelUrl": "https://www.youtube.com/@tseriesshabad",
+   "secs": 646,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "hV19sQYedyU",
+   "en": "Gur Ramdas Rakho Sarnai",
+   "hi": "गुर रामदास राखहु सरणाई",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Gurbani Shabad Kirtan - Amritt Saagar",
+   "channelUrl": "https://www.youtube.com/@amrittsaagar",
+   "secs": 449,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "RpgCn6G8dJM",
+   "en": "Tumri Kirpa Meh Sookh Ghanere",
+   "hi": "तुमरी किरपा महि सूख घनेरे",
+   "singerEn": "Bhai Ranjeet Singh Laha",
+   "singerHi": "भाई रणजीत सिंह लाहा",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Gurbani Shabad Kirtan - Amritt Saagar",
+   "channelUrl": "https://www.youtube.com/@amrittsaagar",
+   "secs": 416,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "PIzpkkzGAuM",
+   "en": "Mere Ram Rai",
+   "hi": "मेरे राम राइ",
+   "singerEn": "Bhai Kuljeet Singh Khalsa",
+   "singerHi": "भाई कुलजीत सिंह खालसा",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Gurbani Shabad Kirtan - Amritt Saagar",
+   "channelUrl": "https://www.youtube.com/@amrittsaagar",
+   "secs": 542,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "ZfN7p5VLyNc",
+   "en": "Tu Prabhu Daata",
+   "hi": "तू प्रभु दाता",
+   "singerEn": "Sukhwinder Singh",
+   "singerHi": "सुखविंदर सिंह",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 329,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "TdqWkEBXWuA",
+   "en": "Gurbani Kirtan, Sri Harmandir Sahib",
+   "hi": "गुरबाणी कीर्तन, श्री हरमंदिर साहिब",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "sikh",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "SGPC, Sri Amritsar",
+   "channelUrl": "https://www.youtube.com/@SGPCSriAmritsar",
+   "secs": 18331,
+   "checked": "2026-11-04",
+   "lang": "pa"
+  },
+  {
+   "id": "XrR0MPShJIc",
+   "en": "Azhagendra Sollukku Muruga",
+   "hi": "अऴगेंद्र सोल्लुक्कु मुरुगा",
+   "singerEn": "T.M. Soundararajan",
+   "singerHi": "टी.एम. सौंदरराजन",
+   "deity": "murugan",
+   "type": "bhajan",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Saregama Tamil",
+   "channelUrl": "https://www.youtube.com/@SaregamaTamil",
+   "secs": 351,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "D-EtIYcNy6k",
+   "en": "Ullam Uruguthaiyya",
+   "hi": "उल्लम उरुगुतैय्या",
+   "singerEn": "T.M. Soundararajan",
+   "singerHi": "टी.एम. सौंदरराजन",
+   "deity": "murugan",
+   "type": "bhajan",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Saregama South Devotional",
+   "channelUrl": "https://www.youtube.com/@SaregamaSouthDevotional",
+   "secs": 377,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "lqLOaKgemY0",
+   "en": "Thithikkum Theenthamizhil",
+   "hi": "तित्तिक्कुम तीन्तमिऴिल",
+   "singerEn": "T.M. Soundararajan",
+   "singerHi": "टी.एम. सौंदरराजन",
+   "deity": "murugan",
+   "type": "bhajan",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Saregama South Devotional",
+   "channelUrl": "https://www.youtube.com/@SaregamaSouthDevotional",
+   "secs": 203,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "XIzJABP3K54",
+   "en": "Muruganai Koopittu",
+   "hi": "मुरुगनै कूप्पिट्टु",
+   "singerEn": "T.M. Soundararajan",
+   "singerHi": "टी.एम. सौंदरराजन",
+   "deity": "murugan",
+   "type": "bhajan",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Saregama South Devotional",
+   "channelUrl": "https://www.youtube.com/@SaregamaSouthDevotional",
+   "secs": 214,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "Q03Q6GdSKgg",
+   "en": "Sollatha Naalillai",
+   "hi": "सोल्लाता नाळिल्लै",
+   "singerEn": "T.M. Soundararajan",
+   "singerHi": "टी.एम. सौंदरराजन",
+   "deity": "murugan",
+   "type": "bhajan",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Saregama South Devotional",
+   "channelUrl": "https://www.youtube.com/@SaregamaSouthDevotional",
+   "secs": 198,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "mQTEhbeQAi4",
+   "en": "Kanda Sashti Kavasam",
+   "hi": "कंद षष्ठी कवचम्",
+   "singerEn": "Trivandrum Sisters",
+   "singerHi": "त्रिवेंद्रम सिस्टर्स",
+   "deity": "murugan",
+   "type": "stuti",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Vijay Musical",
+   "channelUrl": "https://www.youtube.com/@vijaymusicalsdevotionalsongs",
+   "secs": 1284,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "Am9xeV_Hjt4",
+   "en": "Thirupparang Kundrathil",
+   "hi": "तिरुप्परंग कुंड्रत्तिल",
+   "singerEn": "Soolamangalam Sisters",
+   "singerHi": "सूलमंगलम सिस्टर्स",
+   "deity": "murugan",
+   "type": "bhajan",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Saregama South Devotional",
+   "channelUrl": "https://www.youtube.com/@SaregamaSouthDevotional",
+   "secs": 217,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "VzaEGdkyIWE",
+   "en": "Murugan Suprabhatham",
+   "hi": "मुरुगन सुप्रभातम्",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "murugan",
+   "type": "stuti",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Vijay Musical",
+   "channelUrl": "https://www.youtube.com/@vijaymusicalsdevotionalsongs",
+   "secs": 1080,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "H-DQIhLe5l8",
+   "en": "Kundrellaam Kumara",
+   "hi": "कुंड्रेल्लाम कुमरा",
+   "singerEn": "Nithyasree Mahadevan",
+   "singerHi": "नित्यश्री महादेवन",
+   "deity": "murugan",
+   "type": "bhajan",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Vijay Musical",
+   "channelUrl": "https://www.youtube.com/@vijaymusicalsdevotionalsongs",
+   "secs": 489,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "ApptESz5Y9E",
+   "en": "Thandhaiyum Thaayum",
+   "hi": "तंदैयुम तायुम",
+   "singerEn": "Nithyasree Mahadevan",
+   "singerHi": "नित्यश्री महादेवन",
+   "deity": "murugan",
+   "type": "bhajan",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Vijay Musical",
+   "channelUrl": "https://www.youtube.com/@vijaymusicalsdevotionalsongs",
+   "secs": 367,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "D10dG4vA1J0",
+   "en": "Vel Kaiyileduthu Kandan",
+   "hi": "वेल कैयिलेडुत्तु कंदन",
+   "singerEn": "Malathi Lakshman",
+   "singerHi": "मालती लक्ष्मण",
+   "deity": "murugan",
+   "type": "bhajan",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Vijay Musical",
+   "channelUrl": "https://www.youtube.com/@vijaymusicalsdevotionalsongs",
+   "secs": 324,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "J14r9iboc2s",
+   "en": "Murugan 108 Potri",
+   "hi": "मुरुगन 108 पोट्री",
+   "singerEn": "Pushpavanam Kuppusamy",
+   "singerHi": "पुष्पवनम कुप्पुसामी",
+   "deity": "murugan",
+   "type": "mantra",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Vijay Musical",
+   "channelUrl": "https://www.youtube.com/@vijaymusicalsdevotionalsongs",
+   "secs": 475,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "HNnKKlgbVag",
+   "en": "Saravanabhavane",
+   "hi": "सरवणभवने",
+   "singerEn": "Kalpana",
+   "singerHi": "कल्पना",
+   "deity": "murugan",
+   "type": "bhajan",
+   "days": [
+    2
+   ],
+   "fest": [],
+   "channel": "Vijay Musical",
+   "channelUrl": "https://www.youtube.com/@vijaymusicalsdevotionalsongs",
+   "secs": 1015,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "BOjJGALm2kQ",
+   "en": "Harivarasanam",
+   "hi": "हरिवरासनम्",
+   "singerEn": "K.J. Yesudas",
+   "singerHi": "के.जे. येसुदास",
+   "deity": "ayyappa",
+   "type": "stuti",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 299,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "JF0uH9HApGQ",
+   "en": "Pallikattu Sabarimalaikku",
+   "hi": "पल्लिकट्टु सबरीमलैक्कु",
+   "singerEn": "K. Veeramani",
+   "singerHi": "के. वीरमणि",
+   "deity": "ayyappa",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Saregama South Devotional",
+   "channelUrl": "https://www.youtube.com/@SaregamaSouthDevotional",
+   "secs": 394,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "kJ1Q77SbuFE",
+   "en": "Engey Manakkuthu",
+   "hi": "एंगे मणक्कुतु",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ayyappa",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Saregama Tamil",
+   "channelUrl": "https://www.youtube.com/@SaregamaTamil",
+   "secs": 323,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "BbhaEL1Aw2E",
+   "en": "Kaadu Malai Kadanthu",
+   "hi": "काडु मलै कडंतु",
+   "singerEn": "K. Veeramani",
+   "singerHi": "के. वीरमणि",
+   "deity": "ayyappa",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Saregama South Devotional",
+   "channelUrl": "https://www.youtube.com/@SaregamaSouthDevotional",
+   "secs": 263,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "IOGcwsdF1eU",
+   "en": "Bhagavan Saranam Bhagavathi Saranam",
+   "hi": "भगवान शरणम् भगवती शरणम्",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ayyappa",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Saregama South Devotional",
+   "channelUrl": "https://www.youtube.com/@SaregamaSouthDevotional",
+   "secs": 379,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "ih23dTysgSc",
+   "en": "Ayyappa Devaya Namaha",
+   "hi": "अय्यप्पा देवाय नमः",
+   "singerEn": "S.P. Balasubrahmanyam",
+   "singerHi": "एस.पी. बालसुब्रमण्यम",
+   "deity": "ayyappa",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 344,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "8vhcSAYv3to",
+   "en": "Jaya Mangalam (Ayyappa Harathi)",
+   "hi": "जय मंगलम् (अय्यप्पा आरती)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ayyappa",
+   "type": "aarti",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 685,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "i2sgvZyNie4",
+   "en": "Ayyappa Ayyappa",
+   "hi": "अय्यप्पा अय्यप्पा",
+   "singerEn": "Unnikrishnan",
+   "singerHi": "उन्नीकृष्णन",
+   "deity": "ayyappa",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 339,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "pUxobwv5NUA",
+   "en": "Ayyappa Chalisa",
+   "hi": "अय्यप्पा चालीसा",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ayyappa",
+   "type": "chalisa",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 727,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "Y2Jru9f1lTc",
+   "en": "Metla Paata (Harihara Sutha Ayyappa)",
+   "hi": "मेट्ल पाटा (हरिहर सुत अय्यप्पा)",
+   "singerEn": "Parupalli Sri Ranganath",
+   "singerHi": "परुपल्ली श्री रंगनाथ",
+   "deity": "ayyappa",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 943,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "D30ySIxhjqQ",
+   "en": "Swamy Ayyappa",
+   "hi": "स्वामी अय्यप्पा",
+   "singerEn": "K.J. Yesudas",
+   "singerHi": "के.जे. येसुदास",
+   "deity": "ayyappa",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 263,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "oLy2ltnQOh0",
+   "en": "Irumudi Gantinale",
+   "hi": "इरुमुडि गंटिनले",
+   "singerEn": "S.P. Balasubrahmanyam",
+   "singerHi": "एस.पी. बालसुब्रमण्यम",
+   "deity": "ayyappa",
+   "type": "bhajan",
+   "days": [
+    6
+   ],
+   "fest": [
+    "makar-sankranti"
+   ],
+   "channel": "Anand Audio Devotional",
+   "channelUrl": "https://www.youtube.com/@AnandAudioDevotional",
+   "secs": 319,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "krGYd5tZe0A",
+   "en": "Sri Venkateswara Suprabhatam",
+   "hi": "श्री वेंकटेश्वर सुप्रभातम्",
+   "singerEn": "M.S. Subbulakshmi",
+   "singerHi": "एम.एस. सुब्बुलक्ष्मी",
+   "deity": "vishnu",
+   "type": "stuti",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "Saregama Telugu",
+   "channelUrl": "https://www.youtube.com/@saregamasouth",
+   "secs": 1242,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "K6JLDMWgARg",
+   "en": "Govinda Namalu",
+   "hi": "गोविंद नामालु",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "vishnu",
+   "type": "stuti",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 653,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "fDjAuS7wBLw",
+   "en": "Alarachanchalanai",
+   "hi": "अलर चंचलनै",
+   "singerEn": "Nitya Santhoshini",
+   "singerHi": "नित्य संतोषिणी",
+   "deity": "vishnu",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "Times Music Bhakthi",
+   "channelUrl": "https://www.youtube.com/@timesmusicbhakthi",
+   "secs": 432,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "v1ikP0In2lE",
+   "en": "Thirumala Vaasa",
+   "hi": "तिरुमला वासा",
+   "singerEn": "Usha",
+   "singerHi": "उषा",
+   "deity": "vishnu",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "Times Music Bhakthi",
+   "channelUrl": "https://www.youtube.com/@timesmusicbhakthi",
+   "secs": 1188,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "xZa99R6YJXo",
+   "en": "Neevokkadive",
+   "hi": "नीवोक्कडिवे",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "vishnu",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "SVBC TTD",
+   "channelUrl": "https://www.youtube.com/@svbcttd",
+   "secs": 224,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "8SKcrAQHN7I",
+   "en": "Narayana Stotram",
+   "hi": "नारायण स्तोत्रम्",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "vishnu",
+   "type": "stuti",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "SVBC TTD",
+   "channelUrl": "https://www.youtube.com/@svbcttd",
+   "secs": 712,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "l1pezLiSbZY",
+   "en": "Veyi Naamaala Vaada",
+   "hi": "वेयि नामाल वाडा",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "vishnu",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Telugu",
+   "channelUrl": "https://www.youtube.com/@TseriesTelugu",
+   "secs": 323,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "C1qwFWm64nk",
+   "en": "Akhilanda Koti",
+   "hi": "अखिलांड कोटि",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "vishnu",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Telugu",
+   "channelUrl": "https://www.youtube.com/@TseriesTelugu",
+   "secs": 284,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "J52TTXUqbmQ",
+   "en": "Eshtu Sahasavantha",
+   "hi": "एष्टु साहसवंत",
+   "singerEn": "Dr. Vidyabhushana",
+   "singerHi": "डॉ. विद्याभूषण",
+   "deity": "vishnu",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "Anand Audio Devotional",
+   "channelUrl": "https://www.youtube.com/@AnandAudioDevotional",
+   "secs": 1012,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "QSaKxQVDHvI",
+   "en": "Vitthuraya Majha Chandanacha Kand",
+   "hi": "विठुराया माझा चंदनाचा कांड",
+   "singerEn": "Ajit Kadkade",
+   "singerHi": "अजित कडकडे",
+   "deity": "vishnu",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Marathi",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiMarathi",
+   "secs": 428,
+   "checked": "2026-11-04",
+   "lang": "mr"
+  },
+  {
+   "id": "JFUXyZU8ZX4",
+   "en": "Tujhe Naam Aale Othi",
+   "hi": "तुझे नाम आले ओठी",
+   "singerEn": "Ajit Kadkade",
+   "singerHi": "अजित कडकडे",
+   "deity": "vishnu",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Marathi",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiMarathi",
+   "secs": 416,
+   "checked": "2026-11-04",
+   "lang": "mr"
+  },
+  {
+   "id": "B9XN5idB8Rw",
+   "en": "Vitthalache Roop",
+   "hi": "विठ्ठलाचे रूप",
+   "singerEn": "Pralhad Shinde",
+   "singerHi": "प्रल्हाद शिंदे",
+   "deity": "vishnu",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Marathi",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiMarathi",
+   "secs": 316,
+   "checked": "2026-11-04",
+   "lang": "mr"
+  },
+  {
+   "id": "7nDrOU9hfbQ",
+   "en": "Shree Vitthal Amritwani",
+   "hi": "श्री विठ्ठल अमृतवाणी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "vishnu",
+   "type": "stuti",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Marathi",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiMarathi",
+   "secs": 1199,
+   "checked": "2026-11-04",
+   "lang": "mr"
+  },
+  {
+   "id": "IL67PP2ODB4",
+   "en": "Lakshmi Narayana Ashtakam",
+   "hi": "लक्ष्मी नारायण अष्टकम्",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "vishnu",
+   "type": "stuti",
+   "days": [
+    4
+   ],
+   "fest": [],
+   "channel": "T-Series Bhakti Sagar Telugu",
+   "channelUrl": "https://www.youtube.com/@Bhaktisagartelugu",
+   "secs": 472,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "7KyyFzCrSGs",
+   "en": "Sevappu Selai",
+   "hi": "सेवप्पु सेलै",
+   "singerEn": "L.R. Eswari",
+   "singerHi": "एल.आर. ईश्वरी",
+   "deity": "durga",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Saregama South Devotional",
+   "channelUrl": "https://www.youtube.com/@SaregamaSouthDevotional",
+   "secs": 198,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "UVONGtXdT4I",
+   "en": "Mangala Roopini",
+   "hi": "मंगल रूपिणी",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "durga",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Vijay Musical",
+   "channelUrl": "https://www.youtube.com/@vijaymusicalsdevotionalsongs",
+   "secs": 581,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "DtSBLpQStT4",
+   "en": "Sri Lalitha Sahasranamam",
+   "hi": "श्री ललिता सहस्रनाम",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "durga",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 1849,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "Ak3BED0KsLo",
+   "en": "Aai Tuljabhavanichi Aarti",
+   "hi": "आई तुळजाभवानीची आरती",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "durga",
+   "type": "aarti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Marathi",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiMarathi",
+   "secs": 168,
+   "checked": "2026-11-04",
+   "lang": "mr"
+  },
+  {
+   "id": "VmODVblf1tE",
+   "en": "He Jag Janani",
+   "hi": "हे जग जननी",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "durga",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Gujarati",
+   "channelUrl": "https://www.youtube.com/@TSeriesGujarati",
+   "secs": 664,
+   "checked": "2026-11-04",
+   "lang": "gu"
+  },
+  {
+   "id": "alCtB1c2czU",
+   "en": "Jai Aadhyashakti",
+   "hi": "जय आद्यशक्ति",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "durga",
+   "type": "aarti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Gujarati",
+   "channelUrl": "https://www.youtube.com/@TSeriesGujarati",
+   "secs": 678,
+   "checked": "2026-11-04",
+   "lang": "gu"
+  },
+  {
+   "id": "tdnYFQYRVfs",
+   "en": "Jai Aadhyashakti",
+   "hi": "जय आद्यशक्ति",
+   "singerEn": "Hemant Chauhan",
+   "singerHi": "हेमंत चौहान",
+   "deity": "durga",
+   "type": "aarti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 686,
+   "checked": "2026-11-04",
+   "lang": "gu"
+  },
+  {
+   "id": "msuTIqKWZLo",
+   "en": "Amma Bhavani",
+   "hi": "अम्मा भवानी",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "durga",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 382,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "j89yN3JZuKA",
+   "en": "Amba Shambhavi (Sri Rajarajeswari Stotram)",
+   "hi": "अंबा शांभवी (श्री राजराजेश्वरी स्तोत्रम्)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "durga",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 476,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "rC90GV7HLBU",
+   "en": "Madhura Madhuratara Meenakshi",
+   "hi": "मधुर मधुरतर मीनाक्षी",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "durga",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 679,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "V21b08hhrgs",
+   "en": "Annapoorna Ashtakam (Nityanandakari)",
+   "hi": "अन्नपूर्णा अष्टकम् (नित्यानंदकरी)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "durga",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 481,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "R7qXBusWw2E",
+   "en": "Sathyada Siridevi",
+   "hi": "सत्यद सिरिदेवी",
+   "singerEn": "K. Yuvaraj",
+   "singerHi": "के. युवराज",
+   "deity": "durga",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Jhankar Music Bhakti",
+   "channelUrl": "https://www.youtube.com/@JhankarBhakti",
+   "secs": 389,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "W9jkvIr7NpY",
+   "en": "Chalada Ee Janma Chalada",
+   "hi": "चालदा ई जन्म चालदा",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 512,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "RTGd7hKOJTo",
+   "en": "Bhola Shankara Mallikarjuna",
+   "hi": "भोला शंकर मल्लिकार्जुन",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 352,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "Zae-pxQjYCk",
+   "en": "Shiva Shiva Shankara",
+   "hi": "शिव शिव शंकर",
+   "singerEn": "Shankar Mahadevan",
+   "singerHi": "शंकर महादेवन",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 603,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "VnPFQ7nNu0U",
+   "en": "Shiva Shiva Shankaraa (Kannappa)",
+   "hi": "शिव शिव शंकरा (कन्नप्पा)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Telugu",
+   "channelUrl": "https://www.youtube.com/@TseriesTelugu",
+   "secs": 316,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "ZUivTFfMZHc",
+   "en": "Shiva Sahasranama Stotram",
+   "hi": "शिव सहस्रनाम स्तोत्रम्",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shiv",
+   "type": "stuti",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 1887,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "_pkteCLYBJA",
+   "en": "Sivapuranam (Namasivaya Vazhga)",
+   "hi": "शिवपुराणम् (नमशिवाय वाऴ्ग)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shiv",
+   "type": "stuti",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "Vijay Musical",
+   "channelUrl": "https://www.youtube.com/@vijaymusicalsdevotionalsongs",
+   "secs": 1708,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "K-eMFiFSFRg",
+   "en": "Om Mahaprana Dipam",
+   "hi": "ॐ महाप्राण दीपम्",
+   "singerEn": "Shankar Mahadevan",
+   "singerHi": "शंकर महादेवन",
+   "deity": "shiv",
+   "type": "stuti",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "Saregama Kannada",
+   "channelUrl": "https://www.youtube.com/@saregamakannada",
+   "secs": 313,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "1U97k0DO5xA",
+   "en": "Ananda Paramananda",
+   "hi": "आनंद परमानंद",
+   "singerEn": "S.P. Balasubrahmanyam, K.S. Chithra",
+   "singerHi": "एस.पी. बालसुब्रमण्यम, के.एस. चित्रा",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "Saregama Kannada",
+   "channelUrl": "https://www.youtube.com/@saregamakannada",
+   "secs": 283,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "f9bujKNSrmE",
+   "en": "Lingashtakam (Brahma Murari)",
+   "hi": "लिंगाष्टकम् (ब्रह्म मुरारी)",
+   "singerEn": "Nanditha, Ramesh Chandra",
+   "singerHi": "नंदिता, रमेश चंद्र",
+   "deity": "shiv",
+   "type": "stuti",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "Saregama Telugu",
+   "channelUrl": "https://www.youtube.com/@saregamasouth",
+   "secs": 204,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "5Bhh8FvlC1M",
+   "en": "Needu Shiva",
+   "hi": "नीडु शिवा",
+   "singerEn": "K.S. Chithra",
+   "singerHi": "के.एस. चित्रा",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "Anand Audio Devotional",
+   "channelUrl": "https://www.youtube.com/@AnandAudioDevotional",
+   "secs": 269,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "z3NYTvaKFPg",
+   "en": "Kaashiyinda Banda",
+   "hi": "काशियिंद बंद",
+   "singerEn": "S. Janaki",
+   "singerHi": "एस. जानकी",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "MRT Music - Bhakthi Sagara",
+   "channelUrl": "https://www.youtube.com/@MRTMusicBhakthiSagara",
+   "secs": 190,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "flkbQhFYfeQ",
+   "en": "Hanuman Chalisa (Telugu)",
+   "hi": "हनुमान चालीसा (तेलुगु)",
+   "singerEn": "M.S. Rama Rao",
+   "singerHi": "एम.एस. रामा राव",
+   "deity": "hanuman",
+   "type": "chalisa",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "Saregama Telugu",
+   "channelUrl": "https://www.youtube.com/@saregamasouth",
+   "secs": 801,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "AKz-oc-aQjw",
+   "en": "Hanuman Chalisa (Tamil)",
+   "hi": "हनुमान चालीसा (तमिल)",
+   "singerEn": "Gayathri Girish",
+   "singerHi": "गायत्री गिरीश",
+   "deity": "hanuman",
+   "type": "chalisa",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "Vijay Musical",
+   "channelUrl": "https://www.youtube.com/@vijaymusicalsdevotionalsongs",
+   "secs": 659,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "bi6j63ArUbs",
+   "en": "Hanumadashtakam",
+   "hi": "हनुमदष्टकम्",
+   "singerEn": "L.V. Revanth",
+   "singerHi": "एल.वी. रेवंत",
+   "deity": "hanuman",
+   "type": "stuti",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar Telugu",
+   "channelUrl": "https://www.youtube.com/@Bhaktisagartelugu",
+   "secs": 425,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "qrfVzxV54io",
+   "en": "Vinayagane Vinai Theerpavane",
+   "hi": "विनायगने विनै तीर्पवने",
+   "singerEn": "Sirkazhi S. Govindarajan",
+   "singerHi": "सीर्काऴि एस. गोविंदराजन",
+   "deity": "ganesh",
+   "type": "bhajan",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Saregama South Devotional",
+   "channelUrl": "https://www.youtube.com/@SaregamaSouthDevotional",
+   "secs": 195,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "XVAgs9SbS-I",
+   "en": "Ninna Naamava Nitya",
+   "hi": "निन्न नामव नित्य",
+   "singerEn": "S.P. Balasubrahmanyam",
+   "singerHi": "एस.पी. बालसुब्रमण्यम",
+   "deity": "ganesh",
+   "type": "bhajan",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Anand Audio Devotional",
+   "channelUrl": "https://www.youtube.com/@AnandAudioDevotional",
+   "secs": 301,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "tiHZxw-yXEc",
+   "en": "Sharanu Sharanu Hey Ganapa",
+   "hi": "शरणु शरणु हे गणपा",
+   "singerEn": "S.P. Balasubrahmanyam",
+   "singerHi": "एस.पी. बालसुब्रमण्यम",
+   "deity": "ganesh",
+   "type": "bhajan",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Anand Audio Devotional",
+   "channelUrl": "https://www.youtube.com/@AnandAudioDevotional",
+   "secs": 310,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "3AZO36ZSiME",
+   "en": "Kadubige Thuppa",
+   "hi": "कडुबिगे तुप्प",
+   "singerEn": "Latha Hamsalekha",
+   "singerHi": "लता हंसलेखा",
+   "deity": "ganesh",
+   "type": "bhajan",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Anand Audio Devotional",
+   "channelUrl": "https://www.youtube.com/@AnandAudioDevotional",
+   "secs": 341,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "EUoyPwr-xRM",
+   "en": "Ganapathi Sankashta Stuthi",
+   "hi": "गणपति संकष्ट स्तुति",
+   "singerEn": "Rajesh Krishnan",
+   "singerHi": "राजेश कृष्णन",
+   "deity": "ganesh",
+   "type": "stuti",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Anand Audio Devotional",
+   "channelUrl": "https://www.youtube.com/@AnandAudioDevotional",
+   "secs": 1289,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "WSUcz2HiN4I",
+   "en": "Vakratunda Mahakaya (Telugu)",
+   "hi": "वक्रतुंड महाकाय (तेलुगु)",
+   "singerEn": "S.P. Balasubrahmanyam",
+   "singerHi": "एस.पी. बालसुब्रमण्यम",
+   "deity": "ganesh",
+   "type": "bhajan",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 287,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "xkPkxpBsxF4",
+   "en": "Sree Gananaadha",
+   "hi": "श्री गणनाथा",
+   "singerEn": "S. Janaki",
+   "singerHi": "एस. जानकी",
+   "deity": "ganesh",
+   "type": "bhajan",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 276,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "ZSU3pX0rYSo",
+   "en": "Aadi Poojaku",
+   "hi": "आदि पूजकु",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "bhajan",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 395,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "Q_kNJc1Dw9U",
+   "en": "Sri Kanakadhara Stotram",
+   "hi": "श्री कनकधारा स्तोत्रम्",
+   "singerEn": "M.S. Subbulakshmi, Radha Viswanathan",
+   "singerHi": "एम.एस. सुब्बुलक्ष्मी, राधा विश्वनाथन",
+   "deity": "lakshmi",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Saregama Carnatic Classical",
+   "channelUrl": "https://www.youtube.com/@saregamacarnaticclassical",
+   "secs": 531,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "ejG_lt3QeYc",
+   "en": "Ashta Lakshmi Stotram (Sumanasa Vandita)",
+   "hi": "अष्टलक्ष्मी स्तोत्रम् (सुमनस वंदित)",
+   "singerEn": "Nitya Santhoshini",
+   "singerHi": "नित्य संतोषिणी",
+   "deity": "lakshmi",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 545,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "32Ju-VTLPuw",
+   "en": "Lakshmi Raave Maa Intiki",
+   "hi": "लक्ष्मी रावे मा इंटिकि",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "lakshmi",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 542,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "CSQ1b7bwt-Q",
+   "en": "Mahalakshmi Mangalam",
+   "hi": "महालक्ष्मी मंगलम्",
+   "singerEn": "M.M. Sreelekha",
+   "singerHi": "एम.एम. श्रीलेखा",
+   "deity": "lakshmi",
+   "type": "aarti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 287,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "Bk3NzwaICUM",
+   "en": "Sowbhagya Laxmi Ravamma (Mangala Harathi)",
+   "hi": "सौभाग्य लक्ष्मी रावम्मा (मंगल आरती)",
+   "singerEn": "Padmaja Srinivas",
+   "singerHi": "पद्मजा श्रीनिवास",
+   "deity": "lakshmi",
+   "type": "aarti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 230,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "lOVUg_EMyRY",
+   "en": "Sri Mahalakshmi Mantram",
+   "hi": "श्री महालक्ष्मी मंत्रम्",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "lakshmi",
+   "type": "mantra",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 668,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "ZVwcF7ZrbjI",
+   "en": "Bandaravidu Thayi",
+   "hi": "बंदारविडु तायि",
+   "singerEn": "K. Yuvaraj",
+   "singerHi": "के. युवराज",
+   "deity": "lakshmi",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Jhankar Music Bhakti",
+   "channelUrl": "https://www.youtube.com/@JhankarBhakti",
+   "secs": 320,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "zmHsP1CN_aA",
+   "en": "Bhagyada Lakshmi Baramma",
+   "hi": "भाग्यद लक्ष्मी बारम्मा",
+   "singerEn": "M.S. Subbulakshmi",
+   "singerHi": "एम.एस. सुब्बुलक्ष्मी",
+   "deity": "lakshmi",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Saregama Carnatic Classical",
+   "channelUrl": "https://www.youtube.com/@saregamacarnaticclassical",
+   "secs": 197,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "C87zSHxC5Ik",
+   "en": "Bhagyada Lakshmi Baramma",
+   "hi": "भाग्यद लक्ष्मी बारम्मा",
+   "singerEn": "Pt. Bhimsen Joshi",
+   "singerHi": "पं. भीमसेन जोशी",
+   "deity": "lakshmi",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Saregama Kannada",
+   "channelUrl": "https://www.youtube.com/@saregamakannada",
+   "secs": 413,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "xo_v5eD2s88",
+   "en": "Vaishnavi Bhargavi",
+   "hi": "वैष्णवी भार्गवी",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "saraswati",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "vasant-panchami"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 274,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "4AEwd_nf8JE",
+   "en": "Manase Harathi",
+   "hi": "मनसे हारती",
+   "singerEn": "S.P. Balasubrahmanyam",
+   "singerHi": "एस.पी. बालसुब्रमण्यम",
+   "deity": "sai",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 338,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "j4YwyHefbAY",
+   "en": "Ellam Sai",
+   "hi": "एल्लाम साई",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "sai",
+   "type": "bhajan",
+   "days": [
+    4
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Giri Bhakti",
+   "channelUrl": "https://www.youtube.com/@GiriBhakti",
+   "secs": 305,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "UV0Y1UQ0PHY",
+   "en": "Shuddha Brahma Paratpara Rama",
+   "hi": "शुद्ध ब्रह्म परात्पर राम",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ram",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 567,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "uaG5frRZShA",
+   "en": "Sri Rama Raksha Stotram",
+   "hi": "श्री राम रक्षा स्तोत्रम्",
+   "singerEn": "S.P. Balasubrahmanyam",
+   "singerHi": "एस.पी. बालसुब्रमण्यम",
+   "deity": "ram",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 735,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "ozngBvw6ITg",
+   "en": "Antha Ramamayam",
+   "hi": "अंता राममयम्",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ram",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 298,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "FgKQZMKwha0",
+   "en": "Bhadrashaila Rajamandira",
+   "hi": "भद्रशैल राजमंदिर",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ram",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 237,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "uM26LSgxuGo",
+   "en": "Maa Oori Devudu",
+   "hi": "मा ऊरि देवुडु",
+   "singerEn": "S.P. Balasubrahmanyam",
+   "singerHi": "एस.पी. बालसुब्रमण्यम",
+   "deity": "ram",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 359,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "emFd187Zq7w",
+   "en": "Bhajare Nanda Gopala Hare",
+   "hi": "भजरे नंद गोपाल हरे",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 504,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "dCp4ilFob5M",
+   "en": "Mangalam Jaya Mangalam",
+   "hi": "मंगलम् जय मंगलम्",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "aarti",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 346,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "wJHeiMnaxHI",
+   "en": "Sri Krishna Suprabhatam",
+   "hi": "श्री कृष्ण सुप्रभातम्",
+   "singerEn": "Nitya Santhoshini",
+   "singerHi": "नित्य संतोषिणी",
+   "deity": "krishna",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 356,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "OMAy5TrW3Wg",
+   "en": "Radhe Govinda",
+   "hi": "राधे गोविंदा",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Aditya Bhakthi",
+   "channelUrl": "https://www.youtube.com/@AdityaBhakthi",
+   "secs": 257,
+   "checked": "2026-11-04",
+   "lang": "te"
+  },
+  {
+   "id": "Pdr2bdEeGZY",
+   "en": "Aayarpadi Maaligaiyil",
+   "hi": "आयर्पाडि मालिगैयिल",
+   "singerEn": "S.P. Balasubrahmanyam",
+   "singerHi": "एस.पी. बालसुब्रमण्यम",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Saregama South Devotional",
+   "channelUrl": "https://www.youtube.com/@SaregamaSouthDevotional",
+   "secs": 277,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "dEXQv00Tur0",
+   "en": "Pullanguzhal Kodutha Moongilgale",
+   "hi": "पुल्लांगुऴल कोडुत्त मूंगिलगळे",
+   "singerEn": "T.M. Soundararajan",
+   "singerHi": "टी.एम. सौंदरराजन",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Saregama Tamil",
+   "channelUrl": "https://www.youtube.com/@SaregamaTamil",
+   "secs": 323,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "WbrLWbnRBlw",
+   "en": "Kurai Onrum Illai",
+   "hi": "कुरै ओन्रुम इल्लै",
+   "singerEn": "M.S. Subbulakshmi, Radha Viswanathan",
+   "singerHi": "एम.एस. सुब्बुलक्ष्मी, राधा विश्वनाथन",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Saregama Carnatic Classical",
+   "channelUrl": "https://www.youtube.com/@saregamacarnaticclassical",
+   "secs": 245,
+   "checked": "2026-11-04",
+   "lang": "ta"
+  },
+  {
+   "id": "Go-mAJpH6_w",
+   "en": "Bhaja Govindam",
+   "hi": "भज गोविंदम्",
+   "singerEn": "M.S. Subbulakshmi",
+   "singerHi": "एम.एस. सुब्बुलक्ष्मी",
+   "deity": "krishna",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Saregama Carnatic Classical",
+   "channelUrl": "https://www.youtube.com/@saregamacarnaticclassical",
+   "secs": 660,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "e1JSSry3qgg",
+   "en": "Pillangoviya Cheluva Krishnana",
+   "hi": "पिल्लंगोविय चेलुव कृष्णन",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "Jhankar Music Bhakti",
+   "channelUrl": "https://www.youtube.com/@JhankarBhakti",
+   "secs": 344,
+   "checked": "2026-11-04",
+   "lang": "kn"
+  },
+  {
+   "id": "3ugK6cbPHQI",
+   "en": "Kaanji Tari Maa Kese (Hey Re Kanhaiya)",
+   "hi": "कानजी तारी मा केसे (हे रे कन्हैया)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Gujarati",
+   "channelUrl": "https://www.youtube.com/@TSeriesGujarati",
+   "secs": 400,
+   "checked": "2026-11-04",
+   "lang": "gu"
+  },
+  {
+   "id": "TpTztL7sjuw",
+   "en": "Ghammar Ghammar Maru",
+   "hi": "घम्मर घम्मर मारू",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Gujarati",
+   "channelUrl": "https://www.youtube.com/@TSeriesGujarati",
+   "secs": 481,
+   "checked": "2026-11-04",
+   "lang": "gu"
+  },
+  {
+   "id": "8WoM2EvCEcA",
+   "en": "Mathe Matukadi Mahini Meli",
+   "hi": "माथे मटुकडी मही नी मेली",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Gujarati",
+   "channelUrl": "https://www.youtube.com/@TSeriesGujarati",
+   "secs": 481,
+   "checked": "2026-11-04",
+   "lang": "gu"
+  },
+  {
+   "id": "XS2cyf26rKw",
+   "en": "Gayatri Mantra for Kids",
+   "hi": "बच्चों के लिए गायत्री मंत्र",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "general",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 154,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "X5aUUCvnQ2U",
+   "en": "Shree Hanuman Chalisa for Kids",
+   "hi": "बच्चों के लिए श्री हनुमान चालीसा",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "hanuman",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 402,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "IWEy2YyJcew",
+   "en": "Hanuman Chalisa for Kids (Hanuman Janmotsav)",
+   "hi": "बच्चों के लिए हनुमान चालीसा (हनुमान जन्मोत्सव)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "hanuman",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 352,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "1krxC8H-lqs",
+   "en": "Achyutam Keshavam for Kids",
+   "hi": "बच्चों के लिए अच्युतम केशवम",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 235,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "W8JXL79YJmA",
+   "en": "Bal Ganesh Saves Kashi from Durasad",
+   "hi": "बाल गणेश ने काशी को दुरासद से बचाया",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Bal Ganesh",
+   "channelUrl": "https://www.youtube.com/@shemaroobalganesh",
+   "secs": 785,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "ESc8btN5L48",
+   "en": "Bal Ganesh and Kuber",
+   "hi": "बाल गणेश और कुबेर",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Bal Ganesh",
+   "channelUrl": "https://www.youtube.com/@shemaroobalganesh",
+   "secs": 677,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "A06iQ4V6eqQ",
+   "en": "Bal Ganesh Stories, Episode 1",
+   "hi": "बाल गणेश की कहानियाँ, भाग 1",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 335,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "2pdJuVzq-WM",
+   "en": "Lakshmiputra Bal Ganesh (Diwali Special)",
+   "hi": "लक्ष्मीपुत्र बाल गणेश (दिवाली विशेष)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 782,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "1mo7u9kuQl8",
+   "en": "Gana Gana Di (Ganesh Chaturthi Song)",
+   "hi": "गणा गणा दी (गणेश चतुर्थी गीत)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 283,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "4g4iSf5Sx3c",
+   "en": "How Maruti Became Hanuman",
+   "hi": "मारुति कैसे बने हनुमान",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "hanuman",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 770,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "O8aXKgkCgks",
+   "en": "Gurudev Surya and Bal Hanuman",
+   "hi": "गुरुदेव सूर्य और बाल हनुमान",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "hanuman",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 756,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "JnHOT14YDag",
+   "en": "Bal Hanuman and Vinasha Asur",
+   "hi": "बाल हनुमान और विनाश असुर",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "hanuman",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 781,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "OsIaJ356t04",
+   "en": "Bal Hanuman and the Four Asur Brothers",
+   "hi": "बाल हनुमान और चार असुर भाई",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "hanuman",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 781,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "fsojw1cXByY",
+   "en": "Bal Hanuman and Tikdamasur",
+   "hi": "बाल हनुमान और तिकड़मासुर",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "hanuman",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 367,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "wQWPO_Z0P2o",
+   "en": "The Story of Diwali",
+   "hi": "दिवाली की कहानी",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ram",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Kids",
+   "channelUrl": "https://www.youtube.com/@rajshrikids",
+   "secs": 210,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "3kXsocZDGgM",
+   "en": "Krishna Stories for Kids, Part 6",
+   "hi": "बच्चों के लिए कृष्ण की कहानियाँ, भाग 6",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 277,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "DUG5VHhZc_k",
+   "en": "Krishna Stories for Kids, Part 5",
+   "hi": "बच्चों के लिए कृष्ण की कहानियाँ, भाग 5",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 247,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "-QO3IgFoeR4",
+   "en": "Why Krishna Lifted Govardhan Hill",
+   "hi": "कृष्ण ने गोवर्धन पर्वत क्यों उठाया",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 880,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "ldJ-P1ezMg0",
+   "en": "How Krishna Defeated Bakasur",
+   "hi": "कृष्ण ने किया बकासुर का वध",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 787,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "F4p294s2fLk",
+   "en": "Bal Krishna: The Final Battle",
+   "hi": "बाल कृष्ण: अंतिम जंग",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Krishna",
+   "channelUrl": "https://www.youtube.com/@ShemarooKrishna",
+   "secs": 781,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "oK1g-w9HGKE",
+   "en": "Little Krishna: Kaliya Daman",
+   "hi": "नन्हे कृष्ण: कालिया दमन",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Infobells - Hindi",
+   "channelUrl": "https://www.youtube.com/@infobellshindirhymes",
+   "secs": 665,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "xyrvSLu_jUk",
+   "en": "Maa Durga Stories for Children",
+   "hi": "बच्चों के लिए माँ दुर्गा की कहानियाँ",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "durga",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 482,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "5XFQeFQCWyI",
+   "en": "Prahlad and Holika (Holi Special)",
+   "hi": "प्रह्लाद और होलिका (होली विशेष)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "vishnu",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids Hindi- Balgeet & Children's Songs",
+   "channelUrl": "https://www.youtube.com/@shemarookidshindi",
+   "secs": 462,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "xeSJj1_gyfo",
+   "en": "Mahadev and Tripurasur",
+   "hi": "महादेव और त्रिपुरासुर",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shiv",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids Hindi- Balgeet & Children's Songs",
+   "channelUrl": "https://www.youtube.com/@shemarookidshindi",
+   "secs": 796,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "OimW4k8nAMg",
+   "en": "Sai Baba Aarti (Kids Chorus)",
+   "hi": "साईं बाबा आरती (बच्चों का कोरस)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "sai",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 196,
+   "checked": "2026-11-04",
+   "lang": "mr"
+  },
+  {
+   "id": "G7VIgEtw3Ms",
+   "en": "Om Jai Jagdish Hare (Kids Chorus)",
+   "hi": "ॐ जय जगदीश हरे (बच्चों का कोरस)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "vishnu",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 387,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "pSq7cnXCbbE",
+   "en": "Shlokas for Kids",
+   "hi": "बच्चों के लिए श्लोक",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "general",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": 1620,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "bczAm3Q_QoE",
+   "en": "Yah Vidhi Mangal Aarti (Panch Parmeshthi Aarti)",
+   "hi": "यह विधि मंगल आरती (पंच परमेष्ठी आरती)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "aarti",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 291,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "2UgKMTGJDBs",
+   "en": "Vakratunda Mahakaya (with Meaning)",
+   "hi": "वक्रतुंड महाकाय (अर्थ सहित)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "mantra",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Shemaroo Bhakti",
+   "channelUrl": "https://www.youtube.com/@ShemarooBhakti",
+   "secs": 183,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "I3Ze7RasX6A",
+   "en": "Shri Ram Chalisa",
+   "hi": "श्री राम चालीसा",
+   "singerEn": "Shekhar Sen",
+   "singerHi": "शेखर सेन",
+   "deity": "ram",
+   "type": "chalisa",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 610,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "Gj0q5ZCy7bE",
+   "en": "Mero Mann Ram Hi Ram Rate Re",
+   "hi": "मेरो मन राम ही राम रटे रे",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ram",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 313,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "HOzO7J4_bts",
+   "en": "Shree Ram Raksha Stotra",
+   "hi": "श्री राम रक्षा स्तोत्र",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ram",
+   "type": "stuti",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 1061,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "xJZn8P9oKE4",
+   "en": "Sabne Tumhein Pukara Shri Ram Ji",
+   "hi": "सबने तुम्हें पुकारा श्री राम जी",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "ram",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 378,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "5je_bEdSYHA",
+   "en": "Shabri Magan Hai Ram Bhajan Mein",
+   "hi": "शबरी मगन है राम भजन में",
+   "singerEn": "Tripti Shakya",
+   "singerHi": "तृप्ति शाक्या",
+   "deity": "ram",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "ram-navami",
+    "dussehra",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 402,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "OXgsgJkiFuI",
+   "en": "Shree Krishna Sharanam Mamah",
+   "hi": "श्री कृष्ण शरणम् ममः",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "krishna",
+   "type": "mantra",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 726,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "fayW6RVA8RI",
+   "en": "Mor Mukut Mein Kanha Biraje",
+   "hi": "मोर मुकुट में कान्हा बिराजे",
+   "singerEn": "Krishna Chaturvedi",
+   "singerHi": "कृष्णा चतुर्वेदी",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 229,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "hqDZ8LNYxSc",
+   "en": "Nandlala Krishna Murari",
+   "hi": "नंदलाला कृष्ण मुरारी",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 345,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "UBQHgoCKEc8",
+   "en": "Shyam Chudi Bechne Aaya",
+   "hi": "श्याम चूड़ी बेचने आया",
+   "singerEn": "Tripti Shakya",
+   "singerHi": "तृप्ति शाक्या",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 392,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "sLns6FMSVLc",
+   "en": "Shree Banke Bihari Laal",
+   "hi": "श्री बाँके बिहारी लाल",
+   "singerEn": "Lakhbir Singh Lakkha",
+   "singerHi": "लखबीर सिंह लक्खा",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 353,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "1mQTX6O78v4",
+   "en": "Bansi Wale Ko Tum Yaad Kar Lo",
+   "hi": "बंसी वाले को तुम याद कर लो",
+   "singerEn": "Sonu Nigam",
+   "singerHi": "सोनू निगम",
+   "deity": "krishna",
+   "type": "bhajan",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 296,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "neM64vAVTUE",
+   "en": "Krishnaya Vasudevaya",
+   "hi": "कृष्णाय वासुदेवाय",
+   "singerEn": "Ami Mishra",
+   "singerHi": "अमी मिश्रा",
+   "deity": "krishna",
+   "type": "mantra",
+   "days": [],
+   "fest": [
+    "holi",
+    "janmashtami"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 256,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "TplRlUULXz8",
+   "en": "Subah Subah Le Shiv Ka Naam",
+   "hi": "सुबह सुबह ले शिव का नाम",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 336,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "EHymzFDSYAE",
+   "en": "Hey Shambhu Baba Mere Bhole Nath",
+   "hi": "हे शंभू बाबा मेरे भोले नाथ",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 300,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "i2xv70THcDk",
+   "en": "Hey Shiv Pita Parmatma",
+   "hi": "हे शिव पिता परमात्मा",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 361,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "nxKKZuTTnAc",
+   "en": "Chalo Bhole Baba Ke Dware",
+   "hi": "चलो भोले बाबा के द्वारे",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 434,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "0pA10Fdr7yM",
+   "en": "Hey Bhole Shankar Padharo",
+   "hi": "हे भोले शंकर पधारो",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shiv",
+   "type": "bhajan",
+   "days": [
+    1
+   ],
+   "fest": [
+    "maha-shivratri"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 388,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "Iwws2nHOU_Y",
+   "en": "Gufa Suhani Vich Bhawani",
+   "hi": "गुफा सुहानी विच भवानी",
+   "singerEn": "Narendra Chanchal",
+   "singerHi": "नरेंद्र चंचल",
+   "deity": "durga",
+   "type": "bhajan",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "Tips Bhakti Prem",
+   "channelUrl": "https://www.youtube.com/@tipsbhaktiprem",
+   "secs": 367,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "mKvxMv3XrWA",
+   "en": "Durga Kavach",
+   "hi": "दुर्गा कवच",
+   "singerEn": "Narendra Chanchal",
+   "singerHi": "नरेंद्र चंचल",
+   "deity": "durga",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "navratri",
+    "dussehra"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 748,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "H9tWRGxuKTw",
+   "en": "Shree Siddhivinayak Mantra and Aarti",
+   "hi": "श्री सिद्धिविनायक मंत्र और आरती",
+   "singerEn": "Amitabh Bachchan",
+   "singerHi": "अमिताभ बच्चन",
+   "deity": "ganesh",
+   "type": "mantra",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Times Music Spiritual",
+   "channelUrl": "https://www.youtube.com/@timesmusicspiritual",
+   "secs": 434,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "4ApftoMs47I",
+   "en": "Ganpati Rakho Meri Laaj",
+   "hi": "गणपति राखो मेरी लाज",
+   "singerEn": "Anuradha Paudwal",
+   "singerHi": "अनुराधा पौडवाल",
+   "deity": "ganesh",
+   "type": "bhajan",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 252,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "p-tqc-VK5Uk",
+   "en": "Jisne Tera Naam Liya Ganpati Bappa Morya",
+   "hi": "जिसने तेरा नाम लिया गणपति बप्पा मोरया",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "bhajan",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 403,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "XfwM8tLvyXg",
+   "en": "Jo Suraj Ko Pooje",
+   "hi": "जो सूरज को पूजे",
+   "singerEn": "Hariharan",
+   "singerHi": "हरिहरन",
+   "deity": "surya",
+   "type": "bhajan",
+   "days": [
+    7
+   ],
+   "fest": [
+    "makar-sankranti",
+    "chhath"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 251,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "Hl7ViCoA-qU",
+   "en": "Navkar Mantra",
+   "hi": "नवकार मंत्र",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "mantra",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 148,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "zZfpimyiwX4",
+   "en": "Navkar Mantra 9 Times",
+   "hi": "नवकार मंत्र 9 बार",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "mantra",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 722,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "f8Scuvh9xGQ",
+   "en": "Parshwanath Stotra (Narendram Phanindram)",
+   "hi": "पार्श्वनाथ स्तोत्र (नरेन्द्रं फणीन्द्रं)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 299,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "XOHLjwhDPFA",
+   "en": "Tumse Lagi Lagan",
+   "hi": "तुमसे लागी लगन",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 291,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "qHueoEVRpCc",
+   "en": "Samadhi Bhavna (Din Raat Mere Swami)",
+   "hi": "समाधि भावना (दिन रात मेरे स्वामी)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 191,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "D3MmfSS12Gw",
+   "en": "Meri Bhavna",
+   "hi": "मेरी भावना",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 769,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "SDrwKuGzyjo",
+   "en": "Shri Mangalashtak Stotra",
+   "hi": "श्री मंगलाष्टक स्तोत्र",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 543,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "-CEFO_HjBnA",
+   "en": "Darshan Path",
+   "hi": "दर्शन पाठ",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 414,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "9hmZzs2JDsA",
+   "en": "Barah Bhavana",
+   "hi": "बारह भावना",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 429,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "3r3_1qS9YRM",
+   "en": "Vinay Path",
+   "hi": "विनय पाठ",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "jain",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 879,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "q088LGgsodE",
+   "en": "Bhaktamar Stotra (with Meaning)",
+   "hi": "भक्तामर स्तोत्र (अर्थ सहित)",
+   "singerEn": "Sheela Shethia",
+   "singerHi": "शीला शेठिया",
+   "deity": "jain",
+   "type": "stuti",
+   "days": [],
+   "fest": [],
+   "channel": "Saregama Jain Stavans",
+   "channelUrl": "https://www.youtube.com/@SaregamaJainStavans",
+   "secs": 1398,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "2h2rzvgAUv8",
+   "en": "Poonam Ni Che Raat",
+   "hi": "पूनम नी छे रात",
+   "singerEn": "Mahesh Maru",
+   "singerHi": "महेश मारू",
+   "deity": "jain",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Saregama Jain Stavans",
+   "channelUrl": "https://www.youtube.com/@SaregamaJainStavans",
+   "secs": 467,
+   "checked": "2026-11-04",
+   "lang": "gu"
+  },
+  {
+   "id": "iNTYxNU4Iuw",
+   "en": "Hey Manav Tu Mukh Se Bol",
+   "hi": "हे मानव तू मुख से बोल",
+   "singerEn": "Sanjay Oza",
+   "singerHi": "संजय ओझा",
+   "deity": "jain",
+   "type": "bhajan",
+   "days": [],
+   "fest": [],
+   "channel": "Saregama Jain Stavans",
+   "channelUrl": "https://www.youtube.com/@SaregamaJainStavans",
+   "secs": 351,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "NetgYEWztgE",
+   "en": "Shuklambaradharam Vishnum (Kids Chorus)",
+   "hi": "शुक्लाम्बरधरं विष्णुं (बच्चों का कोरस)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "vishnu",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 221,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "gOcSxcOcbmM",
+   "en": "Sada Satswaroopam (Kids Chorus)",
+   "hi": "सदा सत्स्वरूपं (बच्चों का कोरस)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "sai",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 339,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "ELgIzMwQEEg",
+   "en": "Ramchandraya Janaka (Kids Chorus)",
+   "hi": "रामचंद्राय जनक (बच्चों का कोरस)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ram",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 430,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "r0Q7wQpuNmU",
+   "en": "Hara Hara Hara Mahadeva (Kids Chorus)",
+   "hi": "हर हर हर महादेव (बच्चों का कोरस)",
+   "singerEn": "S. Saindhavi",
+   "singerHi": "एस. सैंधवी",
+   "deity": "shiv",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 316,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "x6VlvXsKLEU",
+   "en": "Hare Krishna Hare Rama (Kids Chorus)",
+   "hi": "हरे कृष्ण हरे राम (बच्चों का कोरस)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 240,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "gzL4hIHTCZQ",
+   "en": "Om Bhur Bhuva Swaha (Kids Chorus)",
+   "hi": "ॐ भूर्भुवः स्वः (बच्चों का कोरस)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "general",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 319,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "bUU66kJOcOQ",
+   "en": "Vakratunda Mahakaya (Kids Chorus)",
+   "hi": "वक्रतुंड महाकाय (बच्चों का कोरस)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 226,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "EVxhHNojC64",
+   "en": "Mahamrityunjaya Mantra (Kids Chorus)",
+   "hi": "महामृत्युंजय मंत्र (बच्चों का कोरस)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shiv",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 258,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "OG_lxWLxIWo",
+   "en": "Maruti Ka Janam",
+   "hi": "मारुति का जन्म",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "hanuman",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 770,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "AIP-NBc0Ufs",
+   "en": "Hanuman Ji and the Lazy Asur",
+   "hi": "हनुमान जी और आलसी असुर",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "hanuman",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 348,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "0unqQK-ZqJ0",
+   "en": "Ha Ha Hu Hu (Bal Ganesh Stories)",
+   "hi": "हा हा हु हु (बाल गणेश की कहानियाँ)",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 792,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "TMvFAV_Z5vI",
+   "en": "Bal Ganesh Birth Story",
+   "hi": "बाल गणेश के जन्म की कहानी",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 1035,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "Slk-lUAPj-I",
+   "en": "Krishna and Aghasur",
+   "hi": "कृष्ण और अघासुर",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "krishna",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 836,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "I3tzXNBePPo",
+   "en": "Shankarji Ka Damroo",
+   "hi": "शंकरजी का डमरू",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "shiv",
+   "type": "kids",
+   "days": [],
+   "fest": [],
+   "channel": "Shemaroo Kids",
+   "channelUrl": "https://www.youtube.com/@shemarookids",
+   "secs": 265,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "FrUa0ovoZJQ",
+   "en": "Mahalakshmi Ashtakam",
+   "hi": "महालक्ष्मी अष्टकम्",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "lakshmi",
+   "type": "stuti",
+   "days": [
+    5
+   ],
+   "fest": [
+    "diwali"
+   ],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 213,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "r8NADqqIYew",
+   "en": "Bolo Sada Jaikaar Pawansut Mahabali Ki",
+   "hi": "बोलो सदा जयकार पवनसुत महाबली की",
+   "singerEn": "Babla Mehta",
+   "singerHi": "बबला मेहता",
+   "deity": "hanuman",
+   "type": "bhajan",
+   "days": [
+    2,
+    6
+   ],
+   "fest": [
+    "hanuman-jayanti"
+   ],
+   "channel": "T-Series Bhakti Sagar",
+   "channelUrl": "https://www.youtube.com/@TSeriesBhaktiSagar",
+   "secs": 302,
+   "checked": "2026-11-04",
+   "lang": "hi"
+  },
+  {
+   "id": "vY_9mautsC8",
+   "en": "Mantra Pushpanjali",
+   "hi": "मंत्र पुष्पांजलि",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "ganesh",
+   "type": "mantra",
+   "days": [
+    3
+   ],
+   "fest": [
+    "ganesh-chaturthi",
+    "diwali"
+   ],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 198,
+   "checked": "2026-11-04",
+   "lang": "sa"
+  },
+  {
+   "id": "g6zHBogmPnA",
+   "en": "Navagraha Stotra",
+   "hi": "नवग्रह स्तोत्र",
+   "singerEn": "",
+   "singerHi": "",
+   "deity": "general",
+   "type": "stuti",
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "fest": [
+    "guru-purnima"
+   ],
+   "channel": "Rajshri Soul",
+   "channelUrl": "https://www.youtube.com/@rajshrisoul",
+   "secs": 216,
+   "checked": "2026-11-04",
+   "lang": "sa"
   }
  ],
  "live": [
