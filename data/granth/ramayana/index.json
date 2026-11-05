@@ -1,0 +1,100 @@
+{
+ "format": 1,
+ "id": "ramayana",
+ "title": {
+  "en": "Valmiki Ramayana",
+  "hi": "वाल्मीकि रामायण"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "Sanskrit",
+   "from": "Sanskrit Wikisource, रामायणम् (https://sa.wikisource.org/wiki/रामायणम्)",
+   "licence": "CC BY-SA 4.0 (Wikisource contributors); underlying text public domain"
+  },
+  {
+   "part": "Transliteration",
+   "from": "Generated from the Devanagari",
+   "licence": "Same as Sanskrit"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "bala.json",
+   "title": {
+    "en": "Bala Kanda",
+    "hi": "बालकाण्ड"
+   },
+   "bytes": 873876,
+   "sections": 77,
+   "verses": 2474
+  },
+  {
+   "n": 2,
+   "file": "ayodhya.json",
+   "title": {
+    "en": "Ayodhya Kanda",
+    "hi": "अयोध्याकाण्ड"
+   },
+   "bytes": 1667829,
+   "sections": 119,
+   "verses": 4629
+  },
+  {
+   "n": 3,
+   "file": "aranya.json",
+   "title": {
+    "en": "Aranya Kanda",
+    "hi": "अरण्यकाण्ड"
+   },
+   "bytes": 944545,
+   "sections": 75,
+   "verses": 2691
+  },
+  {
+   "n": 4,
+   "file": "kishkindha.json",
+   "title": {
+    "en": "Kishkindha Kanda",
+    "hi": "किष्किन्धाकाण्ड"
+   },
+   "bytes": 959991,
+   "sections": 67,
+   "verses": 2660
+  },
+  {
+   "n": 5,
+   "file": "sundara.json",
+   "title": {
+    "en": "Sundara Kanda",
+    "hi": "सुन्दरकाण्ड"
+   },
+   "bytes": 1099953,
+   "sections": 68,
+   "verses": 3067
+  },
+  {
+   "n": 6,
+   "file": "yuddha.json",
+   "title": {
+    "en": "Yuddha Kanda",
+    "hi": "युद्धकाण्ड"
+   },
+   "bytes": 2213744,
+   "sections": 128,
+   "verses": 6164
+  },
+  {
+   "n": 7,
+   "file": "uttara.json",
+   "title": {
+    "en": "Uttara Kanda",
+    "hi": "उत्तरकाण्ड"
+   },
+   "bytes": 1281335,
+   "sections": 111,
+   "verses": 3571
+  }
+ ]
+}

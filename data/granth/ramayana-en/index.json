@@ -1,0 +1,95 @@
+{
+ "format": 1,
+ "id": "ramayana-en",
+ "title": {
+  "en": "Valmiki Ramayana (Dutt English)",
+  "hi": "वाल्मीकि रामायण (अंग्रेज़ी)"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "English",
+   "from": "Manmatha Nath Dutt, The Ramayana translated into English prose (Calcutta, 1891-1894), Project Gutenberg eBooks #57265, #57826, #60188, #62496",
+   "licence": "Public domain"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "bala.json",
+   "title": {
+    "en": "Bala Kanda (Dutt)",
+    "hi": "बालकाण्ड"
+   },
+   "bytes": 325473,
+   "sections": 75,
+   "verses": 111
+  },
+  {
+   "n": 2,
+   "file": "ayodhya.json",
+   "title": {
+    "en": "Ayodhya Kanda (Dutt)",
+    "hi": "अयोध्याकाण्ड"
+   },
+   "bytes": 617669,
+   "sections": 118,
+   "verses": 187
+  },
+  {
+   "n": 3,
+   "file": "aranya.json",
+   "title": {
+    "en": "Aranya Kanda (Dutt)",
+    "hi": "अरण्यकाण्ड"
+   },
+   "bytes": 339395,
+   "sections": 76,
+   "verses": 82
+  },
+  {
+   "n": 4,
+   "file": "kishkindha.json",
+   "title": {
+    "en": "Kishkindha Kanda (Dutt)",
+    "hi": "किष्किन्धाकाण्ड"
+   },
+   "bytes": 339289,
+   "sections": 67,
+   "verses": 71
+  },
+  {
+   "n": 5,
+   "file": "sundara.json",
+   "title": {
+    "en": "Sundara Kanda (Dutt)",
+    "hi": "सुन्दरकाण्ड"
+   },
+   "bytes": 408328,
+   "sections": 66,
+   "verses": 72
+  },
+  {
+   "n": 6,
+   "file": "yuddha.json",
+   "title": {
+    "en": "Yuddha Kanda (Dutt)",
+    "hi": "युद्धकाण्ड"
+   },
+   "bytes": 802373,
+   "sections": 129,
+   "verses": 139
+  },
+  {
+   "n": 7,
+   "file": "uttara.json",
+   "title": {
+    "en": "Uttara Kanda (Dutt)",
+    "hi": "उत्तरकाण्ड"
+   },
+   "bytes": 540894,
+   "sections": 123,
+   "verses": 232
+  }
+ ]
+}

@@ -1,0 +1,248 @@
+{
+ "format": 1,
+ "id": "veda-atharva",
+ "title": {
+  "en": "Atharvaveda (Shaunaka)",
+  "hi": "अथर्ववेद (शौनक)"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "Sanskrit",
+   "from": "Sanskrit Wikisource, अथर्ववेदः (https://sa.wikisource.org/wiki/अथर्ववेदः)",
+   "licence": "CC BY-SA 4.0 (Wikisource contributors); underlying text public domain"
+  },
+  {
+   "part": "English",
+   "from": "William Dwight Whitney, Atharva-Veda Samhita (Harvard Oriental Series 7-8, 1905), via English Wikisource (https://en.wikisource.org/wiki/Atharva-Veda_Samhita); Books 1-19 only, notes left out",
+   "licence": "Public domain"
+  },
+  {
+   "part": "Transliteration",
+   "from": "Generated from the Devanagari",
+   "licence": "Same as Sanskrit"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "kanda-1.json",
+   "title": {
+    "en": "Kanda 1",
+    "hi": "काण्ड 1"
+   },
+   "bytes": 81330,
+   "sections": 35,
+   "verses": 153
+  },
+  {
+   "n": 2,
+   "file": "kanda-2.json",
+   "title": {
+    "en": "Kanda 2",
+    "hi": "काण्ड 2"
+   },
+   "bytes": 108329,
+   "sections": 36,
+   "verses": 207
+  },
+  {
+   "n": 3,
+   "file": "kanda-3.json",
+   "title": {
+    "en": "Kanda 3",
+    "hi": "काण्ड 3"
+   },
+   "bytes": 132547,
+   "sections": 31,
+   "verses": 230
+  },
+  {
+   "n": 4,
+   "file": "kanda-4.json",
+   "title": {
+    "en": "Kanda 4",
+    "hi": "काण्ड 4"
+   },
+   "bytes": 190130,
+   "sections": 40,
+   "verses": 324
+  },
+  {
+   "n": 5,
+   "file": "kanda-5.json",
+   "title": {
+    "en": "Kanda 5",
+    "hi": "काण्ड 5"
+   },
+   "bytes": 202336,
+   "sections": 31,
+   "verses": 376
+  },
+  {
+   "n": 6,
+   "file": "kanda-6.json",
+   "title": {
+    "en": "Kanda 6",
+    "hi": "काण्ड 6"
+   },
+   "bytes": 248810,
+   "sections": 142,
+   "verses": 453
+  },
+  {
+   "n": 7,
+   "file": "kanda-7.json",
+   "title": {
+    "en": "Kanda 7",
+    "hi": "काण्ड 7"
+   },
+   "bytes": 122326,
+   "sections": 121,
+   "verses": 284
+  },
+  {
+   "n": 8,
+   "file": "kanda-8.json",
+   "title": {
+    "en": "Kanda 8",
+    "hi": "काण्ड 8"
+   },
+   "bytes": 107948,
+   "sections": 14,
+   "verses": 254
+  },
+  {
+   "n": 9,
+   "file": "kanda-9.json",
+   "title": {
+    "en": "Kanda 9",
+    "hi": "काण्ड 9"
+   },
+   "bytes": 127273,
+   "sections": 15,
+   "verses": 350
+  },
+  {
+   "n": 10,
+   "file": "kanda-10.json",
+   "title": {
+    "en": "Kanda 10",
+    "hi": "काण्ड 10"
+   },
+   "bytes": 199588,
+   "sections": 10,
+   "verses": 350
+  },
+  {
+   "n": 11,
+   "file": "kanda-11.json",
+   "title": {
+    "en": "Kanda 11",
+    "hi": "काण्ड 11"
+   },
+   "bytes": 183938,
+   "sections": 12,
+   "verses": 313
+  },
+  {
+   "n": 12,
+   "file": "kanda-12.json",
+   "title": {
+    "en": "Kanda 12",
+    "hi": "काण्ड 12"
+   },
+   "bytes": 166308,
+   "sections": 11,
+   "verses": 304
+  },
+  {
+   "n": 13,
+   "file": "kanda-13.json",
+   "title": {
+    "en": "Kanda 13",
+    "hi": "काण्ड 13"
+   },
+   "bytes": 76008,
+   "sections": 9,
+   "verses": 187
+  },
+  {
+   "n": 14,
+   "file": "kanda-14.json",
+   "title": {
+    "en": "Kanda 14",
+    "hi": "काण्ड 14"
+   },
+   "bytes": 79275,
+   "sections": 2,
+   "verses": 139
+  },
+  {
+   "n": 15,
+   "file": "kanda-15.json",
+   "title": {
+    "en": "Kanda 15",
+    "hi": "काण्ड 15"
+   },
+   "bytes": 73199,
+   "sections": 18,
+   "verses": 181
+  },
+  {
+   "n": 16,
+   "file": "kanda-16.json",
+   "title": {
+    "en": "Kanda 16",
+    "hi": "काण्ड 16"
+   },
+   "bytes": 49085,
+   "sections": 9,
+   "verses": 93
+  },
+  {
+   "n": 17,
+   "file": "kanda-17.json",
+   "title": {
+    "en": "Kanda 17",
+    "hi": "काण्ड 17"
+   },
+   "bytes": 23067,
+   "sections": 1,
+   "verses": 30
+  },
+  {
+   "n": 18,
+   "file": "kanda-18.json",
+   "title": {
+    "en": "Kanda 18",
+    "hi": "काण्ड 18"
+   },
+   "bytes": 163430,
+   "sections": 4,
+   "verses": 283
+  },
+  {
+   "n": 19,
+   "file": "kanda-19.json",
+   "title": {
+    "en": "Kanda 19",
+    "hi": "काण्ड 19"
+   },
+   "bytes": 231919,
+   "sections": 72,
+   "verses": 449
+  },
+  {
+   "n": 20,
+   "file": "kanda-20.json",
+   "title": {
+    "en": "Kanda 20",
+    "hi": "काण्ड 20"
+   },
+   "bytes": 341633,
+   "sections": 143,
+   "verses": 962
+  }
+ ]
+}

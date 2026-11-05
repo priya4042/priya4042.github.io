@@ -1,0 +1,50 @@
+{
+ "format": 1,
+ "id": "veda-sama",
+ "title": {
+  "en": "Samaveda (Kauthuma)",
+  "hi": "सामवेद (कौथुम)"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "Sanskrit",
+   "from": "Sanskrit Wikisource, सामवेदः/कौथुमीया/संहिता (https://sa.wikisource.org/wiki/सामवेदः/कौथुमीया/संहिता)",
+   "licence": "CC BY-SA 4.0 (Wikisource contributors); underlying text public domain"
+  },
+  {
+   "part": "English",
+   "from": "Ralph T. H. Griffith, The Hymns of the Samaveda (1893/1895), via DharmicData (https://github.com/bhavykhatri/DharmicData)",
+   "licence": "Translation public domain; dataset ODbL 1.0"
+  },
+  {
+   "part": "Transliteration",
+   "from": "Generated from the Devanagari",
+   "licence": "Same as Sanskrit"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "purvarchika.json",
+   "title": {
+    "en": "Purvarchika",
+    "hi": "पूर्वार्चिक"
+   },
+   "bytes": 308967,
+   "sections": 65,
+   "verses": 650
+  },
+  {
+   "n": 2,
+   "file": "uttararchika.json",
+   "title": {
+    "en": "Uttararchika",
+    "hi": "उत्तरार्चिक"
+   },
+   "bytes": 604560,
+   "sections": 398,
+   "verses": 1224
+  }
+ ]
+}

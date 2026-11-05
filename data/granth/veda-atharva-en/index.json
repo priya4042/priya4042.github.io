@@ -1,0 +1,227 @@
+{
+ "format": 1,
+ "id": "veda-atharva-en",
+ "title": {
+  "en": "Atharvaveda (Whitney English)",
+  "hi": "अथर्ववेद (अंग्रेज़ी)"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "English",
+   "from": "William Dwight Whitney, Atharva-Veda Samhita (Harvard Oriental Series 7-8, 1905), via English Wikisource (https://en.wikisource.org/wiki/Atharva-Veda_Samhita); Books 1-19 only, notes left out",
+   "licence": "Public domain"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "book-1.json",
+   "title": {
+    "en": "Book 1",
+    "hi": "काण्ड 1"
+   },
+   "bytes": 26248,
+   "sections": 35,
+   "verses": 152
+  },
+  {
+   "n": 2,
+   "file": "book-2.json",
+   "title": {
+    "en": "Book 2",
+    "hi": "काण्ड 2"
+   },
+   "bytes": 32169,
+   "sections": 36,
+   "verses": 190
+  },
+  {
+   "n": 3,
+   "file": "book-3.json",
+   "title": {
+    "en": "Book 3",
+    "hi": "काण्ड 3"
+   },
+   "bytes": 41407,
+   "sections": 31,
+   "verses": 228
+  },
+  {
+   "n": 4,
+   "file": "book-4.json",
+   "title": {
+    "en": "Book 4",
+    "hi": "काण्ड 4"
+   },
+   "bytes": 60511,
+   "sections": 40,
+   "verses": 323
+  },
+  {
+   "n": 5,
+   "file": "book-5.json",
+   "title": {
+    "en": "Book 5",
+    "hi": "काण्ड 5"
+   },
+   "bytes": 61016,
+   "sections": 31,
+   "verses": 370
+  },
+  {
+   "n": 6,
+   "file": "book-6.json",
+   "title": {
+    "en": "Book 6",
+    "hi": "काण्ड 6"
+   },
+   "bytes": 80552,
+   "sections": 142,
+   "verses": 451
+  },
+  {
+   "n": 7,
+   "file": "book-7.json",
+   "title": {
+    "en": "Book 7",
+    "hi": "काण्ड 7"
+   },
+   "bytes": 51231,
+   "sections": 115,
+   "verses": 257
+  },
+  {
+   "n": 8,
+   "file": "book-8.json",
+   "title": {
+    "en": "Book 8",
+    "hi": "काण्ड 8"
+   },
+   "bytes": 44770,
+   "sections": 9,
+   "verses": 230
+  },
+  {
+   "n": 9,
+   "file": "book-9.json",
+   "title": {
+    "en": "Book 9",
+    "hi": "काण्ड 9"
+   },
+   "bytes": 50159,
+   "sections": 10,
+   "verses": 297
+  },
+  {
+   "n": 10,
+   "file": "book-10.json",
+   "title": {
+    "en": "Book 10",
+    "hi": "काण्ड 10"
+   },
+   "bytes": 58656,
+   "sections": 10,
+   "verses": 350
+  },
+  {
+   "n": 11,
+   "file": "book-11.json",
+   "title": {
+    "en": "Book 11",
+    "hi": "काण्ड 11"
+   },
+   "bytes": 56435,
+   "sections": 10,
+   "verses": 313
+  },
+  {
+   "n": 12,
+   "file": "book-12.json",
+   "title": {
+    "en": "Book 12",
+    "hi": "काण्ड 12"
+   },
+   "bytes": 54085,
+   "sections": 5,
+   "verses": 304
+  },
+  {
+   "n": 13,
+   "file": "book-13.json",
+   "title": {
+    "en": "Book 13",
+    "hi": "काण्ड 13"
+   },
+   "bytes": 31330,
+   "sections": 4,
+   "verses": 188
+  },
+  {
+   "n": 14,
+   "file": "book-14.json",
+   "title": {
+    "en": "Book 14",
+    "hi": "काण्ड 14"
+   },
+   "bytes": 25215,
+   "sections": 2,
+   "verses": 138
+  },
+  {
+   "n": 15,
+   "file": "book-15.json",
+   "title": {
+    "en": "Book 15",
+    "hi": "काण्ड 15"
+   },
+   "bytes": 20367,
+   "sections": 17,
+   "verses": 136
+  },
+  {
+   "n": 16,
+   "file": "book-16.json",
+   "title": {
+    "en": "Book 16",
+    "hi": "काण्ड 16"
+   },
+   "bytes": 11455,
+   "sections": 9,
+   "verses": 93
+  },
+  {
+   "n": 17,
+   "file": "book-17.json",
+   "title": {
+    "en": "Book 17",
+    "hi": "काण्ड 17"
+   },
+   "bytes": 5965,
+   "sections": 1,
+   "verses": 30
+  },
+  {
+   "n": 18,
+   "file": "book-18.json",
+   "title": {
+    "en": "Book 18",
+    "hi": "काण्ड 18"
+   },
+   "bytes": 51765,
+   "sections": 4,
+   "verses": 282
+  },
+  {
+   "n": 19,
+   "file": "book-19.json",
+   "title": {
+    "en": "Book 19",
+    "hi": "काण्ड 19"
+   },
+   "bytes": 68835,
+   "sections": 71,
+   "verses": 421
+  }
+ ]
+}

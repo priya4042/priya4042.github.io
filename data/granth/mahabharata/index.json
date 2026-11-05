@@ -1,0 +1,276 @@
+{
+ "format": 1,
+ "id": "mahabharata",
+ "title": {
+  "en": "Mahabharata",
+  "hi": "महाभारत"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "Sanskrit",
+   "from": "Sanskrit Wikisource, महाभारतम् (https://sa.wikisource.org/wiki/महाभारतम्)",
+   "licence": "CC BY-SA 4.0 (Wikisource contributors); underlying text public domain"
+  },
+  {
+   "part": "Transliteration",
+   "from": "Generated from the Devanagari",
+   "licence": "Same as Sanskrit"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "parva-1a.json",
+   "title": {
+    "en": "1. Adi Parva (A)",
+    "hi": "1. आदि पर्व (A)"
+   },
+   "bytes": 2886493,
+   "sections": 166,
+   "verses": 7399
+  },
+  {
+   "n": 2,
+   "file": "parva-1b.json",
+   "title": {
+    "en": "1. Adi Parva (B)",
+    "hi": "1. आदि पर्व (B)"
+   },
+   "bytes": 1338425,
+   "sections": 94,
+   "verses": 3634
+  },
+  {
+   "n": 3,
+   "file": "parva-2.json",
+   "title": {
+    "en": "2. Sabha Parva",
+    "hi": "2. सभा पर्व"
+   },
+   "bytes": 1674436,
+   "sections": 103,
+   "verses": 4458
+  },
+  {
+   "n": 4,
+   "file": "parva-3a.json",
+   "title": {
+    "en": "3. Vana (Aranyaka) Parva (A)",
+    "hi": "3. वन (आरण्यक) पर्व (A)"
+   },
+   "bytes": 2885757,
+   "sections": 191,
+   "verses": 7754
+  },
+  {
+   "n": 5,
+   "file": "parva-3b.json",
+   "title": {
+    "en": "3. Vana (Aranyaka) Parva (B)",
+    "hi": "3. वन (आरण्यक) पर्व (B)"
+   },
+   "bytes": 1790301,
+   "sections": 124,
+   "verses": 4670
+  },
+  {
+   "n": 6,
+   "file": "parva-4.json",
+   "title": {
+    "en": "4. Virata Parva",
+    "hi": "4. विराट पर्व"
+   },
+   "bytes": 1400650,
+   "sections": 78,
+   "verses": 3571
+  },
+  {
+   "n": 7,
+   "file": "parva-5.json",
+   "title": {
+    "en": "5. Udyoga Parva",
+    "hi": "5. उद्योग पर्व"
+   },
+   "bytes": 2619081,
+   "sections": 196,
+   "verses": 6908
+  },
+  {
+   "n": 8,
+   "file": "parva-6.json",
+   "title": {
+    "en": "6. Bhishma Parva",
+    "hi": "6. भीष्म पर्व"
+   },
+   "bytes": 2231291,
+   "sections": 122,
+   "verses": 6018
+  },
+  {
+   "n": 9,
+   "file": "parva-7a.json",
+   "title": {
+    "en": "7. Drona Parva (A)",
+    "hi": "7. द्रोण पर्व (A)"
+   },
+   "bytes": 2896657,
+   "sections": 164,
+   "verses": 7665
+  },
+  {
+   "n": 10,
+   "file": "parva-7b.json",
+   "title": {
+    "en": "7. Drona Parva (B)",
+    "hi": "7. द्रोण पर्व (B)"
+   },
+   "bytes": 879639,
+   "sections": 39,
+   "verses": 2340
+  },
+  {
+   "n": 11,
+   "file": "parva-8.json",
+   "title": {
+    "en": "8. Karna Parva",
+    "hi": "8. कर्ण पर्व"
+   },
+   "bytes": 1948749,
+   "sections": 100,
+   "verses": 4879
+  },
+  {
+   "n": 12,
+   "file": "parva-9.json",
+   "title": {
+    "en": "9. Shalya Parva",
+    "hi": "9. शल्य पर्व"
+   },
+   "bytes": 1355107,
+   "sections": 66,
+   "verses": 3728
+  },
+  {
+   "n": 13,
+   "file": "parva-10.json",
+   "title": {
+    "en": "10. Sauptika Parva",
+    "hi": "10. सौप्तिक पर्व"
+   },
+   "bytes": 302018,
+   "sections": 18,
+   "verses": 837
+  },
+  {
+   "n": 14,
+   "file": "parva-11.json",
+   "title": {
+    "en": "11. Stri Parva",
+    "hi": "11. स्त्री पर्व"
+   },
+   "bytes": 308691,
+   "sections": 27,
+   "verses": 829
+  },
+  {
+   "n": 15,
+   "file": "parva-12a.json",
+   "title": {
+    "en": "12. Shanti Parva (A)",
+    "hi": "12. शान्ति पर्व (A)"
+   },
+   "bytes": 2899661,
+   "sections": 195,
+   "verses": 7755
+  },
+  {
+   "n": 16,
+   "file": "parva-12b.json",
+   "title": {
+    "en": "12. Shanti Parva (B)",
+    "hi": "12. शान्ति पर्व (B)"
+   },
+   "bytes": 2802860,
+   "sections": 176,
+   "verses": 7043
+  },
+  {
+   "n": 17,
+   "file": "parva-13a.json",
+   "title": {
+    "en": "13. Anushasana Parva (A)",
+    "hi": "13. अनुशासन पर्व (A)"
+   },
+   "bytes": 2898132,
+   "sections": 185,
+   "verses": 7693
+  },
+  {
+   "n": 18,
+   "file": "parva-13b.json",
+   "title": {
+    "en": "13. Anushasana Parva (B)",
+    "hi": "13. अनुशासन पर्व (B)"
+   },
+   "bytes": 1364936,
+   "sections": 89,
+   "verses": 3672
+  },
+  {
+   "n": 19,
+   "file": "parva-14.json",
+   "title": {
+    "en": "14. Ashvamedhika Parva",
+    "hi": "14. आश्वमेधिक पर्व"
+   },
+   "bytes": 1727361,
+   "sections": 118,
+   "verses": 4653
+  },
+  {
+   "n": 20,
+   "file": "parva-15.json",
+   "title": {
+    "en": "15. Ashramavasika Parva",
+    "hi": "15. आश्रमवासिक पर्व"
+   },
+   "bytes": 417888,
+   "sections": 41,
+   "verses": 1150
+  },
+  {
+   "n": 21,
+   "file": "parva-16.json",
+   "title": {
+    "en": "16. Mausala Parva",
+    "hi": "16. मौसल पर्व"
+   },
+   "bytes": 115720,
+   "sections": 9,
+   "verses": 319
+  },
+  {
+   "n": 22,
+   "file": "parva-17.json",
+   "title": {
+    "en": "17. Mahaprasthanika Parva",
+    "hi": "17. महाप्रस्थानिक पर्व"
+   },
+   "bytes": 45604,
+   "sections": 3,
+   "verses": 122
+  },
+  {
+   "n": 23,
+   "file": "parva-18.json",
+   "title": {
+    "en": "18. Svargarohana Parva",
+    "hi": "18. स्वर्गारोहण पर्व"
+   },
+   "bytes": 123325,
+   "sections": 6,
+   "verses": 347
+  }
+ ]
+}

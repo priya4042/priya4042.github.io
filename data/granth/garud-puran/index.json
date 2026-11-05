@@ -1,0 +1,67 @@
+{
+ "format": 1,
+ "id": "garud-puran",
+ "title": {
+  "en": "Garuda Purana",
+  "hi": "गरुड पुराण"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "Sanskrit",
+   "from": "Sanskrit Wikisource, गरुडपुराणम् (https://sa.wikisource.org/wiki/गरुडपुराणम्)",
+   "licence": "CC BY-SA 4.0 (Wikisource contributors); underlying text public domain"
+  },
+  {
+   "part": "Transliteration",
+   "from": "Generated from the Devanagari",
+   "licence": "Same as Sanskrit"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "achara-kanda-a.json",
+   "title": {
+    "en": "Achara Kanda (A)",
+    "hi": "आचारकाण्ड (A)"
+   },
+   "bytes": 2892174,
+   "sections": 235,
+   "verses": 7228
+  },
+  {
+   "n": 2,
+   "file": "achara-kanda-b.json",
+   "title": {
+    "en": "Achara Kanda (B)",
+    "hi": "आचारकाण्ड (B)"
+   },
+   "bytes": 56797,
+   "sections": 5,
+   "verses": 149
+  },
+  {
+   "n": 3,
+   "file": "preta-kanda.json",
+   "title": {
+    "en": "Preta Kanda (Dharma Kanda)",
+    "hi": "प्रेतकाण्ड (धर्मकाण्ड)"
+   },
+   "bytes": 1113099,
+   "sections": 49,
+   "verses": 2946
+  },
+  {
+   "n": 4,
+   "file": "brahma-kanda.json",
+   "title": {
+    "en": "Brahma Kanda (Moksha Kanda)",
+    "hi": "ब्रह्मकाण्ड (मोक्षकाण्ड)"
+   },
+   "bytes": 865331,
+   "sections": 29,
+   "verses": 2007
+  }
+ ]
+}

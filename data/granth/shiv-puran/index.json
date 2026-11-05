@@ -1,0 +1,155 @@
+{
+ "format": 1,
+ "id": "shiv-puran",
+ "title": {
+  "en": "Shiva Purana",
+  "hi": "शिव पुराण"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "Sanskrit",
+   "from": "Sanskrit Wikisource, शिवपुराणम् (https://sa.wikisource.org/wiki/शिवपुराणम्)",
+   "licence": "CC BY-SA 4.0 (Wikisource contributors); underlying text public domain"
+  },
+  {
+   "part": "Transliteration",
+   "from": "Generated from the Devanagari",
+   "licence": "Same as Sanskrit"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "vidyeshvara.json",
+   "title": {
+    "en": "Vidyeshvara Samhita",
+    "hi": "विद्येश्वर संहिता"
+   },
+   "bytes": 573576,
+   "sections": 25,
+   "verses": 1582
+  },
+  {
+   "n": 2,
+   "file": "rudra-1.json",
+   "title": {
+    "en": "Rudra Samhita: Srishti Khanda",
+    "hi": "रुद्र संहिता: सृष्टि खण्ड"
+   },
+   "bytes": 449145,
+   "sections": 20,
+   "verses": 1240
+  },
+  {
+   "n": 3,
+   "file": "rudra-2.json",
+   "title": {
+    "en": "Rudra Samhita: Sati Khanda",
+    "hi": "रुद्र संहिता: सती खण्ड"
+   },
+   "bytes": 860468,
+   "sections": 43,
+   "verses": 2352
+  },
+  {
+   "n": 4,
+   "file": "rudra-3.json",
+   "title": {
+    "en": "Rudra Samhita: Parvati Khanda",
+    "hi": "रुद्र संहिता: पार्वती खण्ड"
+   },
+   "bytes": 1021187,
+   "sections": 55,
+   "verses": 2756
+  },
+  {
+   "n": 5,
+   "file": "rudra-4.json",
+   "title": {
+    "en": "Rudra Samhita: Kumara Khanda",
+    "hi": "रुद्र संहिता: कुमार खण्ड"
+   },
+   "bytes": 408692,
+   "sections": 20,
+   "verses": 1099
+  },
+  {
+   "n": 6,
+   "file": "rudra-5.json",
+   "title": {
+    "en": "Rudra Samhita: Yuddha Khanda",
+    "hi": "रुद्र संहिता: युद्ध खण्ड"
+   },
+   "bytes": 1151707,
+   "sections": 59,
+   "verses": 3000
+  },
+  {
+   "n": 7,
+   "file": "shatarudra.json",
+   "title": {
+    "en": "Shatarudra Samhita",
+    "hi": "शतरुद्र संहिता"
+   },
+   "bytes": 828939,
+   "sections": 42,
+   "verses": 2225
+  },
+  {
+   "n": 8,
+   "file": "kotirudra.json",
+   "title": {
+    "en": "Kotirudra Samhita",
+    "hi": "कोटिरुद्र संहिता"
+   },
+   "bytes": 824322,
+   "sections": 43,
+   "verses": 2227
+  },
+  {
+   "n": 9,
+   "file": "uma.json",
+   "title": {
+    "en": "Uma Samhita",
+    "hi": "उमा संहिता"
+   },
+   "bytes": 999492,
+   "sections": 51,
+   "verses": 2728
+  },
+  {
+   "n": 10,
+   "file": "kailasa.json",
+   "title": {
+    "en": "Kailasa Samhita",
+    "hi": "कैलास संहिता"
+   },
+   "bytes": 483730,
+   "sections": 23,
+   "verses": 1304
+  },
+  {
+   "n": 11,
+   "file": "vayaviya-1.json",
+   "title": {
+    "en": "Vayaviya Samhita: Purva Bhaga",
+    "hi": "वायवीय संहिता: पूर्व भाग"
+   },
+   "bytes": 653704,
+   "sections": 35,
+   "verses": 1803
+  },
+  {
+   "n": 12,
+   "file": "vayaviya-2.json",
+   "title": {
+    "en": "Vayaviya Samhita: Uttara Bhaga",
+    "hi": "वायवीय संहिता: उत्तर भाग"
+   },
+   "bytes": 875030,
+   "sections": 41,
+   "verses": 2406
+  }
+ ]
+}

@@ -1,0 +1,227 @@
+{
+ "format": 1,
+ "id": "mahabharata-en",
+ "title": {
+  "en": "Mahabharata (Ganguli English)",
+  "hi": "महाभारत (अंग्रेज़ी)"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "English",
+   "from": "Kisari Mohan Ganguli, The Mahabharata of Krishna-Dwaipayana Vyasa translated into English prose (1883-1896), Project Gutenberg eBooks #15474-#15477",
+   "licence": "Public domain"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "parva-1.json",
+   "title": {
+    "en": "1. Adi Parva",
+    "hi": "1. आदि पर्व"
+   },
+   "bytes": 1378346,
+   "sections": 235,
+   "verses": 1530
+  },
+  {
+   "n": 2,
+   "file": "parva-2.json",
+   "title": {
+    "en": "2. Sabha Parva",
+    "hi": "2. सभा पर्व"
+   },
+   "bytes": 453327,
+   "sections": 79,
+   "verses": 364
+  },
+  {
+   "n": 3,
+   "file": "parva-3.json",
+   "title": {
+    "en": "3. Vana (Aranyaka) Parva",
+    "hi": "3. वन (आरण्यक) पर्व"
+   },
+   "bytes": 1927297,
+   "sections": 313,
+   "verses": 1073
+  },
+  {
+   "n": 4,
+   "file": "parva-4.json",
+   "title": {
+    "en": "4. Virata Parva",
+    "hi": "4. विराट पर्व"
+   },
+   "bytes": 377677,
+   "sections": 72,
+   "verses": 303
+  },
+  {
+   "n": 5,
+   "file": "parva-5.json",
+   "title": {
+    "en": "5. Udyoga Parva",
+    "hi": "5. उद्योग पर्व"
+   },
+   "bytes": 1133069,
+   "sections": 199,
+   "verses": 563
+  },
+  {
+   "n": 6,
+   "file": "parva-6.json",
+   "title": {
+    "en": "6. Bhishma Parva",
+    "hi": "6. भीष्म पर्व"
+   },
+   "bytes": 988861,
+   "sections": 124,
+   "verses": 852
+  },
+  {
+   "n": 7,
+   "file": "parva-7.json",
+   "title": {
+    "en": "7. Drona Parva",
+    "hi": "7. द्रोण पर्व"
+   },
+   "bytes": 1529121,
+   "sections": 200,
+   "verses": 750
+  },
+  {
+   "n": 8,
+   "file": "parva-8.json",
+   "title": {
+    "en": "8. Karna Parva",
+    "hi": "8. कर्ण पर्व"
+   },
+   "bytes": 826063,
+   "sections": 96,
+   "verses": 240
+  },
+  {
+   "n": 9,
+   "file": "parva-9.json",
+   "title": {
+    "en": "9. Shalya Parva",
+    "hi": "9. शल्य पर्व"
+   },
+   "bytes": 548948,
+   "sections": 65,
+   "verses": 215
+  },
+  {
+   "n": 10,
+   "file": "parva-10.json",
+   "title": {
+    "en": "10. Sauptika Parva",
+    "hi": "10. सौप्तिक पर्व"
+   },
+   "bytes": 127890,
+   "sections": 18,
+   "verses": 141
+  },
+  {
+   "n": 11,
+   "file": "parva-11.json",
+   "title": {
+    "en": "11. Stri Parva",
+    "hi": "11. स्त्री पर्व"
+   },
+   "bytes": 129651,
+   "sections": 27,
+   "verses": 67
+  },
+  {
+   "n": 12,
+   "file": "parva-12a.json",
+   "title": {
+    "en": "12. Shanti Parva (A)",
+    "hi": "12. शान्ति पर्व (A)"
+   },
+   "bytes": 2690725,
+   "sections": 362,
+   "verses": 1291
+  },
+  {
+   "n": 13,
+   "file": "parva-12b.json",
+   "title": {
+    "en": "12. Shanti Parva (B)",
+    "hi": "12. शान्ति पर्व (B)"
+   },
+   "bytes": 525909,
+   "sections": 1,
+   "verses": 1949
+  },
+  {
+   "n": 14,
+   "file": "parva-13.json",
+   "title": {
+    "en": "13. Anushasana Parva",
+    "hi": "13. अनुशासन पर्व"
+   },
+   "bytes": 1752230,
+   "sections": 168,
+   "verses": 1532
+  },
+  {
+   "n": 15,
+   "file": "parva-14.json",
+   "title": {
+    "en": "14. Ashvamedhika Parva",
+    "hi": "14. आश्वमेधिक पर्व"
+   },
+   "bytes": 542399,
+   "sections": 92,
+   "verses": 543
+  },
+  {
+   "n": 16,
+   "file": "parva-15.json",
+   "title": {
+    "en": "15. Ashramavasika Parva",
+    "hi": "15. आश्रमवासिक पर्व"
+   },
+   "bytes": 197309,
+   "sections": 39,
+   "verses": 161
+  },
+  {
+   "n": 17,
+   "file": "parva-16.json",
+   "title": {
+    "en": "16. Mausala Parva",
+    "hi": "16. मौसल पर्व"
+   },
+   "bytes": 48470,
+   "sections": 8,
+   "verses": 36
+  },
+  {
+   "n": 18,
+   "file": "parva-17.json",
+   "title": {
+    "en": "17. Mahaprasthanika Parva",
+    "hi": "17. महाप्रस्थानिक पर्व"
+   },
+   "bytes": 18906,
+   "sections": 3,
+   "verses": 38
+  },
+  {
+   "n": 19,
+   "file": "parva-18.json",
+   "title": {
+    "en": "18. Svargarohana Parva",
+    "hi": "18. स्वर्गारोहण पर्व"
+   },
+   "bytes": 52759,
+   "sections": 6,
+   "verses": 81
+  }
+ ]
+}

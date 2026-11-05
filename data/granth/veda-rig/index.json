@@ -1,0 +1,138 @@
+{
+ "format": 1,
+ "id": "veda-rig",
+ "title": {
+  "en": "Rigveda",
+  "hi": "ऋग्वेद"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "Sanskrit",
+   "from": "Sanskrit Wikisource, ऋग्वेदः (https://sa.wikisource.org/wiki/ऋग्वेदः)",
+   "licence": "CC BY-SA 4.0 (Wikisource contributors); underlying text public domain"
+  },
+  {
+   "part": "English",
+   "from": "Ralph T. H. Griffith, The Hymns of the Rigveda (2nd ed., 1896), via English Wikisource (https://en.wikisource.org/wiki/The_Hymns_of_the_Rigveda)",
+   "licence": "Public domain"
+  },
+  {
+   "part": "Transliteration",
+   "from": "Generated from the Devanagari",
+   "licence": "Same as Sanskrit"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "mandala-1.json",
+   "title": {
+    "en": "Mandala 1",
+    "hi": "मण्डल 1"
+   },
+   "bytes": 1167717,
+   "sections": 191,
+   "verses": 2006
+  },
+  {
+   "n": 2,
+   "file": "mandala-2.json",
+   "title": {
+    "en": "Mandala 2",
+    "hi": "मण्डल 2"
+   },
+   "bytes": 274161,
+   "sections": 43,
+   "verses": 429
+  },
+  {
+   "n": 3,
+   "file": "mandala-3.json",
+   "title": {
+    "en": "Mandala 3",
+    "hi": "मण्डल 3"
+   },
+   "bytes": 366744,
+   "sections": 62,
+   "verses": 617
+  },
+  {
+   "n": 4,
+   "file": "mandala-4.json",
+   "title": {
+    "en": "Mandala 4",
+    "hi": "मण्डल 4"
+   },
+   "bytes": 346006,
+   "sections": 58,
+   "verses": 589
+  },
+  {
+   "n": 5,
+   "file": "mandala-5.json",
+   "title": {
+    "en": "Mandala 5",
+    "hi": "मण्डल 5"
+   },
+   "bytes": 419797,
+   "sections": 87,
+   "verses": 727
+  },
+  {
+   "n": 6,
+   "file": "mandala-6.json",
+   "title": {
+    "en": "Mandala 6",
+    "hi": "मण्डल 6"
+   },
+   "bytes": 448320,
+   "sections": 75,
+   "verses": 765
+  },
+  {
+   "n": 7,
+   "file": "mandala-7.json",
+   "title": {
+    "en": "Mandala 7",
+    "hi": "मण्डल 7"
+   },
+   "bytes": 506156,
+   "sections": 104,
+   "verses": 841
+  },
+  {
+   "n": 8,
+   "file": "mandala-8.json",
+   "title": {
+    "en": "Mandala 8",
+    "hi": "मण्डल 8"
+   },
+   "bytes": 792002,
+   "sections": 103,
+   "verses": 1716
+  },
+  {
+   "n": 9,
+   "file": "mandala-9.json",
+   "title": {
+    "en": "Mandala 9",
+    "hi": "मण्डल 9"
+   },
+   "bytes": 530414,
+   "sections": 114,
+   "verses": 1108
+  },
+  {
+   "n": 10,
+   "file": "mandala-10.json",
+   "title": {
+    "en": "Mandala 10",
+    "hi": "मण्डल 10"
+   },
+   "bytes": 1068169,
+   "sections": 191,
+   "verses": 1754
+  }
+ ]
+}

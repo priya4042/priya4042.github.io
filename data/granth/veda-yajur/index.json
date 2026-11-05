@@ -1,0 +1,127 @@
+{
+ "format": 1,
+ "id": "veda-yajur",
+ "title": {
+  "en": "Yajurveda",
+  "hi": "यजुर्वेद"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "Sanskrit",
+   "from": "Sanskrit Wikisource, शुक्लयजुर्वेदः (https://sa.wikisource.org/wiki/शुक्लयजुर्वेदः)",
+   "licence": "CC BY-SA 4.0 (Wikisource contributors); underlying text public domain"
+  },
+  {
+   "part": "Sanskrit (Taittiriya Samhita)",
+   "from": "Sanskrit Wikisource, तैत्तिरीयसंहिता(विस्वरः) (https://sa.wikisource.org/wiki/तैत्तिरीयसंहिता(विस्वरः))",
+   "licence": "CC BY-SA 4.0 (Wikisource contributors); underlying text public domain"
+  },
+  {
+   "part": "Transliteration",
+   "from": "Generated from the Devanagari",
+   "licence": "Same as Sanskrit"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "shukla-1.json",
+   "title": {
+    "en": "Shukla Yajurveda (Vajasaneyi Madhyandina), Adhyayas 1-20",
+    "hi": "शुक्ल यजुर्वेद (माध्यन्दिन), अध्याय 1-20"
+   },
+   "bytes": 649966,
+   "sections": 20,
+   "verses": 1207
+  },
+  {
+   "n": 2,
+   "file": "shukla-2.json",
+   "title": {
+    "en": "Shukla Yajurveda (Vajasaneyi Madhyandina), Adhyayas 21-40",
+    "hi": "शुक्ल यजुर्वेद (माध्यन्दिन), अध्याय 21-40"
+   },
+   "bytes": 389822,
+   "sections": 20,
+   "verses": 762
+  },
+  {
+   "n": 3,
+   "file": "taittiriya-kanda-1.json",
+   "title": {
+    "en": "Krishna Yajurveda: Taittiriya Samhita, Kanda 1",
+    "hi": "कृष्ण यजुर्वेद: तैत्तिरीय संहिता, काण्ड 1"
+   },
+   "bytes": 440912,
+   "sections": 145,
+   "verses": 342
+  },
+  {
+   "n": 4,
+   "file": "taittiriya-kanda-2.json",
+   "title": {
+    "en": "Krishna Yajurveda: Taittiriya Samhita, Kanda 2",
+    "hi": "कृष्ण यजुर्वेद: तैत्तिरीय संहिता, काण्ड 2"
+   },
+   "bytes": 492493,
+   "sections": 75,
+   "verses": 381
+  },
+  {
+   "n": 5,
+   "file": "taittiriya-kanda-3.json",
+   "title": {
+    "en": "Krishna Yajurveda: Taittiriya Samhita, Kanda 3",
+    "hi": "कृष्ण यजुर्वेद: तैत्तिरीय संहिता, काण्ड 3"
+   },
+   "bytes": 274327,
+   "sections": 55,
+   "verses": 206
+  },
+  {
+   "n": 6,
+   "file": "taittiriya-kanda-4.json",
+   "title": {
+    "en": "Krishna Yajurveda: Taittiriya Samhita, Kanda 4",
+    "hi": "कृष्ण यजुर्वेद: तैत्तिरीय संहिता, काण्ड 4"
+   },
+   "bytes": 367783,
+   "sections": 82,
+   "verses": 283
+  },
+  {
+   "n": 7,
+   "file": "taittiriya-kanda-5.json",
+   "title": {
+    "en": "Krishna Yajurveda: Taittiriya Samhita, Kanda 5",
+    "hi": "कृष्ण यजुर्वेद: तैत्तिरीय संहिता, काण्ड 5"
+   },
+   "bytes": 510401,
+   "sections": 119,
+   "verses": 398
+  },
+  {
+   "n": 8,
+   "file": "taittiriya-kanda-6.json",
+   "title": {
+    "en": "Krishna Yajurveda: Taittiriya Samhita, Kanda 6",
+    "hi": "कृष्ण यजुर्वेद: तैत्तिरीय संहिता, काण्ड 6"
+   },
+   "bytes": 427086,
+   "sections": 66,
+   "verses": 333
+  },
+  {
+   "n": 9,
+   "file": "taittiriya-kanda-7.json",
+   "title": {
+    "en": "Krishna Yajurveda: Taittiriya Samhita, Kanda 7",
+    "hi": "कृष्ण यजुर्वेद: तैत्तिरीय संहिता, काण्ड 7"
+   },
+   "bytes": 347911,
+   "sections": 107,
+   "verses": 250
+  }
+ ]
+}

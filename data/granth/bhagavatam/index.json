@@ -1,0 +1,155 @@
+{
+ "format": 1,
+ "id": "bhagavatam",
+ "title": {
+  "en": "Srimad Bhagavatam",
+  "hi": "श्रीमद्भागवत महापुराण"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "Sanskrit",
+   "from": "Sanskrit Wikisource, श्रीमद्भागवतपुराणम् (https://sa.wikisource.org/wiki/श्रीमद्भागवतपुराणम्)",
+   "licence": "CC BY-SA 4.0 (Wikisource contributors); underlying text public domain"
+  },
+  {
+   "part": "Transliteration",
+   "from": "Generated from the Devanagari",
+   "licence": "Same as Sanskrit"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "skandha-1.json",
+   "title": {
+    "en": "Skandha 1",
+    "hi": "स्कन्ध 1"
+   },
+   "bytes": 332239,
+   "sections": 19,
+   "verses": 841
+  },
+  {
+   "n": 2,
+   "file": "skandha-2.json",
+   "title": {
+    "en": "Skandha 2",
+    "hi": "स्कन्ध 2"
+   },
+   "bytes": 169720,
+   "sections": 10,
+   "verses": 401
+  },
+  {
+   "n": 3,
+   "file": "skandha-3.json",
+   "title": {
+    "en": "Skandha 3",
+    "hi": "स्कन्ध 3"
+   },
+   "bytes": 586364,
+   "sections": 33,
+   "verses": 1444
+  },
+  {
+   "n": 4,
+   "file": "skandha-4.json",
+   "title": {
+    "en": "Skandha 4",
+    "hi": "स्कन्ध 4"
+   },
+   "bytes": 592176,
+   "sections": 31,
+   "verses": 1473
+  },
+  {
+   "n": 5,
+   "file": "skandha-5.json",
+   "title": {
+    "en": "Skandha 5",
+    "hi": "स्कन्ध 5"
+   },
+   "bytes": 406102,
+   "sections": 26,
+   "verses": 685
+  },
+  {
+   "n": 6,
+   "file": "skandha-6.json",
+   "title": {
+    "en": "Skandha 6",
+    "hi": "स्कन्ध 6"
+   },
+   "bytes": 408320,
+   "sections": 19,
+   "verses": 1034
+  },
+  {
+   "n": 7,
+   "file": "skandha-7.json",
+   "title": {
+    "en": "Skandha 7",
+    "hi": "स्कन्ध 7"
+   },
+   "bytes": 313318,
+   "sections": 15,
+   "verses": 771
+  },
+  {
+   "n": 8,
+   "file": "skandha-8.json",
+   "title": {
+    "en": "Skandha 8",
+    "hi": "स्कन्ध 8"
+   },
+   "bytes": 390978,
+   "sections": 24,
+   "verses": 970
+  },
+  {
+   "n": 9,
+   "file": "skandha-9.json",
+   "title": {
+    "en": "Skandha 9",
+    "hi": "स्कन्ध 9"
+   },
+   "bytes": 383873,
+   "sections": 24,
+   "verses": 1006
+  },
+  {
+   "n": 10,
+   "file": "skandha-10.json",
+   "title": {
+    "en": "Skandha 10",
+    "hi": "स्कन्ध 10"
+   },
+   "bytes": 1651388,
+   "sections": 90,
+   "verses": 4095
+  },
+  {
+   "n": 11,
+   "file": "skandha-11.json",
+   "title": {
+    "en": "Skandha 11",
+    "hi": "स्कन्ध 11"
+   },
+   "bytes": 552181,
+   "sections": 31,
+   "verses": 1412
+  },
+  {
+   "n": 12,
+   "file": "skandha-12.json",
+   "title": {
+    "en": "Skandha 12",
+    "hi": "स्कन्ध 12"
+   },
+   "bytes": 225604,
+   "sections": 13,
+   "verses": 587
+  }
+ ]
+}

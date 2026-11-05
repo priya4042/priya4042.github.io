@@ -1,0 +1,94 @@
+{
+ "format": 1,
+ "id": "vishnu-puran",
+ "title": {
+  "en": "Vishnu Purana",
+  "hi": "विष्णु पुराण"
+ },
+ "version": 1,
+ "sources": [
+  {
+   "part": "Sanskrit",
+   "from": "Sanskrit Wikisource, विष्णुपुराणम् (https://sa.wikisource.org/wiki/विष्णुपुराणम्)",
+   "licence": "CC BY-SA 4.0 (Wikisource contributors); underlying text public domain"
+  },
+  {
+   "part": "English",
+   "from": "Manmatha Nath Dutt, A Prose English Translation of Vishnupuranam (Calcutta, 1896; based on H. H. Wilson), Project Gutenberg eBook #66208",
+   "licence": "Public domain"
+  },
+  {
+   "part": "Transliteration",
+   "from": "Generated from the Devanagari",
+   "licence": "Same as Sanskrit"
+  }
+ ],
+ "chapters": [
+  {
+   "n": 1,
+   "file": "amsha-1.json",
+   "title": {
+    "en": "Amsha 1",
+    "hi": "प्रथम अंश"
+   },
+   "bytes": 784570,
+   "sections": 22,
+   "verses": 1595
+  },
+  {
+   "n": 2,
+   "file": "amsha-2.json",
+   "title": {
+    "en": "Amsha 2",
+    "hi": "द्वितीय अंश"
+   },
+   "bytes": 405359,
+   "sections": 16,
+   "verses": 822
+  },
+  {
+   "n": 3,
+   "file": "amsha-3.json",
+   "title": {
+    "en": "Amsha 3",
+    "hi": "तृतीय अंश"
+   },
+   "bytes": 431540,
+   "sections": 18,
+   "verses": 850
+  },
+  {
+   "n": 4,
+   "file": "amsha-4.json",
+   "title": {
+    "en": "Amsha 4",
+    "hi": "चतुर्थ अंश"
+   },
+   "bytes": 609161,
+   "sections": 24,
+   "verses": 1421
+  },
+  {
+   "n": 5,
+   "file": "amsha-5.json",
+   "title": {
+    "en": "Amsha 5",
+    "hi": "पञ्चम अंश"
+   },
+   "bytes": 760585,
+   "sections": 38,
+   "verses": 1573
+  },
+  {
+   "n": 6,
+   "file": "amsha-6.json",
+   "title": {
+    "en": "Amsha 6",
+    "hi": "षष्ठ अंश"
+   },
+   "bytes": 253390,
+   "sections": 8,
+   "verses": 499
+  }
+ ]
+}
