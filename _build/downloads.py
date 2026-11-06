@@ -30,7 +30,7 @@ DL = {
     "dawai": ("dawai_app", "1.0.2"),
     "kaamwali": ("kaamwali_app", "1.0.2"),
     "sabcalc": ("sabcalc_app", "1.0.2"),
-    "aarti": ("aarti_app", "1.0.2"),
+    "aarti": ("aarti_app", "1.1.0"),
     "rashan": ("rashan_app", "1.0.2"),
     "habit": ("habit_app", "1.0.2"),
     "padhai": ("padhai_app", "1.0.2"),
