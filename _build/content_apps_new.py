@@ -215,6 +215,15 @@ APPS = [
               ("Is there a timer?", "No. Take as long as you like; undo and start again are always there."),
               ("Can every level be solved?", "Yes. Every level is built from a solution and checked before you see it.")],
          privacy="https://priya4042.github.io/privacy/lanterns-app.html", github="", shots=0),
+    dict(slug="arrow-slide", name="Arrow Slide: Arrow Maze Puzzle", short="Arrow Slide", status="soon", cat="Games", accent="#E64646",
+         package="com.priyatechlabs.arrow_slide", version="1.1.0", langs="English, Hindi, Marathi, Gujarati, Bengali, Tamil, Telugu, Kannada", offline=True, ads=True,
+         what="Tap the arrows out of the maze in the right order. A clean, calm puzzle with thousands of levels.",
+         about="Arrow Slide is a calm puzzle about order. The board is a maze packed with thin arrows. Tap an arrow and it slides out along its own path, but only when nothing is in its way; a blocked tap flashes red and costs a heart. Free the outer arrows first, open the way for the inner ones and clear the whole board. Every level is checked to be solvable and is the same on every phone.",
+         feats=["One rule: an arrow slides out when its way to the edge is clear", "Thousands of levels, from a small 6 x 6 board to huge mazes, each checked to be solvable", "Shapes mode: hearts, stars, animals, letters and digits, and several shapes on one level", "3 hearts per level; a wrong tap flashes red and costs a heart", "Hint, Ruler (shows an arrow's path) and Eraser, paid with coins you earn", "A daily puzzle for everyone, with a share card that gives nothing away", "Clean black-on-white Line look, plus five colourful arrow styles", "Pinch to zoom on big boards; works offline; 8 languages"],
+         faq=[("Does it need internet?", "No. The game works fully offline; only ads and videos need internet."),
+              ("Can every level be solved?", "Yes. Every level is checked by a solver before you see it."),
+              ("What happens when I run out of hearts?", "You can retry the level for free, or get one more heart with coins or a short video.")],
+         privacy="https://priya4042.github.io/privacy/arrow-slide-app.html", github="", shots=0),
 ]
 
 APP_HI = {
@@ -354,6 +363,12 @@ APP_HI = {
         faq=[("क्या इंटरनेट चाहिए?", "नहीं। गेम पूरी तरह बिना इंटरनेट चलता है; सिर्फ़ विज्ञापनों को इंटरनेट चाहिए।"),
              ("क्या टाइमर है?", "नहीं। जितना चाहें समय लें; अनडू और फिर से शुरू हमेशा मौजूद हैं।"),
              ("क्या हर लेवल हल हो सकता है?", "हाँ। हर लेवल एक हल से बनाया जाता है और आपको दिखाने से पहले जाँचा जाता है।")]),
+    "arrow-slide": dict(
+        about="एरो स्लाइड क्रम की एक शांत पहेली है। बोर्ड पतले तीरों से भरी एक भूलभुलैया है। किसी तीर पर टैप करें, अगर उसके रास्ते में कुछ नहीं है तो वह अपने रास्ते से बाहर सरक जाता है; रुका हुआ टैप लाल चमकता है और एक दिल कम होता है। पहले बाहर वाले तीर निकालें, अंदर वालों का रास्ता खोलें और पूरा बोर्ड साफ़ करें। हर लेवल हल होने लायक जाँचा जाता है और हर फ़ोन पर एक जैसा है।",
+        feats=["एक नियम: रास्ता खाली हो तो तीर बाहर सरक जाता है", "हज़ारों लेवल, छोटे 6 x 6 बोर्ड से बड़ी भूलभुलैया तक, हर एक हल होने लायक जाँचा हुआ", "शेप्स मोड: दिल, तारे, जानवर, अक्षर और अंक, और एक लेवल पर कई आकार", "हर लेवल में 3 दिल; गलत टैप लाल चमकता है और एक दिल कम होता है", "संकेत, रूलर (तीर का रास्ता दिखाता है) और इरेज़र, कमाए हुए सिक्कों से", "सबके लिए रोज़ की पहेली, जवाब न बताने वाले शेयर कार्ड के साथ", "साफ़ काला-सफ़ेद लाइन लुक, और पाँच रंगीन तीर स्टाइल", "बड़े बोर्ड पर पिंच से ज़ूम; बिना इंटरनेट चलता है; 8 भाषाएँ"],
+        faq=[("क्या इंटरनेट चाहिए?", "नहीं। गेम पूरी तरह बिना इंटरनेट चलता है; सिर्फ़ विज्ञापनों और वीडियो को इंटरनेट चाहिए।"),
+             ("क्या हर लेवल हल हो सकता है?", "हाँ। हर लेवल आपको दिखाने से पहले जाँचा जाता है।"),
+             ("दिल ख़त्म हो जाएँ तो?", "लेवल मुफ़्त में फिर से खेलें, या सिक्कों या छोटे वीडियो से एक और दिल लें।")]),
 }
 
 I18N = {
@@ -379,4 +394,5 @@ I18N = {
     "app.docpocket": "परिवार के दस्तावेज़ों की कॉपी फ़ोन में लॉक रखें और फ़ोटो या एक PDF में झट से शेयर करें। सरकारी ऐप नहीं।",
     "app.bhakti": "आधिकारिक YouTube चैनलों से आरती, भजन, कथा और मंत्र के वीडियो, देवता, वार और त्योहार के हिसाब से, मंदिरों के लाइव दर्शन के साथ।",
     "app.lanterns": "शीशों और रोशनी की एक शांत पहेली: शीशे घुमाएँ ताकि रोशनी हर लालटेन तक पहुँचे।",
+    "app.arrow-slide": "भूलभुलैया से तीरों को सही क्रम में बाहर निकालें। हज़ारों लेवल वाली एक साफ़, शांत पहेली।",
 }
