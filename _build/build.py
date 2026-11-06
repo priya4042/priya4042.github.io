@@ -21,6 +21,7 @@ import content_tools as T
 import explore as E
 import content_apps_new as NA
 import downloads as DLS
+import content_list as LP
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE_URL = "https://priya4042.github.io/"   # change when a custom domain is added
@@ -368,6 +369,8 @@ if __name__ == "__main__":
         json.dump(C.search_index(APPS), f, ensure_ascii=False)
     with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f: f.write(sitemap())
     with open(os.path.join(ROOT, "download.html"), "w", encoding="utf-8") as f: f.write(DLS.page(APPS, head, header, footer, SITE_URL))
+    os.makedirs(os.path.join(ROOT, "l"), exist_ok=True)
+    with open(os.path.join(ROOT, "l", "index.html"), "w", encoding="utf-8", newline="\n") as f: f.write(LP.list_page(head, footer_block, SITE_URL))
     og_image()
     C.press_zip(ROOT, APPS)
     os.makedirs(os.path.join(ROOT, "work"), exist_ok=True)

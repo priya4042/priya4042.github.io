@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.priyatechlabs.bhakti",
+      "sha256_cert_fingerprints": ["08:77:8C:13:0B:E4:B8:E8:DC:C9:71:DC:E2:49:EC:73:A1:76:7F:D3:D1:CD:34:BB:A1:9A:36:B4:96:34:AF:34"]
+    }
+  }
+]
