@@ -206,6 +206,15 @@ APPS = [
               ("Are there ads while a video plays?", "The app shows no ads of its own on the video screen. The YouTube player may show YouTube's own ads, which YouTube controls."),
               ("Can I download videos?", "No. Every video stays on YouTube and plays through YouTube's official player, as YouTube's rules require.")],
          privacy="https://priya4042.github.io/privacy/bhakti-app.html", github="", shots=0),
+    dict(slug="lanterns", name="Light the Lanterns: Puzzle", short="Light the Lanterns", status="soon", cat="Games", accent="#E39A2D",
+         package="com.priyatechlabs.lanterns", version="1.0.0", langs="English, Hindi, Marathi, Gujarati, Bengali, Tamil, Telugu, Kannada", offline=True, ads=True,
+         what="A calm puzzle of light and mirrors: turn the mirrors so the beam reaches every lantern.",
+         about="Light the Lanterns is a calm puzzle for every age. A small sun at the edge of the board sends out a beam of light. Tap the mirrors to turn them, bend the light around the board and let it reach every paper lantern. When the last lantern glows, the level is done. There is no timer and no rush, and every level is checked to be solvable.",
+         feats=["Tap a mirror to turn it and bend the beam of light", "Unlimited levels, each checked to be solvable, the same on every phone", "Splitters, coloured lanterns and filters arrive as you go", "A daily lantern puzzle with a share card that never gives the answer away", "No timer, unlimited undo, 3 free hints a day", "Stars for solving in the fewest taps", "Colours also have shape marks, for colour-blind players", "Works offline; English, Hindi and 6 more Indian languages"],
+         faq=[("Does it need internet?", "No. The game works fully offline; only ads need internet."),
+              ("Is there a timer?", "No. Take as long as you like; undo and start again are always there."),
+              ("Can every level be solved?", "Yes. Every level is built from a solution and checked before you see it.")],
+         privacy="https://priya4042.github.io/privacy/lanterns-app.html", github="", shots=0),
 ]
 
 APP_HI = {
@@ -339,6 +348,12 @@ APP_HI = {
         faq=[("क्या इंटरनेट चाहिए?", "वीडियो YouTube से चलते हैं, इसलिए इंटरनेट चाहिए। आपकी सूचियाँ, पसंदीदा और प्लेलिस्ट बिना इंटरनेट भी खुलती हैं।"),
              ("क्या वीडियो चलते समय विज्ञापन आते हैं?", "वीडियो वाले पन्ने पर ऐप अपना कोई विज्ञापन नहीं दिखाता। YouTube प्लेयर YouTube के अपने विज्ञापन दिखा सकता है, जो YouTube तय करता है।"),
              ("क्या वीडियो डाउनलोड कर सकते हैं?", "नहीं। हर वीडियो YouTube पर ही रहता है और YouTube के आधिकारिक प्लेयर में चलता है, जैसा YouTube के नियम कहते हैं।")]),
+    "lanterns": dict(
+        about="लालटेन जलाएँ हर उम्र के लिए एक शांत पहेली है। बोर्ड के किनारे पर एक छोटा सूरज रोशनी भेजता है। शीशों पर टैप करके उन्हें घुमाएँ, रोशनी को बोर्ड पर मोड़ें और हर कागज़ की लालटेन तक पहुँचाएँ। आख़िरी लालटेन जलते ही लेवल पूरा। कोई टाइमर नहीं, कोई जल्दी नहीं, और हर लेवल हल होने लायक जाँचा जाता है।",
+        feats=["शीशे पर टैप करके घुमाएँ और रोशनी मोड़ें", "अनगिनत लेवल, हर एक हल होने लायक जाँचा हुआ, हर फ़ोन पर एक जैसा", "आगे बढ़ते हुए स्प्लिटर, रंगीन लालटेन और फ़िल्टर", "रोज़ की लालटेन पहेली, जवाब न बताने वाले शेयर कार्ड के साथ", "कोई टाइमर नहीं, अनलिमिटेड अनडू, रोज़ 3 मुफ़्त संकेत", "सबसे कम टैप में हल करने पर सितारे", "रंगों के साथ आकार के निशान भी, रंग-अंधता वालों के लिए", "बिना इंटरनेट चलता है; अंग्रेज़ी, हिंदी और 6 और भारतीय भाषाएँ"],
+        faq=[("क्या इंटरनेट चाहिए?", "नहीं। गेम पूरी तरह बिना इंटरनेट चलता है; सिर्फ़ विज्ञापनों को इंटरनेट चाहिए।"),
+             ("क्या टाइमर है?", "नहीं। जितना चाहें समय लें; अनडू और फिर से शुरू हमेशा मौजूद हैं।"),
+             ("क्या हर लेवल हल हो सकता है?", "हाँ। हर लेवल एक हल से बनाया जाता है और आपको दिखाने से पहले जाँचा जाता है।")]),
 }
 
 I18N = {
@@ -363,4 +378,5 @@ I18N = {
     "app.saheli": "निजी पीरियड और प्रेगनेंसी डायरी जो सिर्फ़ आपके फ़ोन पर रहती है। सिर्फ़ अंदाज़े, डॉक्टरी सलाह नहीं।",
     "app.docpocket": "परिवार के दस्तावेज़ों की कॉपी फ़ोन में लॉक रखें और फ़ोटो या एक PDF में झट से शेयर करें। सरकारी ऐप नहीं।",
     "app.bhakti": "आधिकारिक YouTube चैनलों से आरती, भजन, कथा और मंत्र के वीडियो, देवता, वार और त्योहार के हिसाब से, मंदिरों के लाइव दर्शन के साथ।",
+    "app.lanterns": "शीशों और रोशनी की एक शांत पहेली: शीशे घुमाएँ ताकि रोशनी हर लालटेन तक पहुँचे।",
 }

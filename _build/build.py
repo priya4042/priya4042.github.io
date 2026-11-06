@@ -176,7 +176,7 @@ def header(up, home_links=True):
 PRIVACY_LINKS = [("QuickScan", "https://sites.google.com/view/quickscan-app-privacy/home"), ("ReelCut", "privacy/reelcut.html"),
                  ("Committee Book", "privacy/committee-book.html"), ("MCA Entrance Prep", "privacy/mca-entrance-prep.html"),
                  ("Daily English", "privacy/daily-english.html"), ("DotNet Interview Prep", "privacy/dotnet-prep.html"),
-                 ("FormReady app", "privacy/formready-app.html"), ("Hisaab app", "privacy/hisaab-app.html"), ("Panchang app", "privacy/panchang-app.html"), ("Vivah Biodata app", "privacy/biodata-app.html"), ("Rozana app", "privacy/rozana-app.html"), ("Zameen Napai app", "privacy/zameen-app.html"), ("Tuition Book app", "privacy/tuition-app.html"), ("Shagun Register app", "privacy/shagun-app.html"), ("Vehicle Book app", "privacy/vehicle-app.html"), ("Hindi Typing app", "privacy/hindi-typing-app.html"), ("Yojana Finder app", "privacy/yojana-app.html"), ("Dawai & Sehat app", "privacy/dawai-app.html"), ("Kaamwali Hisaab app", "privacy/kaamwali-app.html"), ("Sab Calculator app", "privacy/sabcalc-app.html"), ("Aarti Sangrah app", "privacy/aarti-app.html"), ("Rashan List app", "privacy/rashan-app.html"), ("Habit Streak app", "privacy/habit-app.html"), ("Bachche ki Padhai app", "privacy/padhai-app.html"), ("Saheli app", "privacy/saheli-app.html"), ("Document Pocket app", "privacy/docpocket-app.html"), ("Bhakti Dhara app", "privacy/bhakti-app.html")]
+                 ("FormReady app", "privacy/formready-app.html"), ("Hisaab app", "privacy/hisaab-app.html"), ("Panchang app", "privacy/panchang-app.html"), ("Vivah Biodata app", "privacy/biodata-app.html"), ("Rozana app", "privacy/rozana-app.html"), ("Zameen Napai app", "privacy/zameen-app.html"), ("Tuition Book app", "privacy/tuition-app.html"), ("Shagun Register app", "privacy/shagun-app.html"), ("Vehicle Book app", "privacy/vehicle-app.html"), ("Hindi Typing app", "privacy/hindi-typing-app.html"), ("Yojana Finder app", "privacy/yojana-app.html"), ("Dawai & Sehat app", "privacy/dawai-app.html"), ("Kaamwali Hisaab app", "privacy/kaamwali-app.html"), ("Sab Calculator app", "privacy/sabcalc-app.html"), ("Aarti Sangrah app", "privacy/aarti-app.html"), ("Rashan List app", "privacy/rashan-app.html"), ("Habit Streak app", "privacy/habit-app.html"), ("Bachche ki Padhai app", "privacy/padhai-app.html"), ("Saheli app", "privacy/saheli-app.html"), ("Document Pocket app", "privacy/docpocket-app.html"), ("Bhakti Dhara app", "privacy/bhakti-app.html"), ("Light the Lanterns app", "privacy/lanterns-app.html")]
 
 def footer_block(up):
     import chrome
@@ -248,7 +248,7 @@ def app_page(a):
     others = "".join(f'<a class="more-app" href="{o["slug"]}.html"><img src="../assets/apps/{o["slug"]}.png" alt="" width="56" height="56" loading="lazy"><span>{esc(o["short"])}</span></a>'
                      for o in APPS if o["slug"] != a["slug"])
     ld = {"@context": "https://schema.org", "@type": "MobileApplication", "name": a["name"], "operatingSystem": "Android",
-          "applicationCategory": {"Money": "FinanceApplication", "Study": "EducationalApplication", "Utility": "UtilitiesApplication", "Tools": "MultimediaApplication"}[a["cat"]],
+          "applicationCategory": {"Money": "FinanceApplication", "Study": "EducationalApplication", "Utility": "UtilitiesApplication", "Tools": "MultimediaApplication", "Games": "GameApplication"}[a["cat"]],
           "description": a["what"], "url": url, "image": f"{SITE_URL}assets/apps/{a['slug']}.png",
           "author": {"@type": "Organization", "name": "Priya Tech Labs", "url": SITE_URL}}
     return f"""{head(f"{a['name']} - Priya Tech Labs", a["what"], url)}
@@ -420,7 +420,7 @@ if __name__ == "__main__":
     def _card(a):
         hf = HP.APP_HI.get(a["slug"], {}).get("feats", [])
         li = "".join(f'<li><span data-only="en">{esc(f)}</span><span data-only="hi" lang="hi">{esc(hf[i]) if i < len(hf) else ""}</span></li>' for i, f in enumerate(a["feats"][:3]))
-        dc = {"Money": "money", "Study": "study"}.get(a["cat"], "tools")
+        dc = {"Money": "money", "Study": "study", "Games": "games"}.get(a["cat"], "tools")
         return f"""    <article class="app" data-cat="{dc}">
       <div class="app-top">
         <img class="icon" src="assets/apps/{a['slug']}.png" alt="{esc(a['short'])} icon" width="56" height="56" loading="lazy">

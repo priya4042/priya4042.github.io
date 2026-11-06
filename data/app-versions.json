@@ -90,6 +90,11 @@
       "version": "1.2.0",
       "build": 3,
       "url": "https://priya4042.github.io/apps/bhakti.html"
+    },
+    "lanterns": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/lanterns.html"
     }
   }
 }
