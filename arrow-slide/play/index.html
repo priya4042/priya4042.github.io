@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arrow Slide Challenge</title>
+<meta name="description" content="A friend sent you an Arrow Slide challenge. Open it in the app or copy the code.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="/assets/apps/arrow-slide.png">
+<style>
+:root{--ink:#0F1014;--sub:#555b66;--line:#e3e6ec;--bg:#ffffff;--soft:#f5f6f8;--accent:#E64646}
+@media (prefers-color-scheme:dark){:root{--ink:#f2f3f5;--sub:#a7adb8;--line:#2a2e36;--bg:#111317;--soft:#1a1d23}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:520px;margin:0 auto;padding:32px 16px 48px;text-align:center}
+img.icon{width:88px;height:88px;border-radius:20px}
+h1{font-size:24px;margin:16px 0 6px}p.lead{color:var(--sub);margin:0 0 24px}
+a.btn,button{display:block;width:100%;padding:14px 18px;border-radius:14px;font:600 16px/1.2 inherit;text-decoration:none;cursor:pointer;margin:10px 0;border:1px solid var(--line);background:var(--soft);color:var(--ink)}
+a.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+a.btn:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.code{margin-top:24px;text-align:left;border:1px solid var(--line);border-radius:14px;padding:16px}
+.code h2{font-size:16px;margin:0 0 8px}pre{white-space:pre-wrap;word-break:break-all;background:var(--soft);padding:12px;border-radius:10px;font:14px/1.4 ui-monospace,Consolas,monospace;margin:0 0 10px;user-select:all}
+ol{padding-left:20px;color:var(--sub);margin:12px 0 0}footer{margin-top:32px;font-size:14px;color:var(--sub)}footer a{color:inherit}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<main>
+<img class="icon" src="/assets/apps/arrow-slide.png" alt="Arrow Slide icon" width="88" height="88">
+<h1 id="title">Arrow Slide challenges</h1>
+<p class="lead">Clear the board with fewer mistakes than your friend. / अपने दोस्त से कम गलतियों में बोर्ड साफ़ करें।</p>
+<a id="open" class="btn primary hidden" href="#">Open in Arrow Slide</a>
+<a class="btn" href="/apps/arrow-slide.html">Get Arrow Slide</a>
+<section id="codebox" class="code hidden" aria-live="polite">
+<h2>Your code</h2>
+<pre id="code"></pre>
+<button id="copy" type="button">Copy code</button>
+<p id="broken" class="hidden">This link looks broken. Ask your friend to send it again.</p>
+<ol>
+<li>Install or open Arrow Slide. / Arrow Slide खोलें।</li>
+<li>Tap Enter code on the home page. / होम पर Enter code दबाएँ।</li>
+<li>Tap Paste, then Open. / Paste दबाएँ, फिर Open।</li>
+</ol>
+</section>
+<footer><a href="/apps/arrow-slide.html">About Arrow Slide</a> &middot; <a href="/privacy/arrow-slide-app.html">Privacy policy</a></footer>
+</main>
+<script>
+(function(){
+  var c=(location.hash||'').slice(1).trim();
+  if(!c)return;
+  document.getElementById('title').textContent='A friend sent you a challenge';
+  var box=document.getElementById('codebox');box.classList.remove('hidden');
+  var ok=c.length<=2400&&/^[A-Za-z0-9_-]+$/.test(c);
+  if(!ok){document.getElementById('broken').classList.remove('hidden');document.getElementById('copy').classList.add('hidden');document.getElementById('code').classList.add('hidden');return;}
+  document.getElementById('code').textContent=c;
+  var o=document.getElementById('open');o.href=location.href;o.classList.remove('hidden');
+  var b=document.getElementById('copy');
+  b.addEventListener('click',function(){navigator.clipboard&&navigator.clipboard.writeText(c).then(function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy code';},2000);});});
+})();
+</script>
+</body>
+</html>

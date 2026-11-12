@@ -1,10 +1,26 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.priyatechlabs.bhakti",
-      "sha256_cert_fingerprints": ["08:77:8C:13:0B:E4:B8:E8:DC:C9:71:DC:E2:49:EC:73:A1:76:7F:D3:D1:CD:34:BB:A1:9A:36:B4:96:34:AF:34"]
+      "sha256_cert_fingerprints": [
+        "08:77:8C:13:0B:E4:B8:E8:DC:C9:71:DC:E2:49:EC:73:A1:76:7F:D3:D1:CD:34:BB:A1:9A:36:B4:96:34:AF:34"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.priyatechlabs.arrow_slide",
+      "sha256_cert_fingerprints": [
+        "E0:4E:5B:34:36:32:12:F6:84:07:7F:30:8C:1C:1C:0D:C9:E8:93:1F:5A:F6:65:18:CF:53:D4:0E:81:C3:73:FA"
+      ]
     }
   }
 ]
