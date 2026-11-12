@@ -38,7 +38,7 @@ DL = {
     "docpocket": ("docpocket_app", "1.0.2"),
     "bhakti": ("bhakti_app", "1.2.0"),
     "lanterns": ("lanterns_app", "1.0.0"),
-    "arrow-slide": ("arrow_slide", "1.5.0"),
+    "arrow-slide": ("arrow_slide", "1.6.0"),
 }
 
 def files(slug):
