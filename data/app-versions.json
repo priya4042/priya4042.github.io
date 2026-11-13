@@ -115,6 +115,11 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/colour-sort.html"
+    },
+    "memory-garden": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/memory-garden.html"
     }
   }
 }
