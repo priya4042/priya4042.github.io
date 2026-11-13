@@ -130,6 +130,11 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/paper-fold.html"
+    },
+    "draw-guess": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/draw-guess.html"
     }
   }
 }
