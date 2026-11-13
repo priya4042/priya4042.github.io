@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-iK97KWcsjFzuKVQagZ9fOH4Z9MeWQ3Eb39wTDxMkDj0=' 'sha256-LD0dPTdBWd8dgr1hZX7rUUSFTF62TUgeoYn68qKX31Y='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://priya4042.github.io; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>You're offline - Priya Tech Labs</title>
 <meta name="robots" content="noindex">
@@ -21,10 +23,11 @@
   <p data-i18n="off.p">This page isn't saved on your device yet. Pages you've already opened still work - try the home page, or check your connection.</p>
   <div class="hero-actions">
     <a class="btn btn-primary" href="./" data-i18n="nf.home">Home page</a>
-    <button class="btn btn-ghost" type="button" onclick="location.reload()" data-i18n="off.retry">Try again</button>
+    <button class="btn btn-ghost" type="button" data-retry data-i18n="off.retry">Try again</button>
   </div>
 </main>
 <script src="site.config.js"></script>
 <script src="i18n.js"></script>
+<script>document.querySelector("[data-retry]").addEventListener("click",function(){location.reload()})</script>
 </body>
 </html>

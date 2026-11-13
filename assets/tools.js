@@ -2,6 +2,8 @@
 (function () {
   var box = document.querySelector("[data-tool]");
   if (!box) return;
+  // keep Enter in a field from reloading the page
+  Array.prototype.forEach.call(box.querySelectorAll("form.tool-form"), function (f) { f.addEventListener("submit", function (e) { e.preventDefault(); }); });
   var $ = function (s) { return box.querySelector(s); };
   var $$ = function (s) { return Array.prototype.slice.call(box.querySelectorAll(s)); };
   var num = function (id) { var v = parseFloat(($("#" + id) || {}).value); return isFinite(v) ? v : 0; };

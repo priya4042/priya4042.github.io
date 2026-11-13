@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-yermEgf9q3NS+SjHdejius2wx7XpCwfGPsYoOv+Ut48=' 'sha256-+HTki5z9Y3B4AcMl8FcqjfBRwdcV3kH2Zt9Ofb6TfVs='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://priya4042.github.io; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Committee (BC) Calculator - free online tool - Priya Tech Labs</title>
 <meta name="description" content="For fixed and bidding committees: what each member pays this round and what the winner takes home.">
@@ -21,7 +23,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap"></noscript>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" media="print" id="gf"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap"></noscript><script>(function(l){if(l){l.addEventListener("load",function(){l.media="all"});if(l.sheet)l.media="all"}})(document.getElementById("gf"))</script>
 <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("ptl-theme");if(t)document.documentElement.dataset.theme=t;var l=localStorage.getItem("ptl-lang");if(l==="hi")document.documentElement.lang="hi"}catch(e){}</script>
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -56,7 +58,7 @@
     <p class="ap-what"><span data-only="en">For fixed and bidding committees: what each member pays this round and what the winner takes home.</span><span data-only="hi" lang="hi">तय और बोली वाली कमेटी के लिए: इस बार हर सदस्य कितना देगा और जीतने वाले को कितना मिलेगा।</span></p>
   </section>
   <section class="tool-box" data-tool="committee-calculator">
-    <form class="tool-form" onsubmit="return false"><div class="chips tool-chips" role="group" aria-label="Committee type" data-bc-type>
+    <form class="tool-form"><div class="chips tool-chips" role="group" aria-label="Committee type" data-bc-type>
   <button type="button" class="chip is-on" data-v="bid"><span data-only="en">Bidding</span><span data-only="hi" lang="hi">बोली वाली</span></button>
   <button type="button" class="chip" data-v="fixed"><span data-only="en">Fixed turn</span><span data-only="hi" lang="hi">तय बारी</span></button>
 </div><label class="tf" for="b-n"><span class="tf-l"><span data-only="en">Members</span><span data-only="hi" lang="hi">सदस्य</span></span><span class="tf-in"><input id="b-n" name="b-n" type="number" value="10" step="1" min="2" max="200"></span></label><label class="tf" for="b-a"><span class="tf-l"><span data-only="en">Amount per member</span><span data-only="hi" lang="hi">हर सदस्य की रकम</span></span><span class="tf-in"><input id="b-a" name="b-a" type="number" value="2000" step="100" min="0"><span class="unit">₹</span></span></label><div data-bc-bid><label class="tf" for="b-bid"><span class="tf-l"><span data-only="en">Winning bid (the discount)</span><span data-only="hi" lang="hi">जीतने वाली बोली (छूट)</span></span><span class="tf-in"><input id="b-bid" name="b-bid" type="number" value="3000" step="100" min="0"><span class="unit">₹</span></span></label></div><label class="tf" for="b-c"><span class="tf-l"><span data-only="en">Organiser's commission</span><span data-only="hi" lang="hi">आयोजक का कमीशन</span></span><span class="tf-in"><input id="b-c" name="b-c" type="number" value="2" step="0.5" min="0" max="20"><span class="unit">%</span></span></label></form>

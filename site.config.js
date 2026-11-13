@@ -11,6 +11,7 @@ window.SITE = {
   // Free form inbox (https://formspree.io -> New form -> copy the endpoint, e.g. "https://formspree.io/f/abcdwxyz").
   // Empty = forms open the visitor's email app with everything filled in instead.
   formEndpoint: "",
+  // filling formEndpoint or goatcounter also needs its domain added to the CSP in _build/csp.py (then rebuild)
 
   // QuickScan closed test progress shown on the site. Set joined to a number to show the counter, null to hide it.
   testers: { joined: null, needed: 12 },

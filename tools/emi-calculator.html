@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-yermEgf9q3NS+SjHdejius2wx7XpCwfGPsYoOv+Ut48=' 'sha256-+HTki5z9Y3B4AcMl8FcqjfBRwdcV3kH2Zt9Ofb6TfVs='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://priya4042.github.io; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>EMI Calculator - free online tool - Priya Tech Labs</title>
 <meta name="description" content="Work out the monthly EMI, total interest and a year-by-year breakdown for any loan.">
@@ -21,7 +23,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap"></noscript>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" media="print" id="gf"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap"></noscript><script>(function(l){if(l){l.addEventListener("load",function(){l.media="all"});if(l.sheet)l.media="all"}})(document.getElementById("gf"))</script>
 <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("ptl-theme");if(t)document.documentElement.dataset.theme=t;var l=localStorage.getItem("ptl-lang");if(l==="hi")document.documentElement.lang="hi"}catch(e){}</script>
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -56,7 +58,7 @@
     <p class="ap-what"><span data-only="en">Work out the monthly EMI, total interest and a year-by-year breakdown for any loan.</span><span data-only="hi" lang="hi">किसी भी लोन की मासिक EMI, कुल ब्याज और साल-दर-साल का हिसाब निकालें।</span></p>
   </section>
   <section class="tool-box" data-tool="emi-calculator">
-    <form class="tool-form" onsubmit="return false"><label class="tf" for="e-p"><span class="tf-l"><span data-only="en">Loan amount</span><span data-only="hi" lang="hi">लोन की रकम</span></span><span class="tf-in"><input id="e-p" name="e-p" type="number" value="500000" step="1000" min="0"><span class="unit">₹</span></span></label><label class="tf" for="e-r"><span class="tf-l"><span data-only="en">Interest rate (per year)</span><span data-only="hi" lang="hi">ब्याज दर (सालाना)</span></span><span class="tf-in"><input id="e-r" name="e-r" type="number" value="9.5" step="0.05" min="0" max="50"><span class="unit">%</span></span></label><label class="tf" for="e-n"><span class="tf-l"><span data-only="en">Tenure</span><span data-only="hi" lang="hi">अवधि</span></span><span class="tf-in"><input id="e-n" name="e-n" type="number" value="5" step="1" min="1" max="40"><span class="unit"><span data-only="en">years</span><span data-only="hi" lang="hi">साल</span></span></span></label></form>
+    <form class="tool-form"><label class="tf" for="e-p"><span class="tf-l"><span data-only="en">Loan amount</span><span data-only="hi" lang="hi">लोन की रकम</span></span><span class="tf-in"><input id="e-p" name="e-p" type="number" value="500000" step="1000" min="0"><span class="unit">₹</span></span></label><label class="tf" for="e-r"><span class="tf-l"><span data-only="en">Interest rate (per year)</span><span data-only="hi" lang="hi">ब्याज दर (सालाना)</span></span><span class="tf-in"><input id="e-r" name="e-r" type="number" value="9.5" step="0.05" min="0" max="50"><span class="unit">%</span></span></label><label class="tf" for="e-n"><span class="tf-l"><span data-only="en">Tenure</span><span data-only="hi" lang="hi">अवधि</span></span><span class="tf-in"><input id="e-n" name="e-n" type="number" value="5" step="1" min="1" max="40"><span class="unit"><span data-only="en">years</span><span data-only="hi" lang="hi">साल</span></span></span></label></form>
     <div class="tool-result"><div class="res-big"><span><span data-only="en">Monthly EMI</span><span data-only="hi" lang="hi">मासिक EMI</span></span><b data-o="emi">-</b></div>
 <div class="res-row"><span><span data-only="en">Total interest</span><span data-only="hi" lang="hi">कुल ब्याज</span></span><b data-o="interest">-</b></div>
 <div class="res-row"><span><span data-only="en">Total to pay</span><span data-only="hi" lang="hi">कुल भुगतान</span></span><b data-o="total">-</b></div>

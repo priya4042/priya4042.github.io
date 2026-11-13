@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-yermEgf9q3NS+SjHdejius2wx7XpCwfGPsYoOv+Ut48=' 'sha256-+HTki5z9Y3B4AcMl8FcqjfBRwdcV3kH2Zt9Ofb6TfVs='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://priya4042.github.io; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>SIP Calculator - free online tool - Priya Tech Labs</title>
 <meta name="description" content="See how a monthly investment could grow over the years at an expected rate of return.">
@@ -21,7 +23,7 @@
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap"></noscript>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap" media="print" id="gf"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Hind:wght@400;500;600&display=swap"></noscript><script>(function(l){if(l){l.addEventListener("load",function(){l.media="all"});if(l.sheet)l.media="all"}})(document.getElementById("gf"))</script>
 <script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("ptl-theme");if(t)document.documentElement.dataset.theme=t;var l=localStorage.getItem("ptl-lang");if(l==="hi")document.documentElement.lang="hi"}catch(e){}</script>
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -56,7 +58,7 @@
     <p class="ap-what"><span data-only="en">See how a monthly investment could grow over the years at an expected rate of return.</span><span data-only="hi" lang="hi">देखें कि हर महीने का निवेश अनुमानित रिटर्न पर सालों में कैसे बढ़ सकता है।</span></p>
   </section>
   <section class="tool-box" data-tool="sip-calculator">
-    <form class="tool-form" onsubmit="return false"><label class="tf" for="s-p"><span class="tf-l"><span data-only="en">Monthly investment</span><span data-only="hi" lang="hi">मासिक निवेश</span></span><span class="tf-in"><input id="s-p" name="s-p" type="number" value="5000" step="100" min="0"><span class="unit">₹</span></span></label><label class="tf" for="s-r"><span class="tf-l"><span data-only="en">Expected return (per year)</span><span data-only="hi" lang="hi">अनुमानित रिटर्न (सालाना)</span></span><span class="tf-in"><input id="s-r" name="s-r" type="number" value="12" step="0.1" min="0" max="40"><span class="unit">%</span></span></label><label class="tf" for="s-n"><span class="tf-l"><span data-only="en">Time period</span><span data-only="hi" lang="hi">समय</span></span><span class="tf-in"><input id="s-n" name="s-n" type="number" value="10" step="1" min="1" max="50"><span class="unit"><span data-only="en">years</span><span data-only="hi" lang="hi">साल</span></span></span></label></form>
+    <form class="tool-form"><label class="tf" for="s-p"><span class="tf-l"><span data-only="en">Monthly investment</span><span data-only="hi" lang="hi">मासिक निवेश</span></span><span class="tf-in"><input id="s-p" name="s-p" type="number" value="5000" step="100" min="0"><span class="unit">₹</span></span></label><label class="tf" for="s-r"><span class="tf-l"><span data-only="en">Expected return (per year)</span><span data-only="hi" lang="hi">अनुमानित रिटर्न (सालाना)</span></span><span class="tf-in"><input id="s-r" name="s-r" type="number" value="12" step="0.1" min="0" max="40"><span class="unit">%</span></span></label><label class="tf" for="s-n"><span class="tf-l"><span data-only="en">Time period</span><span data-only="hi" lang="hi">समय</span></span><span class="tf-in"><input id="s-n" name="s-n" type="number" value="10" step="1" min="1" max="50"><span class="unit"><span data-only="en">years</span><span data-only="hi" lang="hi">साल</span></span></span></label></form>
     <div class="tool-result"><div class="res-big"><span><span data-only="en">Estimated value</span><span data-only="hi" lang="hi">अनुमानित मूल्य</span></span><b data-o="fv">-</b></div>
 <div class="res-row"><span><span data-only="en">You invest</span><span data-only="hi" lang="hi">आप निवेश करते हैं</span></span><b data-o="inv">-</b></div>
 <div class="res-row"><span><span data-only="en">Estimated gains</span><span data-only="hi" lang="hi">अनुमानित फ़ायदा</span></span><b data-o="gain">-</b></div>
