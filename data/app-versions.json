@@ -125,6 +125,11 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/number-rain.html"
+    },
+    "paper-fold": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/paper-fold.html"
     }
   }
 }
