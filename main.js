@@ -18,80 +18,11 @@
     });
   });
 
-  // ---------- app filter (home) ----------
-  var chips = $$(".filters .chip"), apps = $$(".app-list .app");
-  apps.forEach(function (a, i) {
-    if (a.querySelector(".peek")) a.classList.add("has-peek");
-    a.style.viewTransitionName = "app-" + i;
-  });
-  function applyFilter(filter) {
-    chips.forEach(function (c) {
-      var on = c.dataset.filter === filter;
-      c.classList.toggle("is-on", on);
-      c.setAttribute("aria-pressed", on ? "true" : "false");
-    });
-    apps.forEach(function (a) {
-      a.hidden = !(filter === "all" || a.dataset.cat === filter);
-      a.classList.remove("is-wide");
-    });
-    // an odd number of small cards leaves a hole - let the last one take the full row
-    var small = apps.filter(function (a) { return !a.hidden && !a.classList.contains("app-feature"); });
-    if (small.length % 2 === 1) small[small.length - 1].classList.add("is-wide");
-  }
-  if (apps.length) applyFilter("all");
-  chips.forEach(function (c) {
-    c.addEventListener("click", function () {
-      var f = c.dataset.filter;
-      if (document.startViewTransition && !reduce) { var vt = document.startViewTransition(function () { applyFilter(f); }); if (vt && vt.ready) vt.ready.catch(function () {}); }
-      else applyFilter(f);
-    });
-  });
-
-  // ---------- hero phone: tap an icon to open the app ----------
-  var phone = $(".phone"), screen = $(".app-screen");
-  if (phone && screen) {
-    var last = null;
-    function openApp(btn) {
-      var d = btn.dataset;
-      last = btn;
-      var pr = phone.getBoundingClientRect(), ir = btn.querySelector("img,.tile").getBoundingClientRect();
-      screen.style.setProperty("--ox", (ir.left + ir.width / 2 - pr.left) + "px");
-      screen.style.setProperty("--oy", (ir.top + ir.height / 2 - pr.top) + "px");
-      $(".as-name", screen).textContent = d.name;
-      $(".as-icon", screen).src = d.icon || "";
-      $(".as-icon", screen).hidden = !d.icon;
-      var shot = $(".as-shot", screen), info = $(".as-info", screen);
-      if (d.shot) { shot.src = d.shot; shot.alt = d.name + " screen"; shot.hidden = false; info.hidden = true; }
-      else {
-        shot.hidden = true; info.hidden = false;
-        $(".as-line", screen).textContent = t(d.key || "", d.line || "");
-      }
-      var more = $(".as-more", screen);
-      more.href = d.href || "#apps";
-      more.textContent = d.href && d.href.indexOf("#contact") === 0 ? t("nav.work", "Work with me") : t("cta.details", "See details");
-      screen.hidden = false;
-      phone.classList.add("is-open");
-      $(".as-close", screen).focus({ preventScroll: true });
-    }
-    function closeApp() {
-      if (screen.hidden) return;
-      phone.classList.remove("is-open");
-      phone.classList.add("is-closing");
-      setTimeout(function () {
-        screen.hidden = true; phone.classList.remove("is-closing");
-        if (last) last.focus({ preventScroll: true });
-      }, reduce ? 0 : 260);
-    }
-    $$(".home-grid button").forEach(function (b) { b.addEventListener("click", function () { openApp(b); }); });
-    $(".as-close", screen).addEventListener("click", closeApp);
-    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeApp(); });
-  }
-
   // ---------- menu: highlight the section on screen ----------
-  var navLinks = $$(".top nav a[href^='#']");
+  var navLinks = $$(".top nav a[href^='#'], .top nav a[href^='./#']");
   if ("IntersectionObserver" in window && navLinks.length) {
     var map = {};
-    navLinks.forEach(function (a) { map[a.getAttribute("href").slice(1)] = a; });
+    navLinks.forEach(function (a) { map[a.getAttribute("href").split("#")[1]] = a; });
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting && map[en.target.id]) {
@@ -207,95 +138,20 @@
   }
 })();
 
-// ---------- v3 motion: reveals, header, progress, timeline, tilt, hero parallax ----------
+// ---------- reading progress + header shadow ----------
 (function () {
-  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var fine = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
-  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
-
-  // hero headline: one span per word so the words can rise in one after another
-  function splitHeadline() {
-    var h = document.querySelector(".hero h1");
-    if (!h || reduce) return;
-    var words = h.textContent.trim().split(/\s+/);
-    h.setAttribute("aria-label", h.textContent.trim());
-    h.innerHTML = words.map(function (w, i) { return '<span class="w" aria-hidden="true" style="--i:' + i + '">' + w + "</span>"; }).join(" ");
-  }
-  splitHeadline();
-  document.addEventListener("ptl:lang", splitHeadline);
-
-  // ticker: two copies of the row make the loop seamless
-  var track = document.querySelector(".ticker-track");
-  if (track) track.innerHTML += track.innerHTML;
-
-  // reveal on scroll, staggered within each group
-  var groups = [".section-head", ".app-list .app", ".sites .site", ".upd-list li", ".lab-list li", ".about-photo", ".about-copy",
-                ".skills li", ".notify-card", ".contact-card", ".quote-list figure", ".ap-about > div", ".ap-faq", ".ap-more", ".gallery"];
-  groups.forEach(function (sel) {
-    $$(sel).forEach(function (el, i) {
-      el.setAttribute("data-reveal", "");
-      el.style.setProperty("--d", Math.min(i % 6, 5));
-    });
-  });
-  if ("IntersectionObserver" in window && !reduce) {
-    var io = new IntersectionObserver(function (es) {
-      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
-    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
-    $$("[data-reveal]").forEach(function (el) { io.observe(el); });
-  } else {
-    $$("[data-reveal]").forEach(function (el) { el.classList.add("in"); });
-  }
-
-  // scroll: progress bar, header over the hero, timeline drawing
-  var bar = document.querySelector(".progress i"), top = document.querySelector(".top"),
-      band = document.querySelector(".hero-band"), upd = document.querySelector(".upd-list"), ticking = false;
+  var bar = document.querySelector(".progress i"), top = document.querySelector(".top"), ticking = false;
   function onScroll() {
     ticking = false;
     var y = window.scrollY, max = document.documentElement.scrollHeight - innerHeight;
     if (bar) bar.style.setProperty("--p", max > 0 ? y / max : 0);
-    if (top && band) top.classList.toggle("on-hero", y < band.offsetHeight - 70);
     if (top) top.classList.toggle("at-top", y < 8);
-    if (upd) {
-      var r = upd.getBoundingClientRect();
-      var p = (innerHeight * 0.75 - r.top) / r.height;
-      upd.style.setProperty("--draw", Math.max(0, Math.min(1, p)));
-    }
   }
   window.addEventListener("scroll", function () { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
   onScroll();
-
-  if (reduce || !fine) return;
-
-  // cards lean towards the cursor and a soft light follows it
-  $$(".app").forEach(function (card) {
-    card.addEventListener("pointermove", function (e) {
-      var r = card.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
-      card.style.setProperty("--mx", x * 100 + "%"); card.style.setProperty("--my", y * 100 + "%");
-      card.style.setProperty("--rx", ((0.5 - y) * 5).toFixed(2) + "deg"); card.style.setProperty("--ry", ((x - 0.5) * 6).toFixed(2) + "deg");
-      card.classList.add("tilt");
-    });
-    card.addEventListener("pointerleave", function () { card.classList.remove("tilt"); });
-  });
-
-  // hero: glow follows the cursor, floating icons drift with depth
-  if (band) {
-    var fl = $$(".floaters .f"), raf = 0, tx = 0, ty = 0;
-    band.addEventListener("pointermove", function (e) {
-      var r = band.getBoundingClientRect();
-      band.style.setProperty("--gx", (e.clientX - r.left) + "px"); band.style.setProperty("--gy", (e.clientY - r.top) + "px");
-      tx = (e.clientX / innerWidth - 0.5); ty = (e.clientY / innerHeight - 0.5);
-      if (!raf) raf = requestAnimationFrame(function () {
-        raf = 0;
-        fl.forEach(function (f, i) {
-          var depth = 10 + (i % 4) * 9;
-          f.style.transform = "translate3d(" + (-tx * depth).toFixed(1) + "px," + (-ty * depth).toFixed(1) + "px,0)";
-        });
-      });
-    });
-  }
 })();
 
-// ---------- v4: quiz, search, share, press kit, back to top ----------
+// ---------- search, share, press kit, back to top ----------
 (function () {
   var t = window.t || function (k, en) { return en; };
   var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -303,74 +159,6 @@
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
   var mainSrc = ($('script[src$="main.js"]') || {}).src || location.href;
   var BASE = mainSrc.replace(/main\.js.*$/, "");
-
-  // reveal the new blocks too
-  var newGroups = [".prom", ".guide-card", ".proc-list li", ".client-faq", ".quiz-card", ".press-block", ".press-hero", ".ap-share", ".guide article", ".guide-more"];
-  newGroups.forEach(function (sel) {
-    $$(sel).forEach(function (el, i) { if (!el.hasAttribute("data-reveal")) { el.setAttribute("data-reveal", ""); el.style.setProperty("--d", Math.min(i % 6, 5)); } });
-  });
-  if ("IntersectionObserver" in window && !reduce) {
-    var io = new IntersectionObserver(function (es) {
-      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
-    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
-    $$("[data-reveal]:not(.in)").forEach(function (el) { io.observe(el); });
-  } else { $$("[data-reveal]").forEach(function (el) { el.classList.add("in"); }); }
-
-  // ---------- "which app is right for me?" ----------
-  var APPS = {
-    "quickscan": ["QuickScan", "Scan or create any QR code or barcode, fast and offline."],
-    "spendly": ["Spendly", "A private, offline money manager for income, spending, budgets and savings."],
-    "committee-book": ["Committee Book", "Run your committee, BC or chit group: who paid, whose turn it is, and how much cash is in hand."],
-    "dues": ["Dues", "Never miss a bill, recharge, EMI, subscription or warranty date again."],
-    "mca-entrance-prep": ["MCA Entrance Prep", "Complete preparation for NIMCET and 10 other MCA entrance exams, with no ads."],
-    "daily-english": ["Daily English", "Learn to speak English with a coach that listens and checks your pronunciation."],
-    "dotnet-prep": ["DotNet Interview Prep", "About 1,300 .NET, C#, SQL, DSA and system design interview questions with answers, offline."],
-    "reelcut": ["ReelCut", "Turn your own long videos into Shorts, Reels and TikToks, entirely on your phone."]
-  };
-  var Q = {
-    start: { q: ["quiz.q1", "What do you want help with?"], o: [
-      [["quiz.o.money", "Money"], "money"], [["quiz.o.study", "Studying"], "study"],
-      [["quiz.o.tools", "Everyday tools"], "tools"], [["quiz.o.video", "Making videos"], "=reelcut"]] },
-    money: { q: ["quiz.q2", "Which one sounds like you?"], o: [
-      [["quiz.o.track", "I want to see where my money goes"], "=spendly"], [["quiz.o.bills", "I keep forgetting bills and EMIs"], "=dues"],
-      [["quiz.o.bc", "I run a committee or BC"], "=committee-book"]] },
-    study: { q: ["quiz.q2", "Which one sounds like you?"], o: [
-      [["quiz.o.mca", "I'm preparing for an MCA entrance exam"], "=mca-entrance-prep"], [["quiz.o.eng", "I want to speak English confidently"], "=daily-english"],
-      [["quiz.o.net", "I have .NET job interviews coming up"], "=dotnet-prep"]] },
-    tools: { q: ["quiz.q2", "Which one sounds like you?"], o: [
-      [["quiz.o.qr", "I scan or make QR codes"], "=quickscan"], [["quiz.o.due", "I need reminders for due dates"], "=dues"],
-      [["quiz.o.short", "I want Shorts from my long videos"], "=reelcut"]] }
-  };
-  var quiz = $("[data-quiz]");
-  function swap(fn) {
-    if (!quiz) return;
-    if (reduce) { fn(); return; }
-    quiz.classList.add("q-out");
-    setTimeout(function () { fn(); quiz.classList.remove("q-out"); quiz.classList.add("q-in"); setTimeout(function () { quiz.classList.remove("q-in"); }, 450); }, 220);
-  }
-  function step(key, n) {
-    var s = Q[key];
-    quiz.innerHTML = '<p class="q-step">' + t("quiz.step", "Question") + " " + n + " / 2</p><h3 class=\"q-q\">" + t(s.q[0], s.q[1]) + '</h3><div class="q-opts"></div>';
-    var box = $(".q-opts", quiz);
-    s.o.forEach(function (o, i) {
-      var b = document.createElement("button");
-      b.type = "button"; b.className = "q-opt"; b.style.setProperty("--d", i); b.textContent = t(o[0][0], o[0][1]);
-      b.addEventListener("click", function () {
-        var go = o[1];
-        swap(function () { if (go.charAt(0) === "=") result(go.slice(1)); else step(go, n + 1); });
-      });
-      box.append(b);
-    });
-  }
-  function result(slug) {
-    var a = APPS[slug];
-    quiz.innerHTML = '<div class="q-result"><img src="' + BASE + "assets/apps/" + slug + '.png" alt="" width="84" height="84">' +
-      '<div><p class="q-step">' + t("quiz.pick", "Your app") + "</p><h3>" + a[0] + "</h3><p>" + t("app." + slug, a[1]) + "</p>" +
-      '<div class="q-actions"><a class="btn btn-primary" href="' + BASE + "apps/" + slug + '.html">' + t("cta.details", "See details") + "</a>" +
-      '<button class="btn btn-ghost q-again" type="button">' + t("quiz.again", "Start again") + "</button></div></div></div>";
-    $(".q-again", quiz).addEventListener("click", function () { swap(function () { step("start", 1); }); });
-  }
-  if (quiz) { step("start", 1); document.addEventListener("ptl:lang", function () { step("start", 1); }); }
 
   // ---------- search (Ctrl+K, / or the search button) ----------
   var data = null, dlg = null, input, list, cur = 0, shown = [];
@@ -600,4 +388,161 @@
     }, { rootMargin: "-20% 0px -70% 0px" });
     document.querySelectorAll(".guide-body h2[id]").forEach(function (h) { io.observe(h); });
   }
+})();
+
+// ---------- home: the toran (garland of app icons) ----------
+(function () {
+  var box = document.querySelector("[data-toran]");
+  if (!box) return;
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var list = box.querySelector(".toran-list"), path = box.querySelector(".toran-cord path");
+  var lis = Array.prototype.slice.call(list.children), pend = [], lastW = 0, raf = 0, last = 0;
+
+  function cordY(x, w, k, top, dip) {
+    var seg = w / k, t = (x % seg) / seg;
+    return top + dip * 4 * t * (1 - t);
+  }
+  function layout() {
+    var w = box.clientWidth, h = box.clientHeight;
+    if (!w || w === lastW) return;
+    lastW = w;
+    var m = Math.max(12, Math.min(40, w * 0.03)), s = Math.max(34, Math.min(54, w / 28));
+    var n = Math.min(lis.length, Math.floor((w - 2 * m) / (s * 0.62)));
+    var k = Math.max(2, Math.round(w / 320)), top = 4, dip = Math.min(30, h * 0.12);
+    var step = (w - 2 * m) / n, gap = s + 10, base = Math.max(10, h * 0.05);
+    var d = "M0 " + top;
+    for (var j = 0; j < k; j++) {
+      var x0 = j * w / k, x1 = (j + 1) * w / k;
+      d += " Q" + ((x0 + x1) / 2).toFixed(1) + " " + (top + 2 * dip).toFixed(1) + " " + x1.toFixed(1) + " " + top;
+    }
+    box.querySelector(".toran-cord").setAttribute("viewBox", "0 0 " + w + " " + h);
+    path.setAttribute("d", d); path.setAttribute("pathLength", "1");
+    Array.prototype.slice.call(box.querySelectorAll(".genda")).forEach(function (g) { g.remove(); });
+    pend = [];
+    var levels = [0, 2, 1];
+    lis.forEach(function (li, i) {
+      if (i >= n) { li.hidden = true; return; }
+      li.hidden = false;
+      var x = m + step * (i + 0.5), y = cordY(x, w, k, top, dip);
+      var len = base + levels[i % 3] * gap + (i * 7 % 5);
+      if (len + s + y > h - 30) len = Math.max(base, h - 30 - s - y);
+      li.style.setProperty("--x", x.toFixed(1) + "px"); li.style.setProperty("--y", y.toFixed(1) + "px");
+      li.style.setProperty("--len", len.toFixed(1) + "px"); li.style.setProperty("--s", s.toFixed(1) + "px"); li.style.setProperty("--i", i);
+      var a = li.firstElementChild;
+      pend.push({ el: a, x: x, bottom: y + len + s, a: 0, v: 0, k: 9000 / (len + s * 0.6) });
+      if (i < n - 1) {
+        var gx = x + step / 2, g = document.createElement("i");
+        g.className = "genda" + (i % 4 === 1 ? " leaf" : ""); g.setAttribute("aria-hidden", "true");
+        g.style.setProperty("--x", gx.toFixed(1) + "px"); g.style.setProperty("--y", cordY(gx, w, k, top, dip).toFixed(1) + "px"); g.style.setProperty("--i", i);
+        box.appendChild(g);
+      }
+    });
+    box.classList.add("is-ready");
+  }
+  function tick(now) {
+    var dt = Math.min(0.032, (now - last) / 1000 || 0.016), moving = false;
+    last = now;
+    pend.forEach(function (p) {
+      p.v += (-p.k * p.a - 3.2 * p.v) * dt;
+      p.a += p.v * dt;
+      if (Math.abs(p.a) > 0.05 || Math.abs(p.v) > 0.05) moving = true; else { p.a = 0; p.v = 0; }
+      p.el.style.setProperty("--r", p.a.toFixed(2) + "deg");
+    });
+    raf = moving ? requestAnimationFrame(tick) : 0;
+  }
+  function run() { if (!raf && !reduce) { last = performance.now(); raf = requestAnimationFrame(tick); } }
+
+  layout();
+  if (!reduce) {
+    // one entrance: the cord draws, flowers open, every app drops in and swings to rest
+    box.classList.add("is-dropping");
+    pend.forEach(function (p, i) { p.a = (i % 2 ? -1 : 1) * (10 + (i % 5) * 2); p.v = 0; });
+    setTimeout(run, 520);
+    setTimeout(function () { box.classList.remove("is-dropping"); }, 2600);
+    var px = null, pt = 0;
+    box.addEventListener("pointermove", function (e) {
+      var r = box.getBoundingClientRect(), x = e.clientX - r.left, y = e.clientY - r.top, now = e.timeStamp;
+      if (px !== null && now > pt) {
+        var vx = (x - px) / Math.max(8, now - pt) * 1000;
+        pend.forEach(function (p) { if (Math.abs(p.x - x) < 46 && y < p.bottom + 8) p.v += Math.max(-160, Math.min(160, vx * 0.09)); });
+        run();
+      }
+      px = x; pt = now;
+    });
+    box.addEventListener("pointerleave", function () { px = null; });
+    box.addEventListener("focusin", function (e) {
+      pend.forEach(function (p) { if (p.el === e.target) { p.v += 70; run(); } });
+    });
+  }
+  var rt = 0;
+  window.addEventListener("resize", function () { clearTimeout(rt); rt = setTimeout(layout, 120); });
+})();
+
+// ---------- home: showcase search and shelves ----------
+(function () {
+  var shelf = document.querySelector("[data-shelf]");
+  if (!shelf) return;
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var items = Array.prototype.slice.call(shelf.children);
+  var chips = Array.prototype.slice.call(document.querySelectorAll(".sc-chips .chip"));
+  var input = document.querySelector("[data-sc-search]"), status = document.querySelector("[data-sc-status]");
+  var empty = document.querySelector("[data-sc-empty]"), more = document.querySelector("[data-sc-more]");
+  var filter = "all", query = "", capped = true;
+
+  function cap() {
+    var cols = getComputedStyle(shelf).gridTemplateColumns.split(" ").filter(Boolean).length || 1;
+    return Math.max(6, cols * 3);
+  }
+  function apply(animate) {
+    var words = query.toLowerCase().split(/\s+/).filter(Boolean), shown = 0, limit = cap(), k = 0, matched = 0;
+    var limited = capped && filter === "all" && !words.length;
+    items.forEach(function (it) {
+      var hay = it.dataset.q, ok = (filter === "all" || it.dataset.cat === filter);
+      for (var i = 0; ok && i < words.length; i++) if (hay.indexOf(words[i]) < 0) ok = false;
+      var wasHidden = it.classList.contains("is-out") || it.classList.contains("is-cut");
+      if (ok) matched++;
+      var cut = ok && limited && matched > limit;
+      it.classList.toggle("is-out", !ok);
+      it.classList.toggle("is-cut", cut);
+      if (ok && !cut) {
+        shown++;
+        if (animate && !reduce && (wasHidden || animate === "all") && k < 18) {
+          it.style.setProperty("--k", k++);
+          it.classList.remove("is-enter"); void it.offsetWidth; it.classList.add("is-enter");
+        }
+      }
+    });
+    more.hidden = !(limited && matched > limit);
+    empty.hidden = matched > 0;
+    var hi = window.PTL_LANG === "hi";
+    status.textContent = !matched ? "" : (shown === items.length ? (hi ? "सभी " + shown + " दिख रहे हैं" : "Showing all " + shown)
+      : (hi ? items.length + " में से " + shown + " दिख रहे हैं" : "Showing " + shown + " of " + items.length));
+  }
+  chips.forEach(function (c) {
+    c.addEventListener("click", function () {
+      filter = c.dataset.f;
+      chips.forEach(function (x) { var on = x === c; x.classList.toggle("is-on", on); x.setAttribute("aria-pressed", on ? "true" : "false"); });
+      apply("all");
+    });
+  });
+  var timer = 0;
+  input.addEventListener("input", function () { clearTimeout(timer); timer = setTimeout(function () { query = input.value.trim(); apply(true); }, 90); });
+  input.addEventListener("keydown", function (e) { if (e.key === "Escape" && input.value) { e.stopPropagation(); input.value = ""; query = ""; apply(true); } });
+  document.querySelector("[data-sc-clear]").addEventListener("click", function () { input.value = ""; query = ""; apply(true); input.focus(); });
+  more.addEventListener("click", function () {
+    var first = items.filter(function (it) { return it.classList.contains("is-cut"); })[0];
+    capped = false; apply(true);
+    if (first) first.querySelector("a").focus({ preventScroll: true });
+  });
+  // links marked data-sc-filter open that shelf
+  document.addEventListener("click", function (e) {
+    var a = e.target.closest && e.target.closest("[data-sc-filter]");
+    if (!a) return;
+    var c = chips.filter(function (x) { return x.dataset.f === a.dataset.scFilter; })[0];
+    if (c) c.click();
+  });
+  apply(false);
+  document.addEventListener("ptl:lang", function () { apply(false); });
+  var lastCols = 0;
+  window.addEventListener("resize", function () { var c = cap(); if (c !== lastCols) { lastCols = c; apply(false); } });
 })();

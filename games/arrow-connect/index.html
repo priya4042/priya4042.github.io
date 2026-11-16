@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://priya4042.github.io; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Arrow Connect - play free in your browser - Priya Tech Labs</title>
+<meta name="description" content="Turn the pipe pieces so every coloured arrow flows into its matching target.">
+<link rel="canonical" href="https://priya4042.github.io/games/arrow-connect/">
+<meta property="og:title" content="Arrow Connect - play free in your browser - Priya Tech Labs">
+<meta property="og:description" content="Turn the pipe pieces so every coloured arrow flows into its matching target.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://priya4042.github.io/games/arrow-connect/">
+<meta property="og:image" content="https://priya4042.github.io/assets/sites/arrow-connect-web.webp">
+<link rel="icon" href="../../assets/games/arrow-connect.svg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#E6F5F2" />
+<style>
+  :root {
+    --foam: #F4FBFA; --mist: #DDF1EC; --sea: #BFE4DD; --teal: #0E8C82; --deep: #0B5C57; --ink: #12343B;
+    --line: #CFE3DF; --sun: #F2B233; --coral: #E8664F; --card: #fff;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { height: 100%; }
+  body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', Arial, sans-serif;
+    background: linear-gradient(180deg, var(--foam), var(--mist) 60%, var(--sea));
+    color: var(--ink); overflow: hidden; touch-action: manipulation; font-size: 16px;
+  }
+  .app { width: min(100%, 560px); overflow: hidden; height: 100%; margin: 0 auto; display: flex; flex-direction: column; padding: max(10px, env(safe-area-inset-top)) 12px max(12px, env(safe-area-inset-bottom)); }
+  .top { display: flex; align-items: center; gap: 6px; min-width: 0; }
+  .chip { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; padding: 0 10px; min-width: 0; border-radius: 22px; background: rgba(255,255,255,.85); border: 1px solid var(--line); font-weight: 700; font-size: 17px; white-space: nowrap; }
+  .chip .ic { font-size: 18px; color: var(--teal); }
+  .chip .star { color: var(--sun); }
+  .grow { flex: 1; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  .icon-btn { min-width: 48px; height: 48px; border-radius: 14px; border: 1px solid var(--line); background: rgba(255,255,255,.9); color: var(--deep); font-size: 22px; font-weight: 700; padding: 0 10px; flex: none; }
+  .icon-btn:active, .tool:active, .btn:active { transform: translateY(1px); }
+  .icon-btn:focus-visible, .tool:focus-visible, .btn:focus-visible, canvas:focus-visible, .lv:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+  .board-wrap { flex: 1; min-width: 0; display: flex; align-items: center; justify-content: center; min-height: 0; padding: 10px 0; }
+  canvas { display: block; touch-action: none; border-radius: 18px; }
+  .tools { display: flex; gap: 6px; justify-content: space-evenly; }
+  .tool { position: relative; flex: 1 1 0; min-width: 0; max-width: 110px; min-height: 64px; border-radius: 18px; border: 1px solid var(--line); background: rgba(255,255,255,.92); color: var(--deep); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font-size: 22px; }
+  .tool span.lab { font-size: 15px; font-weight: 600; color: var(--ink); }
+  .tool:disabled { opacity: .45; cursor: default; }
+  .tool .badge { position: absolute; top: -8px; right: -6px; min-width: 26px; height: 26px; border-radius: 13px; background: var(--sun); color: var(--ink); font-size: 15px; font-weight: 800; display: grid; place-items: center; padding: 0 6px; }
+  .note { text-align: center; font-size: 15px; line-height: 1.4; color: rgba(18,52,59,.8); margin-top: 10px; }
+  .overlay { position: fixed; inset: 0; background: rgba(11,92,87,.35); display: none; align-items: center; justify-content: center; z-index: 10; padding: 16px; }
+  .overlay.show { display: flex; }
+  .card { background: #fff; border-radius: 26px; padding: 22px; text-align: center; width: min(92vw, 380px); max-height: 92vh; overflow: auto; box-shadow: 0 12px 34px rgba(11,92,87,.25); }
+  .card h2 { font-size: 24px; margin-bottom: 8px; color: var(--deep); }
+  .card p { font-size: 16px; margin-bottom: 14px; line-height: 1.4; }
+  .bigstars { font-size: 44px; letter-spacing: 4px; margin: 4px 0 8px; color: var(--sun); }
+  .bigstars .off { color: var(--line); }
+  .row { display: flex; gap: 10px; }
+  .btn { flex: 1; min-height: 52px; border-radius: 16px; border: 1px solid var(--line); background: #fff; font-weight: 700; font-size: 17px; color: var(--deep); padding: 0 12px; }
+  .btn.main { background: var(--teal); color: #fff; border-color: var(--teal); }
+  .btn + .btn { margin-top: 0; }
+  .stack > * + * { margin-top: 10px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 10px; margin: 10px 0 14px; }
+  .lv { min-height: 64px; border-radius: 16px; border: 1px solid var(--line); background: #fff; font-weight: 800; font-size: 19px; color: var(--ink); display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .lv small { font-size: 15px; color: var(--sun); letter-spacing: 1px; }
+  .lv.here { background: var(--teal); color: #fff; border-color: var(--teal); }
+  .lv:disabled { opacity: .4; }
+  .toast { position: fixed; left: 50%; bottom: 96px; transform: translateX(-50%); background: var(--deep); color: #fff; padding: 12px 18px; border-radius: 14px; font-size: 16px; display: none; z-index: 20; max-width: 90vw; text-align: center; }
+  .toast.show { display: block; }
+  @media (max-height: 600px) { .note { display: none; } .tool { min-height: 52px; } }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <button class="icon-btn" id="levelsBtn" aria-label="All levels" title="All levels">&#9776;</button>
+    <div class="chip" id="title"><span class="ic">&#128167;</span><span id="lvl">1</span></div>
+    <div class="grow"></div>
+    <div class="chip" title="Moves"><span class="ic">&#9757;</span><span id="moves">0</span></div>
+    <div class="chip" title="Three stars at this many moves"><span class="ic star">&#9733;</span><span id="par">0</span></div>
+  </div>
+  <div class="board-wrap" id="wrap"><canvas id="board" tabindex="0" aria-label="Puzzle board. Arrow keys move, Enter turns a piece."></canvas></div>
+  <div class="tools">
+    <button class="tool" id="undo" aria-label="Undo">&#8630;<span class="lab">Undo</span></button>
+    <button class="tool" id="restart" aria-label="Start again">&#8635;<span class="lab">Restart</span></button>
+    <button class="tool" id="hint" aria-label="Hint">&#128161;<span class="lab">Hint</span><span class="badge" id="hints">3</span></button>
+    <button class="tool" id="daily" aria-label="Daily puzzle">&#128197;<span class="lab">Daily</span></button>
+    <button class="tool" id="sound" aria-label="Sound">&#128266;<span class="lab">Sound</span></button>
+  </div>
+  <div class="note">Tap a piece to turn it. Lead each colour from its arrow into the matching target, with no open ends.</div>
+<a class="ptl-back" href="../../#apps">Priya Tech Labs</a><style>.ptl-back{flex:none;align-self:center;margin-top:8px;font:600 14px/1.2 system-ui,sans-serif;color:inherit;opacity:.75;text-decoration:underline;text-underline-offset:3px;padding:6px 10px}.ptl-back:focus-visible{outline:3px solid #F2A515;outline-offset:2px;border-radius:6px}</style>
+</div>
+
+<div class="overlay" id="win" role="dialog" aria-modal="true" aria-labelledby="winTitle">
+  <div class="card">
+    <h2 id="winTitle">Connected!</h2>
+    <div class="bigstars" id="bigstars"></div>
+    <p id="winText"></p>
+    <div class="stack" id="winButtons"></div>
+  </div>
+</div>
+
+<div class="overlay" id="levels" role="dialog" aria-modal="true" aria-labelledby="levelsTitle">
+  <div class="card">
+    <h2 id="levelsTitle">All levels</h2>
+    <p id="starTotal"></p>
+    <div class="grid" id="grid"></div>
+    <button class="btn" id="closeLevels">Close</button>
+  </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="generator.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
