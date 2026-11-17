@@ -175,6 +175,16 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/quiz-battle.html"
+    },
+    "pattern-lock": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/pattern-lock.html"
+    },
+    "number-path": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/number-path.html"
     }
   }
 }
