@@ -165,6 +165,16 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/akshar-safari.html"
+    },
+    "carrom": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/carrom.html"
+    },
+    "quiz-battle": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/quiz-battle.html"
     }
   }
 }
