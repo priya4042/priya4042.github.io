@@ -185,6 +185,21 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/number-path.html"
+    },
+    "logic-detective": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/logic-detective.html"
+    },
+    "emoji-guess": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/emoji-guess.html"
+    },
+    "charades": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/charades.html"
     }
   }
 }
