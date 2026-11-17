@@ -200,6 +200,16 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/charades.html"
+    },
+    "sach-ya-mazaa": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/sach-ya-mazaa.html"
+    },
+    "ginti-garden": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/ginti-garden.html"
     }
   }
 }
