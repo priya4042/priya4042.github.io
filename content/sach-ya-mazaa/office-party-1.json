@@ -1,0 +1,351 @@
+{
+ "schema": 1,
+ "id": "office-party-1",
+ "version": 1,
+ "icon": "office",
+ "kidSafe": false,
+ "names": {
+  "en": "Office Party",
+  "hi": "ऑफ़िस पार्टी",
+  "mr": "ऑफिस पार्टी",
+  "gu": "ઓફિસ પાર્ટી",
+  "bn": "অফিস পার্টি",
+  "ta": "அலுவலக விருந்து",
+  "te": "ఆఫీస్ పార్టీ",
+  "kn": "ಕಚೇರಿ ಪಾರ್ಟಿ"
+ },
+ "about": {
+  "en": "Light and friendly fun for colleagues",
+  "hi": "सहकर्मियों के लिए हल्की-फुल्की, दोस्ताना मस्ती",
+  "mr": "सहकाऱ्यांसाठी हलकीफुलकी, मैत्रीपूर्ण मजा",
+  "gu": "સહકર્મીઓ માટે હળવી અને મૈત્રીપૂર્ણ મજા",
+  "bn": "সহকর্মীদের জন্য হালকা, বন্ধুত্বপূর্ণ মজা",
+  "ta": "சக ஊழியர்களுக்கான இலகுவான நட்பான கேளிக்கை",
+  "te": "సహోద్యోగుల కోసం సరదాగా, స్నేహపూర్వక ఆట",
+  "kn": "ಸಹೋದ್ಯೋಗಿಗಳಿಗೆ ಹಗುರ, ಸ್ನೇಹಪರ ಮೋಜು"
+ },
+ "truths": [
+  [
+   "What was your very first job or project, and what did you learn from it?",
+   "आपकी सबसे पहली नौकरी या प्रोजेक्ट कौन-सा था, और उससे आपने क्या सीखा?"
+  ],
+  [
+   "What is your favourite snack for a long working afternoon?",
+   "काम वाली लंबी दोपहर के लिए आपका पसंदीदा स्नैक कौन-सा है?"
+  ],
+  [
+   "Which skill would you love to learn this year?",
+   "इस साल आप कौन-सा हुनर सीखना चाहेंगे?"
+  ],
+  [
+   "What is the most useful tip you have picked up at work?",
+   "काम पर सीखी आपकी सबसे काम की टिप कौन-सी है?"
+  ],
+  [
+   "If you could have any job for one day, what would it be?",
+   "अगर आप एक दिन के लिए कोई भी काम कर सकें, तो वह क्या होगा?"
+  ],
+  [
+   "What song gets you going on a Monday morning?",
+   "सोमवार की सुबह कौन-सा गाना आपमें जोश भर देता है?"
+  ],
+  [
+   "Tea or coffee, and how do you take it?",
+   "चाय या कॉफ़ी, और आप उसे कैसे पीना पसंद करते हैं?"
+  ],
+  [
+   "What is one thing {p} does that makes the team better?",
+   "{p} की कौन-सी एक बात टीम को बेहतर बनाती है?"
+  ],
+  [
+   "Which team outing or celebration do you remember fondly?",
+   "टीम की कौन-सी सैर या जश्न आपको प्यार से याद है?"
+  ],
+  [
+   "What did you want to be when you were in school?",
+   "स्कूल के दिनों में आप क्या बनना चाहते थे?"
+  ],
+  [
+   "What is a hobby of yours that most colleagues do not know about?",
+   "आपका कौन-सा शौक़ है जिसके बारे में ज़्यादातर सहकर्मी नहीं जानते?"
+  ],
+  [
+   "Which app or tool could you not work without?",
+   "किस ऐप या टूल के बिना आप काम नहीं कर सकते?"
+  ],
+  [
+   "What is the best compliment you have received at work?",
+   "काम पर मिली आपकी सबसे अच्छी तारीफ़ कौन-सी है?"
+  ],
+  [
+   "If our team were a band, what would we be called?",
+   "अगर हमारी टीम एक बैंड होती, तो उसका नाम क्या होता?"
+  ],
+  [
+   "Which city would you like to work from for a month?",
+   "आप किस शहर से एक महीने तक काम करना चाहेंगे?"
+  ],
+  [
+   "What is your go-to lunch on a busy day?",
+   "व्यस्त दिन में आपका पक्का लंच क्या होता है?"
+  ],
+  [
+   "What is one small thing that always makes your day better?",
+   "कौन-सी एक छोटी चीज़ हमेशा आपका दिन बेहतर बना देती है?"
+  ],
+  [
+   "Which book, podcast or video taught you something useful recently?",
+   "हाल ही में किस किताब, पॉडकास्ट या वीडियो ने आपको कुछ काम का सिखाया?"
+  ],
+  [
+   "What would your perfect work-from-home setup look like?",
+   "घर से काम करने के लिए आपका सबसे बढ़िया इंतज़ाम कैसा होगा?"
+  ],
+  [
+   "What is the funniest typo you have ever made in a message?",
+   "किसी मैसेज में आपसे हुई सबसे मज़ेदार टाइपिंग की ग़लती कौन-सी थी?"
+  ],
+  [
+   "If you could add one fun thing to our workplace, what would it be?",
+   "अगर आप हमारे काम की जगह पर एक मज़ेदार चीज़ जोड़ सकें, तो वह क्या होगी?"
+  ],
+  [
+   "Who was the best teacher you ever had, and why?",
+   "आपके सबसे अच्छे टीचर कौन थे, और क्यों?"
+  ],
+  [
+   "Which festival do you most enjoy celebrating with colleagues?",
+   "सहकर्मियों के साथ कौन-सा त्योहार मनाना आपको सबसे अच्छा लगता है?"
+  ],
+  [
+   "Early bird or night owl, and how does it show in your work?",
+   "सुबह जल्दी उठने वाले या रात को जागने वाले, और यह आपके काम में कैसे दिखता है?"
+  ],
+  [
+   "What is one thing you would like to learn from {p}?",
+   "आप {p} से कौन-सी एक चीज़ सीखना चाहेंगे?"
+  ],
+  [
+   "What was the most memorable presentation you have ever given or seen?",
+   "आपकी दी हुई या देखी हुई सबसे यादगार प्रेज़ेंटेशन कौन-सी थी?"
+  ],
+  [
+   "Which superpower would help you most at work?",
+   "कौन-सी सुपरपावर काम पर आपकी सबसे ज़्यादा मदद करेगी?"
+  ],
+  [
+   "What is your favourite way to take a short break?",
+   "छोटा-सा ब्रेक लेने का आपका पसंदीदा तरीक़ा क्या है?"
+  ],
+  [
+   "Which movie character would make the best team leader?",
+   "कौन-सा फ़िल्मी किरदार सबसे अच्छा टीम लीडर बनेगा?"
+  ],
+  [
+   "What is one goal you are excited about this year?",
+   "इस साल आप किस एक लक्ष्य को लेकर उत्साहित हैं?"
+  ],
+  [
+   "What was the best team lunch you have been part of?",
+   "आप जिस सबसे अच्छे टीम लंच का हिस्सा रहे, वह कौन-सा था?"
+  ],
+  [
+   "If you wrote a book about your work, what would the title be?",
+   "अगर आप अपने काम पर किताब लिखें, तो उसका शीर्षक क्या होगा?"
+  ],
+  [
+   "What is a sport or game you would love the team to play together?",
+   "कौन-सा खेल आप चाहेंगे कि पूरी टीम मिलकर खेले?"
+  ],
+  [
+   "Which emoji do you use the most at work?",
+   "काम पर आप कौन-सा इमोजी सबसे ज़्यादा इस्तेमाल करते हैं?"
+  ],
+  [
+   "What is the most interesting place you have travelled to for work or fun?",
+   "काम या घूमने के लिए आप जिस सबसे दिलचस्प जगह गए, वह कौन-सी है?"
+  ],
+  [
+   "What is something you are proud of from the last month?",
+   "पिछले महीने की किस बात पर आपको गर्व है?"
+  ],
+  [
+   "Which talent of yours would surprise the team?",
+   "आपका कौन-सा हुनर टीम को हैरान कर देगा?"
+  ],
+  [
+   "What is your favourite way to celebrate finishing a big task?",
+   "किसी बड़े काम के पूरा होने का जश्न मनाने का आपका पसंदीदा तरीक़ा क्या है?"
+  ],
+  [
+   "What three words would you use to describe our team?",
+   "हमारी टीम को बताने के लिए आप कौन-से तीन शब्द चुनेंगे?"
+  ],
+  [
+   "What is one thing you are looking forward to this weekend?",
+   "इस वीकेंड आप किस एक चीज़ का इंतज़ार कर रहे हैं?"
+  ]
+ ],
+ "dares": [
+  [
+   "Give a thirty-second award speech for Best Team of the Year.",
+   "साल की सबसे अच्छी टीम के अवॉर्ड के लिए तीस सेकंड का भाषण दीजिए।"
+  ],
+  [
+   "Explain your job using only actions, no words, for fifteen seconds.",
+   "पंद्रह सेकंड तक बिना बोले, सिर्फ़ इशारों से अपना काम समझाइए।"
+  ],
+  [
+   "Pitch a silly new product to the group like a sales star.",
+   "किसी सेल्स स्टार की तरह ग्रुप को एक मज़ेदार नया प्रोडक्ट बेचिए।"
+  ],
+  [
+   "Give {p} a sincere compliment about their work.",
+   "{p} के काम की दिल से तारीफ़ कीजिए।"
+  ],
+  [
+   "Read out a pretend weather report for today's party.",
+   "आज की पार्टी की एक नकली मौसम रिपोर्ट पढ़कर सुनाइए।"
+  ],
+  [
+   "Hum a famous jingle and let the group guess it.",
+   "कोई मशहूर विज्ञापन धुन गुनगुनाइए और ग्रुप को पहचानने दीजिए।"
+  ],
+  [
+   "Describe your morning commute like a movie trailer.",
+   "सुबह दफ़्तर आने के सफ़र को फ़िल्म के ट्रेलर की तरह सुनाइए।"
+  ],
+  [
+   "Name ten things on your desk in twenty seconds.",
+   "बीस सेकंड में अपनी डेस्क पर रखी दस चीज़ों के नाम बताइए।"
+  ],
+  [
+   "Act out the moment the printer finally works.",
+   "आख़िरकार प्रिंटर चल पड़ने वाले पल का अभिनय कीजिए।"
+  ],
+  [
+   "Make up a team motto and say it with full energy.",
+   "टीम के लिए एक नारा बनाइए और पूरे जोश से बोलिए।"
+  ],
+  [
+   "Give a motivational speech to a plant on someone's desk.",
+   "किसी की डेस्क पर रखे पौधे को जोश भरा भाषण दीजिए।"
+  ],
+  [
+   "Do your best robot voice and wish everyone a happy party.",
+   "अपनी सबसे अच्छी रोबोट वाली आवाज़ में सबको पार्टी की शुभकामनाएँ दीजिए।"
+  ],
+  [
+   "Sing the first line of any song as if it were a serious announcement.",
+   "किसी भी गाने की पहली लाइन ऐसे गाइए जैसे कोई गंभीर घोषणा हो।"
+  ],
+  [
+   "Act out a video call where everyone forgets to unmute.",
+   "ऐसी वीडियो कॉल का अभिनय कीजिए जिसमें सब अनम्यूट करना भूल जाते हैं।"
+  ],
+  [
+   "Thank {p} for something they helped with, in one line.",
+   "{p} ने जिसमें मदद की थी, उसके लिए एक लाइन में शुक्रिया कहिए।"
+  ],
+  [
+   "Spell the name of our team or department backwards.",
+   "हमारी टीम या विभाग का नाम उल्टा बोलकर बताइए।"
+  ],
+  [
+   "Present today's party as a quick news headline.",
+   "आज की पार्टी को एक छोटी-सी न्यूज़ हेडलाइन की तरह पेश कीजिए।"
+  ],
+  [
+   "Mime making the perfect cup of tea in slow motion.",
+   "बिना बोले स्लो मोशन में बढ़िया चाय बनाने का अभिनय कीजिए।"
+  ],
+  [
+   "Give a two-line cheer for everyone's hard work this year.",
+   "इस साल सबकी मेहनत के नाम दो लाइन का जोशीला संदेश दीजिए।"
+  ],
+  [
+   "Say five work words in a row that start with the same letter.",
+   "एक ही अक्षर से शुरू होने वाले काम के पाँच शब्द लगातार बोलिए।"
+  ],
+  [
+   "Do a one-minute stand-up comedy set about Monday mornings.",
+   "सोमवार की सुबह पर एक मिनट का स्टैंड-अप कॉमेडी कीजिए।"
+  ],
+  [
+   "Act like a sports commentator describing someone finishing a report.",
+   "किसी के रिपोर्ट पूरी करने पर स्पोर्ट्स कमेंटेटर की तरह कमेंट्री कीजिए।"
+  ],
+  [
+   "Invent a new holiday for the team and explain how to celebrate it.",
+   "टीम के लिए एक नई छुट्टी बनाइए और बताइए कि उसे कैसे मनाएँगे।"
+  ],
+  [
+   "Use three office words in a short poem.",
+   "दफ़्तर के तीन शब्दों से एक छोटी कविता बनाइए।"
+  ],
+  [
+   "Pretend to be a tour guide showing visitors our workplace.",
+   "टूर गाइड बनकर मेहमानों को हमारी काम की जगह दिखाने का अभिनय कीजिए।"
+  ],
+  [
+   "Give your laptop a name and introduce it to the group.",
+   "अपने लैपटॉप को एक नाम दीजिए और ग्रुप से उसका परिचय कराइए।"
+  ],
+  [
+   "Act out the feeling of finding the last cookie in the break room.",
+   "ब्रेक रूम में आख़िरी बिस्किट मिलने की ख़ुशी का अभिनय कीजिए।"
+  ],
+  [
+   "Describe your perfect weekend in exactly ten words.",
+   "अपने बढ़िया वीकेंड को ठीक दस शब्दों में बताइए।"
+  ],
+  [
+   "Lead the group in a ten-second round of applause for the organisers.",
+   "आयोजकों के लिए दस सेकंड तक ग्रुप से तालियाँ बजवाइए।"
+  ],
+  [
+   "Say the alphabet backwards from M to A.",
+   "एम से ए तक अंग्रेज़ी वर्णमाला उल्टी बोलिए।"
+  ],
+  [
+   "Pretend to answer a very important call from a talking coffee mug.",
+   "बोलने वाले कॉफ़ी मग से आई बहुत ज़रूरी कॉल का जवाब देने का अभिनय कीजिए।"
+  ],
+  [
+   "Share a fun fact about yourself in the style of a game show host.",
+   "गेम शो होस्ट के अंदाज़ में अपने बारे में एक मज़ेदार बात बताइए।"
+  ],
+  [
+   "Act out typing very fast on an invisible keyboard while humming.",
+   "गुनगुनाते हुए एक अदृश्य कीबोर्ड पर बहुत तेज़ टाइप करने का अभिनय कीजिए।"
+  ],
+  [
+   "Create a new emoji with your face and let the group name it.",
+   "अपने चेहरे से एक नया इमोजी बनाइए और ग्रुप को उसका नाम रखने दीजिए।"
+  ],
+  [
+   "Give the group a thirty-second tip that makes work easier.",
+   "ग्रुप को तीस सेकंड में ऐसी टिप दीजिए जो काम आसान बना दे।"
+  ],
+  [
+   "Say tongue twister red lorry yellow lorry five times fast.",
+   "रेड लॉरी येलो लॉरी पाँच बार तेज़ी से बोलिए।"
+  ],
+  [
+   "Narrate the last ten minutes of the party like a nature documentary.",
+   "पार्टी के पिछले दस मिनट को किसी नेचर डॉक्यूमेंट्री की तरह सुनाइए।"
+  ],
+  [
+   "Make up a jingle for our team in fifteen seconds.",
+   "पंद्रह सेकंड में हमारी टीम के लिए एक छोटी-सी धुन बनाइए।"
+  ],
+  [
+   "Act like a calm yoga teacher guiding everyone to take a deep breath.",
+   "शांत योग टीचर बनकर सबको एक गहरी साँस लेने को कहिए।"
+  ],
+  [
+   "Announce the next turn like a railway station announcer.",
+   "रेलवे स्टेशन के उद्घोषक की तरह अगली बारी की घोषणा कीजिए।"
+  ]
+ ]
+}

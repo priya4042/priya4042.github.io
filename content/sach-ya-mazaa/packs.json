@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "slug": "sach-ya-mazaa",
+ "packs": [
+  {
+   "id": "family-reunion-1",
+   "file": "family-reunion-1.json",
+   "version": 1
+  },
+  {
+   "id": "office-party-1",
+   "file": "office-party-1.json",
+   "version": 1
+  },
+  {
+   "id": "road-trip-1",
+   "file": "road-trip-1.json",
+   "version": 1
+  }
+ ]
+}

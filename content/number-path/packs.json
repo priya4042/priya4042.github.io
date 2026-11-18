@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "app": "number-path",
+  "packs": [
+    {
+      "id": "mixed-trails-1",
+      "file": "mixed-trails-1.json",
+      "version": 1,
+      "bytes": 9446
+    },
+    {
+      "id": "star-hunt-1",
+      "file": "star-hunt-1.json",
+      "version": 1,
+      "bytes": 8903
+    }
+  ]
+}

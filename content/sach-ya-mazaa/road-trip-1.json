@@ -1,0 +1,351 @@
+{
+ "schema": 1,
+ "id": "road-trip-1",
+ "version": 1,
+ "icon": "travel",
+ "kidSafe": false,
+ "names": {
+  "en": "Road Trip",
+  "hi": "रोड ट्रिप",
+  "mr": "रोड ट्रिप",
+  "gu": "રોડ ટ્રિપ",
+  "bn": "রোড ট্রিপ",
+  "ta": "சாலைப் பயணம்",
+  "te": "రోడ్ ట్రిప్",
+  "kn": "ರೋಡ್ ಟ್ರಿಪ್"
+ },
+ "about": {
+  "en": "For the car or bus: dares stay in your seat, the driver sits out",
+  "hi": "कार या बस के लिए: डेयर अपनी सीट पर, ड्राइवर नहीं खेलते",
+  "mr": "कार किंवा बससाठी: डेअर आपल्या जागेवरच, चालक खेळत नाहीत",
+  "gu": "કાર કે બસ માટે: ડેર તમારી સીટ પર જ, ડ્રાઇવર રમતા નથી",
+  "bn": "গাড়ি বা বাসের জন্য: ডেয়ার নিজের আসনেই, চালক খেলেন না",
+  "ta": "கார் அல்லது பேருந்துக்கு: சவால்கள் இருக்கையிலேயே, ஓட்டுநர் விளையாடமாட்டார்",
+  "te": "కారు లేదా బస్సు కోసం: డేర్‌లు సీటులోనే, డ్రైవర్ ఆడరు",
+  "kn": "ಕಾರು ಅಥವಾ ಬಸ್‌ಗಾಗಿ: ಡೇರ್ ನಿಮ್ಮ ಸೀಟಿನಲ್ಲೇ, ಚಾಲಕರು ಆಡುವುದಿಲ್ಲ"
+ },
+ "truths": [
+  [
+   "What is the longest journey you have ever been on?",
+   "आपकी अब तक की सबसे लंबी यात्रा कौन-सी थी?"
+  ],
+  [
+   "Which snack must always come along on a trip?",
+   "यात्रा में कौन-सा स्नैक हमेशा साथ होना ही चाहिए?"
+  ],
+  [
+   "Which seat do you like best on a trip, and why?",
+   "यात्रा में आपको कौन-सी सीट सबसे अच्छी लगती है, और क्यों?"
+  ],
+  [
+   "What is your favourite song for a long drive?",
+   "लंबे सफ़र के लिए आपका पसंदीदा गाना कौन-सा है?"
+  ],
+  [
+   "Which place in India would you love to drive to one day?",
+   "भारत में आप एक दिन गाड़ी से किस जगह जाना चाहेंगे?"
+  ],
+  [
+   "What is the most beautiful view you have seen on a journey?",
+   "किसी सफ़र में देखा आपका सबसे ख़ूबसूरत नज़ारा कौन-सा था?"
+  ],
+  [
+   "Have you ever slept through the best part of a trip?",
+   "क्या आप कभी किसी यात्रा के सबसे अच्छे हिस्से में सोते रह गए?"
+  ],
+  [
+   "What do you always forget to pack?",
+   "आप पैकिंग में हमेशा क्या भूल जाते हैं?"
+  ],
+  [
+   "Which dhaba or highway stop do you remember the most?",
+   "कौन-सा ढाबा या हाईवे का पड़ाव आपको सबसे ज़्यादा याद है?"
+  ],
+  [
+   "Mountains, beach or desert, which would you pick for the next trip?",
+   "पहाड़, समुद्र तट या रेगिस्तान, अगली यात्रा के लिए आप क्या चुनेंगे?"
+  ],
+  [
+   "What is the funniest thing that has happened on a family trip?",
+   "किसी पारिवारिक यात्रा में हुई सबसे मज़ेदार बात कौन-सी थी?"
+  ],
+  [
+   "Who is the best travel buddy in this group, and why?",
+   "इस ग्रुप में सफ़र का सबसे अच्छा साथी कौन है, और क्यों?"
+  ],
+  [
+   "If you could teleport to any place right now, where would you go?",
+   "अगर आप अभी किसी भी जगह पहुँच सकें, तो कहाँ जाएँगे?"
+  ],
+  [
+   "What is one thing that makes a trip perfect for you?",
+   "कौन-सी एक चीज़ आपके लिए यात्रा को एकदम बढ़िया बना देती है?"
+  ],
+  [
+   "Which train or bus journey from your childhood do you still remember?",
+   "बचपन की कौन-सी ट्रेन या बस यात्रा आपको अब भी याद है?"
+  ],
+  [
+   "What is your favourite souvenir from a trip?",
+   "किसी यात्रा से लाई आपकी सबसे प्यारी यादगार चीज़ कौन-सी है?"
+  ],
+  [
+   "Which state's food would you travel far for?",
+   "किस राज्य के खाने के लिए आप दूर तक सफ़र कर लेंगे?"
+  ],
+  [
+   "What would be your dream road trip, from start to finish?",
+   "शुरू से आख़िर तक आपकी सपनों की रोड ट्रिप कैसी होगी?"
+  ],
+  [
+   "Are you the one who asks are we there yet?",
+   "क्या आप वही हैं जो पूछते रहते हैं, पहुँच गए क्या?"
+  ],
+  [
+   "What is the best thing {p} brings to a trip?",
+   "{p} यात्रा में सबसे अच्छी चीज़ क्या लेकर आते हैं?"
+  ],
+  [
+   "Which famous monument would you like to visit next?",
+   "आप अगली बार कौन-सा मशहूर स्मारक देखना चाहेंगे?"
+  ],
+  [
+   "What is your favourite game to pass time on a long journey?",
+   "लंबे सफ़र में समय बिताने के लिए आपका पसंदीदा खेल कौन-सा है?"
+  ],
+  [
+   "Have you ever got lost on a trip? What happened?",
+   "क्या आप कभी किसी यात्रा में रास्ता भटक गए? क्या हुआ था?"
+  ],
+  [
+   "Which hill station would you visit if you could go tomorrow?",
+   "अगर कल जा सकें, तो आप किस हिल स्टेशन जाएँगे?"
+  ],
+  [
+   "What was the best holiday of your childhood?",
+   "आपके बचपन की सबसे अच्छी छुट्टी कौन-सी थी?"
+  ],
+  [
+   "Which travel habit of yours drives others a little crazy?",
+   "आपकी यात्रा की कौन-सी आदत दूसरों को थोड़ा परेशान कर देती है?"
+  ],
+  [
+   "What is one place you have visited that everyone should see?",
+   "आपकी देखी कौन-सी एक जगह है जो हर किसी को देखनी चाहिए?"
+  ],
+  [
+   "Do you prefer planning every stop or just going with the flow?",
+   "आपको हर पड़ाव पहले से तय करना पसंद है या जैसे-जैसे चलें वैसे?"
+  ],
+  [
+   "Which song makes the whole car sing along?",
+   "कौन-सा गाना पूरी गाड़ी को साथ गाने पर मजबूर कर देता है?"
+  ],
+  [
+   "What is the earliest you have ever woken up for a trip?",
+   "किसी यात्रा के लिए आप अब तक सबसे जल्दी कब उठे हैं?"
+  ],
+  [
+   "If this trip had a title like a movie, what would it be?",
+   "अगर इस यात्रा का किसी फ़िल्म जैसा नाम होता, तो क्या होता?"
+  ],
+  [
+   "Which animal have you been most excited to spot on a journey?",
+   "किसी सफ़र में कौन-सा जानवर देखकर आप सबसे ज़्यादा ख़ुश हुए?"
+  ],
+  [
+   "What is one thing you would like to do when we reach?",
+   "पहुँचकर आप सबसे पहले कौन-सा एक काम करना चाहेंगे?"
+  ],
+  [
+   "Which river, lake or sea is your favourite?",
+   "आपकी पसंदीदा नदी, झील या समुद्र कौन-सा है?"
+  ],
+  [
+   "Who in this group packs the most bags?",
+   "इस ग्रुप में सबसे ज़्यादा बैग कौन लेकर चलता है?"
+  ],
+  [
+   "What is the most delicious thing you have had at a highway stop?",
+   "किसी हाईवे पड़ाव पर आपने अब तक सबसे स्वादिष्ट क्या खाया है?"
+  ],
+  [
+   "Which country would you most like to visit one day?",
+   "आप एक दिन किस देश में सबसे ज़्यादा घूमना चाहेंगे?"
+  ],
+  [
+   "What is one trip memory with {p} that makes you smile?",
+   "{p} के साथ यात्रा की कौन-सी एक याद आपको मुस्कुरा देती है?"
+  ],
+  [
+   "Night journey or day journey, which do you enjoy more?",
+   "रात का सफ़र या दिन का, आपको कौन-सा ज़्यादा पसंद है?"
+  ],
+  [
+   "What is your trick for not getting bored on a long ride?",
+   "लंबे सफ़र में बोर न होने की आपकी तरकीब क्या है?"
+  ]
+ ],
+ "dares": [
+  [
+   "Sing the chorus of a travel song while sitting still in your seat.",
+   "अपनी सीट पर आराम से बैठे-बैठे किसी सफ़र वाले गाने का मुखड़ा गाइए।"
+  ],
+  [
+   "Name ten cities in India in twenty seconds.",
+   "बीस सेकंड में भारत के दस शहरों के नाम बताइए।"
+  ],
+  [
+   "Be a tour guide and describe the journey so far in thirty seconds.",
+   "टूर गाइड बनकर तीस सेकंड में अब तक के सफ़र का हाल सुनाइए।"
+  ],
+  [
+   "Make the sound of a train for five seconds, softly.",
+   "पाँच सेकंड तक धीमे से ट्रेन की आवाज़ निकालिए।"
+  ],
+  [
+   "Say the names of five states and their capitals.",
+   "पाँच राज्यों और उनकी राजधानियों के नाम बताइए।"
+  ],
+  [
+   "Hum a song and let the others guess it within three tries.",
+   "कोई गाना गुनगुनाइए और बाक़ियों को तीन बार में पहचानने दीजिए।"
+  ],
+  [
+   "Make up a short poem about this trip using the word journey.",
+   "सफ़र शब्द का इस्तेमाल करके इस यात्रा पर एक छोटी कविता बनाइए।"
+  ],
+  [
+   "Describe the last place we passed like a nature show host.",
+   "जिस जगह से हम अभी गुज़रे, उसका वर्णन किसी नेचर शो होस्ट की तरह कीजिए।"
+  ],
+  [
+   "Speak like a pilot and announce our arrival time.",
+   "पायलट की तरह बोलिए और हमारे पहुँचने के समय की घोषणा कीजिए।"
+  ],
+  [
+   "Give {p} a fun travel nickname and explain it.",
+   "{p} को यात्रा का एक मज़ेदार निकनेम दीजिए और उसका मतलब बताइए।"
+  ],
+  [
+   "Make the funniest face you can for five seconds, staying in your seat.",
+   "अपनी सीट पर रहते हुए पाँच सेकंड तक सबसे मज़ेदार चेहरा बनाइए।"
+  ],
+  [
+   "Tell a two-minute story about a talking suitcase.",
+   "बोलने वाले सूटकेस की दो मिनट की कहानी सुनाइए।"
+  ],
+  [
+   "Say a tongue twister three times without a mistake.",
+   "कोई टंग ट्विस्टर तीन बार बिना ग़लती के बोलिए।"
+  ],
+  [
+   "Count backwards from thirty in a robot voice.",
+   "रोबोट की आवाज़ में तीस से उल्टी गिनती गिनिए।"
+  ],
+  [
+   "Name an animal for every letter from A to J.",
+   "ए से जे तक हर अक्षर के लिए एक जानवर का नाम बताइए।"
+  ],
+  [
+   "Give a cricket commentary of the vehicle overtaking a truck.",
+   "गाड़ी के ट्रक से आगे निकलने पर क्रिकेट कमेंट्री कीजिए।"
+  ],
+  [
+   "Share a clever travel tip with {p} in your most mysterious voice.",
+   "{p} को अपनी सबसे रहस्यमयी आवाज़ में यात्रा की एक काम की टिप बताइए।"
+  ],
+  [
+   "Make up a jingle for our trip in fifteen seconds.",
+   "पंद्रह सेकंड में हमारी यात्रा के लिए एक छोटी-सी धुन बनाइए।"
+  ],
+  [
+   "Act out with your face only: we just saw the sea for the first time.",
+   "सिर्फ़ चेहरे से अभिनय कीजिए: हमने पहली बार समुद्र देखा है।"
+  ],
+  [
+   "Say three things you can hear right now, in the voice of a detective.",
+   "जासूस की आवाज़ में बताइए कि अभी आपको कौन-सी तीन आवाज़ें सुनाई दे रही हैं।"
+  ],
+  [
+   "List five things you packed for this trip in alphabetical order.",
+   "इस यात्रा के लिए पैक की गई पाँच चीज़ें वर्णमाला के क्रम में बताइए।"
+  ],
+  [
+   "Sing happy journey to everyone in the tune of happy birthday.",
+   "हैप्पी बर्थडे की धुन पर सबके लिए हैप्पी जर्नी गाइए।"
+  ],
+  [
+   "Describe your dream car in ten words.",
+   "अपनी सपनों की कार का वर्णन दस शब्दों में कीजिए।"
+  ],
+  [
+   "Speak only in questions for your next three sentences.",
+   "अपने अगले तीन वाक्य सिर्फ़ सवालों में बोलिए।"
+  ],
+  [
+   "Say the name of a place that starts with the last letter of the previous place, five times in a row.",
+   "पिछली जगह के आख़िरी अक्षर से शुरू होने वाली जगह का नाम लगातार पाँच बार बताइए।"
+  ],
+  [
+   "Pretend to be a radio jockey and dedicate a song to the group.",
+   "रेडियो जॉकी बनकर ग्रुप के नाम एक गाना समर्पित कीजिए।"
+  ],
+  [
+   "Make the sound of rain using only your fingers and palms on your lap.",
+   "सिर्फ़ अपनी उँगलियों और हथेलियों से अपनी गोद पर बारिश की आवाज़ निकालिए।"
+  ],
+  [
+   "Thank the driver in the grandest way you can, in one sentence.",
+   "एक वाक्य में, जितने शानदार तरीक़े से हो सके, ड्राइवर का शुक्रिया कीजिए।"
+  ],
+  [
+   "Narrate the next minute of the journey like a sports final.",
+   "सफ़र के अगले एक मिनट को किसी खेल के फ़ाइनल की तरह सुनाइए।"
+  ],
+  [
+   "Name five famous rivers of India.",
+   "भारत की पाँच मशहूर नदियों के नाम बताइए।"
+  ],
+  [
+   "Do your best impression of a sleepy passenger who just woke up.",
+   "अभी-अभी जागे नींद से भरे यात्री की अपनी सबसे अच्छी नकल कीजिए।"
+  ],
+  [
+   "Give a weather report for wherever we are going.",
+   "हम जहाँ जा रहे हैं, वहाँ के मौसम की रिपोर्ट दीजिए।"
+  ],
+  [
+   "Hum the tune of a famous film song without words for ten seconds.",
+   "दस सेकंड तक बिना शब्दों के किसी मशहूर फ़िल्मी गाने की धुन गुनगुनाइए।"
+  ],
+  [
+   "Spell the name of our destination backwards.",
+   "हमारी मंज़िल का नाम उल्टा बोलकर बताइए।"
+  ],
+  [
+   "Pretend to be a tour bus guide welcoming everyone on board.",
+   "टूर बस गाइड बनकर सबका बस में स्वागत कीजिए।"
+  ],
+  [
+   "Name three things that are yellow, three that are green and three that are blue.",
+   "तीन पीली, तीन हरी और तीन नीली चीज़ों के नाम बताइए।"
+  ],
+  [
+   "Make up a funny reason why we might reach early today.",
+   "कोई मज़ेदार वजह बनाइए कि आज हम जल्दी क्यों पहुँच सकते हैं।"
+  ],
+  [
+   "Use your hands in your lap to drum a beat for ten seconds.",
+   "अपनी गोद पर हाथों से दस सेकंड तक ताल बजाइए।"
+  ],
+  [
+   "Tell the group one thing you are looking forward to at the destination, like an advert.",
+   "मंज़िल पर जिस चीज़ का इंतज़ार है, उसे किसी विज्ञापन की तरह ग्रुप को बताइए।"
+  ],
+  [
+   "Say the word journey in five different moods: happy, sad, sleepy, excited and surprised.",
+   "सफ़र शब्द को पाँच अलग मूड में बोलिए: ख़ुश, उदास, नींद में, उत्साहित और हैरान।"
+  ]
+ ]
+}

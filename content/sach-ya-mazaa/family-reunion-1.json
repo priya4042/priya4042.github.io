@@ -1,0 +1,351 @@
+{
+ "schema": 1,
+ "id": "family-reunion-1",
+ "version": 1,
+ "icon": "family",
+ "kidSafe": true,
+ "names": {
+  "en": "Family Reunion",
+  "hi": "फ़ैमिली रीयूनियन",
+  "mr": "कुटुंब संमेलन",
+  "gu": "કુટુંબ મિલન",
+  "bn": "পারিবারিক পুনর্মিলন",
+  "ta": "குடும்ப சந்திப்பு",
+  "te": "కుటుంబ కలయిక",
+  "kn": "ಕುಟುಂಬ ಮಿಲನ"
+ },
+ "about": {
+  "en": "For all ages, grandparents to grandkids",
+  "hi": "हर उम्र के लिए, दादा-दादी से पोते-पोतियों तक",
+  "mr": "सर्व वयोगटांसाठी, आजी-आजोबांपासून नातवंडांपर्यंत",
+  "gu": "દરેક ઉંમર માટે, દાદા-દાદીથી પૌત્ર-પૌત્રી સુધી",
+  "bn": "সব বয়সের জন্য, দাদু-দিদা থেকে নাতি-নাতনি",
+  "ta": "எல்லா வயதினருக்கும், தாத்தா பாட்டி முதல் பேரக்குழந்தைகள் வரை",
+  "te": "అన్ని వయసుల వారికి, తాతయ్య నానమ్మల నుండి మనవళ్ల వరకు",
+  "kn": "ಎಲ್ಲ ವಯಸ್ಸಿನವರಿಗೆ, ಅಜ್ಜ ಅಜ್ಜಿಯಿಂದ ಮೊಮ್ಮಕ್ಕಳವರೆಗೆ"
+ },
+ "truths": [
+  [
+   "Which family get-together do you remember the most, and why?",
+   "कौन-सा पारिवारिक मिलन आपको सबसे ज़्यादा याद है, और क्यों?"
+  ],
+  [
+   "Who in the family gives the warmest hugs?",
+   "परिवार में सबसे प्यारी झप्पी कौन देता है?"
+  ],
+  [
+   "What is one thing you learned from your grandparents?",
+   "आपने अपने दादा-दादी या नाना-नानी से कौन-सी एक बात सीखी है?"
+  ],
+  [
+   "Which cousin did you play with the most when you were small?",
+   "बचपन में आप किस कज़िन के साथ सबसे ज़्यादा खेलते थे?"
+  ],
+  [
+   "What family recipe would you like to learn one day?",
+   "परिवार की कौन-सी रेसिपी आप एक दिन सीखना चाहेंगे?"
+  ],
+  [
+   "Which old family photo makes you smile every time?",
+   "परिवार की कौन-सी पुरानी फ़ोटो देखकर आप हर बार मुस्कुरा देते हैं?"
+  ],
+  [
+   "Who in the family tells the longest stories?",
+   "परिवार में सबसे लंबे किस्से कौन सुनाता है?"
+  ],
+  [
+   "What is your favourite game to play when the whole family is together?",
+   "जब पूरा परिवार साथ हो, तब आपको कौन-सा खेल खेलना सबसे अच्छा लगता है?"
+  ],
+  [
+   "Which relative do you look like the most?",
+   "आप शक्ल से किस रिश्तेदार जैसे सबसे ज़्यादा दिखते हैं?"
+  ],
+  [
+   "What is the funniest nickname anyone in the family has?",
+   "परिवार में किसी का सबसे मज़ेदार निकनेम कौन-सा है?"
+  ],
+  [
+   "If our family had a theme song, what would it be?",
+   "अगर हमारे परिवार का कोई थीम सॉन्ग होता, तो कौन-सा होता?"
+  ],
+  [
+   "What is one thing {p} always says at family gatherings?",
+   "पारिवारिक मिलन में {p} हमेशा कौन-सी एक बात कहते हैं?"
+  ],
+  [
+   "Which family trip would you love to go on again?",
+   "परिवार की कौन-सी यात्रा पर आप फिर से जाना चाहेंगे?"
+  ],
+  [
+   "Who is the best cook in the family, in your opinion?",
+   "आपकी राय में परिवार में सबसे अच्छा खाना कौन बनाता है?"
+  ],
+  [
+   "What is a family tradition you never want to lose?",
+   "परिवार की कौन-सी परंपरा आप कभी खोना नहीं चाहेंगे?"
+  ],
+  [
+   "Which cousin is most likely to become famous one day?",
+   "कौन-सा कज़िन एक दिन सबसे ज़्यादा मशहूर हो सकता है?"
+  ],
+  [
+   "What did you want to become when you grew up, when you were six?",
+   "छह साल की उम्र में आप बड़े होकर क्या बनना चाहते थे?"
+  ],
+  [
+   "What is the kindest thing a family member has done for you?",
+   "परिवार के किसी सदस्य ने आपके लिए सबसे प्यारा काम कौन-सा किया है?"
+  ],
+  [
+   "Which song do the elders in our family love to sing?",
+   "हमारे परिवार के बड़े कौन-सा गाना गाना सबसे ज़्यादा पसंद करते हैं?"
+  ],
+  [
+   "Who in the family laughs the loudest?",
+   "परिवार में सबसे ज़ोर से कौन हँसता है?"
+  ],
+  [
+   "What is one thing you would like to ask {p} about their childhood?",
+   "आप {p} से उनके बचपन के बारे में कौन-सी एक बात पूछना चाहेंगे?"
+  ],
+  [
+   "Which festival feels the most special when the family is together?",
+   "परिवार साथ हो तो कौन-सा त्योहार सबसे ख़ास लगता है?"
+  ],
+  [
+   "What is your favourite dish at a family get-together?",
+   "पारिवारिक मिलन में आपका सबसे पसंदीदा पकवान कौन-सा होता है?"
+  ],
+  [
+   "Who taught you to ride a bicycle, or who would you want to learn from?",
+   "आपको साइकिल चलाना किसने सिखाया, या आप किससे सीखना चाहेंगे?"
+  ],
+  [
+   "What is a game from the old days that you would like the kids to learn?",
+   "पुराने ज़माने का कौन-सा खेल आप चाहेंगे कि बच्चे सीखें?"
+  ],
+  [
+   "Which family member would you call first with good news?",
+   "अच्छी ख़बर मिलने पर आप सबसे पहले परिवार के किस सदस्य को बताएँगे?"
+  ],
+  [
+   "What is the best gift you ever got from a relative?",
+   "किसी रिश्तेदार से मिला आपका अब तक का सबसे अच्छा तोहफ़ा कौन-सा है?"
+  ],
+  [
+   "Which cousin was the naughtiest when you were small?",
+   "जब आप छोटे थे, तब सबसे शरारती कज़िन कौन था?"
+  ],
+  [
+   "What is one word that describes our family best?",
+   "हमारे परिवार को सबसे अच्छे से बताने वाला एक शब्द कौन-सा है?"
+  ],
+  [
+   "If you could plan the next family reunion, where would it be?",
+   "अगर अगला पारिवारिक मिलन आप तय करें, तो वह कहाँ होगा?"
+  ],
+  [
+   "What is one thing {p} is really good at?",
+   "{p} किस एक चीज़ में सचमुच बहुत अच्छे हैं?"
+  ],
+  [
+   "Which family member makes the best tea or coffee?",
+   "परिवार में सबसे अच्छी चाय या कॉफ़ी कौन बनाता है?"
+  ],
+  [
+   "What is your earliest memory of a family gathering?",
+   "पारिवारिक मिलन की आपकी सबसे पुरानी याद कौन-सी है?"
+  ],
+  [
+   "Which bedtime story did you love hearing as a child?",
+   "बचपन में आपको कौन-सी सोने से पहले वाली कहानी सुनना सबसे अच्छा लगता था?"
+  ],
+  [
+   "Who in the family is always on time, and who is always late?",
+   "परिवार में हमेशा समय पर कौन आता है, और हमेशा देर से कौन?"
+  ],
+  [
+   "What is a hobby you would like to share with the family?",
+   "कौन-सा शौक़ आप परिवार के साथ बाँटना चाहेंगे?"
+  ],
+  [
+   "If our family were a team, what would our team name be?",
+   "अगर हमारा परिवार एक टीम होता, तो टीम का नाम क्या होता?"
+  ],
+  [
+   "Which relative always has the best advice?",
+   "किस रिश्तेदार के पास हमेशा सबसे अच्छी सलाह होती है?"
+  ],
+  [
+   "What is your favourite thing about visiting your grandparents' home?",
+   "दादा-दादी या नाना-नानी के घर जाने में आपको सबसे अच्छा क्या लगता है?"
+  ],
+  [
+   "What makes you proud to be part of this family?",
+   "इस परिवार का हिस्सा होने पर आपको किस बात पर गर्व है?"
+  ]
+ ],
+ "dares": [
+  [
+   "Give a two-line speech welcoming everyone to the family reunion.",
+   "पारिवारिक मिलन में सबका स्वागत करते हुए दो लाइन का भाषण दीजिए।"
+  ],
+  [
+   "Do your best impression of a proud grandparent showing off a grandchild.",
+   "अपने पोते-पोती की तारीफ़ करते गर्वीले दादा-दादी की नकल कीजिए।"
+  ],
+  [
+   "Sing one line of a song that everyone in the family knows.",
+   "ऐसे गाने की एक लाइन गाइए जो परिवार में सबको आता हो।"
+  ],
+  [
+   "Name five relatives in ten seconds.",
+   "दस सेकंड में पाँच रिश्तेदारों के नाम बताइए।"
+  ],
+  [
+   "Act out making rotis like an expert, without saying a word.",
+   "बिना कुछ बोले किसी माहिर की तरह रोटियाँ बनाने का अभिनय कीजिए।"
+  ],
+  [
+   "Give {p} a big smile and a thumbs up for ten seconds.",
+   "दस सेकंड तक {p} को बड़ी मुस्कान के साथ थम्स अप दिखाइए।"
+  ],
+  [
+   "Pose for a pretend family photo and get everyone to say cheese.",
+   "एक नकली फ़ैमिली फ़ोटो के लिए पोज़ दीजिए और सबसे चीज़ बुलवाइए।"
+  ],
+  [
+   "Tell a short story that starts with: Long ago in our village...",
+   "एक छोटी कहानी सुनाइए जो शुरू हो: बहुत पहले हमारे गाँव में..."
+  ],
+  [
+   "Clap a rhythm and let everyone copy it.",
+   "ताली से एक ताल बजाइए और सबसे उसकी नकल करवाइए।"
+  ],
+  [
+   "Say something nice about every person in the room, one line each.",
+   "कमरे में हर व्यक्ति के बारे में एक-एक लाइन में कुछ अच्छा कहिए।"
+  ],
+  [
+   "Act like a news reader announcing that the whole family has arrived.",
+   "न्यूज़ रीडर बनकर ख़बर दीजिए कि पूरा परिवार आ गया है।"
+  ],
+  [
+   "Do a slow-motion wave to everyone, like a film star.",
+   "किसी फ़िल्म स्टार की तरह सबको स्लो मोशन में हाथ हिलाइए।"
+  ],
+  [
+   "Teach the group a simple clapping game in thirty seconds.",
+   "तीस सेकंड में सबको ताली वाला कोई आसान खेल सिखाइए।"
+  ],
+  [
+   "Make up a family cheer and lead everyone in it.",
+   "परिवार के लिए एक जोश वाला नारा बनाइए और सबसे बुलवाइए।"
+  ],
+  [
+   "Pretend to be a tour guide showing guests around the house.",
+   "टूर गाइड बनकर मेहमानों को घर दिखाने का अभिनय कीजिए।"
+  ],
+  [
+   "Hum a festival song and let the others guess it.",
+   "त्योहार का कोई गाना गुनगुनाइए और बाक़ियों को पहचानने दीजिए।"
+  ],
+  [
+   "Say the names of everyone here from youngest to oldest.",
+   "यहाँ मौजूद सबके नाम सबसे छोटे से सबसे बड़े तक बोलिए।"
+  ],
+  [
+   "Act out opening the best surprise gift ever.",
+   "अब तक का सबसे शानदार सरप्राइज़ तोहफ़ा खोलने का अभिनय कीजिए।"
+  ],
+  [
+   "Copy {p}'s favourite way of saying hello.",
+   "{p} के नमस्ते कहने के पसंदीदा अंदाज़ की नकल कीजिए।"
+  ],
+  [
+   "Make the sound of a pressure cooker whistle three times.",
+   "तीन बार प्रेशर कुकर की सीटी की आवाज़ निकालिए।"
+  ],
+  [
+   "Do a royal bow and greet everyone like a king or queen.",
+   "शाही अंदाज़ में झुककर राजा या रानी की तरह सबका अभिवादन कीजिए।"
+  ],
+  [
+   "Describe your favourite family meal like a food show host.",
+   "फ़ूड शो होस्ट की तरह परिवार के अपने पसंदीदा खाने का वर्णन कीजिए।"
+  ],
+  [
+   "Act out a grandparent telling the kids to put on a sweater.",
+   "बच्चों को स्वेटर पहनने को कहते दादा-दादी का अभिनय कीजिए।"
+  ],
+  [
+   "Say three things you are thankful for in this family.",
+   "इस परिवार में तीन बातें बताइए जिनके लिए आप शुक्रगुज़ार हैं।"
+  ],
+  [
+   "Do a happy dance while sitting in your seat for ten seconds.",
+   "अपनी जगह पर बैठे-बैठे दस सेकंड तक ख़ुशी वाला डांस कीजिए।"
+  ],
+  [
+   "Give a cricket commentary of the family arriving at the party.",
+   "पार्टी में परिवार के पहुँचने पर क्रिकेट कमेंट्री कीजिए।"
+  ],
+  [
+   "Recite a short poem or nursery rhyme with lots of expression.",
+   "ख़ूब भाव के साथ कोई छोटी कविता या बालगीत सुनाइए।"
+  ],
+  [
+   "Act like you are trying to find your glasses that are on your head.",
+   "ऐसा अभिनय कीजिए जैसे आप सिर पर रखा चश्मा ढूँढ रहे हैं।"
+  ],
+  [
+   "Give {p} a new and kind family title, like Chief of Smiles.",
+   "{p} को परिवार का एक नया प्यारा ख़िताब दीजिए, जैसे मुस्कान प्रमुख।"
+  ],
+  [
+   "Make up a two-line rhyme about this reunion.",
+   "इस पारिवारिक मिलन पर दो लाइन की तुकबंदी बनाइए।"
+  ],
+  [
+   "Pretend to be the family's weather reporter for today.",
+   "आज के लिए परिवार के मौसम रिपोर्टर बनने का अभिनय कीजिए।"
+  ],
+  [
+   "Speak like a cartoon character for your next two sentences.",
+   "अपने अगले दो वाक्य किसी कार्टून किरदार की तरह बोलिए।"
+  ],
+  [
+   "Show your best festival greeting with folded hands and a big smile.",
+   "हाथ जोड़कर और बड़ी मुस्कान के साथ त्योहार की अपनी सबसे अच्छी शुभकामना दिखाइए।"
+  ],
+  [
+   "Act out a sleepy cousin being woken up for a family photo.",
+   "फ़ैमिली फ़ोटो के लिए जगाए जा रहे नींद में डूबे कज़िन का अभिनय कीजिए।"
+  ],
+  [
+   "Count to ten in as many languages as you can.",
+   "जितनी भाषाओं में हो सके, दस तक गिनती बोलिए।"
+  ],
+  [
+   "Pretend to give a medal to the family's best storyteller.",
+   "परिवार के सबसे अच्छे किस्सागो को मेडल देने का अभिनय कीजिए।"
+  ],
+  [
+   "Sing happy birthday in a funny voice for whoever has the next birthday.",
+   "जिसका जन्मदिन सबसे पहले आने वाला है, उसके लिए मज़ेदार आवाज़ में हैप्पी बर्थडे गाइए।"
+  ],
+  [
+   "Mime packing a suitcase for a family holiday.",
+   "बिना बोले परिवार की छुट्टी के लिए सूटकेस पैक करने का अभिनय कीजिए।"
+  ],
+  [
+   "Make everyone laugh with your best silly face, no touching.",
+   "बिना किसी को छुए अपने सबसे अजीब चेहरे से सबको हँसाइए।"
+  ],
+  [
+   "Thank the cooks of the family with a short, grand speech.",
+   "परिवार के खाना बनाने वालों का एक छोटे, शानदार भाषण से शुक्रिया कीजिए।"
+  ]
+ ]
+}
