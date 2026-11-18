@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/games/pattern-lock/">
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'sha256-Y5yejpzRXUMusimtJ/4oJtc96uRTNcr+6QrE0Xsr/WE='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://priya4042.github.io; connect-src 'self' https://fonts.gstatic.com; media-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Pattern Lock - play free in your browser - Priya Tech Labs</title>
+<meta name="description" content="Watch the glowing tiles light up, each with its own note, then repeat the pattern: Classic, Draw, Reverse, Speed and Zen, and a daily challenge.">
+<link rel="canonical" href="https://priya4042.github.io/games/pattern-lock/">
+<meta property="og:title" content="Pattern Lock - play free in your browser - Priya Tech Labs">
+<meta property="og:description" content="Watch the glowing tiles light up, each with its own note, then repeat the pattern: Classic, Draw, Reverse, Speed and Zen, and a daily challenge.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://priya4042.github.io/games/pattern-lock/">
+<meta property="og:image" content="https://priya4042.github.io/assets/sites/pattern-lock-web.webp">
+<link rel="icon" href="../../assets/apps/pattern-lock.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A0F24">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Pattern Lock">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    html, body { margin: 0; height: 100%; background: #0A0F24; }
+    #boot { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+      font: 700 24px system-ui, sans-serif; color: #F2F5FF; }
+    #boot img { width: 96px; height: 96px; border-radius: 24px; }
+    #boot small { font: 500 15px system-ui, sans-serif; color: #A3ACD1; }
+    #boot .dots { display: grid; grid-template-columns: repeat(3, 14px); gap: 10px; }
+    #boot .dots i { width: 14px; height: 14px; border-radius: 50%; background: #1D2754; box-shadow: inset 0 0 0 2px #3C4A8A; animation: glow 1.8s ease-in-out infinite; }
+    #boot .dots i:nth-child(1) { animation-delay: 0s; } #boot .dots i:nth-child(5) { animation-delay: .45s; }
+    #boot .dots i:nth-child(9) { animation-delay: .9s; } #boot .dots i:nth-child(6) { animation-delay: 1.35s; }
+    @keyframes glow { 0%, 30%, 100% { background: #1D2754; } 12% { background: #4FD8FF; } }
+    @media (prefers-reduced-motion: reduce) { #boot .dots i { animation: none; } }
+  </style>
+</head>
+<body>
+  <div id="boot" aria-live="polite">
+    <img src="icons/Icon-192.png" alt="">
+    <div>Pattern Lock</div>
+    <small>Watch the lights. Repeat the pattern.</small>
+    <div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <noscript>Pattern Lock needs JavaScript to run.</noscript>
+  </div>
+  <script>
+    // the loader goes once the first frame is drawn
+    window.addEventListener('flutter-first-frame', function () { var b = document.getElementById('boot'); if (b) b.remove(); });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

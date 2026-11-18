@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/games/logic-detective/">
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' 'sha256-Y5yejpzRXUMusimtJ/4oJtc96uRTNcr+6QrE0Xsr/WE='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://priya4042.github.io; connect-src 'self' https://fonts.gstatic.com; media-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Logic Detective - play free in your browser - Priya Tech Labs</title>
+<meta name="description" content="Short logic-grid mysteries set in everyday India: read the clues, cross out and tick until one answer is left. 312 cases, case packs and a daily case.">
+<link rel="canonical" href="https://priya4042.github.io/games/logic-detective/">
+<meta property="og:title" content="Logic Detective - play free in your browser - Priya Tech Labs">
+<meta property="og:description" content="Short logic-grid mysteries set in everyday India: read the clues, cross out and tick until one answer is left. 312 cases, case packs and a daily case.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://priya4042.github.io/games/logic-detective/">
+<meta property="og:image" content="https://priya4042.github.io/assets/sites/logic-detective-web.webp">
+<link rel="icon" href="../../assets/apps/logic-detective.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#3B2A1E">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Logic Detective">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    html, body { margin: 0; height: 100%; background: #B98B5E; }
+    #boot { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+      font: 800 26px system-ui, sans-serif; color: #1E2A47; background: #FBF5E6; }
+    #boot img { width: 104px; height: 104px; border-radius: 26px; box-shadow: 0 6px 18px rgba(0,0,0,.18); }
+    #boot small { font: 500 15px system-ui, sans-serif; color: #5E6478; }
+    #boot .lens { width: 46px; height: 46px; border: 6px solid #8E2A20; border-radius: 50%; position: relative; animation: sweep 1.6s ease-in-out infinite; }
+    #boot .lens::after { content: ''; position: absolute; width: 8px; height: 26px; background: #8E2A20; border-radius: 4px; right: -12px; bottom: -22px; transform: rotate(-45deg); }
+    @keyframes sweep { 0%, 100% { transform: translateX(-18px); } 50% { transform: translateX(18px); } }
+    @media (prefers-reduced-motion: reduce) { #boot .lens { animation: none; } }
+  </style>
+</head>
+<body>
+  <div id="boot" aria-live="polite">
+    <img src="icons/Icon-192.png" alt="">
+    <div>Logic Detective</div>
+    <small>Every clue counts</small>
+    <div class="lens"></div>
+    <noscript>Logic Detective needs JavaScript to run.</noscript>
+  </div>
+  <script>
+    // the loader goes once the first frame is drawn
+    window.addEventListener('flutter-first-frame', function () { var b = document.getElementById('boot'); if (b) b.remove(); });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

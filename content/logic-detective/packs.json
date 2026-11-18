@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "app": "logic-detective",
+  "packs": [
+    {
+      "id": "monsoon-mysteries-1",
+      "file": "monsoon-mysteries-1.json",
+      "version": 1,
+      "bytes": 21769
+    },
+    {
+      "id": "festival-fair-1",
+      "file": "festival-fair-1.json",
+      "version": 1,
+      "bytes": 21910
+    }
+  ]
+}
