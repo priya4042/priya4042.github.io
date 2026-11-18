@@ -1,0 +1,16 @@
+{
+ "schema": 1,
+ "slug": "emoji-guess",
+ "packs": [
+  {
+   "id": "cricket-sports-1",
+   "file": "cricket-sports-1.json",
+   "version": 1
+  },
+  {
+   "id": "wedding-family-1",
+   "file": "wedding-family-1.json",
+   "version": 1
+  }
+ ]
+}

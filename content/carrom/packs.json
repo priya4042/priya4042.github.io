@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "app": "carrom",
+  "packs": [
+    {
+      "id": "corner-club",
+      "file": "corner-club.json",
+      "version": 1,
+      "bytes": 6872
+    }
+  ]
+}

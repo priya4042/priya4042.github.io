@@ -1,0 +1,18 @@
+{
+ "schema": 1,
+ "app": "dimaag-daily",
+ "packs": [
+  {
+   "id": "bazaar-maths-1",
+   "file": "bazaar-maths-1.json",
+   "version": 1,
+   "bytes": 3911
+  },
+  {
+   "id": "number-trails-1",
+   "file": "number-trails-1.json",
+   "version": 1,
+   "bytes": 6011
+  }
+ ]
+}
