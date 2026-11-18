@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "app": "big-sudoku",
+  "packs": [
+    {
+      "id": "week-2026-48",
+      "file": "week-2026-48.json",
+      "version": 1,
+      "bytes": 3308
+    },
+    {
+      "id": "relaxed-6x6-1",
+      "file": "relaxed-6x6-1.json",
+      "version": 1,
+      "bytes": 3148
+    }
+  ]
+}

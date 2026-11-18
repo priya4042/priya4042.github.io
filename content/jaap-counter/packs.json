@@ -1,0 +1,16 @@
+{
+ "schema": 1,
+ "slug": "jaap-counter",
+ "packs": [
+  {
+   "id": "aarti-mantra-1",
+   "file": "aarti-mantra-1.json",
+   "version": 1
+  },
+  {
+   "id": "stories-places-1",
+   "file": "stories-places-1.json",
+   "version": 1
+  }
+ ]
+}

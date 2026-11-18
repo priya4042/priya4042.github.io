@@ -1,0 +1,515 @@
+{
+ "schema": 1,
+ "id": "aarti-mantra-1",
+ "version": 1,
+ "title": {
+  "en": "Aarti, bhajan and mantra",
+  "hi": "आरती, भजन और मंत्र"
+ },
+ "questions": [
+  {
+   "id": "xam-001",
+   "level": 1,
+   "cat": "trad",
+   "en": "The aarti \"Om Jai Jagdish Hare\" is sung in praise of which god?",
+   "hi": "आरती \"ॐ जय जगदीश हरे\" किस भगवान की स्तुति में गाई जाती है?",
+   "optEn": [
+    "Lord Vishnu",
+    "Lord Shiva",
+    "Lord Ganesha",
+    "Lord Surya"
+   ],
+   "optHi": [
+    "भगवान विष्णु",
+    "भगवान शिव",
+    "भगवान गणेश",
+    "भगवान सूर्य"
+   ],
+   "whyEn": "Jagdish means Lord of the world, a name of Lord Vishnu. Many homes sing this aarti after puja.",
+   "whyHi": "जगदीश का अर्थ है जगत के स्वामी, यह भगवान विष्णु का नाम है। बहुत से घरों में पूजा के बाद यह आरती गाई जाती है।"
+  },
+  {
+   "id": "xam-002",
+   "level": 1,
+   "cat": "trad",
+   "en": "The aarti \"Jai Ganesh Jai Ganesh Deva\" is sung for which god?",
+   "hi": "आरती \"जय गणेश जय गणेश देवा\" किस भगवान के लिए गाई जाती है?",
+   "optEn": [
+    "Lord Ganesha",
+    "Lord Hanuman",
+    "Lord Krishna",
+    "Lord Kartikeya"
+   ],
+   "optHi": [
+    "भगवान गणेश",
+    "भगवान हनुमान",
+    "भगवान कृष्ण",
+    "भगवान कार्तिकेय"
+   ],
+   "whyEn": "This aarti praises Lord Ganesha, who is remembered first before any puja or new work.",
+   "whyHi": "यह आरती भगवान गणेश की स्तुति है, जिन्हें हर पूजा और नए काम से पहले याद किया जाता है।"
+  },
+  {
+   "id": "xam-003",
+   "level": 1,
+   "cat": "trad",
+   "en": "The aarti \"Aarti Kunj Bihari Ki\" is sung for whom?",
+   "hi": "आरती \"आरती कुंज बिहारी की\" किसके लिए गाई जाती है?",
+   "optEn": [
+    "Shri Krishna",
+    "Shri Rama",
+    "Lord Shiva",
+    "Lord Brahma"
+   ],
+   "optHi": [
+    "श्री कृष्ण",
+    "श्री राम",
+    "भगवान शिव",
+    "भगवान ब्रह्मा"
+   ],
+   "whyEn": "Kunj Bihari, the one who roams the groves of Vrindavan, is a loving name of Shri Krishna.",
+   "whyHi": "कुंज बिहारी, यानी वृंदावन के कुंजों में विहार करने वाले, श्री कृष्ण का प्यारा नाम है।"
+  },
+  {
+   "id": "xam-004",
+   "level": 1,
+   "cat": "saint",
+   "en": "The bhajan \"Payoji Maine Ram Ratan Dhan Payo\" was sung by which saint?",
+   "hi": "भजन \"पायो जी मैंने राम रतन धन पायो\" किस संत ने गाया?",
+   "optEn": [
+    "Mirabai",
+    "Kabir",
+    "Surdas",
+    "Raidas"
+   ],
+   "optHi": [
+    "मीराबाई",
+    "कबीर",
+    "सूरदास",
+    "रैदास"
+   ],
+   "whyEn": "In this bhajan Mirabai sings that the name of Rama is a jewel and the truest wealth.",
+   "whyHi": "इस भजन में मीराबाई गाती हैं कि राम का नाम एक रत्न है और सबसे सच्चा धन है।"
+  },
+  {
+   "id": "xam-005",
+   "level": 1,
+   "cat": "trad",
+   "en": "The bhajan \"Raghupati Raghav Raja Ram\" was sung at the prayer meetings of whom?",
+   "hi": "भजन \"रघुपति राघव राजा राम\" किसकी प्रार्थना सभाओं में गाया जाता था?",
+   "optEn": [
+    "Mahatma Gandhi",
+    "Swami Vivekananda",
+    "Rabindranath Tagore",
+    "Subhas Chandra Bose"
+   ],
+   "optHi": [
+    "महात्मा गांधी",
+    "स्वामी विवेकानंद",
+    "रवींद्रनाथ टैगोर",
+    "सुभाष चंद्र बोस"
+   ],
+   "whyEn": "Gandhi ji had this Ram dhun sung at his prayer meetings and on the Dandi March.",
+   "whyHi": "गांधी जी की प्रार्थना सभाओं में और दांडी यात्रा में यह राम धुन गाई जाती थी।"
+  },
+  {
+   "id": "xam-006",
+   "level": 1,
+   "cat": "trad",
+   "en": "What is a stotra?",
+   "hi": "स्तोत्र क्या होता है?",
+   "optEn": [
+    "A hymn of praise to God",
+    "A kind of temple lamp",
+    "A fasting day",
+    "A wooden drum"
+   ],
+   "optHi": [
+    "भगवान की स्तुति का गीत",
+    "मंदिर का एक प्रकार का दीपक",
+    "व्रत का एक दिन",
+    "लकड़ी का एक ढोल"
+   ],
+   "whyEn": "A stotra praises God in verse, like the Shiva Mahimna Stotra or the Ram Raksha Stotra.",
+   "whyHi": "स्तोत्र पद्य में भगवान की स्तुति है, जैसे शिव महिम्न स्तोत्र या राम रक्षा स्तोत्र।"
+  },
+  {
+   "id": "xam-007",
+   "level": 1,
+   "cat": "trad",
+   "en": "The bhajan \"Achyutam Keshavam\" sings the names of which god?",
+   "hi": "भजन \"अच्युतम केशवम\" किस भगवान के नाम गाता है?",
+   "optEn": [
+    "Lord Vishnu",
+    "Lord Indra",
+    "Lord Agni",
+    "Lord Varuna"
+   ],
+   "optHi": [
+    "भगवान विष्णु",
+    "भगवान इंद्र",
+    "भगवान अग्नि",
+    "भगवान वरुण"
+   ],
+   "whyEn": "Achyuta, Keshava, Damodara and Narayana are all names of Lord Vishnu, whose avatars include Rama and Krishna.",
+   "whyHi": "अच्युत, केशव, दामोदर और नारायण सब भगवान विष्णु के नाम हैं, जिनके अवतारों में राम और कृष्ण भी हैं।"
+  },
+  {
+   "id": "xam-008",
+   "level": 1,
+   "cat": "trad",
+   "en": "The bhajan \"Shri Ramchandra Kripalu Bhajman\" is in praise of whom?",
+   "hi": "भजन \"श्री रामचंद्र कृपालु भज मन\" किसकी स्तुति में है?",
+   "optEn": [
+    "Shri Rama",
+    "Lord Hanuman",
+    "Lord Shiva",
+    "Lord Ganesha"
+   ],
+   "optHi": [
+    "श्री राम",
+    "भगवान हनुमान",
+    "भगवान शिव",
+    "भगवान गणेश"
+   ],
+   "whyEn": "It asks the mind to worship the kind Shri Ramchandra and describes his gentle beauty.",
+   "whyHi": "इसमें मन से कृपालु श्री रामचंद्र को भजने को कहा गया है और उनकी सौम्य छवि का वर्णन है।"
+  },
+  {
+   "id": "xam-009",
+   "level": 2,
+   "cat": "trad",
+   "en": "What does \"Ik Onkar\", at the start of the Mool Mantar, mean?",
+   "hi": "मूल मंत्र के आरंभ में \"इक ओंकार\" का अर्थ क्या है?",
+   "optEn": [
+    "There is one God",
+    "God lives far away",
+    "Sing every morning",
+    "The world is a dream"
+   ],
+   "optHi": [
+    "ईश्वर एक है",
+    "ईश्वर बहुत दूर रहता है",
+    "हर सुबह गाओ",
+    "संसार एक सपना है"
+   ],
+   "whyEn": "Ik Onkar opens the Guru Granth Sahib and says that there is one Creator of all.",
+   "whyHi": "इक ओंकार से गुरु ग्रंथ साहिब आरंभ होता है और यह बताता है कि सबका रचयिता एक है।"
+  },
+  {
+   "id": "xam-010",
+   "level": 2,
+   "cat": "trad",
+   "en": "The Gayatri Mantra is first found in which Veda?",
+   "hi": "गायत्री मंत्र सबसे पहले किस वेद में मिलता है?",
+   "optEn": [
+    "Rigveda",
+    "Samaveda",
+    "Yajurveda",
+    "Atharvaveda"
+   ],
+   "optHi": [
+    "ऋग्वेद",
+    "सामवेद",
+    "यजुर्वेद",
+    "अथर्ववेद"
+   ],
+   "whyEn": "The Gayatri Mantra is a verse of the Rigveda praying to the divine light for a clear mind.",
+   "whyHi": "गायत्री मंत्र ऋग्वेद का एक मंत्र है जिसमें निर्मल बुद्धि के लिए दिव्य प्रकाश से प्रार्थना की गई है।"
+  },
+  {
+   "id": "xam-011",
+   "level": 2,
+   "cat": "trad",
+   "en": "In the Buddhist Three Refuges, one takes refuge in the Buddha, the Dhamma and what?",
+   "hi": "बौद्ध त्रिशरण में बुद्ध, धम्म और किसकी शरण ली जाती है?",
+   "optEn": [
+    "The Sangha",
+    "The stupa",
+    "The Bodhi tree",
+    "The prayer wheel"
+   ],
+   "optHi": [
+    "संघ",
+    "स्तूप",
+    "बोधि वृक्ष",
+    "प्रार्थना चक्र"
+   ],
+   "whyEn": "Buddham, Dhammam and Sangham saranam gacchami: refuge in the Buddha, his teaching and the community.",
+   "whyHi": "बुद्धं, धम्मं और संघं शरणं गच्छामि: बुद्ध, उनकी शिक्षा और संघ की शरण।"
+  },
+  {
+   "id": "xam-012",
+   "level": 2,
+   "cat": "trad",
+   "en": "How many words are there in the Hare Krishna mahamantra?",
+   "hi": "हरे कृष्ण महामंत्र में कितने शब्द हैं?",
+   "optEn": [
+    "16",
+    "8",
+    "12",
+    "108"
+   ],
+   "optHi": [
+    "16",
+    "8",
+    "12",
+    "108"
+   ],
+   "whyEn": "Hare Krishna Hare Krishna, Krishna Krishna Hare Hare, Hare Rama Hare Rama, Rama Rama Hare Hare: sixteen words.",
+   "whyHi": "हरे कृष्ण हरे कृष्ण, कृष्ण कृष्ण हरे हरे, हरे राम हरे राम, राम राम हरे हरे: सोलह शब्द।"
+  },
+  {
+   "id": "xam-013",
+   "level": 2,
+   "cat": "saint",
+   "en": "In which language is the Hanuman Chalisa written?",
+   "hi": "हनुमान चालीसा किस भाषा में लिखी गई है?",
+   "optEn": [
+    "Awadhi",
+    "Sanskrit",
+    "Marathi",
+    "Bengali"
+   ],
+   "optHi": [
+    "अवधी",
+    "संस्कृत",
+    "मराठी",
+    "बांग्ला"
+   ],
+   "whyEn": "Goswami Tulsidas wrote the Hanuman Chalisa in Awadhi, a language of the Ayodhya region.",
+   "whyHi": "गोस्वामी तुलसीदास ने हनुमान चालीसा अवधी में लिखी, जो अयोध्या क्षेत्र की भाषा है।"
+  },
+  {
+   "id": "xam-014",
+   "level": 2,
+   "cat": "trad",
+   "en": "Om Namah Shivaya is called the Panchakshari mantra. What does Panchakshari mean?",
+   "hi": "ॐ नमः शिवाय को पंचाक्षरी मंत्र कहते हैं। पंचाक्षरी का अर्थ क्या है?",
+   "optEn": [
+    "Of five syllables",
+    "Of five rivers",
+    "Sung five times",
+    "For five gods"
+   ],
+   "optHi": [
+    "पाँच अक्षरों वाला",
+    "पाँच नदियों वाला",
+    "पाँच बार गाया जाने वाला",
+    "पाँच देवताओं के लिए"
+   ],
+   "whyEn": "Na, Ma, Shi, Va and Ya are the five syllables of Namah Shivaya.",
+   "whyHi": "न, म, शि, वा और य, नमः शिवाय के पाँच अक्षर हैं।"
+  },
+  {
+   "id": "xam-015",
+   "level": 2,
+   "cat": "trad",
+   "en": "The Vishnu Sahasranama gives how many names of Lord Vishnu?",
+   "hi": "विष्णु सहस्रनाम में भगवान विष्णु के कितने नाम हैं?",
+   "optEn": [
+    "1000",
+    "108",
+    "500",
+    "10000"
+   ],
+   "optHi": [
+    "1000",
+    "108",
+    "500",
+    "10000"
+   ],
+   "whyEn": "Sahasra means a thousand. In the Mahabharata, Bhishma teaches these names to Yudhishthira.",
+   "whyHi": "सहस्र का अर्थ है हज़ार। महाभारत में भीष्म ये नाम युधिष्ठिर को सिखाते हैं।"
+  },
+  {
+   "id": "xam-016",
+   "level": 2,
+   "cat": "trad",
+   "en": "The well-loved Marathi aarti \"Sukhkarta Dukhharta\" is sung to which god?",
+   "hi": "प्रिय मराठी आरती \"सुखकर्ता दुःखहर्ता\" किस भगवान के लिए गाई जाती है?",
+   "optEn": [
+    "Lord Ganesha",
+    "Lord Vitthal",
+    "Lord Khandoba",
+    "Lord Dattatreya"
+   ],
+   "optHi": [
+    "भगवान गणेश",
+    "भगवान विट्ठल",
+    "भगवान खंडोबा",
+    "भगवान दत्तात्रेय"
+   ],
+   "whyEn": "It praises Ganesha, who brings happiness and removes sorrow, and is sung at every Ganeshotsav.",
+   "whyHi": "यह सुख देने वाले और दुःख हरने वाले गणेश की स्तुति है और हर गणेशोत्सव में गाई जाती है।"
+  },
+  {
+   "id": "xam-017",
+   "level": 3,
+   "cat": "saint",
+   "en": "Who wrote the aarti \"Om Jai Jagdish Hare\"?",
+   "hi": "आरती \"ॐ जय जगदीश हरे\" किसने लिखी?",
+   "optEn": [
+    "Pandit Shardha Ram Phillauri",
+    "Goswami Tulsidas",
+    "Surdas",
+    "Sant Kabir"
+   ],
+   "optHi": [
+    "पंडित श्रद्धाराम फिल्लौरी",
+    "गोस्वामी तुलसीदास",
+    "सूरदास",
+    "संत कबीर"
+   ],
+   "whyEn": "Pandit Shardha Ram Phillauri of Punjab wrote it in the nineteenth century, and it spread to homes everywhere.",
+   "whyHi": "पंजाब के पंडित श्रद्धाराम फिल्लौरी ने इसे उन्नीसवीं सदी में लिखा, और यह हर घर तक पहुँच गई।"
+  },
+  {
+   "id": "xam-018",
+   "level": 3,
+   "cat": "saint",
+   "en": "By tradition, who composed the Marathi aarti \"Sukhkarta Dukhharta\"?",
+   "hi": "परंपरा के अनुसार मराठी आरती \"सुखकर्ता दुःखहर्ता\" किसने रची?",
+   "optEn": [
+    "Samarth Ramdas",
+    "Sant Tukaram",
+    "Sant Eknath",
+    "Sant Namdev"
+   ],
+   "optHi": [
+    "समर्थ रामदास",
+    "संत तुकाराम",
+    "संत एकनाथ",
+    "संत नामदेव"
+   ],
+   "whyEn": "Samarth Ramdas is said to have composed it during a visit to the Ganesha temple at Morgaon.",
+   "whyHi": "कहा जाता है कि समर्थ रामदास ने इसे मोरगाँव के गणेश मंदिर की यात्रा में रचा।"
+  },
+  {
+   "id": "xam-019",
+   "level": 3,
+   "cat": "saint",
+   "en": "\"Shri Ramchandra Kripalu Bhajman\" comes from which work of Tulsidas?",
+   "hi": "\"श्री रामचंद्र कृपालु भज मन\" तुलसीदास की किस रचना से है?",
+   "optEn": [
+    "Vinaya Patrika",
+    "Kavitavali",
+    "Dohavali",
+    "Gitavali"
+   ],
+   "optHi": [
+    "विनय पत्रिका",
+    "कवितावली",
+    "दोहावली",
+    "गीतावली"
+   ],
+   "whyEn": "The Vinaya Patrika is a book of humble prayers, and this bhajan is one of its best known songs.",
+   "whyHi": "विनय पत्रिका विनम्र प्रार्थनाओं की पुस्तक है और यह भजन उसके सबसे प्रसिद्ध गीतों में है।"
+  },
+  {
+   "id": "xam-020",
+   "level": 3,
+   "cat": "epic",
+   "en": "Who taught the Aditya Hridayam hymn to Shri Rama before his battle with Ravana?",
+   "hi": "रावण से युद्ध से पहले श्री राम को आदित्य हृदय स्तोत्र किसने सिखाया?",
+   "optEn": [
+    "Sage Agastya",
+    "Sage Vishwamitra",
+    "Sage Vasishtha",
+    "Sage Valmiki"
+   ],
+   "optHi": [
+    "अगस्त्य ऋषि",
+    "विश्वामित्र ऋषि",
+    "वसिष्ठ ऋषि",
+    "वाल्मीकि ऋषि"
+   ],
+   "whyEn": "In the Yuddha Kanda, Sage Agastya gives Rama this hymn to the Sun to give him strength.",
+   "whyHi": "युद्ध कांड में अगस्त्य ऋषि राम को शक्ति के लिए सूर्य का यह स्तोत्र देते हैं।"
+  },
+  {
+   "id": "xam-021",
+   "level": 3,
+   "cat": "saint",
+   "en": "Bhaja Govindam, a hymn asking the mind to remember God, was composed by whom?",
+   "hi": "मन को भगवान का स्मरण कराने वाला भज गोविंदम किसने रचा?",
+   "optEn": [
+    "Adi Shankaracharya",
+    "Ramanujacharya",
+    "Madhvacharya",
+    "Vallabhacharya"
+   ],
+   "optHi": [
+    "आदि शंकराचार्य",
+    "रामानुजाचार्य",
+    "मध्वाचार्य",
+    "वल्लभाचार्य"
+   ],
+   "whyEn": "Adi Shankaracharya wrote Bhaja Govindam in simple Sanskrit so that everyone could sing it.",
+   "whyHi": "आदि शंकराचार्य ने भज गोविंदम सरल संस्कृत में लिखा ताकि सब इसे गा सकें।"
+  },
+  {
+   "id": "xam-022",
+   "level": 3,
+   "cat": "trad",
+   "en": "The Mahamrityunjaya mantra is a prayer to which god?",
+   "hi": "महामृत्युंजय मंत्र किस भगवान की प्रार्थना है?",
+   "optEn": [
+    "Lord Shiva",
+    "Lord Surya",
+    "Lord Vishnu",
+    "Lord Agni"
+   ],
+   "optHi": [
+    "भगवान शिव",
+    "भगवान सूर्य",
+    "भगवान विष्णु",
+    "भगवान अग्नि"
+   ],
+   "whyEn": "It begins Om Tryambakam Yajamahe and calls on Lord Shiva, the three-eyed one, for health and peace.",
+   "whyHi": "यह ॐ त्र्यम्बकं यजामहे से आरंभ होता है और स्वास्थ्य व शांति के लिए त्रिनेत्र भगवान शिव को पुकारता है।"
+  },
+  {
+   "id": "xam-023",
+   "level": 3,
+   "cat": "saint",
+   "en": "The Bhaktamar Stotra, loved by Jains, was composed by which acharya?",
+   "hi": "जैनों का प्रिय भक्तामर स्तोत्र किस आचार्य ने रचा?",
+   "optEn": [
+    "Acharya Manatunga",
+    "Acharya Kundakunda",
+    "Acharya Hemachandra",
+    "Acharya Umaswati"
+   ],
+   "optHi": [
+    "आचार्य मानतुंग",
+    "आचार्य कुंदकुंद",
+    "आचार्य हेमचंद्र",
+    "आचार्य उमास्वाति"
+   ],
+   "whyEn": "Acharya Manatunga wrote the Bhaktamar Stotra in praise of Bhagwan Rishabhanatha, the first Tirthankara.",
+   "whyHi": "आचार्य मानतुंग ने भक्तामर स्तोत्र पहले तीर्थंकर भगवान ऋषभनाथ की स्तुति में रचा।"
+  },
+  {
+   "id": "xam-024",
+   "level": 3,
+   "cat": "saint",
+   "en": "Sukhmani Sahib, the Psalm of Peace, was composed by which Sikh Guru?",
+   "hi": "सुखमनी साहिब, शांति की वाणी, किस सिख गुरु ने रची?",
+   "optEn": [
+    "Guru Arjan Dev ji",
+    "Guru Nanak Dev ji",
+    "Guru Tegh Bahadur ji",
+    "Guru Gobind Singh ji"
+   ],
+   "optHi": [
+    "गुरु अर्जन देव जी",
+    "गुरु नानक देव जी",
+    "गुरु तेग बहादुर जी",
+    "गुरु गोबिंद सिंह जी"
+   ],
+   "whyEn": "Guru Arjan Dev ji, the fifth Guru, composed Sukhmani Sahib. Its name means the jewel of peace.",
+   "whyHi": "पाँचवें गुरु, गुरु अर्जन देव जी ने सुखमनी साहिब रची। इसके नाम का अर्थ है सुख की मणि।"
+  }
+ ]
+}

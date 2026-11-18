@@ -1,0 +1,10 @@
+{
+ "schema": 1,
+ "slug": "tambola",
+ "packs": [
+  {
+   "id": "festival",
+   "version": 1
+  }
+ ]
+}

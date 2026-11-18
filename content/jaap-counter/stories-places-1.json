@@ -1,0 +1,515 @@
+{
+ "schema": 1,
+ "id": "stories-places-1",
+ "version": 1,
+ "title": {
+  "en": "Stories and holy places",
+  "hi": "कथाएँ और तीर्थ"
+ },
+ "questions": [
+  {
+   "id": "xsp-001",
+   "level": 1,
+   "cat": "epic",
+   "en": "Which god drank the poison from the churning of the ocean and is called Neelkanth?",
+   "hi": "समुद्र मंथन से निकला विष किस भगवान ने पिया और वे नीलकंठ कहलाए?",
+   "optEn": [
+    "Lord Shiva",
+    "Lord Vishnu",
+    "Lord Brahma",
+    "Lord Indra"
+   ],
+   "optHi": [
+    "भगवान शिव",
+    "भगवान विष्णु",
+    "भगवान ब्रह्मा",
+    "भगवान इंद्र"
+   ],
+   "whyEn": "Shiva held the poison in his throat to save the world, and his throat turned blue.",
+   "whyHi": "संसार को बचाने के लिए शिव ने विष को कंठ में रोक लिया और उनका कंठ नीला हो गया।"
+  },
+  {
+   "id": "xsp-002",
+   "level": 1,
+   "cat": "epic",
+   "en": "Which pupil gave his thumb to Dronacharya as guru dakshina?",
+   "hi": "किस शिष्य ने गुरु दक्षिणा में द्रोणाचार्य को अपना अंगूठा दिया?",
+   "optEn": [
+    "Ekalavya",
+    "Arjuna",
+    "Karna",
+    "Ashwatthama"
+   ],
+   "optHi": [
+    "एकलव्य",
+    "अर्जुन",
+    "कर्ण",
+    "अश्वत्थामा"
+   ],
+   "whyEn": "Ekalavya learnt archery before a clay image of Drona and gave his thumb without a moment of doubt.",
+   "whyHi": "एकलव्य ने द्रोण की मिट्टी की मूर्ति के सामने धनुर्विद्या सीखी और बिना झिझके अंगूठा दे दिया।"
+  },
+  {
+   "id": "xsp-003",
+   "level": 1,
+   "cat": "epic",
+   "en": "Ganesha and Kartikeya raced around the world. How did Ganesha win?",
+   "hi": "गणेश और कार्तिकेय में संसार की परिक्रमा की होड़ हुई। गणेश कैसे जीते?",
+   "optEn": [
+    "He went round his parents",
+    "He flew on an eagle",
+    "He took a short road",
+    "He asked the wind for help"
+   ],
+   "optHi": [
+    "माता-पिता की परिक्रमा करके",
+    "गरुड़ पर उड़कर",
+    "छोटा रास्ता लेकर",
+    "हवा से मदद माँगकर"
+   ],
+   "whyEn": "Ganesha said that Shiva and Parvati were his whole world, and walked around them with love.",
+   "whyHi": "गणेश ने कहा कि शिव और पार्वती ही उनका पूरा संसार हैं, और प्रेम से उनकी परिक्रमा की।"
+  },
+  {
+   "id": "xsp-004",
+   "level": 1,
+   "cat": "place",
+   "en": "Sabarimala, the hill shrine of Lord Ayyappa, is in which state?",
+   "hi": "भगवान अय्यप्पा का पहाड़ी मंदिर सबरीमला किस राज्य में है?",
+   "optEn": [
+    "Kerala",
+    "Karnataka",
+    "Goa",
+    "Odisha"
+   ],
+   "optHi": [
+    "केरल",
+    "कर्नाटक",
+    "गोवा",
+    "ओडिशा"
+   ],
+   "whyEn": "Sabarimala stands in the forests of the Western Ghats in Kerala and pilgrims climb to it on foot.",
+   "whyHi": "सबरीमला केरल में पश्चिमी घाट के जंगलों में है और तीर्थयात्री पैदल चढ़कर वहाँ जाते हैं।"
+  },
+  {
+   "id": "xsp-005",
+   "level": 1,
+   "cat": "epic",
+   "en": "Which boatman washed the feet of Shri Rama before taking him across the Ganga?",
+   "hi": "किस नाविक ने गंगा पार कराने से पहले श्री राम के चरण धोए?",
+   "optEn": [
+    "Kevat",
+    "Sumantra",
+    "Guha",
+    "Jatayu"
+   ],
+   "optHi": [
+    "केवट",
+    "सुमंत्र",
+    "गुह",
+    "जटायु"
+   ],
+   "whyEn": "Kevat lovingly washed the feet of Rama before letting him into his boat.",
+   "whyHi": "केवट ने अपनी नाव में बैठाने से पहले बड़े प्रेम से राम के चरण धोए।"
+  },
+  {
+   "id": "xsp-006",
+   "level": 1,
+   "cat": "epic",
+   "en": "Which young warrior, son of Arjuna, entered the Chakravyuha?",
+   "hi": "अर्जुन के किस युवा पुत्र ने चक्रव्यूह में प्रवेश किया?",
+   "optEn": [
+    "Abhimanyu",
+    "Ghatotkacha",
+    "Babruvahana",
+    "Iravan"
+   ],
+   "optHi": [
+    "अभिमन्यु",
+    "घटोत्कच",
+    "बभ्रुवाहन",
+    "इरावान"
+   ],
+   "whyEn": "Abhimanyu knew how to enter the Chakravyuha formation and fought with great courage.",
+   "whyHi": "अभिमन्यु चक्रव्यूह में प्रवेश करना जानते थे और बड़ी वीरता से लड़े।"
+  },
+  {
+   "id": "xsp-007",
+   "level": 1,
+   "cat": "epic",
+   "en": "Which bird is the vahana of Lord Vishnu?",
+   "hi": "भगवान विष्णु का वाहन कौन सा पक्षी है?",
+   "optEn": [
+    "Garuda",
+    "Peacock",
+    "Swan",
+    "Owl"
+   ],
+   "optHi": [
+    "गरुड़",
+    "मोर",
+    "हंस",
+    "उल्लू"
+   ],
+   "whyEn": "Garuda, the great eagle, carries Lord Vishnu. The peacock carries Kartikeya and the swan carries Saraswati.",
+   "whyHi": "महान गरुड़ भगवान विष्णु को ले जाते हैं। मोर कार्तिकेय का और हंस सरस्वती का वाहन है।"
+  },
+  {
+   "id": "xsp-008",
+   "level": 1,
+   "cat": "epic",
+   "en": "Lord Hanuman is the son of which god of the wind?",
+   "hi": "भगवान हनुमान किस पवन देवता के पुत्र हैं?",
+   "optEn": [
+    "Vayu",
+    "Indra",
+    "Agni",
+    "Varuna"
+   ],
+   "optHi": [
+    "वायु",
+    "इंद्र",
+    "अग्नि",
+    "वरुण"
+   ],
+   "whyEn": "Hanuman is called Pavanputra and Maruti, the son of Vayu, the wind.",
+   "whyHi": "हनुमान को पवनपुत्र और मारुति कहते हैं, यानी वायु देव के पुत्र।"
+  },
+  {
+   "id": "xsp-009",
+   "level": 2,
+   "cat": "epic",
+   "en": "In the churning of the ocean, which serpent was used as the rope?",
+   "hi": "समुद्र मंथन में किस नाग को रस्सी बनाया गया?",
+   "optEn": [
+    "Vasuki",
+    "Kaliya",
+    "Takshaka",
+    "Sheshnag"
+   ],
+   "optHi": [
+    "वासुकि",
+    "कालिया",
+    "तक्षक",
+    "शेषनाग"
+   ],
+   "whyEn": "The devas and asuras wound Vasuki around the mountain and pulled from both ends to churn the ocean.",
+   "whyHi": "देवों और असुरों ने वासुकि को पर्वत पर लपेटा और दोनों ओर से खींचकर समुद्र मथा।"
+  },
+  {
+   "id": "xsp-010",
+   "level": 2,
+   "cat": "epic",
+   "en": "Karna, famous for his generosity, was the son of which god?",
+   "hi": "अपनी दानशीलता के लिए प्रसिद्ध कर्ण किस देवता के पुत्र थे?",
+   "optEn": [
+    "Surya",
+    "Indra",
+    "Vayu",
+    "Yama"
+   ],
+   "optHi": [
+    "सूर्य",
+    "इंद्र",
+    "वायु",
+    "यम"
+   ],
+   "whyEn": "Karna was born to Kunti by the blessing of Surya, and he was born with armour and earrings.",
+   "whyHi": "कर्ण सूर्य के वरदान से कुंती के पुत्र हुए, और वे कवच और कुंडल के साथ जन्मे थे।"
+  },
+  {
+   "id": "xsp-011",
+   "level": 2,
+   "cat": "place",
+   "en": "The Ashtavinayak, eight temples of Lord Ganesha, are in which state?",
+   "hi": "अष्टविनायक, भगवान गणेश के आठ मंदिर, किस राज्य में हैं?",
+   "optEn": [
+    "Maharashtra",
+    "Gujarat",
+    "Tamil Nadu",
+    "Bihar"
+   ],
+   "optHi": [
+    "महाराष्ट्र",
+    "गुजरात",
+    "तमिलनाडु",
+    "बिहार"
+   ],
+   "whyEn": "The eight Ashtavinayak temples, such as Morgaon and Theur, are mostly around Pune.",
+   "whyHi": "मोरगाँव और थेऊर जैसे आठ अष्टविनायक मंदिर ज़्यादातर पुणे के आसपास हैं।"
+  },
+  {
+   "id": "xsp-012",
+   "level": 2,
+   "cat": "place",
+   "en": "Shrinathji, a child form of Krishna, is worshipped at Nathdwara in which state?",
+   "hi": "श्रीनाथजी, कृष्ण का बाल रूप, नाथद्वारा में पूजे जाते हैं। यह किस राज्य में है?",
+   "optEn": [
+    "Rajasthan",
+    "Uttar Pradesh",
+    "Madhya Pradesh",
+    "Haryana"
+   ],
+   "optHi": [
+    "राजस्थान",
+    "उत्तर प्रदेश",
+    "मध्य प्रदेश",
+    "हरियाणा"
+   ],
+   "whyEn": "Nathdwara near Udaipur is famous for Shrinathji, shown lifting Govardhan hill.",
+   "whyHi": "उदयपुर के पास नाथद्वारा श्रीनाथजी के लिए प्रसिद्ध है, जो गोवर्धन उठाए दिखते हैं।"
+  },
+  {
+   "id": "xsp-013",
+   "level": 2,
+   "cat": "epic",
+   "en": "Who took the form of Mohini to share the amrit among the devas?",
+   "hi": "देवों में अमृत बाँटने के लिए मोहिनी रूप किसने लिया?",
+   "optEn": [
+    "Lord Vishnu",
+    "Lord Shiva",
+    "Goddess Lakshmi",
+    "Lord Indra"
+   ],
+   "optHi": [
+    "भगवान विष्णु",
+    "भगवान शिव",
+    "देवी लक्ष्मी",
+    "भगवान इंद्र"
+   ],
+   "whyEn": "After the churning, Lord Vishnu became the enchanting Mohini and served the amrit to the devas.",
+   "whyHi": "मंथन के बाद भगवान विष्णु ने सुंदर मोहिनी का रूप लिया और देवों को अमृत पिलाया।"
+  },
+  {
+   "id": "xsp-014",
+   "level": 2,
+   "cat": "epic",
+   "en": "Which wise bear king helped Shri Rama in the search for Sita?",
+   "hi": "किस बुद्धिमान भालू राजा ने सीता की खोज में श्री राम की मदद की?",
+   "optEn": [
+    "Jambavan",
+    "Sugriva",
+    "Angad",
+    "Nala"
+   ],
+   "optHi": [
+    "जांबवान",
+    "सुग्रीव",
+    "अंगद",
+    "नल"
+   ],
+   "whyEn": "Jambavan reminded Hanuman of his great strength just before the leap to Lanka.",
+   "whyHi": "लंका की छलाँग से ठीक पहले जांबवान ने हनुमान को उनकी महान शक्ति याद दिलाई।"
+  },
+  {
+   "id": "xsp-015",
+   "level": 2,
+   "cat": "place",
+   "en": "The Banke Bihari temple of Shri Krishna is in which town?",
+   "hi": "श्री कृष्ण का बांके बिहारी मंदिर किस नगर में है?",
+   "optEn": [
+    "Vrindavan",
+    "Dwarka",
+    "Puri",
+    "Udupi"
+   ],
+   "optHi": [
+    "वृंदावन",
+    "द्वारका",
+    "पुरी",
+    "उडुपी"
+   ],
+   "whyEn": "Banke Bihari, Krishna standing in a graceful bent pose, is the beloved deity of Vrindavan.",
+   "whyHi": "बांके बिहारी, यानी त्रिभंग मुद्रा में खड़े कृष्ण, वृंदावन के प्रिय ठाकुर हैं।"
+  },
+  {
+   "id": "xsp-016",
+   "level": 2,
+   "cat": "epic",
+   "en": "Which son of Vali went to the court of Ravana as the messenger of Rama?",
+   "hi": "वाली का कौन सा पुत्र राम का दूत बनकर रावण की सभा में गया?",
+   "optEn": [
+    "Angad",
+    "Sugriva",
+    "Nila",
+    "Jambavan"
+   ],
+   "optHi": [
+    "अंगद",
+    "सुग्रीव",
+    "नील",
+    "जांबवान"
+   ],
+   "whyEn": "Angad planted his foot in the court of Ravana and no one there could move it.",
+   "whyHi": "अंगद ने रावण की सभा में अपना पैर जमा दिया और वहाँ कोई उसे हिला नहीं सका।"
+  },
+  {
+   "id": "xsp-017",
+   "level": 3,
+   "cat": "place",
+   "en": "The Pancha Bhoota temples of South India honour Lord Shiva as what?",
+   "hi": "दक्षिण भारत के पंचभूत मंदिरों में भगवान शिव को किस रूप में पूजा जाता है?",
+   "optEn": [
+    "The five elements",
+    "The five rivers",
+    "The five mountains",
+    "The five seasons"
+   ],
+   "optHi": [
+    "पाँच तत्व",
+    "पाँच नदियाँ",
+    "पाँच पर्वत",
+    "पाँच ऋतुएँ"
+   ],
+   "whyEn": "Earth, water, fire, air and space are honoured at Kanchipuram, Thiruvanaikaval, Tiruvannamalai, Srikalahasti and Chidambaram.",
+   "whyHi": "पृथ्वी, जल, अग्नि, वायु और आकाश की पूजा कांचीपुरम, तिरुवनैकावल, तिरुवन्नामलै, श्रीकालहस्ती और चिदंबरम में होती है।"
+  },
+  {
+   "id": "xsp-018",
+   "level": 3,
+   "cat": "place",
+   "en": "How many Divya Desams, the holy Vishnu temples sung by the Alvars, are there?",
+   "hi": "आलवारों द्वारा गाए गए विष्णु के पवित्र मंदिर, दिव्य देशम, कितने हैं?",
+   "optEn": [
+    "108",
+    "12",
+    "51",
+    "64"
+   ],
+   "optHi": [
+    "108",
+    "12",
+    "51",
+    "64"
+   ],
+   "whyEn": "The Alvar saints sang of 108 Divya Desams, from Srirangam in the south to Badrinath in the north.",
+   "whyHi": "आलवार संतों ने दक्षिण के श्रीरंगम से उत्तर के बद्रीनाथ तक 108 दिव्य देशमों का गान किया।"
+  },
+  {
+   "id": "xsp-019",
+   "level": 3,
+   "cat": "epic",
+   "en": "Who were the parents of the brave Ghatotkacha?",
+   "hi": "वीर घटोत्कच के माता-पिता कौन थे?",
+   "optEn": [
+    "Bhima and Hidimbi",
+    "Arjuna and Ulupi",
+    "Nakula and Karenumati",
+    "Yudhishthira and Devika"
+   ],
+   "optHi": [
+    "भीम और हिडिंबी",
+    "अर्जुन और उलूपी",
+    "नकुल और करेणुमती",
+    "युधिष्ठिर और देविका"
+   ],
+   "whyEn": "Ghatotkacha, son of Bhima and Hidimbi, fought bravely for the Pandavas at Kurukshetra.",
+   "whyHi": "भीम और हिडिंबी के पुत्र घटोत्कच कुरुक्षेत्र में पांडवों के लिए वीरता से लड़े।"
+  },
+  {
+   "id": "xsp-020",
+   "level": 3,
+   "cat": "epic",
+   "en": "Which brother of Jatayu told the vanaras that Sita was in Lanka?",
+   "hi": "जटायु के किस भाई ने वानरों को बताया कि सीता लंका में हैं?",
+   "optEn": [
+    "Sampati",
+    "Aruna",
+    "Garuda",
+    "Shyena"
+   ],
+   "optHi": [
+    "संपाति",
+    "अरुण",
+    "गरुड़",
+    "श्येन"
+   ],
+   "whyEn": "Old Sampati, who could see very far, looked across the sea and told them where Sita was kept.",
+   "whyHi": "बहुत दूर तक देख सकने वाले बूढ़े संपाति ने समुद्र के पार देखकर बताया कि सीता कहाँ हैं।"
+  },
+  {
+   "id": "xsp-021",
+   "level": 3,
+   "cat": "epic",
+   "en": "In the Ramayana, which vanara led the building of the bridge to Lanka?",
+   "hi": "रामायण में लंका तक पुल बनाने की अगुवाई किस वानर ने की?",
+   "optEn": [
+    "Nala",
+    "Angad",
+    "Sushena",
+    "Dvivida"
+   ],
+   "optHi": [
+    "नल",
+    "अंगद",
+    "सुषेण",
+    "द्विविद"
+   ],
+   "whyEn": "Nala, son of Vishwakarma the divine builder, led the vanaras in building the bridge.",
+   "whyHi": "दिव्य शिल्पी विश्वकर्मा के पुत्र नल ने वानरों के साथ पुल बनाने की अगुवाई की।"
+  },
+  {
+   "id": "xsp-022",
+   "level": 3,
+   "cat": "place",
+   "en": "The Panch Kedar temples of Lord Shiva are in which state?",
+   "hi": "भगवान शिव के पंच केदार मंदिर किस राज्य में हैं?",
+   "optEn": [
+    "Uttarakhand",
+    "Himachal Pradesh",
+    "Sikkim",
+    "Jammu and Kashmir"
+   ],
+   "optHi": [
+    "उत्तराखंड",
+    "हिमाचल प्रदेश",
+    "सिक्किम",
+    "जम्मू और कश्मीर"
+   ],
+   "whyEn": "Kedarnath, Tungnath, Rudranath, Madhyamaheshwar and Kalpeshwar are the five Kedar temples in the Garhwal Himalaya.",
+   "whyHi": "केदारनाथ, तुंगनाथ, रुद्रनाथ, मध्यमहेश्वर और कल्पेश्वर गढ़वाल हिमालय के पाँच केदार मंदिर हैं।"
+  },
+  {
+   "id": "xsp-023",
+   "level": 3,
+   "cat": "epic",
+   "en": "In the forest, the Pandavas got the Akshaya Patra, a vessel that never ran short of food, from which god?",
+   "hi": "वन में पांडवों को कभी खाली न होने वाला अक्षय पात्र किस देवता से मिला?",
+   "optEn": [
+    "Surya",
+    "Indra",
+    "Kubera",
+    "Varuna"
+   ],
+   "optHi": [
+    "सूर्य",
+    "इंद्र",
+    "कुबेर",
+    "वरुण"
+   ],
+   "whyEn": "Yudhishthira prayed to Surya, who gave the Akshaya Patra so that no guest went hungry.",
+   "whyHi": "युधिष्ठिर ने सूर्य से प्रार्थना की, जिन्होंने अक्षय पात्र दिया ताकि कोई अतिथि भूखा न जाए।"
+  },
+  {
+   "id": "xsp-024",
+   "level": 3,
+   "cat": "place",
+   "en": "Sammed Shikharji, where twenty Tirthankaras attained nirvana, is in which state?",
+   "hi": "सम्मेद शिखरजी, जहाँ बीस तीर्थंकरों ने निर्वाण पाया, किस राज्य में है?",
+   "optEn": [
+    "Jharkhand",
+    "Gujarat",
+    "Rajasthan",
+    "Karnataka"
+   ],
+   "optHi": [
+    "झारखंड",
+    "गुजरात",
+    "राजस्थान",
+    "कर्नाटक"
+   ],
+   "whyEn": "Sammed Shikharji on Parasnath hill in Jharkhand is one of the holiest places for Jains.",
+   "whyHi": "झारखंड की पारसनाथ पहाड़ी पर सम्मेद शिखरजी जैनों के सबसे पवित्र स्थानों में है।"
+  }
+ ]
+}
