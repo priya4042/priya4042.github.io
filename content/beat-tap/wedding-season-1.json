@@ -1,0 +1,334 @@
+{
+ "schema": 1,
+ "slug": "beat-tap",
+ "id": "wedding-season-1",
+ "version": 1,
+ "icon": "wedding",
+ "colour": "#FFB347",
+ "names": {
+  "en": "Wedding Season",
+  "hi": "शादी का मौसम",
+  "mr": "लग्नसराई",
+  "gu": "લગ્નની મોસમ",
+  "bn": "বিয়ের মরসুম",
+  "ta": "திருமண சீசன்",
+  "te": "పెళ్లిళ్ల సీజన్",
+  "kn": "ಮದುವೆ ಸೀಸನ್"
+ },
+ "tracks": [
+  {
+   "id": "baraat_arrives",
+   "name": "Baraat Arrives",
+   "about": {
+    "en": "Marching baraat dhol, brass and a band that will not stop",
+    "hi": "बारात का ढोल, बैंड बाजा और नाचती टोली",
+    "mr": "वरातीचा ढोल, बँड बाजा आणि नाचणारी मंडळी",
+    "gu": "જાનનો ઢોલ, બેન્ડ વાજા અને નાચતી ટોળી",
+    "bn": "বরযাত্রীর ঢোল, ব্যান্ড বাজনা আর নাচের দল",
+    "ta": "ஊர்வல டோல், பேண்ட் இசை, ஆடும் கூட்டம்",
+    "te": "ఊరేగింపు ఢోల్, బ్యాండ్ బాజా, ఆడే గుంపు",
+    "kn": "ದಿಬ್ಬಣದ ಢೋಲ್, ಬ್ಯಾಂಡ್ ಬಾಜಾ ಮತ್ತು ಕುಣಿಯುವ ಗುಂಪು"
+   },
+   "icon": "dhol",
+   "colour": "#FF9F1C",
+   "unlock": 6,
+   "bpm": 122,
+   "swing": 0.1,
+   "meter": "4/4",
+   "root": 60,
+   "seed": 5101,
+   "scale": "bilawal",
+   "chords": [
+    0,
+    4,
+    3,
+    4
+   ],
+   "form": [
+    [
+     "intro",
+     2
+    ],
+    [
+     "verse",
+     8
+    ],
+    [
+     "build",
+     2
+    ],
+    [
+     "chorus",
+     8
+    ],
+    [
+     "breakdown",
+     4
+    ],
+    [
+     "verse",
+     8
+    ],
+    [
+     "build",
+     2
+    ],
+    [
+     "chorus",
+     8
+    ],
+    [
+     "outro",
+     2
+    ]
+   ],
+   "drums": {
+    "dholLow": [
+     "X.......X.......",
+     "X..x..x.X..x..x.",
+     "X..x..x.X..x.xx."
+    ],
+    "dholHigh": [
+     "....x.......x...",
+     "..x.x.x...x.x.x.",
+     ".xx.xxx..xx.xxxx"
+    ],
+    "snare": [
+     "",
+     "....x.......x...",
+     "o...x..oo...x.o."
+    ],
+    "clap": [
+     "",
+     "",
+     "....X.......X..."
+    ],
+    "shaker": [
+     "o.o.o.o.o.o.o.o.",
+     "o.o.o.o.o.o.o.o.",
+     "xoxoxoxoxoxoxoxo"
+    ]
+   },
+   "fill": "dholHigh",
+   "bass": {
+    "voice": "bass",
+    "rhythm": "x...x.5.x...x.5."
+   },
+   "lead": {
+    "voice": "brass",
+    "shift": 0,
+    "verse": "x.x.x---x.x.x---x-x-x.x.x-------",
+    "chorus": "x.x.x.x.x-x-x---x.x.x.x.x---x---"
+   },
+   "comp": {
+    "voice": "harmonium"
+   },
+   "wet": 0.28
+  },
+  {
+   "id": "sangeet_raas",
+   "name": "Sangeet Raas",
+   "about": {
+    "en": "Sangeet night garba in 6/8 with dandiya sticks and santoor",
+    "hi": "संगीत की रात, 6/8 में गरबा, डांडिया और संतूर",
+    "mr": "संगीताची रात्र, 6/8 मध्ये गरबा, दांडिया आणि संतूर",
+    "gu": "સંગીતની રાત, 6/8માં ગરબા, દાંડિયા અને સંતૂર",
+    "bn": "সঙ্গীতের রাত, 6/8 তালে গরবা, ডান্ডিয়া আর সন্তুর",
+    "ta": "சங்கீத் இரவு: 6/8 கர்பா, டாண்டியா குச்சிகள், சந்தூர்",
+    "te": "సంగీత్ రాత్రి: 6/8లో గర్బా, దాండియా కర్రలు, సంతూర్",
+    "kn": "ಸಂಗೀತ್ ರಾತ್ರಿ: 6/8ರಲ್ಲಿ ಗರ್ಬಾ, ದಾಂಡಿಯಾ ಕೋಲುಗಳು, ಸಂತೂರ್"
+   },
+   "icon": "garba",
+   "colour": "#FF4FA3",
+   "unlock": 14,
+   "bpm": 92,
+   "meter": "6/8",
+   "root": 62,
+   "seed": 5202,
+   "scale": "yaman",
+   "chords": [
+    0,
+    4,
+    3,
+    0
+   ],
+   "form": [
+    [
+     "intro",
+     4
+    ],
+    [
+     "verse",
+     16
+    ],
+    [
+     "chorus",
+     16
+    ],
+    [
+     "breakdown",
+     8
+    ],
+    [
+     "build",
+     2
+    ],
+    [
+     "chorus",
+     16
+    ],
+    [
+     "outro",
+     4
+    ]
+   ],
+   "drums": {
+    "dholLow": [
+     "X.....X.....",
+     "X..x..X..x..",
+     "X..x..X.xx.x"
+    ],
+    "wood": [
+     "x.....x.....",
+     "x..x.xx..x.x",
+     "xx.x.xxx.x.x"
+    ],
+    "dholHigh": [
+     "",
+     "..x..x..x..x",
+     ".xx.xx.xx.xx"
+    ],
+    "shaker": [
+     "",
+     "o.o.o.o.o.o.",
+     "xoxoxoxoxoxo"
+    ]
+   },
+   "fill": "wood",
+   "bass": {
+    "voice": "bass",
+    "rhythm": "x.....5....."
+   },
+   "lead": {
+    "voice": "santoor",
+    "shift": 12,
+    "verse": "x-x.x.x---x.x.x.x-x-----",
+    "chorus": "x.x.x-x.x.x-x.x.x.x-----"
+   },
+   "comp": {
+    "voice": "harmonium"
+   },
+   "wet": 0.32
+  },
+  {
+   "id": "mehndi_shehnai",
+   "name": "Mehndi Shehnai",
+   "about": {
+    "en": "A shehnai-flavoured tune over tabla and a warm drone",
+    "hi": "तबले और तानपुरे पर शहनाई जैसी मीठी धुन",
+    "mr": "तबला आणि तानपुऱ्यावर सनईसारखी गोड धून",
+    "gu": "તબલા અને તાનપુરા પર શરણાઈ જેવી મીઠી ધૂન",
+    "bn": "তবলা আর তানপুরার ওপর সানাইয়ের মতো মিষ্টি সুর",
+    "ta": "தபேலா, தம்புராவுடன் ஷெனாய் போன்ற இனிய மெட்டு",
+    "te": "తబలా, తంబురాపై షెహనాయ్ లాంటి తీయని రాగం",
+    "kn": "ತಬಲಾ, ತಂಬೂರಿಯ ಮೇಲೆ ಶಹನಾಯಿಯಂತಹ ಸಿಹಿ ರಾಗ"
+   },
+   "icon": "shehnai",
+   "colour": "#FFD166",
+   "unlock": 24,
+   "bpm": 96,
+   "swing": 0.16,
+   "meter": "4/4",
+   "root": 62,
+   "seed": 5303,
+   "scale": "kafi",
+   "chords": [
+    0,
+    3,
+    4,
+    0
+   ],
+   "form": [
+    [
+     "intro",
+     4
+    ],
+    [
+     "verse",
+     8
+    ],
+    [
+     "chorus",
+     8
+    ],
+    [
+     "breakdown",
+     4
+    ],
+    [
+     "verse",
+     8
+    ],
+    [
+     "build",
+     2
+    ],
+    [
+     "chorus",
+     8
+    ],
+    [
+     "outro",
+     2
+    ]
+   ],
+   "drums": {
+    "tablaNa": [
+     "x...o...x...o...",
+     "x.oxx.o.x.oxx.o.",
+     "x.oxx.oxx.oxx.ox"
+    ],
+    "tablaGe": [
+     "x.......x.......",
+     "x..x....x..x....",
+     "x..x..x.x..x..x."
+    ],
+    "tablaTin": [
+     "",
+     "....o.......o...",
+     "..o...o...o...o."
+    ],
+    "dholLow": [
+     "",
+     "",
+     "X.......X......."
+    ],
+    "shaker": [
+     "",
+     "o.o.o.o.o.o.o.o.",
+     "o.o.o.o.o.o.o.o."
+    ]
+   },
+   "fill": "tablaNa",
+   "bass": {
+    "voice": "bass",
+    "rhythm": "x-------x.....x."
+   },
+   "lead": {
+    "voice": "shehnai",
+    "shift": 0,
+    "verse": "x---x.x.x-------x.x.x---x-------",
+    "chorus": "x.x.x-x-x---x.x.x.x.x-x-x-------"
+   },
+   "comp": {
+    "voice": "pad"
+   },
+   "arp": {
+    "voice": "santoor",
+    "rhythm": "x...x...x...x.x."
+   },
+   "drone": true,
+   "wet": 0.36
+  }
+ ]
+}

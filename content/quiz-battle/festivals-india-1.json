@@ -1,0 +1,1474 @@
+{
+ "schema": 1,
+ "id": "festivals-india-1",
+ "version": 1,
+ "category": "gk",
+ "names": {
+  "en": "Festivals of India",
+  "hi": "भारत के त्योहार",
+  "mr": "भारतातील सण",
+  "gu": "ભારતના તહેવારો",
+  "bn": "ভারতের উৎসব",
+  "ta": "இந்தியாவின் பண்டிகைகள்",
+  "te": "భారతదేశ పండుగలు",
+  "kn": "ಭಾರತದ ಹಬ್ಬಗಳು"
+ },
+ "questions": [
+  {
+   "en": [
+    "Pongal is mainly celebrated in which state?",
+    "Tamil Nadu",
+    "Kerala",
+    "Karnataka",
+    "Odisha"
+   ],
+   "hi": [
+    "पोंगल मुख्य रूप से किस राज्य में मनाया जाता है?",
+    "तमिलनाडु",
+    "केरल",
+    "कर्नाटक",
+    "ओडिशा"
+   ]
+  },
+  {
+   "en": [
+    "The festival dish pongal is cooked mainly from freshly harvested?",
+    "Rice",
+    "Wheat",
+    "Corn",
+    "Barley"
+   ],
+   "hi": [
+    "त्योहार का पकवान पोंगल मुख्य रूप से किस नई फ़सल से पकाया जाता है?",
+    "चावल",
+    "गेहूँ",
+    "मक्का",
+    "जौ"
+   ]
+  },
+  {
+   "en": [
+    "Kite flying is the heart of which January festival in Gujarat?",
+    "Uttarayan",
+    "Navratri",
+    "Holi",
+    "Diwali"
+   ],
+   "hi": [
+    "गुजरात में जनवरी का कौन-सा त्योहार पतंगबाज़ी के लिए मशहूर है?",
+    "उत्तरायण",
+    "नवरात्रि",
+    "होली",
+    "दिवाली"
+   ]
+  },
+  {
+   "en": [
+    "Which spring festival is known as the festival of colours?",
+    "Holi",
+    "Diwali",
+    "Pongal",
+    "Onam"
+   ],
+   "hi": [
+    "रंगों का त्योहार कहलाने वाला वसंत का त्योहार कौन-सा है?",
+    "होली",
+    "दिवाली",
+    "पोंगल",
+    "ओणम"
+   ]
+  },
+  {
+   "en": [
+    "The bonfire lit on the night before the festival of colours is called?",
+    "Holika Dahan",
+    "Ravan Dahan",
+    "Lohri",
+    "Bhogi"
+   ],
+   "hi": [
+    "रंगों के त्योहार से पहले की रात जलाई जाने वाली आग को क्या कहते हैं?",
+    "होलिका दहन",
+    "रावण दहन",
+    "लोहड़ी",
+    "भोगी"
+   ]
+  },
+  {
+   "en": [
+    "Dussehra celebrates Lord Rama's victory over?",
+    "Ravana",
+    "Kansa",
+    "Mahishasura",
+    "Hiranyakashipu"
+   ],
+   "hi": [
+    "दशहरा भगवान राम की किस पर जीत का पर्व है?",
+    "रावण",
+    "कंस",
+    "महिषासुर",
+    "हिरण्यकशिपु"
+   ]
+  },
+  {
+   "en": [
+    "How many nights does Navratri last?",
+    "9",
+    "7",
+    "10",
+    "5"
+   ],
+   "hi": [
+    "नवरात्रि का पर्व कितनी रातों तक चलता है?",
+    "9",
+    "7",
+    "10",
+    "5"
+   ]
+  },
+  {
+   "en": [
+    "Garba and dandiya raas are danced during which festival?",
+    "Navratri",
+    "Holi",
+    "Diwali",
+    "Onam"
+   ],
+   "hi": [
+    "गरबा और डांडिया रास किस त्योहार में खेले जाते हैं?",
+    "नवरात्रि",
+    "होली",
+    "दिवाली",
+    "ओणम"
+   ]
+  },
+  {
+   "en": [
+    "Durga Puja is the biggest festival of which state?",
+    "West Bengal",
+    "Punjab",
+    "Gujarat",
+    "Kerala"
+   ],
+   "hi": [
+    "दुर्गा पूजा किस राज्य का सबसे बड़ा त्योहार है?",
+    "पश्चिम बंगाल",
+    "पंजाब",
+    "गुजरात",
+    "केरल"
+   ]
+  },
+  {
+   "en": [
+    "Ganesh Chaturthi is celebrated most grandly in which state?",
+    "Maharashtra",
+    "Punjab",
+    "Assam",
+    "Bihar"
+   ],
+   "hi": [
+    "गणेश चतुर्थी सबसे धूमधाम से किस राज्य में मनाई जाती है?",
+    "महाराष्ट्र",
+    "पंजाब",
+    "असम",
+    "बिहार"
+   ]
+  },
+  {
+   "en": [
+    "Raksha Bandhan celebrates the bond between?",
+    "Brothers and sisters",
+    "Teachers and pupils",
+    "Husbands and wives",
+    "Neighbours"
+   ],
+   "hi": [
+    "रक्षाबंधन किस रिश्ते का त्योहार है?",
+    "भाई-बहन",
+    "गुरु-शिष्य",
+    "पति-पत्नी",
+    "पड़ोसी"
+   ]
+  },
+  {
+   "en": [
+    "Janmashtami celebrates the birth of which god?",
+    "Krishna",
+    "Rama",
+    "Shiva",
+    "Ganesha"
+   ],
+   "hi": [
+    "जन्माष्टमी किस भगवान के जन्म का उत्सव है?",
+    "कृष्ण",
+    "राम",
+    "शिव",
+    "गणेश"
+   ]
+  },
+  {
+   "en": [
+    "Breaking a high pot of curd, called Dahi Handi, is part of which festival?",
+    "Janmashtami",
+    "Holi",
+    "Diwali",
+    "Ram Navami"
+   ],
+   "hi": [
+    "ऊँची टँगी दही की मटकी फोड़ना, यानी दही हांडी, किस त्योहार का हिस्सा है?",
+    "जन्माष्टमी",
+    "होली",
+    "दिवाली",
+    "राम नवमी"
+   ]
+  },
+  {
+   "en": [
+    "Which festival is the great night of Lord Shiva?",
+    "Maha Shivaratri",
+    "Navratri",
+    "Karva Chauth",
+    "Diwali"
+   ],
+   "hi": [
+    "भगवान शिव की महान रात का त्योहार कौन-सा है?",
+    "महाशिवरात्रि",
+    "नवरात्रि",
+    "करवा चौथ",
+    "दिवाली"
+   ]
+  },
+  {
+   "en": [
+    "Chhath Puja, a big festival in Bihar, is devoted to which god?",
+    "Surya, the Sun",
+    "Indra",
+    "Agni",
+    "Varuna"
+   ],
+   "hi": [
+    "बिहार का बड़ा त्योहार छठ पूजा किस देवता को समर्पित है?",
+    "सूर्य देव",
+    "इंद्र",
+    "अग्नि",
+    "वरुण"
+   ]
+  },
+  {
+   "en": [
+    "The Karva Chauth fast is broken after seeing the?",
+    "Moon",
+    "Sunrise",
+    "First star",
+    "Rainbow"
+   ],
+   "hi": [
+    "करवा चौथ का व्रत किसे देखकर खोला जाता है?",
+    "चाँद",
+    "सूर्योदय",
+    "पहला तारा",
+    "इंद्रधनुष"
+   ]
+  },
+  {
+   "en": [
+    "The Teej festival is mainly devoted to which goddess?",
+    "Parvati",
+    "Lakshmi",
+    "Saraswati",
+    "Sita"
+   ],
+   "hi": [
+    "तीज का त्योहार मुख्य रूप से किस देवी को समर्पित है?",
+    "पार्वती",
+    "लक्ष्मी",
+    "सरस्वती",
+    "सीता"
+   ]
+  },
+  {
+   "en": [
+    "Gudi Padwa is the New Year festival of which state?",
+    "Maharashtra",
+    "Kerala",
+    "Punjab",
+    "Assam"
+   ],
+   "hi": [
+    "गुड़ी पड़वा किस राज्य का नववर्ष त्योहार है?",
+    "महाराष्ट्र",
+    "केरल",
+    "पंजाब",
+    "असम"
+   ]
+  },
+  {
+   "en": [
+    "Ugadi is New Year in Andhra Pradesh, Telangana and which other state?",
+    "Karnataka",
+    "Kerala",
+    "Odisha",
+    "Goa"
+   ],
+   "hi": [
+    "उगादि आंध्र प्रदेश, तेलंगाना और किस राज्य का नववर्ष है?",
+    "कर्नाटक",
+    "केरल",
+    "ओडिशा",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Vaisakhi is a harvest festival celebrated mainly in which state?",
+    "Punjab",
+    "Kerala",
+    "Tamil Nadu",
+    "Odisha"
+   ],
+   "hi": [
+    "फ़सल का त्योहार बैसाखी मुख्य रूप से किस राज्य में मनाया जाता है?",
+    "पंजाब",
+    "केरल",
+    "तमिलनाडु",
+    "ओडिशा"
+   ]
+  },
+  {
+   "en": [
+    "On Vaisakhi in 1699, Guru Gobind Singh founded the?",
+    "Khalsa",
+    "Golden Temple",
+    "Langar",
+    "Akal Takht"
+   ],
+   "hi": [
+    "1699 की बैसाखी पर गुरु गोबिंद सिंह ने किसकी स्थापना की?",
+    "ख़ालसा",
+    "स्वर्ण मंदिर",
+    "लंगर",
+    "अकाल तख़्त"
+   ]
+  },
+  {
+   "en": [
+    "Guru Nanak's birth anniversary is celebrated as?",
+    "Gurpurab",
+    "Baisakhi",
+    "Hola Mohalla",
+    "Lohri"
+   ],
+   "hi": [
+    "गुरु नानक देव जी की जयंती किस रूप में मनाई जाती है?",
+    "गुरपुरब",
+    "बैसाखी",
+    "होला मोहल्ला",
+    "लोहड़ी"
+   ]
+  },
+  {
+   "en": [
+    "Hola Mohalla, a Sikh festival of martial skills, is held at?",
+    "Anandpur Sahib",
+    "Amritsar",
+    "Patna Sahib",
+    "Nanded"
+   ],
+   "hi": [
+    "युद्ध कौशल का सिख त्योहार होला मोहल्ला कहाँ होता है?",
+    "आनंदपुर साहिब",
+    "अमृतसर",
+    "पटना साहिब",
+    "नांदेड़"
+   ]
+  },
+  {
+   "en": [
+    "Sikhs celebrate Bandi Chhor Divas on the same day as?",
+    "Diwali",
+    "Holi",
+    "Lohri",
+    "Dussehra"
+   ],
+   "hi": [
+    "सिख बंदी छोड़ दिवस किस त्योहार के दिन मनाते हैं?",
+    "दिवाली",
+    "होली",
+    "लोहड़ी",
+    "दशहरा"
+   ]
+  },
+  {
+   "en": [
+    "Eid al-Fitr marks the end of which month of fasting?",
+    "Ramadan",
+    "Muharram",
+    "Rajab",
+    "Safar"
+   ],
+   "hi": [
+    "ईद-उल-फ़ित्र रोज़ों के किस महीने के अंत पर मनाई जाती है?",
+    "रमज़ान",
+    "मुहर्रम",
+    "रजब",
+    "सफ़र"
+   ]
+  },
+  {
+   "en": [
+    "Eid al-Adha is popularly called what in India?",
+    "Bakrid",
+    "Shab-e-Barat",
+    "Milad-un-Nabi",
+    "Muharram"
+   ],
+   "hi": [
+    "भारत में ईद-उल-अज़हा को आम तौर पर क्या कहते हैं?",
+    "बकरीद",
+    "शब-ए-बारात",
+    "मिलाद-उन-नबी",
+    "मुहर्रम"
+   ]
+  },
+  {
+   "en": [
+    "Eid dates shift each year because the Islamic calendar follows the?",
+    "Moon",
+    "Sun",
+    "Seasons",
+    "Harvest"
+   ],
+   "hi": [
+    "ईद की तारीख़ हर साल बदलती है क्योंकि इस्लामी कैलेंडर किस पर चलता है?",
+    "चाँद",
+    "सूरज",
+    "मौसम",
+    "फ़सल"
+   ]
+  },
+  {
+   "en": [
+    "The meal that breaks the daily Ramadan fast at sunset is called?",
+    "Iftar",
+    "Sehri",
+    "Langar",
+    "Prasad"
+   ],
+   "hi": [
+    "रमज़ान में सूर्यास्त पर रोज़ा खोलने वाला भोजन क्या कहलाता है?",
+    "इफ़्तार",
+    "सहरी",
+    "लंगर",
+    "प्रसाद"
+   ]
+  },
+  {
+   "en": [
+    "Sheer khurma, made with vermicelli and milk, is a treat on which day?",
+    "Eid al-Fitr",
+    "Diwali",
+    "Christmas",
+    "Onam"
+   ],
+   "hi": [
+    "सेंवई और दूध से बना शीर ख़ुरमा किस दिन की ख़ास मिठाई है?",
+    "ईद-उल-फ़ित्र",
+    "दिवाली",
+    "क्रिसमस",
+    "ओणम"
+   ]
+  },
+  {
+   "en": [
+    "Christmas celebrates the birth of?",
+    "Jesus Christ",
+    "St. Peter",
+    "St. Francis",
+    "St. Thomas"
+   ],
+   "hi": [
+    "क्रिसमस किसके जन्म का उत्सव है?",
+    "ईसा मसीह",
+    "संत पीटर",
+    "संत फ़्रांसिस",
+    "संत थॉमस"
+   ]
+  },
+  {
+   "en": [
+    "On which date is Christmas Day celebrated in India?",
+    "25 December",
+    "1 January",
+    "24 November",
+    "6 January"
+   ],
+   "hi": [
+    "भारत में क्रिसमस किस तारीख़ को मनाया जाता है?",
+    "25 दिसंबर",
+    "1 जनवरी",
+    "24 नवंबर",
+    "6 जनवरी"
+   ]
+  },
+  {
+   "en": [
+    "Good Friday remembers which event?",
+    "Crucifixion of Jesus",
+    "Birth of Jesus",
+    "Resurrection of Jesus",
+    "Baptism of Jesus"
+   ],
+   "hi": [
+    "गुड फ़्राइडे किस घटना की याद में है?",
+    "ईसा मसीह को सूली",
+    "ईसा मसीह का जन्म",
+    "ईसा मसीह का पुनर्जीवन",
+    "ईसा मसीह का बपतिस्मा"
+   ]
+  },
+  {
+   "en": [
+    "Easter Sunday celebrates which event?",
+    "Resurrection of Jesus",
+    "Birth of Jesus",
+    "Crucifixion of Jesus",
+    "Baptism of Jesus"
+   ],
+   "hi": [
+    "ईस्टर संडे किस घटना का उत्सव है?",
+    "ईसा मसीह का पुनर्जीवन",
+    "ईसा मसीह का जन्म",
+    "ईसा मसीह को सूली",
+    "ईसा मसीह का बपतिस्मा"
+   ]
+  },
+  {
+   "en": [
+    "Buddha Purnima is also known by which name?",
+    "Vesak",
+    "Losar",
+    "Hemis",
+    "Paryushan"
+   ],
+   "hi": [
+    "बुद्ध पूर्णिमा को और किस नाम से जाना जाता है?",
+    "वेसाक",
+    "लोसर",
+    "हेमिस",
+    "पर्युषण"
+   ]
+  },
+  {
+   "en": [
+    "The Hemis festival with masked dances is held in?",
+    "Ladakh",
+    "Goa",
+    "Kerala",
+    "Gujarat"
+   ],
+   "hi": [
+    "मुखौटा नृत्य वाला हेमिस उत्सव कहाँ मनाया जाता है?",
+    "लद्दाख",
+    "गोवा",
+    "केरल",
+    "गुजरात"
+   ]
+  },
+  {
+   "en": [
+    "Losar marks the New Year in which tradition?",
+    "Tibetan Buddhist",
+    "Jain",
+    "Parsi",
+    "Sikh"
+   ],
+   "hi": [
+    "लोसर किस परंपरा का नववर्ष है?",
+    "तिब्बती बौद्ध",
+    "जैन",
+    "पारसी",
+    "सिख"
+   ]
+  },
+  {
+   "en": [
+    "Mahavir Jayanti is a major festival of which faith?",
+    "Jainism",
+    "Buddhism",
+    "Sikhism",
+    "Zoroastrianism"
+   ],
+   "hi": [
+    "महावीर जयंती किस धर्म का प्रमुख त्योहार है?",
+    "जैन धर्म",
+    "बौद्ध धर्म",
+    "सिख धर्म",
+    "पारसी धर्म"
+   ]
+  },
+  {
+   "en": [
+    "Paryushan, a time of fasting and forgiveness, is observed by?",
+    "Jains",
+    "Parsis",
+    "Sikhs",
+    "Buddhists"
+   ],
+   "hi": [
+    "उपवास और क्षमा का पर्व पर्युषण कौन मनाते हैं?",
+    "जैन",
+    "पारसी",
+    "सिख",
+    "बौद्ध"
+   ]
+  },
+  {
+   "en": [
+    "Navroz is the New Year of which community in India?",
+    "Parsis",
+    "Jains",
+    "Sikhs",
+    "Christians"
+   ],
+   "hi": [
+    "भारत में नवरोज़ किस समुदाय का नववर्ष है?",
+    "पारसी",
+    "जैन",
+    "सिख",
+    "ईसाई"
+   ]
+  },
+  {
+   "en": [
+    "Onam is linked with the yearly return of which legendary king?",
+    "Mahabali",
+    "Ashoka",
+    "Vikramaditya",
+    "Harishchandra"
+   ],
+   "hi": [
+    "ओणम किस पौराणिक राजा के हर साल लौटने से जुड़ा है?",
+    "महाबली",
+    "अशोक",
+    "विक्रमादित्य",
+    "हरिश्चंद्र"
+   ]
+  },
+  {
+   "en": [
+    "The famous snake boat races of Kerala are called?",
+    "Vallam Kali",
+    "Kambala",
+    "Jallikattu",
+    "Theyyam"
+   ],
+   "hi": [
+    "केरल की मशहूर सर्प नौका दौड़ को क्या कहते हैं?",
+    "वल्लम कली",
+    "कंबाला",
+    "जल्लीकट्टू",
+    "तेय्यम"
+   ]
+  },
+  {
+   "en": [
+    "Pookalam, a carpet of flowers, is made at which festival?",
+    "Onam",
+    "Pongal",
+    "Ugadi",
+    "Lohri"
+   ],
+   "hi": [
+    "फूलों का कालीन पूक्कलम किस त्योहार पर बनाया जाता है?",
+    "ओणम",
+    "पोंगल",
+    "उगादि",
+    "लोहड़ी"
+   ]
+  },
+  {
+   "en": [
+    "Jallikattu, the bull-taming sport, is held during which festival?",
+    "Pongal",
+    "Onam",
+    "Diwali",
+    "Ugadi"
+   ],
+   "hi": [
+    "सांड को क़ाबू करने का खेल जल्लीकट्टू किस त्योहार के दौरान होता है?",
+    "पोंगल",
+    "ओणम",
+    "दिवाली",
+    "उगादि"
+   ]
+  },
+  {
+   "en": [
+    "Thrissur Pooram, famous for decorated elephants, is in which state?",
+    "Kerala",
+    "Karnataka",
+    "Assam",
+    "Odisha"
+   ],
+   "hi": [
+    "सजे हुए हाथियों के लिए मशहूर त्रिशूर पूरम किस राज्य में है?",
+    "केरल",
+    "कर्नाटक",
+    "असम",
+    "ओडिशा"
+   ]
+  },
+  {
+   "en": [
+    "The Puri Rath Yatra honours which deity?",
+    "Lord Jagannath",
+    "Lord Rama",
+    "Lord Shiva",
+    "Lord Ganesha"
+   ],
+   "hi": [
+    "पुरी की रथ यात्रा किस देवता के सम्मान में निकलती है?",
+    "भगवान जगन्नाथ",
+    "भगवान राम",
+    "भगवान शिव",
+    "भगवान गणेश"
+   ]
+  },
+  {
+   "en": [
+    "Wangala, the harvest festival of the Garo people, is held in?",
+    "Meghalaya",
+    "Nagaland",
+    "Mizoram",
+    "Tripura"
+   ],
+   "hi": [
+    "गारो लोगों का फ़सल उत्सव वांगला किस राज्य में होता है?",
+    "मेघालय",
+    "नागालैंड",
+    "मिज़ोरम",
+    "त्रिपुरा"
+   ]
+  },
+  {
+   "en": [
+    "Losoong, a harvest and New Year festival, is celebrated in?",
+    "Sikkim",
+    "Goa",
+    "Punjab",
+    "Gujarat"
+   ],
+   "hi": [
+    "फ़सल और नववर्ष का त्योहार लोसूंग किस राज्य में मनाया जाता है?",
+    "सिक्किम",
+    "गोवा",
+    "पंजाब",
+    "गुजरात"
+   ]
+  },
+  {
+   "en": [
+    "Chapchar Kut, a spring festival, is celebrated in which state?",
+    "Mizoram",
+    "Kerala",
+    "Rajasthan",
+    "Bihar"
+   ],
+   "hi": [
+    "वसंत का त्योहार चापचार कुट किस राज्य में मनाया जाता है?",
+    "मिज़ोरम",
+    "केरल",
+    "राजस्थान",
+    "बिहार"
+   ]
+  },
+  {
+   "en": [
+    "Kamakhya Temple, home of the Ambubachi Mela, is in which city?",
+    "Guwahati",
+    "Shillong",
+    "Imphal",
+    "Agartala"
+   ],
+   "hi": [
+    "अंबुबाची मेले वाला कामाख्या मंदिर किस शहर में है?",
+    "गुवाहाटी",
+    "शिलांग",
+    "इंफाल",
+    "अगरतला"
+   ]
+  },
+  {
+   "en": [
+    "The Kumbh Mela is held at Prayagraj, Haridwar, Ujjain and?",
+    "Nashik",
+    "Varanasi",
+    "Ayodhya",
+    "Mathura"
+   ],
+   "hi": [
+    "कुंभ मेला प्रयागराज, हरिद्वार, उज्जैन और कहाँ लगता है?",
+    "नासिक",
+    "वाराणसी",
+    "अयोध्या",
+    "मथुरा"
+   ]
+  },
+  {
+   "en": [
+    "At Prayagraj's Sangam, the Ganga and Yamuna meet which unseen river?",
+    "Saraswati",
+    "Godavari",
+    "Narmada",
+    "Sindhu"
+   ],
+   "hi": [
+    "प्रयागराज के संगम पर गंगा और यमुना किस अदृश्य नदी से मिलती हैं?",
+    "सरस्वती",
+    "गोदावरी",
+    "नर्मदा",
+    "सिंधु"
+   ]
+  },
+  {
+   "en": [
+    "A Purna Kumbh Mela returns to the same place after how many years?",
+    "12",
+    "6",
+    "4",
+    "10"
+   ],
+   "hi": [
+    "पूर्ण कुंभ मेला एक ही जगह कितने साल बाद लौटता है?",
+    "12",
+    "6",
+    "4",
+    "10"
+   ]
+  },
+  {
+   "en": [
+    "The Pushkar camel fair is held in which state?",
+    "Rajasthan",
+    "Gujarat",
+    "Punjab",
+    "Haryana"
+   ],
+   "hi": [
+    "पुष्कर का ऊँट मेला किस राज्य में लगता है?",
+    "राजस्थान",
+    "गुजरात",
+    "पंजाब",
+    "हरियाणा"
+   ]
+  },
+  {
+   "en": [
+    "Bastar Dussehra, lasting about 75 days, is held in which state?",
+    "Chhattisgarh",
+    "Odisha",
+    "Jharkhand",
+    "Madhya Pradesh"
+   ],
+   "hi": [
+    "लगभग 75 दिन चलने वाला बस्तर दशहरा किस राज्य में होता है?",
+    "छत्तीसगढ़",
+    "ओडिशा",
+    "झारखंड",
+    "मध्य प्रदेश"
+   ]
+  },
+  {
+   "en": [
+    "The royal Mysuru Dasara is celebrated in which state?",
+    "Karnataka",
+    "Tamil Nadu",
+    "Kerala",
+    "Maharashtra"
+   ],
+   "hi": [
+    "शाही मैसूरु दसरा किस राज्य में मनाया जाता है?",
+    "कर्नाटक",
+    "तमिलनाडु",
+    "केरल",
+    "महाराष्ट्र"
+   ]
+  },
+  {
+   "en": [
+    "Kullu Dussehra is celebrated in which state?",
+    "Himachal Pradesh",
+    "Uttarakhand",
+    "Punjab",
+    "Sikkim"
+   ],
+   "hi": [
+    "कुल्लू दशहरा किस राज्य में मनाया जाता है?",
+    "हिमाचल प्रदेश",
+    "उत्तराखंड",
+    "पंजाब",
+    "सिक्किम"
+   ]
+  },
+  {
+   "en": [
+    "Lathmar Holi, played with sticks, is famous in which town?",
+    "Barsana",
+    "Varanasi",
+    "Ayodhya",
+    "Haridwar"
+   ],
+   "hi": [
+    "लाठियों से खेली जाने वाली लट्ठमार होली किस क़स्बे में मशहूर है?",
+    "बरसाना",
+    "वाराणसी",
+    "अयोध्या",
+    "हरिद्वार"
+   ]
+  },
+  {
+   "en": [
+    "Which colour do people wear on Basant Panchami?",
+    "Yellow",
+    "Red",
+    "Green",
+    "White"
+   ],
+   "hi": [
+    "बसंत पंचमी पर लोग किस रंग के कपड़े पहनते हैं?",
+    "पीला",
+    "लाल",
+    "हरा",
+    "सफ़ेद"
+   ]
+  },
+  {
+   "en": [
+    "On Diwali night, many homes worship which goddess of wealth?",
+    "Lakshmi",
+    "Saraswati",
+    "Parvati",
+    "Durga"
+   ],
+   "hi": [
+    "दिवाली की रात कई घरों में धन की किस देवी की पूजा होती है?",
+    "लक्ष्मी",
+    "सरस्वती",
+    "पार्वती",
+    "दुर्गा"
+   ]
+  },
+  {
+   "en": [
+    "Diwali falls on the night of the?",
+    "New moon",
+    "Full moon",
+    "Half moon",
+    "Eclipse"
+   ],
+   "hi": [
+    "दिवाली किस रात को पड़ती है?",
+    "अमावस्या",
+    "पूर्णिमा",
+    "अष्टमी",
+    "ग्रहण"
+   ]
+  },
+  {
+   "en": [
+    "Govardhan Puja recalls which god lifting a hill to shelter villagers?",
+    "Krishna",
+    "Ganesha",
+    "Rama",
+    "Shiva"
+   ],
+   "hi": [
+    "गोवर्धन पूजा किस भगवान के गाँव वालों को बचाने के लिए पर्वत उठाने की याद है?",
+    "कृष्ण",
+    "गणेश",
+    "राम",
+    "शिव"
+   ]
+  },
+  {
+   "en": [
+    "Small clay lamps lit on Diwali are called?",
+    "Diyas",
+    "Rangoli",
+    "Toran",
+    "Kalash"
+   ],
+   "hi": [
+    "दिवाली पर जलने वाले मिट्टी के छोटे पात्र कहलाते हैं?",
+    "दीये",
+    "रंगोली",
+    "तोरण",
+    "कलश"
+   ]
+  },
+  {
+   "en": [
+    "Colourful patterns made on floors at festivals are called?",
+    "Rangoli",
+    "Mehendi",
+    "Toran",
+    "Diya"
+   ],
+   "hi": [
+    "त्योहारों पर फ़र्श पर बनाए जाने वाले रंगीन डिज़ाइन कहलाते हैं?",
+    "रंगोली",
+    "मेहंदी",
+    "तोरण",
+    "दीया"
+   ]
+  },
+  {
+   "en": [
+    "In Tamil Nadu, rice-flour designs at the doorstep are called?",
+    "Kolam",
+    "Alpana",
+    "Mandana",
+    "Aipan"
+   ],
+   "hi": [
+    "तमिलनाडु में दरवाज़े पर चावल के आटे से बने डिज़ाइन कहलाते हैं?",
+    "कोलम",
+    "अल्पना",
+    "मांडना",
+    "ऐपण"
+   ]
+  },
+  {
+   "en": [
+    "Lowering the idols into water at the end of Durga Puja is called?",
+    "Visarjan",
+    "Aarti",
+    "Bhog",
+    "Pandal"
+   ],
+   "hi": [
+    "दुर्गा पूजा के अंत में मूर्ति को जल में प्रवाहित करना कहलाता है?",
+    "विसर्जन",
+    "आरती",
+    "भोग",
+    "पंडाल"
+   ]
+  },
+  {
+   "en": [
+    "The temporary structures that house idols at Durga Puja are?",
+    "Pandals",
+    "Ghats",
+    "Havelis",
+    "Gopurams"
+   ],
+   "hi": [
+    "दुर्गा पूजा में मूर्तियाँ रखने के लिए बने अस्थायी ढाँचे कहलाते हैं?",
+    "पंडाल",
+    "घाट",
+    "हवेली",
+    "गोपुरम"
+   ]
+  },
+  {
+   "en": [
+    "The first day of Pongal, when old things are burnt, is called?",
+    "Bhogi",
+    "Mattu Pongal",
+    "Kaanum Pongal",
+    "Thai Pongal"
+   ],
+   "hi": [
+    "पोंगल का पहला दिन, जब पुरानी चीज़ें जलाई जाती हैं, कहलाता है?",
+    "भोगी",
+    "मट्टू पोंगल",
+    "काणुम पोंगल",
+    "थाई पोंगल"
+   ]
+  },
+  {
+   "en": [
+    "Mattu Pongal is a day to honour which animals?",
+    "Cattle",
+    "Elephants",
+    "Horses",
+    "Peacocks"
+   ],
+   "hi": [
+    "मट्टू पोंगल किन जानवरों के सम्मान का दिन है?",
+    "मवेशी",
+    "हाथी",
+    "घोड़े",
+    "मोर"
+   ]
+  },
+  {
+   "en": [
+    "Karthigai Deepam, a festival of lamps, is big in which state?",
+    "Tamil Nadu",
+    "Punjab",
+    "Gujarat",
+    "Bihar"
+   ],
+   "hi": [
+    "दीपों का त्योहार कार्तिगई दीपम किस राज्य में धूमधाम से मनाया जाता है?",
+    "तमिलनाडु",
+    "पंजाब",
+    "गुजरात",
+    "बिहार"
+   ]
+  },
+  {
+   "en": [
+    "Shigmo, a spring festival with parades, belongs to which state?",
+    "Goa",
+    "Kerala",
+    "Gujarat",
+    "Odisha"
+   ],
+   "hi": [
+    "झाँकियों वाला वसंत उत्सव शिगमो किस राज्य का है?",
+    "गोवा",
+    "केरल",
+    "गुजरात",
+    "ओडिशा"
+   ]
+  },
+  {
+   "en": [
+    "Nuakhai, the festival of new rice, is celebrated in which state?",
+    "Odisha",
+    "Punjab",
+    "Goa",
+    "Haryana"
+   ],
+   "hi": [
+    "नए चावल का त्योहार नुआखाई किस राज्य में मनाया जाता है?",
+    "ओडिशा",
+    "पंजाब",
+    "गोवा",
+    "हरियाणा"
+   ]
+  },
+  {
+   "en": [
+    "Poila Baishakh is the New Year in which state?",
+    "West Bengal",
+    "Kerala",
+    "Punjab",
+    "Gujarat"
+   ],
+   "hi": [
+    "पोइला बैसाख किस राज्य का नववर्ष है?",
+    "पश्चिम बंगाल",
+    "केरल",
+    "पंजाब",
+    "गुजरात"
+   ]
+  },
+  {
+   "en": [
+    "Vishu, with its Vishukkani display, is New Year in which state?",
+    "Kerala",
+    "Bihar",
+    "Assam",
+    "Rajasthan"
+   ],
+   "hi": [
+    "विषुक्कणि की सजावट वाला विशु किस राज्य का नववर्ष है?",
+    "केरल",
+    "बिहार",
+    "असम",
+    "राजस्थान"
+   ]
+  },
+  {
+   "en": [
+    "Puthandu is the New Year of which language community?",
+    "Tamil",
+    "Telugu",
+    "Malayalam",
+    "Kannada"
+   ],
+   "hi": [
+    "पुथांडु किस भाषा समुदाय का नववर्ष है?",
+    "तमिल",
+    "तेलुगु",
+    "मलयालम",
+    "कन्नड़"
+   ]
+  },
+  {
+   "en": [
+    "Cheti Chand is the New Year festival of which community?",
+    "Sindhis",
+    "Parsis",
+    "Bengalis",
+    "Malayalis"
+   ],
+   "hi": [
+    "चेटी चंड किस समुदाय का नववर्ष त्योहार है?",
+    "सिंधी",
+    "पारसी",
+    "बंगाली",
+    "मलयाली"
+   ]
+  },
+  {
+   "en": [
+    "Bestu Varas, the day after Diwali, is New Year in which state?",
+    "Gujarat",
+    "Kerala",
+    "Assam",
+    "Punjab"
+   ],
+   "hi": [
+    "दिवाली के अगले दिन बेस्तु वरस किस राज्य का नववर्ष है?",
+    "गुजरात",
+    "केरल",
+    "असम",
+    "पंजाब"
+   ]
+  },
+  {
+   "en": [
+    "During Navratri, which goddess is worshipped in nine forms?",
+    "Durga",
+    "Lakshmi",
+    "Saraswati",
+    "Sita"
+   ],
+   "hi": [
+    "नवरात्रि में किस देवी के नौ रूपों की पूजा होती है?",
+    "दुर्गा",
+    "लक्ष्मी",
+    "सरस्वती",
+    "सीता"
+   ]
+  },
+  {
+   "en": [
+    "In Bengal, Kali Puja falls on the same night as?",
+    "Diwali",
+    "Holi",
+    "Onam",
+    "Pongal"
+   ],
+   "hi": [
+    "बंगाल में काली पूजा किस त्योहार की रात को होती है?",
+    "दिवाली",
+    "होली",
+    "ओणम",
+    "पोंगल"
+   ]
+  },
+  {
+   "en": [
+    "Guru Purnima is a day to honour one's?",
+    "Teachers",
+    "Parents",
+    "Ancestors",
+    "Friends"
+   ],
+   "hi": [
+    "गुरु पूर्णिमा के दिन लोग किनका आदर करते हैं?",
+    "शिक्षक",
+    "माता-पिता",
+    "पूर्वज",
+    "मित्र"
+   ]
+  },
+  {
+   "en": [
+    "Ganesh idols are immersed at the end of the festival on which day?",
+    "Anant Chaturdashi",
+    "Rishi Panchami",
+    "Akshaya Tritiya",
+    "Dhanteras"
+   ],
+   "hi": [
+    "उत्सव के अंत में गणेश मूर्तियों का विसर्जन किस दिन होता है?",
+    "अनंत चतुर्दशी",
+    "ऋषि पंचमी",
+    "अक्षय तृतीया",
+    "धनतेरस"
+   ]
+  },
+  {
+   "en": [
+    "Which sweet is offered to Lord Ganesha as his favourite?",
+    "Modak",
+    "Rasgulla",
+    "Jalebi",
+    "Barfi"
+   ],
+   "hi": [
+    "भगवान गणेश को उनकी सबसे प्रिय कौन-सी मिठाई चढ़ाई जाती है?",
+    "मोदक",
+    "रसगुल्ला",
+    "जलेबी",
+    "बर्फ़ी"
+   ]
+  },
+  {
+   "en": [
+    "The free community meal served at a gurdwara is called?",
+    "Langar",
+    "Prasad",
+    "Iftar",
+    "Bhandara"
+   ],
+   "hi": [
+    "गुरुद्वारे में परोसा जाने वाला मुफ़्त सामूहिक भोजन क्या कहलाता है?",
+    "लंगर",
+    "प्रसाद",
+    "इफ़्तार",
+    "भंडारा"
+   ]
+  },
+  {
+   "en": [
+    "In Assam, the January harvest festival is called?",
+    "Magh Bihu",
+    "Rongali Bihu",
+    "Kati Bihu",
+    "Wangala"
+   ],
+   "hi": [
+    "असम में जनवरी का फ़सल त्योहार क्या कहलाता है?",
+    "माघ बिहू",
+    "रोंगाली बिहू",
+    "काती बिहू",
+    "वांगला"
+   ]
+  },
+  {
+   "en": [
+    "At Thaipusam, devotees carry a kavadi for which god?",
+    "Murugan",
+    "Ganesha",
+    "Vishnu",
+    "Indra"
+   ],
+   "hi": [
+    "थाईपूसम पर भक्त किस देवता के लिए कावड़ी उठाते हैं?",
+    "मुरुगन",
+    "गणेश",
+    "विष्णु",
+    "इंद्र"
+   ]
+  },
+  {
+   "en": [
+    "On Ayudha Puja, people worship their?",
+    "Tools and vehicles",
+    "Rivers",
+    "Trees",
+    "Ancestors"
+   ],
+   "hi": [
+    "आयुध पूजा पर लोग किसकी पूजा करते हैं?",
+    "औज़ार और वाहन",
+    "नदियाँ",
+    "पेड़",
+    "पूर्वज"
+   ]
+  },
+  {
+   "en": [
+    "Bathukamma, a festival of stacked flowers, belongs to which state?",
+    "Telangana",
+    "Punjab",
+    "Goa",
+    "Assam"
+   ],
+   "hi": [
+    "फूलों को सजाकर मनाया जाने वाला बतुकम्मा किस राज्य का त्योहार है?",
+    "तेलंगाना",
+    "पंजाब",
+    "गोवा",
+    "असम"
+   ]
+  },
+  {
+   "en": [
+    "Sarhul, a spring festival honouring the sal tree, is big in which state?",
+    "Jharkhand",
+    "Kerala",
+    "Goa",
+    "Punjab"
+   ],
+   "hi": [
+    "साल के पेड़ की पूजा वाला वसंत त्योहार सरहुल किस राज्य में धूमधाम से मनता है?",
+    "झारखंड",
+    "केरल",
+    "गोवा",
+    "पंजाब"
+   ]
+  },
+  {
+   "en": [
+    "Yaoshang, a five-day spring festival, is celebrated in which state?",
+    "Manipur",
+    "Kerala",
+    "Gujarat",
+    "Punjab"
+   ],
+   "hi": [
+    "पाँच दिन का वसंत उत्सव याओसांग किस राज्य में मनाया जाता है?",
+    "मणिपुर",
+    "केरल",
+    "गुजरात",
+    "पंजाब"
+   ]
+  },
+  {
+   "en": [
+    "Dree, a farming festival of the Apatani people, is held in?",
+    "Arunachal Pradesh",
+    "Kerala",
+    "Rajasthan",
+    "Goa"
+   ],
+   "hi": [
+    "अपातानी लोगों का खेती का त्योहार द्री किस राज्य में होता है?",
+    "अरुणाचल प्रदेश",
+    "केरल",
+    "राजस्थान",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Kharchi Puja, honouring fourteen deities, is held in which state?",
+    "Tripura",
+    "Kerala",
+    "Punjab",
+    "Gujarat"
+   ],
+   "hi": [
+    "चौदह देवताओं वाली खारची पूजा किस राज्य में होती है?",
+    "त्रिपुरा",
+    "केरल",
+    "पंजाब",
+    "गुजरात"
+   ]
+  },
+  {
+   "en": [
+    "Kambala, the buffalo race, is held in which state?",
+    "Karnataka",
+    "Punjab",
+    "Bihar",
+    "Assam"
+   ],
+   "hi": [
+    "भैंसों की दौड़ कंबाला किस राज्य में होती है?",
+    "कर्नाटक",
+    "पंजाब",
+    "बिहार",
+    "असम"
+   ]
+  }
+ ]
+}

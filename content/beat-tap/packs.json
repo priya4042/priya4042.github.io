@@ -1,0 +1,16 @@
+{
+ "schema": 1,
+ "slug": "beat-tap",
+ "packs": [
+  {
+   "id": "wedding-season-1",
+   "file": "wedding-season-1.json",
+   "version": 1
+  },
+  {
+   "id": "holi-colours-1",
+   "file": "holi-colours-1.json",
+   "version": 1
+  }
+ ]
+}

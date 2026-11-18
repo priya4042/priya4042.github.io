@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "slug": "charades",
+ "packs": [
+  {
+   "id": "wedding-family-1",
+   "file": "wedding-family-1.json",
+   "version": 1
+  },
+  {
+   "id": "cricket-street-1",
+   "file": "cricket-street-1.json",
+   "version": 1
+  },
+  {
+   "id": "office-school-1",
+   "file": "office-school-1.json",
+   "version": 1
+  }
+ ]
+}

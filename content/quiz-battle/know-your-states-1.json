@@ -1,0 +1,1362 @@
+{
+ "schema": 1,
+ "id": "know-your-states-1",
+ "version": 1,
+ "category": "geography",
+ "names": {
+  "en": "Know Your States",
+  "hi": "अपने राज्य जानें",
+  "mr": "तुमची राज्ये जाणा",
+  "gu": "તમારાં રાજ્યો જાણો",
+  "bn": "তোমার রাজ্যগুলো চেনো",
+  "ta": "உங்கள் மாநிலங்களை அறிவோம்",
+  "te": "మీ రాష్ట్రాలను తెలుసుకోండి",
+  "kn": "ನಿಮ್ಮ ರಾಜ್ಯಗಳನ್ನು ತಿಳಿಯಿರಿ"
+ },
+ "questions": [
+  {
+   "en": [
+    "What is the capital of Arunachal Pradesh?",
+    "Itanagar",
+    "Imphal",
+    "Aizawl",
+    "Kohima"
+   ],
+   "hi": [
+    "अरुणाचल प्रदेश की राजधानी क्या है?",
+    "ईटानगर",
+    "इंफाल",
+    "आइज़ोल",
+    "कोहिमा"
+   ]
+  },
+  {
+   "en": [
+    "What is the capital of Assam?",
+    "Dispur",
+    "Shillong",
+    "Agartala",
+    "Silchar"
+   ],
+   "hi": [
+    "असम की राजधानी क्या है?",
+    "दिसपुर",
+    "शिलांग",
+    "अगरतला",
+    "सिलचर"
+   ]
+  },
+  {
+   "en": [
+    "What is the capital of Manipur?",
+    "Imphal",
+    "Itanagar",
+    "Gangtok",
+    "Aizawl"
+   ],
+   "hi": [
+    "मणिपुर की राजधानी क्या है?",
+    "इंफाल",
+    "ईटानगर",
+    "गंगटोक",
+    "आइज़ोल"
+   ]
+  },
+  {
+   "en": [
+    "Kavaratti is the capital of which union territory?",
+    "Lakshadweep",
+    "Puducherry",
+    "Chandigarh",
+    "Ladakh"
+   ],
+   "hi": [
+    "कवरत्ती किस केंद्र शासित प्रदेश की राजधानी है?",
+    "लक्षद्वीप",
+    "पुडुचेरी",
+    "चंडीगढ़",
+    "लद्दाख"
+   ]
+  },
+  {
+   "en": [
+    "Leh is the largest town of which union territory?",
+    "Ladakh",
+    "Lakshadweep",
+    "Chandigarh",
+    "Puducherry"
+   ],
+   "hi": [
+    "लेह किस केंद्र शासित प्रदेश का सबसे बड़ा शहर है?",
+    "लद्दाख",
+    "लक्षद्वीप",
+    "चंडीगढ़",
+    "पुडुचेरी"
+   ]
+  },
+  {
+   "en": [
+    "Which language is the official language of Kerala?",
+    "Malayalam",
+    "Tamil",
+    "Kannada",
+    "Tulu"
+   ],
+   "hi": [
+    "केरल की राजभाषा कौन-सी है?",
+    "मलयालम",
+    "तमिल",
+    "कन्नड़",
+    "तुलु"
+   ]
+  },
+  {
+   "en": [
+    "Which language is mainly spoken in Odisha?",
+    "Odia",
+    "Bengali",
+    "Telugu",
+    "Assamese"
+   ],
+   "hi": [
+    "ओडिशा में मुख्य रूप से कौन-सी भाषा बोली जाती है?",
+    "ओड़िया",
+    "बांग्ला",
+    "तेलुगु",
+    "असमिया"
+   ]
+  },
+  {
+   "en": [
+    "Konkani is the official language of which state?",
+    "Goa",
+    "Kerala",
+    "Gujarat",
+    "Odisha"
+   ],
+   "hi": [
+    "कोंकणी किस राज्य की राजभाषा है?",
+    "गोवा",
+    "केरल",
+    "गुजरात",
+    "ओडिशा"
+   ]
+  },
+  {
+   "en": [
+    "Kannada is the official language of which state?",
+    "Karnataka",
+    "Kerala",
+    "Telangana",
+    "Goa"
+   ],
+   "hi": [
+    "कन्नड़ किस राज्य की राजभाषा है?",
+    "कर्नाटक",
+    "केरल",
+    "तेलंगाना",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Telugu is the main language of Andhra Pradesh and which state?",
+    "Telangana",
+    "Karnataka",
+    "Odisha",
+    "Kerala"
+   ],
+   "hi": [
+    "तेलुगु आंध्र प्रदेश और किस राज्य की मुख्य भाषा है?",
+    "तेलंगाना",
+    "कर्नाटक",
+    "ओडिशा",
+    "केरल"
+   ]
+  },
+  {
+   "en": [
+    "In India, Punjabi is usually written in which script?",
+    "Gurmukhi",
+    "Devanagari",
+    "Tamil",
+    "Odia"
+   ],
+   "hi": [
+    "भारत में पंजाबी आम तौर पर किस लिपि में लिखी जाती है?",
+    "गुरमुखी",
+    "देवनागरी",
+    "तमिल",
+    "ओड़िया"
+   ]
+  },
+  {
+   "en": [
+    "The Santali language has its own script, called?",
+    "Ol Chiki",
+    "Gurmukhi",
+    "Modi",
+    "Brahmi"
+   ],
+   "hi": [
+    "संथाली भाषा की अपनी लिपि का नाम क्या है?",
+    "ओल चिकी",
+    "गुरमुखी",
+    "मोडी",
+    "ब्राह्मी"
+   ]
+  },
+  {
+   "en": [
+    "Bengali is an official language of West Bengal and which northeast state?",
+    "Tripura",
+    "Nagaland",
+    "Mizoram",
+    "Manipur"
+   ],
+   "hi": [
+    "बांग्ला पश्चिम बंगाल और पूर्वोत्तर के किस राज्य की राजभाषा है?",
+    "त्रिपुरा",
+    "नागालैंड",
+    "मिज़ोरम",
+    "मणिपुर"
+   ]
+  },
+  {
+   "en": [
+    "What is the official language of Nagaland?",
+    "English",
+    "Hindi",
+    "Assamese",
+    "Bengali"
+   ],
+   "hi": [
+    "नागालैंड की राजभाषा क्या है?",
+    "अंग्रेज़ी",
+    "हिंदी",
+    "असमिया",
+    "बांग्ला"
+   ]
+  },
+  {
+   "en": [
+    "Which language is widely spoken across Sikkim?",
+    "Nepali",
+    "Bengali",
+    "Assamese",
+    "Odia"
+   ],
+   "hi": [
+    "सिक्किम में कौन-सी भाषा व्यापक रूप से बोली जाती है?",
+    "नेपाली",
+    "बांग्ला",
+    "असमिया",
+    "ओड़िया"
+   ]
+  },
+  {
+   "en": [
+    "Dogri is mainly spoken in which region?",
+    "Jammu",
+    "Ladakh",
+    "Kutch",
+    "Konkan"
+   ],
+   "hi": [
+    "डोगरी मुख्य रूप से किस क्षेत्र में बोली जाती है?",
+    "जम्मू",
+    "लद्दाख",
+    "कच्छ",
+    "कोंकण"
+   ]
+  },
+  {
+   "en": [
+    "Maithili is mainly spoken in which state?",
+    "Bihar",
+    "Punjab",
+    "Gujarat",
+    "Kerala"
+   ],
+   "hi": [
+    "मैथिली मुख्य रूप से किस राज्य में बोली जाती है?",
+    "बिहार",
+    "पंजाब",
+    "गुजरात",
+    "केरल"
+   ]
+  },
+  {
+   "en": [
+    "The Bodo language is mainly spoken in which state?",
+    "Assam",
+    "Kerala",
+    "Rajasthan",
+    "Goa"
+   ],
+   "hi": [
+    "बोडो भाषा मुख्य रूप से किस राज्य में बोली जाती है?",
+    "असम",
+    "केरल",
+    "राजस्थान",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Tulu is spoken in coastal Karnataka and a part of which state?",
+    "Kerala",
+    "Gujarat",
+    "Odisha",
+    "Punjab"
+   ],
+   "hi": [
+    "तुलु तटीय कर्नाटक और किस राज्य के एक हिस्से में बोली जाती है?",
+    "केरल",
+    "गुजरात",
+    "ओडिशा",
+    "पंजाब"
+   ]
+  },
+  {
+   "en": [
+    "The classical dance Odissi comes from which state?",
+    "Odisha",
+    "Assam",
+    "Manipur",
+    "Kerala"
+   ],
+   "hi": [
+    "शास्त्रीय नृत्य ओडिसी किस राज्य से है?",
+    "ओडिशा",
+    "असम",
+    "मणिपुर",
+    "केरल"
+   ]
+  },
+  {
+   "en": [
+    "Mohiniyattam, a graceful classical dance, is from which state?",
+    "Kerala",
+    "Tamil Nadu",
+    "Odisha",
+    "Assam"
+   ],
+   "hi": [
+    "सौम्य शास्त्रीय नृत्य मोहिनीअट्टम किस राज्य का है?",
+    "केरल",
+    "तमिलनाडु",
+    "ओडिशा",
+    "असम"
+   ]
+  },
+  {
+   "en": [
+    "The Garba folk dance belongs to which state?",
+    "Gujarat",
+    "Punjab",
+    "Assam",
+    "Kerala"
+   ],
+   "hi": [
+    "लोक नृत्य गरबा किस राज्य का है?",
+    "गुजरात",
+    "पंजाब",
+    "असम",
+    "केरल"
+   ]
+  },
+  {
+   "en": [
+    "Lavani is a lively folk dance of which state?",
+    "Maharashtra",
+    "Rajasthan",
+    "Bihar",
+    "Assam"
+   ],
+   "hi": [
+    "जोशीला लोक नृत्य लावणी किस राज्य का है?",
+    "महाराष्ट्र",
+    "राजस्थान",
+    "बिहार",
+    "असम"
+   ]
+  },
+  {
+   "en": [
+    "Ghoomar, with swirling skirts, is a folk dance of which state?",
+    "Rajasthan",
+    "Kerala",
+    "Odisha",
+    "Sikkim"
+   ],
+   "hi": [
+    "घूमते घाघरों वाला लोक नृत्य घूमर किस राज्य का है?",
+    "राजस्थान",
+    "केरल",
+    "ओडिशा",
+    "सिक्किम"
+   ]
+  },
+  {
+   "en": [
+    "Giddha is a folk dance performed by women in which state?",
+    "Punjab",
+    "Gujarat",
+    "Goa",
+    "Tripura"
+   ],
+   "hi": [
+    "गिद्धा किस राज्य की महिलाओं का लोक नृत्य है?",
+    "पंजाब",
+    "गुजरात",
+    "गोवा",
+    "त्रिपुरा"
+   ]
+  },
+  {
+   "en": [
+    "The Chhau dance belongs to Odisha, Jharkhand and which other state?",
+    "West Bengal",
+    "Kerala",
+    "Punjab",
+    "Goa"
+   ],
+   "hi": [
+    "छऊ नृत्य ओडिशा, झारखंड और किस राज्य का है?",
+    "पश्चिम बंगाल",
+    "केरल",
+    "पंजाब",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Cheraw, the bamboo dance, belongs to which state?",
+    "Mizoram",
+    "Gujarat",
+    "Kerala",
+    "Bihar"
+   ],
+   "hi": [
+    "बाँस नृत्य चेराव किस राज्य का है?",
+    "मिज़ोरम",
+    "गुजरात",
+    "केरल",
+    "बिहार"
+   ]
+  },
+  {
+   "en": [
+    "Dollu Kunitha, a big drum dance, is from which state?",
+    "Karnataka",
+    "Punjab",
+    "Assam",
+    "Gujarat"
+   ],
+   "hi": [
+    "बड़े ढोल वाला नृत्य डोल्लु कुनिता किस राज्य का है?",
+    "कर्नाटक",
+    "पंजाब",
+    "असम",
+    "गुजरात"
+   ]
+  },
+  {
+   "en": [
+    "Rouf, danced by women in rows, comes from which region?",
+    "Kashmir",
+    "Kerala",
+    "Goa",
+    "Odisha"
+   ],
+   "hi": [
+    "क़तार में महिलाओं का नृत्य रऊफ़ किस क्षेत्र से है?",
+    "कश्मीर",
+    "केरल",
+    "गोवा",
+    "ओडिशा"
+   ]
+  },
+  {
+   "en": [
+    "Nati, a folk dance, is popular in which state?",
+    "Himachal Pradesh",
+    "Tamil Nadu",
+    "Gujarat",
+    "Tripura"
+   ],
+   "hi": [
+    "लोक नृत्य नाटी किस राज्य में लोकप्रिय है?",
+    "हिमाचल प्रदेश",
+    "तमिलनाडु",
+    "गुजरात",
+    "त्रिपुरा"
+   ]
+  },
+  {
+   "en": [
+    "Raut Nacha is a folk dance of which state?",
+    "Chhattisgarh",
+    "Kerala",
+    "Punjab",
+    "Goa"
+   ],
+   "hi": [
+    "राउत नाचा किस राज्य का लोक नृत्य है?",
+    "छत्तीसगढ़",
+    "केरल",
+    "पंजाब",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Karakattam, danced with a pot on the head, is from which state?",
+    "Tamil Nadu",
+    "Punjab",
+    "Assam",
+    "Haryana"
+   ],
+   "hi": [
+    "सिर पर कलश रखकर किया जाने वाला करगट्टम किस राज्य का है?",
+    "तमिलनाडु",
+    "पंजाब",
+    "असम",
+    "हरियाणा"
+   ]
+  },
+  {
+   "en": [
+    "Hojagiri, danced while balancing on pots, belongs to which state?",
+    "Tripura",
+    "Gujarat",
+    "Kerala",
+    "Punjab"
+   ],
+   "hi": [
+    "घड़ों पर संतुलन बनाकर किया जाने वाला होजागिरी किस राज्य का है?",
+    "त्रिपुरा",
+    "गुजरात",
+    "केरल",
+    "पंजाब"
+   ]
+  },
+  {
+   "en": [
+    "Dekhni is a folk dance of which state?",
+    "Goa",
+    "Bihar",
+    "Punjab",
+    "Sikkim"
+   ],
+   "hi": [
+    "देखणी किस राज्य का लोक नृत्य है?",
+    "गोवा",
+    "बिहार",
+    "पंजाब",
+    "सिक्किम"
+   ]
+  },
+  {
+   "en": [
+    "Dhokla, a steamed snack, comes from which state?",
+    "Gujarat",
+    "Punjab",
+    "Kerala",
+    "Bihar"
+   ],
+   "hi": [
+    "भाप में पका नाश्ता ढोकला किस राज्य से है?",
+    "गुजरात",
+    "पंजाब",
+    "केरल",
+    "बिहार"
+   ]
+  },
+  {
+   "en": [
+    "Litti chokha is a famous dish of which state?",
+    "Bihar",
+    "Goa",
+    "Kerala",
+    "Assam"
+   ],
+   "hi": [
+    "लिट्टी चोखा किस राज्य का मशहूर व्यंजन है?",
+    "बिहार",
+    "गोवा",
+    "केरल",
+    "असम"
+   ]
+  },
+  {
+   "en": [
+    "Rogan josh is a famous dish from which region?",
+    "Kashmir",
+    "Kerala",
+    "Gujarat",
+    "Odisha"
+   ],
+   "hi": [
+    "रोगन जोश किस क्षेत्र का मशहूर व्यंजन है?",
+    "कश्मीर",
+    "केरल",
+    "गुजरात",
+    "ओडिशा"
+   ]
+  },
+  {
+   "en": [
+    "Vada pav is the famous street food of which state?",
+    "Maharashtra",
+    "Punjab",
+    "Assam",
+    "Kerala"
+   ],
+   "hi": [
+    "वड़ा पाव किस राज्य का मशहूर स्ट्रीट फ़ूड है?",
+    "महाराष्ट्र",
+    "पंजाब",
+    "असम",
+    "केरल"
+   ]
+  },
+  {
+   "en": [
+    "Puttu with kadala curry is a breakfast from which state?",
+    "Kerala",
+    "Punjab",
+    "Gujarat",
+    "Bihar"
+   ],
+   "hi": [
+    "कडला करी के साथ पुट्टु किस राज्य का नाश्ता है?",
+    "केरल",
+    "पंजाब",
+    "गुजरात",
+    "बिहार"
+   ]
+  },
+  {
+   "en": [
+    "Pakhala, cooked rice soaked in water, is loved in which state?",
+    "Odisha",
+    "Punjab",
+    "Rajasthan",
+    "Goa"
+   ],
+   "hi": [
+    "पानी में भिगोया पका चावल पखाल किस राज्य में पसंद किया जाता है?",
+    "ओडिशा",
+    "पंजाब",
+    "राजस्थान",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Dal baati churma is a famous meal of which state?",
+    "Rajasthan",
+    "Kerala",
+    "Assam",
+    "Tripura"
+   ],
+   "hi": [
+    "दाल बाटी चूरमा किस राज्य का मशहूर भोजन है?",
+    "राजस्थान",
+    "केरल",
+    "असम",
+    "त्रिपुरा"
+   ]
+  },
+  {
+   "en": [
+    "Bebinca, a layered dessert, comes from which state?",
+    "Goa",
+    "Punjab",
+    "Bihar",
+    "Sikkim"
+   ],
+   "hi": [
+    "परतों वाली मिठाई बेबिंका किस राज्य की है?",
+    "गोवा",
+    "पंजाब",
+    "बिहार",
+    "सिक्किम"
+   ]
+  },
+  {
+   "en": [
+    "Mysore pak is a sweet from which state?",
+    "Karnataka",
+    "Gujarat",
+    "Punjab",
+    "Assam"
+   ],
+   "hi": [
+    "मैसूर पाक किस राज्य की मिठाई है?",
+    "कर्नाटक",
+    "गुजरात",
+    "पंजाब",
+    "असम"
+   ]
+  },
+  {
+   "en": [
+    "Sarson ka saag with makki ki roti is a classic meal of which state?",
+    "Punjab",
+    "Kerala",
+    "Odisha",
+    "Goa"
+   ],
+   "hi": [
+    "मक्की की रोटी के साथ सरसों का साग किस राज्य का ख़ास भोजन है?",
+    "पंजाब",
+    "केरल",
+    "ओडिशा",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Chhena poda, a baked cottage cheese sweet, comes from which state?",
+    "Odisha",
+    "Punjab",
+    "Gujarat",
+    "Kerala"
+   ],
+   "hi": [
+    "सेंककर बनी छेने की मिठाई छेना पोडा किस राज्य की है?",
+    "ओडिशा",
+    "पंजाब",
+    "गुजरात",
+    "केरल"
+   ]
+  },
+  {
+   "en": [
+    "Petha, a sweet made from ash gourd, is famous in which city?",
+    "Agra",
+    "Kolkata",
+    "Chennai",
+    "Pune"
+   ],
+   "hi": [
+    "सफ़ेद कद्दू से बनी मशहूर मिठाई पेठा किस शहर की पहचान है?",
+    "आगरा",
+    "कोलकाता",
+    "चेन्नई",
+    "पुणे"
+   ]
+  },
+  {
+   "en": [
+    "Masor tenga, a sour fish curry, comes from which state?",
+    "Assam",
+    "Punjab",
+    "Gujarat",
+    "Rajasthan"
+   ],
+   "hi": [
+    "खट्टी मछली करी मसोर टेंगा किस राज्य की है?",
+    "असम",
+    "पंजाब",
+    "गुजरात",
+    "राजस्थान"
+   ]
+  },
+  {
+   "en": [
+    "Eromba, made with vegetables and fermented fish, is from which state?",
+    "Manipur",
+    "Kerala",
+    "Punjab",
+    "Goa"
+   ],
+   "hi": [
+    "सब्ज़ियों और ख़मीरी मछली से बना इरोम्बा किस राज्य का है?",
+    "मणिपुर",
+    "केरल",
+    "पंजाब",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Bal mithai, a brown fudge sweet, comes from which state?",
+    "Uttarakhand",
+    "Kerala",
+    "Gujarat",
+    "Assam"
+   ],
+   "hi": [
+    "भूरी चॉकलेट जैसी बाल मिठाई किस राज्य की है?",
+    "उत्तराखंड",
+    "केरल",
+    "गुजरात",
+    "असम"
+   ]
+  },
+  {
+   "en": [
+    "Siddu, a steamed stuffed bread, is a dish of which state?",
+    "Himachal Pradesh",
+    "Tamil Nadu",
+    "Bihar",
+    "Goa"
+   ],
+   "hi": [
+    "भाप में पकी भरवाँ रोटी सिड्डू किस राज्य का व्यंजन है?",
+    "हिमाचल प्रदेश",
+    "तमिलनाडु",
+    "बिहार",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Sandesh, a soft milk sweet, is famous in which state?",
+    "West Bengal",
+    "Punjab",
+    "Gujarat",
+    "Kerala"
+   ],
+   "hi": [
+    "मुलायम दूध की मिठाई संदेश किस राज्य में मशहूर है?",
+    "पश्चिम बंगाल",
+    "पंजाब",
+    "गुजरात",
+    "केरल"
+   ]
+  },
+  {
+   "en": [
+    "Jadoh, rice cooked with meat, is a dish of which state?",
+    "Meghalaya",
+    "Gujarat",
+    "Punjab",
+    "Kerala"
+   ],
+   "hi": [
+    "मांस के साथ पका चावल जादोह किस राज्य का व्यंजन है?",
+    "मेघालय",
+    "गुजरात",
+    "पंजाब",
+    "केरल"
+   ]
+  },
+  {
+   "en": [
+    "Avakaya, a spicy mango pickle, comes from which state?",
+    "Andhra Pradesh",
+    "Punjab",
+    "Assam",
+    "Goa"
+   ],
+   "hi": [
+    "तीखा आम का अचार आवकाया किस राज्य से है?",
+    "आंध्र प्रदेश",
+    "पंजाब",
+    "असम",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Hyderabadi biryani is a famous dish of which state?",
+    "Telangana",
+    "Kerala",
+    "Punjab",
+    "Bihar"
+   ],
+   "hi": [
+    "हैदराबादी बिरयानी किस राज्य का मशहूर व्यंजन है?",
+    "तेलंगाना",
+    "केरल",
+    "पंजाब",
+    "बिहार"
+   ]
+  },
+  {
+   "en": [
+    "Which Indian state is called the \"Land of the Rising Sun\"?",
+    "Arunachal Pradesh",
+    "Assam",
+    "Sikkim",
+    "Nagaland"
+   ],
+   "hi": [
+    "भारत के किस राज्य को \"उगते सूरज की भूमि\" कहते हैं?",
+    "अरुणाचल प्रदेश",
+    "असम",
+    "सिक्किम",
+    "नागालैंड"
+   ]
+  },
+  {
+   "en": [
+    "Which state is known as \"God's Own Country\"?",
+    "Kerala",
+    "Goa",
+    "Sikkim",
+    "Assam"
+   ],
+   "hi": [
+    "किस राज्य को \"ईश्वर का अपना देश\" कहा जाता है?",
+    "केरल",
+    "गोवा",
+    "सिक्किम",
+    "असम"
+   ]
+  },
+  {
+   "en": [
+    "Which state's name means \"land of five rivers\"?",
+    "Punjab",
+    "Haryana",
+    "Bihar",
+    "Assam"
+   ],
+   "hi": [
+    "किस राज्य के नाम का अर्थ \"पाँच नदियों की भूमि\" है?",
+    "पंजाब",
+    "हरियाणा",
+    "बिहार",
+    "असम"
+   ]
+  },
+  {
+   "en": [
+    "Which hill city is called the \"Scotland of the East\"?",
+    "Shillong",
+    "Darjeeling",
+    "Ooty",
+    "Shimla"
+   ],
+   "hi": [
+    "किस पहाड़ी शहर को \"पूर्व का स्कॉटलैंड\" कहते हैं?",
+    "शिलांग",
+    "दार्जिलिंग",
+    "ऊटी",
+    "शिमला"
+   ]
+  },
+  {
+   "en": [
+    "Loktak Lake, with its floating islands, is in which state?",
+    "Manipur",
+    "Assam",
+    "Kerala",
+    "Odisha"
+   ],
+   "hi": [
+    "तैरते टापुओं वाली लोकटक झील किस राज्य में है?",
+    "मणिपुर",
+    "असम",
+    "केरल",
+    "ओडिशा"
+   ]
+  },
+  {
+   "en": [
+    "Dal Lake is in which city?",
+    "Srinagar",
+    "Shimla",
+    "Nainital",
+    "Udaipur"
+   ],
+   "hi": [
+    "डल झील किस शहर में है?",
+    "श्रीनगर",
+    "शिमला",
+    "नैनीताल",
+    "उदयपुर"
+   ]
+  },
+  {
+   "en": [
+    "Which state grows the most tea in India?",
+    "Assam",
+    "Kerala",
+    "Punjab",
+    "Goa"
+   ],
+   "hi": [
+    "भारत में सबसे ज़्यादा चाय किस राज्य में उगाई जाती है?",
+    "असम",
+    "केरल",
+    "पंजाब",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Which state grows the most coffee in India?",
+    "Karnataka",
+    "Assam",
+    "Punjab",
+    "Bihar"
+   ],
+   "hi": [
+    "भारत में सबसे ज़्यादा कॉफ़ी किस राज्य में उगाई जाती है?",
+    "कर्नाटक",
+    "असम",
+    "पंजाब",
+    "बिहार"
+   ]
+  },
+  {
+   "en": [
+    "The Sundarbans mangrove forest lies in which state?",
+    "West Bengal",
+    "Odisha",
+    "Kerala",
+    "Gujarat"
+   ],
+   "hi": [
+    "सुंदरबन का मैंग्रोव वन किस राज्य में है?",
+    "पश्चिम बंगाल",
+    "ओडिशा",
+    "केरल",
+    "गुजरात"
+   ]
+  },
+  {
+   "en": [
+    "India's only active volcano, on Barren Island, is in?",
+    "Andaman and Nicobar",
+    "Lakshadweep",
+    "Gujarat",
+    "Kerala"
+   ],
+   "hi": [
+    "भारत का इकलौता सक्रिय ज्वालामुखी बैरन द्वीप कहाँ है?",
+    "अंडमान और निकोबार",
+    "लक्षद्वीप",
+    "गुजरात",
+    "केरल"
+   ]
+  },
+  {
+   "en": [
+    "Mount Abu is the only hill station of which state?",
+    "Rajasthan",
+    "Gujarat",
+    "Haryana",
+    "Punjab"
+   ],
+   "hi": [
+    "माउंट आबू किस राज्य का इकलौता हिल स्टेशन है?",
+    "राजस्थान",
+    "गुजरात",
+    "हरियाणा",
+    "पंजाब"
+   ]
+  },
+  {
+   "en": [
+    "The hill station Ooty is in which state?",
+    "Tamil Nadu",
+    "Kerala",
+    "Karnataka",
+    "Goa"
+   ],
+   "hi": [
+    "हिल स्टेशन ऊटी किस राज्य में है?",
+    "तमिलनाडु",
+    "केरल",
+    "कर्नाटक",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "The Statue of Unity stands in which state?",
+    "Gujarat",
+    "Maharashtra",
+    "Rajasthan",
+    "Madhya Pradesh"
+   ],
+   "hi": [
+    "स्टैच्यू ऑफ़ यूनिटी किस राज्य में है?",
+    "गुजरात",
+    "महाराष्ट्र",
+    "राजस्थान",
+    "मध्य प्रदेश"
+   ]
+  },
+  {
+   "en": [
+    "Which state borders Nepal, Bhutan and China?",
+    "Sikkim",
+    "Assam",
+    "Uttarakhand",
+    "Himachal Pradesh"
+   ],
+   "hi": [
+    "कौन-सा राज्य नेपाल, भूटान और चीन तीनों की सीमा से लगता है?",
+    "सिक्किम",
+    "असम",
+    "उत्तराखंड",
+    "हिमाचल प्रदेश"
+   ]
+  },
+  {
+   "en": [
+    "Udaipur in Rajasthan is famously called the City of?",
+    "Lakes",
+    "Temples",
+    "Gardens",
+    "Forts"
+   ],
+   "hi": [
+    "राजस्थान के उदयपुर को किसका शहर कहा जाता है?",
+    "झीलों का",
+    "मंदिरों का",
+    "बाग़ों का",
+    "क़िलों का"
+   ]
+  },
+  {
+   "en": [
+    "The narrow Siliguri Corridor, the \"Chicken's Neck\", is in which state?",
+    "West Bengal",
+    "Assam",
+    "Bihar",
+    "Sikkim"
+   ],
+   "hi": [
+    "पतला सिलीगुड़ी गलियारा, यानी \"चिकन नेक\", किस राज्य में है?",
+    "पश्चिम बंगाल",
+    "असम",
+    "बिहार",
+    "सिक्किम"
+   ]
+  },
+  {
+   "en": [
+    "The Lakshadweep islands lie in which sea?",
+    "Arabian Sea",
+    "Bay of Bengal",
+    "Andaman Sea",
+    "Red Sea"
+   ],
+   "hi": [
+    "लक्षद्वीप के द्वीप किस सागर में हैं?",
+    "अरब सागर",
+    "बंगाल की खाड़ी",
+    "अंडमान सागर",
+    "लाल सागर"
+   ]
+  },
+  {
+   "en": [
+    "The Andaman Islands lie in which body of water?",
+    "Bay of Bengal",
+    "Arabian Sea",
+    "Red Sea",
+    "Persian Gulf"
+   ],
+   "hi": [
+    "अंडमान द्वीप समूह किस जल क्षेत्र में है?",
+    "बंगाल की खाड़ी",
+    "अरब सागर",
+    "लाल सागर",
+    "फ़ारस की खाड़ी"
+   ]
+  },
+  {
+   "en": [
+    "Nathu La pass is on the border of Sikkim and which country?",
+    "China",
+    "Nepal",
+    "Bhutan",
+    "Myanmar"
+   ],
+   "hi": [
+    "नाथु ला दर्रा सिक्किम और किस देश की सीमा पर है?",
+    "चीन",
+    "नेपाल",
+    "भूटान",
+    "म्यांमार"
+   ]
+  },
+  {
+   "en": [
+    "Rohtang Pass is in which state?",
+    "Himachal Pradesh",
+    "Sikkim",
+    "Uttarakhand",
+    "Arunachal Pradesh"
+   ],
+   "hi": [
+    "रोहतांग दर्रा किस राज्य में है?",
+    "हिमाचल प्रदेश",
+    "सिक्किम",
+    "उत्तराखंड",
+    "अरुणाचल प्रदेश"
+   ]
+  },
+  {
+   "en": [
+    "The Khasi, Garo and Jaintia hills are in which state?",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Tripura"
+   ],
+   "hi": [
+    "ख़ासी, गारो और जयंतिया पहाड़ियाँ किस राज्य में हैं?",
+    "मेघालय",
+    "मिज़ोरम",
+    "नागालैंड",
+    "त्रिपुरा"
+   ]
+  },
+  {
+   "en": [
+    "Pachmarhi hill station is in which state?",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Gujarat",
+    "Odisha"
+   ],
+   "hi": [
+    "हिल स्टेशन पचमढ़ी किस राज्य में है?",
+    "मध्य प्रदेश",
+    "महाराष्ट्र",
+    "गुजरात",
+    "ओडिशा"
+   ]
+  },
+  {
+   "en": [
+    "Mahabaleshwar hill station is in which state?",
+    "Maharashtra",
+    "Karnataka",
+    "Goa",
+    "Kerala"
+   ],
+   "hi": [
+    "हिल स्टेशन महाबलेश्वर किस राज्य में है?",
+    "महाराष्ट्र",
+    "कर्नाटक",
+    "गोवा",
+    "केरल"
+   ]
+  },
+  {
+   "en": [
+    "Araku Valley is in which state?",
+    "Andhra Pradesh",
+    "Kerala",
+    "Assam",
+    "Bihar"
+   ],
+   "hi": [
+    "अराकू घाटी किस राज्य में है?",
+    "आंध्र प्रदेश",
+    "केरल",
+    "असम",
+    "बिहार"
+   ]
+  },
+  {
+   "en": [
+    "Indira Point, India's southernmost tip, is in?",
+    "Andaman and Nicobar",
+    "Tamil Nadu",
+    "Kerala",
+    "Lakshadweep"
+   ],
+   "hi": [
+    "भारत का सबसे दक्षिणी छोर इंदिरा पॉइंट कहाँ है?",
+    "अंडमान और निकोबार",
+    "तमिलनाडु",
+    "केरल",
+    "लक्षद्वीप"
+   ]
+  },
+  {
+   "en": [
+    "The Jharia coalfield is in which state?",
+    "Jharkhand",
+    "Kerala",
+    "Punjab",
+    "Goa"
+   ],
+   "hi": [
+    "झरिया कोयला क्षेत्र किस राज्य में है?",
+    "झारखंड",
+    "केरल",
+    "पंजाब",
+    "गोवा"
+   ]
+  },
+  {
+   "en": [
+    "Thang-ta, a martial art with swords and spears, is from which state?",
+    "Manipur",
+    "Punjab",
+    "Kerala",
+    "Gujarat"
+   ],
+   "hi": [
+    "तलवार और भाले वाली युद्ध कला थांग-ता किस राज्य की है?",
+    "मणिपुर",
+    "पंजाब",
+    "केरल",
+    "गुजरात"
+   ]
+  },
+  {
+   "en": [
+    "Gatka, a martial art of the Sikhs, is linked with which state?",
+    "Punjab",
+    "Kerala",
+    "Assam",
+    "Odisha"
+   ],
+   "hi": [
+    "सिखों की युद्ध कला गतका किस राज्य से जुड़ी है?",
+    "पंजाब",
+    "केरल",
+    "असम",
+    "ओडिशा"
+   ]
+  },
+  {
+   "en": [
+    "Darjeeling, famous for its tea, is in which state?",
+    "West Bengal",
+    "Sikkim",
+    "Assam",
+    "Himachal Pradesh"
+   ],
+   "hi": [
+    "अपनी चाय के लिए मशहूर दार्जिलिंग किस राज्य में है?",
+    "पश्चिम बंगाल",
+    "सिक्किम",
+    "असम",
+    "हिमाचल प्रदेश"
+   ]
+  },
+  {
+   "en": [
+    "The lake town of Nainital is in which state?",
+    "Uttarakhand",
+    "Himachal Pradesh",
+    "Sikkim",
+    "Meghalaya"
+   ],
+   "hi": [
+    "झील वाला हिल स्टेशन नैनीताल किस राज्य में है?",
+    "उत्तराखंड",
+    "हिमाचल प्रदेश",
+    "सिक्किम",
+    "मेघालय"
+   ]
+  }
+ ]
+}

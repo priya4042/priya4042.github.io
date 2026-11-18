@@ -1,0 +1,339 @@
+{
+ "schema": 1,
+ "slug": "beat-tap",
+ "id": "holi-colours-1",
+ "version": 1,
+ "icon": "colours",
+ "colour": "#FF3CAC",
+ "names": {
+  "en": "Holi Colours",
+  "hi": "होली के रंग",
+  "mr": "होळीचे रंग",
+  "gu": "હોળીના રંગ",
+  "bn": "হোলির রং",
+  "ta": "ஹோலி வண்ணங்கள்",
+  "te": "హోలీ రంగులు",
+  "kn": "ಹೋಳಿ ಬಣ್ಣಗಳು"
+ },
+ "tracks": [
+  {
+   "id": "gulaal_dhol",
+   "name": "Gulaal Dhol",
+   "about": {
+    "en": "Playful dhol and a cheeky bamboo flute in the colour fight",
+    "hi": "रंगों की मस्ती में शरारती ढोल और बाँसुरी",
+    "mr": "रंगांच्या मस्तीत खोडकर ढोल आणि बासरी",
+    "gu": "રંગોની મસ્તીમાં તોફાની ઢોલ અને વાંસળી",
+    "bn": "রঙের খেলায় দুষ্টু ঢোল আর বাঁশি",
+    "ta": "வண்ண விளையாட்டில் குறும்பு டோல், புல்லாங்குழல்",
+    "te": "రంగుల ఆటలో అల్లరి ఢోల్, వేణువు",
+    "kn": "ಬಣ್ಣದ ಆಟದಲ್ಲಿ ತುಂಟ ಢೋಲ್ ಮತ್ತು ಕೊಳಲು"
+   },
+   "icon": "colours",
+   "colour": "#3CE0A0",
+   "unlock": 9,
+   "bpm": 108,
+   "swing": 0.22,
+   "meter": "4/4",
+   "root": 62,
+   "seed": 6101,
+   "scale": "khamaj",
+   "chords": [
+    0,
+    3,
+    0,
+    4
+   ],
+   "form": [
+    [
+     "intro",
+     2
+    ],
+    [
+     "verse",
+     8
+    ],
+    [
+     "build",
+     2
+    ],
+    [
+     "chorus",
+     8
+    ],
+    [
+     "breakdown",
+     4
+    ],
+    [
+     "verse",
+     8
+    ],
+    [
+     "build",
+     2
+    ],
+    [
+     "chorus",
+     8
+    ],
+    [
+     "outro",
+     2
+    ]
+   ],
+   "drums": {
+    "dholLow": [
+     "X.......X.......",
+     "X.....x.X..x....",
+     "X..x..x.X..x..x."
+    ],
+    "dholHigh": [
+     "..x.......x.....",
+     "..x.x..x..x.x..x",
+     ".xx.x.xx.xx.x.xx"
+    ],
+    "clap": [
+     "",
+     "....X.......X...",
+     "....X.......X..."
+    ],
+    "shaker": [
+     "o.o.o.o.o.o.o.o.",
+     "xoxoxoxoxoxoxoxo",
+     "xoxoxoxoxoxoxoxo"
+    ],
+    "tablaTin": [
+     "",
+     "",
+     "...o.......o...."
+    ]
+   },
+   "fill": "dholHigh",
+   "bass": {
+    "voice": "synthBass",
+    "rhythm": "x.....x...x.x..."
+   },
+   "lead": {
+    "voice": "flute",
+    "shift": 12,
+    "verse": "x.x.x---x.x.....x.x.x.x.x-------",
+    "chorus": "x-x.x.x-x-x.x---x-x.x.x.x.x.x---"
+   },
+   "comp": {
+    "voice": "harmonium",
+    "rhythm": "..x...x...x...x."
+   },
+   "wet": 0.3
+  },
+  {
+   "id": "phagun_folk",
+   "name": "Phagun Folk",
+   "about": {
+    "en": "Folk dance groove with khartal clicks and a bright tumbi",
+    "hi": "खड़ताल और खनकती तुम्बी के साथ लोक नाच की ताल",
+    "mr": "खडताल आणि खणखणीत तुंबीसह लोकनृत्याचा ठेका",
+    "gu": "ખડતાલ અને રણકતી તુંબી સાથે લોકનૃત્યનો તાલ",
+    "bn": "খড়তাল আর ঝলমলে তুম্বির সাথে লোকনাচের তাল",
+    "ta": "கர்தால் ஒலியும் தும்பியும் கொண்ட நாட்டுப்புற நடனத் தாளம்",
+    "te": "ఖర్తాల్, తుంబీతో జానపద నృత్య తాళం",
+    "kn": "ಖರ್ತಾಲ್ ಮತ್ತು ತುಂಬಿಯೊಂದಿಗೆ ಜಾನಪದ ನೃತ್ಯದ ತಾಳ"
+   },
+   "icon": "dance",
+   "colour": "#FFE14D",
+   "unlock": 18,
+   "bpm": 100,
+   "swing": 0.18,
+   "meter": "4/4",
+   "root": 64,
+   "seed": 6202,
+   "scale": "kafi",
+   "chords": [
+    0,
+    6,
+    3,
+    0
+   ],
+   "form": [
+    [
+     "intro",
+     4
+    ],
+    [
+     "verse",
+     8
+    ],
+    [
+     "chorus",
+     8
+    ],
+    [
+     "breakdown",
+     4
+    ],
+    [
+     "verse",
+     8
+    ],
+    [
+     "build",
+     2
+    ],
+    [
+     "chorus",
+     8
+    ],
+    [
+     "outro",
+     2
+    ]
+   ],
+   "drums": {
+    "dholLow": [
+     "X.....x.........",
+     "X.....x.X..x....",
+     "X..x..x.X..x..x."
+    ],
+    "khartal": [
+     "x.x.x.x.x.x.x.x.",
+     "x.xxx.x.x.xxx.x.",
+     "xxx.xxx.xxx.xxx."
+    ],
+    "clap": [
+     "",
+     "....x.......x...",
+     "....X.......X..."
+    ],
+    "wood": [
+     "",
+     "..o...o...o...o.",
+     ""
+    ]
+   },
+   "fill": "dholLow",
+   "bass": {
+    "voice": "bass",
+    "rhythm": "x.......x.5....."
+   },
+   "lead": {
+    "voice": "tumbi",
+    "shift": 12,
+    "verse": "x.x.x.x.x---x...x.x.x.x.x-------",
+    "chorus": "x.x.x-x.x.x.x---x.x.x-x.x-x-x---"
+   },
+   "comp": {
+    "voice": "harmonium"
+   },
+   "wet": 0.3
+  },
+  {
+   "id": "pichkari_remix",
+   "name": "Pichkari Remix",
+   "about": {
+    "en": "Electronic Holi remix with a bouncing bass and bell runs",
+    "hi": "उछलते बेस और घंटियों वाला इलेक्ट्रॉनिक होली रीमिक्स",
+    "mr": "उड्या मारणारा बेस आणि घंटांचा इलेक्ट्रॉनिक होळी रिमिक्स",
+    "gu": "ઉછળતા બેસ અને ઘંટડીઓ સાથે ઇલેક્ટ્રોનિક હોળી રીમિક્સ",
+    "bn": "লাফানো বেস আর ঘণ্টার সুরে ইলেকট্রনিক হোলি রিমিক্স",
+    "ta": "துள்ளும் பேஸ், மணி ஒலியுடன் எலக்ட்ரானிக் ஹோலி ரீமிக்ஸ்",
+    "te": "ఎగిరే బేస్, గంటల సవ్వడితో ఎలక్ట్రానిక్ హోలీ రీమిక్స్",
+    "kn": "ಜಿಗಿಯುವ ಬೇಸ್, ಗಂಟೆಗಳ ಸದ್ದಿನ ಎಲೆಕ್ಟ್ರಾನಿಕ್ ಹೋಳಿ ರೀಮಿಕ್ಸ್"
+   },
+   "icon": "remix",
+   "colour": "#5B8CFF",
+   "unlock": 30,
+   "bpm": 128,
+   "meter": "4/4",
+   "root": 62,
+   "seed": 6303,
+   "scale": "bhupali",
+   "chords": [
+    0,
+    3,
+    2,
+    4
+   ],
+   "form": [
+    [
+     "intro",
+     4
+    ],
+    [
+     "verse",
+     8
+    ],
+    [
+     "build",
+     4
+    ],
+    [
+     "chorus",
+     8
+    ],
+    [
+     "breakdown",
+     4
+    ],
+    [
+     "build",
+     2
+    ],
+    [
+     "chorus",
+     8
+    ],
+    [
+     "outro",
+     2
+    ]
+   ],
+   "drums": {
+    "kick": [
+     "X.......X.......",
+     "X...X...X...X...",
+     "X...X...X...X..."
+    ],
+    "clap": [
+     "",
+     "....X.......X...",
+     "....X.......X..."
+    ],
+    "hat": [
+     "",
+     "..x...x...x...x.",
+     "oxoxoxoxoxoxoxox"
+    ],
+    "hatOpen": [
+     "",
+     "",
+     "..x...x...x...x."
+    ],
+    "dholHigh": [
+     "x..x..x...x..x..",
+     "..x..x....x..x.x",
+     ".xx.x.xx.xx.x.xx"
+    ]
+   },
+   "fill": "dholHigh",
+   "bass": {
+    "voice": "synthBass",
+    "rhythm": "..x...x...x.5.x."
+   },
+   "lead": {
+    "voice": "lead",
+    "shift": 12,
+    "verse": "x.x.x.x.x-x-x---x...x...x.x.x---",
+    "chorus": "x-x-x.x.x.x.x---x-x-x.x.x-x-x---"
+   },
+   "comp": {
+    "voice": "pad"
+   },
+   "arp": {
+    "voice": "bell",
+    "rhythm": "x.x.x.x.x.x.x.x."
+   },
+   "duck": 0.5,
+   "wet": 0.28
+  }
+ ]
+}

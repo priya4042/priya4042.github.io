@@ -1,0 +1,1602 @@
+{
+ "schema": 1,
+ "id": "cricket-sports-1",
+ "version": 1,
+ "category": "sports",
+ "names": {
+  "en": "Cricket & Sports Pack",
+  "hi": "क्रिकेट और खेल पैक",
+  "mr": "क्रिकेट आणि खेळ पॅक",
+  "gu": "ક્રિકેટ અને રમત પૅક",
+  "bn": "ক্রিকেট ও খেলার প্যাক",
+  "ta": "கிரிக்கெட், விளையாட்டு தொகுப்பு",
+  "te": "క్రికెట్, ఆటల ప్యాక్",
+  "kn": "ಕ್ರಿಕೆಟ್ ಮತ್ತು ಆಟಗಳ ಪ್ಯಾಕ್"
+ },
+ "questions": [
+  {
+   "en": [
+    "How many runs for a boundary that bounces before crossing the rope?",
+    "4",
+    "6",
+    "2",
+    "3"
+   ],
+   "hi": [
+    "रस्सी पार करने से पहले टप्पा खाकर गई गेंद पर कितने रन मिलते हैं?",
+    "4",
+    "6",
+    "2",
+    "3"
+   ]
+  },
+  {
+   "en": [
+    "In a Test match, how many innings can each team bat at most?",
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "hi": [
+    "टेस्ट मैच में हर टीम ज़्यादा से ज़्यादा कितनी पारियाँ खेल सकती है?",
+    "2",
+    "1",
+    "3",
+    "4"
+   ]
+  },
+  {
+   "en": [
+    "Fielders standing beside the keeper to catch edges are called?",
+    "Slips",
+    "Mid-on",
+    "Fine leg",
+    "Long-off"
+   ],
+   "hi": [
+    "विकेटकीपर के पास किनारा लगी गेंद लपकने को खड़े फ़ील्डर कहलाते हैं?",
+    "स्लिप",
+    "मिड-ऑन",
+    "फ़ाइन लेग",
+    "लॉन्ग-ऑफ़"
+   ]
+  },
+  {
+   "en": [
+    "Getting out on the very first ball you face is called a?",
+    "Golden duck",
+    "Silver duck",
+    "Pair",
+    "Maiden"
+   ],
+   "hi": [
+    "अपनी पहली ही गेंद पर आउट होना कहलाता है?",
+    "गोल्डन डक",
+    "सिल्वर डक",
+    "पेयर",
+    "मेडन"
+   ]
+  },
+  {
+   "en": [
+    "Out for zero in both innings of a Test is called a?",
+    "Pair",
+    "Double",
+    "Brace",
+    "Hat-trick"
+   ],
+   "hi": [
+    "टेस्ट की दोनों पारियों में शून्य पर आउट होना कहलाता है?",
+    "पेयर",
+    "डबल",
+    "ब्रेस",
+    "हैट्रिक"
+   ]
+  },
+  {
+   "en": [
+    "Which crease line keeps a batter safe from run-outs and stumpings?",
+    "Popping crease",
+    "Return crease",
+    "Bowling crease",
+    "Boundary rope"
+   ],
+   "hi": [
+    "रन-आउट और स्टंपिंग से बचने के लिए बल्लेबाज़ को किस रेखा के पीछे रहना होता है?",
+    "पॉपिंग क्रीज़",
+    "रिटर्न क्रीज़",
+    "बॉलिंग क्रीज़",
+    "बाउंड्री रस्सी"
+   ]
+  },
+  {
+   "en": [
+    "Runs taken when the ball hits the batter's body, not the bat, are?",
+    "Leg byes",
+    "Byes",
+    "Wides",
+    "Overthrows"
+   ],
+   "hi": [
+    "गेंद बल्ले के बजाय बल्लेबाज़ के शरीर से लगे और रन बनें, तो वे कहलाते हैं?",
+    "लेग बाई",
+    "बाई",
+    "वाइड",
+    "ओवरथ्रो"
+   ]
+  },
+  {
+   "en": [
+    "In limited-overs cricket, a free hit follows which delivery?",
+    "No-ball",
+    "Wide",
+    "Bouncer",
+    "Dead ball"
+   ],
+   "hi": [
+    "सीमित ओवर क्रिकेट में फ़्री हिट किस गेंद के बाद मिलती है?",
+    "नो-बॉल",
+    "वाइड",
+    "बाउंसर",
+    "डेड बॉल"
+   ]
+  },
+  {
+   "en": [
+    "A captain closing their own team's Test innings early makes a?",
+    "Declaration",
+    "Follow-on",
+    "Retirement",
+    "Walkover"
+   ],
+   "hi": [
+    "कप्तान अपनी टीम की टेस्ट पारी जल्दी ख़त्म कर दे तो इसे क्या कहते हैं?",
+    "डिक्लेरेशन",
+    "फ़ॉलो-ऑन",
+    "रिटायरमेंट",
+    "वॉकओवर"
+   ]
+  },
+  {
+   "en": [
+    "Making a team far behind in a Test bat again straight away is the?",
+    "Follow-on",
+    "Declaration",
+    "Super Over",
+    "Powerplay"
+   ],
+   "hi": [
+    "टेस्ट में बहुत पीछे रह गई टीम को तुरंत दोबारा बल्लेबाज़ी कराना कहलाता है?",
+    "फ़ॉलो-ऑन",
+    "डिक्लेरेशन",
+    "सुपर ओवर",
+    "पावरप्ले"
+   ]
+  },
+  {
+   "en": [
+    "A tied limited-overs match is often settled by a?",
+    "Super Over",
+    "Coin toss",
+    "Replay",
+    "Penalty shootout"
+   ],
+   "hi": [
+    "बराबरी पर छूटे सीमित ओवर मैच का फ़ैसला अक्सर किससे होता है?",
+    "सुपर ओवर",
+    "सिक्का उछालकर",
+    "दोबारा मैच",
+    "पेनल्टी शूटआउट"
+   ]
+  },
+  {
+   "en": [
+    "The opening overs with fielding limits are called the?",
+    "Powerplay",
+    "Death overs",
+    "Free hit",
+    "Maiden overs"
+   ],
+   "hi": [
+    "शुरुआती ओवर जिनमें फ़ील्डिंग पर पाबंदी रहती है, कहलाते हैं?",
+    "पावरप्ले",
+    "डेथ ओवर",
+    "फ़्री हिट",
+    "मेडन ओवर"
+   ]
+  },
+  {
+   "en": [
+    "The last few overs of a limited-overs innings are nicknamed?",
+    "Death overs",
+    "Powerplay",
+    "Middle overs",
+    "Super overs"
+   ],
+   "hi": [
+    "सीमित ओवर की पारी के आख़िरी कुछ ओवरों को क्या कहते हैं?",
+    "डेथ ओवर",
+    "पावरप्ले",
+    "बीच के ओवर",
+    "सुपर ओवर"
+   ]
+  },
+  {
+   "en": [
+    "Runs added by two batters while batting together form a?",
+    "Partnership",
+    "Spell",
+    "Session",
+    "Over"
+   ],
+   "hi": [
+    "दो बल्लेबाज़ों के साथ खेलते हुए जोड़े गए रन कहलाते हैं?",
+    "साझेदारी",
+    "स्पेल",
+    "सत्र",
+    "ओवर"
+   ]
+  },
+  {
+   "en": [
+    "A bowler's run of overs in a row from one end is called a?",
+    "Spell",
+    "Session",
+    "Innings",
+    "Rubber"
+   ],
+   "hi": [
+    "एक छोर से लगातार डाले गए किसी गेंदबाज़ के ओवर कहलाते हैं?",
+    "स्पेल",
+    "सत्र",
+    "पारी",
+    "रबर"
+   ]
+  },
+  {
+   "en": [
+    "A standard Test match lasts up to how many days?",
+    "5",
+    "4",
+    "3",
+    "6"
+   ],
+   "hi": [
+    "एक सामान्य टेस्ट मैच ज़्यादा से ज़्यादा कितने दिन चलता है?",
+    "5",
+    "4",
+    "3",
+    "6"
+   ]
+  },
+  {
+   "en": [
+    "A right-arm finger spinner turning the ball into a right-hander bowls?",
+    "Off-spin",
+    "Leg-spin",
+    "Googly",
+    "Yorker"
+   ],
+   "hi": [
+    "दाएँ हाथ के बल्लेबाज़ की ओर अंदर घूमने वाली उंगली की स्पिन कहलाती है?",
+    "ऑफ़-स्पिन",
+    "लेग-स्पिन",
+    "गुगली",
+    "यॉर्कर"
+   ]
+  },
+  {
+   "en": [
+    "A short ball rising toward the batter's head is a?",
+    "Bouncer",
+    "Yorker",
+    "Full toss",
+    "Googly"
+   ],
+   "hi": [
+    "बल्लेबाज़ के सिर की ओर उठती छोटी गेंद कहलाती है?",
+    "बाउंसर",
+    "यॉर्कर",
+    "फ़ुल टॉस",
+    "गुगली"
+   ]
+  },
+  {
+   "en": [
+    "A ball that reaches the batter without bouncing is a?",
+    "Full toss",
+    "Bouncer",
+    "Half-volley",
+    "Yorker"
+   ],
+   "hi": [
+    "बिना टप्पा खाए बल्लेबाज़ तक पहुँचने वाली गेंद कहलाती है?",
+    "फ़ुल टॉस",
+    "बाउंसर",
+    "हाफ़-वॉली",
+    "यॉर्कर"
+   ]
+  },
+  {
+   "en": [
+    "A ball that curves in the air into a right-handed batter is an?",
+    "Inswinger",
+    "Outswinger",
+    "Bouncer",
+    "Leg-cutter"
+   ],
+   "hi": [
+    "हवा में दाएँ हाथ के बल्लेबाज़ की ओर अंदर आती गेंद कहलाती है?",
+    "इनस्विंगर",
+    "आउटस्विंगर",
+    "बाउंसर",
+    "लेग-कटर"
+   ]
+  },
+  {
+   "en": [
+    "Which cross-bat shot sends a short ball to the leg side?",
+    "Pull",
+    "Cover drive",
+    "Cut",
+    "Straight drive"
+   ],
+   "hi": [
+    "छोटी गेंद को आड़े बल्ले से लेग साइड में मारने वाला शॉट कौन-सा है?",
+    "पुल",
+    "कवर ड्राइव",
+    "कट",
+    "स्ट्रेट ड्राइव"
+   ]
+  },
+  {
+   "en": [
+    "A shot played down on one knee, sweeping the ball to leg, is the?",
+    "Sweep",
+    "Pull",
+    "Cover drive",
+    "Late cut"
+   ],
+   "hi": [
+    "एक घुटने पर झुककर गेंद को लेग साइड में बुहारने वाला शॉट कौन-सा है?",
+    "स्वीप",
+    "पुल",
+    "कवर ड्राइव",
+    "लेट कट"
+   ]
+  },
+  {
+   "en": [
+    "Which body runs world cricket?",
+    "ICC",
+    "FIFA",
+    "IOC",
+    "BCCI"
+   ],
+   "hi": [
+    "विश्व क्रिकेट को कौन-सी संस्था चलाती है?",
+    "आईसीसी",
+    "फ़ीफ़ा",
+    "आईओसी",
+    "बीसीसीआई"
+   ]
+  },
+  {
+   "en": [
+    "Which London club is the guardian of the Laws of Cricket?",
+    "MCC",
+    "ICC",
+    "ECB",
+    "BCCI"
+   ],
+   "hi": [
+    "कौन-सा लंदन क्लब क्रिकेट के नियमों का संरक्षक है?",
+    "एमसीसी",
+    "आईसीसी",
+    "ईसीबी",
+    "बीसीसीआई"
+   ]
+  },
+  {
+   "en": [
+    "India's first day-night home Test, in 2019, was played at?",
+    "Eden Gardens",
+    "Wankhede",
+    "Chepauk",
+    "Chinnaswamy"
+   ],
+   "hi": [
+    "2019 में भारत में पहला डे-नाइट टेस्ट किस मैदान पर खेला गया?",
+    "ईडन गार्डन्स",
+    "वानखेड़े",
+    "चेपॉक",
+    "चिन्नास्वामी"
+   ]
+  },
+  {
+   "en": [
+    "Who first took all 10 wickets in a Test innings, in 1956?",
+    "Jim Laker",
+    "Anil Kumble",
+    "Shane Warne",
+    "Richard Hadlee"
+   ],
+   "hi": [
+    "1956 में टेस्ट की एक पारी में सभी 10 विकेट सबसे पहले किसने लिए?",
+    "जिम लेकर",
+    "अनिल कुंबले",
+    "शेन वॉर्न",
+    "रिचर्ड हैडली"
+   ]
+  },
+  {
+   "en": [
+    "The very first Test match, in 1877, was played in which city?",
+    "Melbourne",
+    "London",
+    "Sydney",
+    "Kolkata"
+   ],
+   "hi": [
+    "1877 का सबसे पहला टेस्ट मैच किस शहर में खेला गया?",
+    "मेलबर्न",
+    "लंदन",
+    "सिडनी",
+    "कोलकाता"
+   ]
+  },
+  {
+   "en": [
+    "India co-hosted the 1987 Cricket World Cup with which country?",
+    "Pakistan",
+    "Sri Lanka",
+    "Bangladesh",
+    "England"
+   ],
+   "hi": [
+    "1987 क्रिकेट विश्व कप की मेज़बानी भारत ने किस देश के साथ की?",
+    "पाकिस्तान",
+    "श्रीलंका",
+    "बांग्लादेश",
+    "इंग्लैंड"
+   ]
+  },
+  {
+   "en": [
+    "Which team won the 1996 Cricket World Cup?",
+    "Sri Lanka",
+    "Australia",
+    "India",
+    "Pakistan"
+   ],
+   "hi": [
+    "1996 का क्रिकेट विश्व कप किस टीम ने जीता?",
+    "श्रीलंका",
+    "ऑस्ट्रेलिया",
+    "भारत",
+    "पाकिस्तान"
+   ]
+  },
+  {
+   "en": [
+    "Which team won the 1992 Cricket World Cup?",
+    "Pakistan",
+    "England",
+    "Australia",
+    "New Zealand"
+   ],
+   "hi": [
+    "1992 का क्रिकेट विश्व कप किस टीम ने जीता?",
+    "पाकिस्तान",
+    "इंग्लैंड",
+    "ऑस्ट्रेलिया",
+    "न्यूज़ीलैंड"
+   ]
+  },
+  {
+   "en": [
+    "Australia beat which team in the 2003 World Cup final?",
+    "India",
+    "Pakistan",
+    "Kenya",
+    "South Africa"
+   ],
+   "hi": [
+    "2003 विश्व कप फ़ाइनल में ऑस्ट्रेलिया ने किस टीम को हराया?",
+    "भारत",
+    "पाकिस्तान",
+    "केन्या",
+    "दक्षिण अफ़्रीका"
+   ]
+  },
+  {
+   "en": [
+    "In which year did India win its first Test match?",
+    "1952",
+    "1932",
+    "1947",
+    "1961"
+   ],
+   "hi": [
+    "भारत ने अपना पहला टेस्ट मैच किस वर्ष जीता?",
+    "1952",
+    "1932",
+    "1947",
+    "1961"
+   ]
+  },
+  {
+   "en": [
+    "India's first Test series win abroad came in which country?",
+    "New Zealand",
+    "England",
+    "Australia",
+    "West Indies"
+   ],
+   "hi": [
+    "भारत ने विदेश में अपनी पहली टेस्ट सीरीज़ किस देश में जीती?",
+    "न्यूज़ीलैंड",
+    "इंग्लैंड",
+    "ऑस्ट्रेलिया",
+    "वेस्ट इंडीज़"
+   ]
+  },
+  {
+   "en": [
+    "Who scored India's first Test century, in 1933?",
+    "Lala Amarnath",
+    "C.K. Nayudu",
+    "Vijay Merchant",
+    "Vinoo Mankad"
+   ],
+   "hi": [
+    "1933 में भारत के लिए पहला टेस्ट शतक किसने बनाया?",
+    "लाला अमरनाथ",
+    "सी.के. नायडू",
+    "विजय मर्चेंट",
+    "वीनू मांकड़"
+   ]
+  },
+  {
+   "en": [
+    "Who was the first bowler to reach 400 Test wickets?",
+    "Richard Hadlee",
+    "Kapil Dev",
+    "Dennis Lillee",
+    "Ian Botham"
+   ],
+   "hi": [
+    "टेस्ट क्रिकेट में 400 विकेट तक पहुँचने वाले पहले गेंदबाज़ कौन थे?",
+    "रिचर्ड हैडली",
+    "कपिल देव",
+    "डेनिस लिली",
+    "इयान बॉथम"
+   ]
+  },
+  {
+   "en": [
+    "Kapil Dev's famous 175 not out in 1983 came against?",
+    "Zimbabwe",
+    "Australia",
+    "West Indies",
+    "England"
+   ],
+   "hi": [
+    "1983 में कपिल देव की मशहूर नाबाद 175 रन की पारी किसके ख़िलाफ़ थी?",
+    "ज़िम्बाब्वे",
+    "ऑस्ट्रेलिया",
+    "वेस्ट इंडीज़",
+    "इंग्लैंड"
+   ]
+  },
+  {
+   "en": [
+    "India beat which team in the 1983 World Cup final?",
+    "West Indies",
+    "England",
+    "Australia",
+    "Pakistan"
+   ],
+   "hi": [
+    "1983 विश्व कप फ़ाइनल में भारत ने किस टीम को हराया?",
+    "वेस्ट इंडीज़",
+    "इंग्लैंड",
+    "ऑस्ट्रेलिया",
+    "पाकिस्तान"
+   ]
+  },
+  {
+   "en": [
+    "What does an umpire signal by raising one index finger?",
+    "Out",
+    "Four",
+    "Six",
+    "Wide"
+   ],
+   "hi": [
+    "अंपायर एक उंगली ऊपर उठाए तो इसका मतलब क्या होता है?",
+    "आउट",
+    "चौका",
+    "छक्का",
+    "वाइड"
+   ]
+  },
+  {
+   "en": [
+    "An umpire raising both arms straight above the head signals a?",
+    "Six",
+    "Four",
+    "Out",
+    "Bye"
+   ],
+   "hi": [
+    "अंपायर दोनों हाथ सीधे सिर के ऊपर उठाए तो यह किसका इशारा है?",
+    "छक्का",
+    "चौका",
+    "आउट",
+    "बाई"
+   ]
+  },
+  {
+   "en": [
+    "An umpire waving one arm to and fro across the chest signals a?",
+    "Four",
+    "Six",
+    "Wide",
+    "No-ball"
+   ],
+   "hi": [
+    "अंपायर एक हाथ छाती के आगे इधर-उधर लहराए तो यह किसका इशारा है?",
+    "चौका",
+    "छक्का",
+    "वाइड",
+    "नो-बॉल"
+   ]
+  },
+  {
+   "en": [
+    "An umpire stretching both arms out sideways signals a?",
+    "Wide",
+    "Bye",
+    "Out",
+    "Six"
+   ],
+   "hi": [
+    "अंपायर दोनों हाथ बगल में सीधे फैलाए तो यह किसका इशारा है?",
+    "वाइड",
+    "बाई",
+    "आउट",
+    "छक्का"
+   ]
+  },
+  {
+   "en": [
+    "A Test that ends with no winner and is not a tie is called a?",
+    "Draw",
+    "Tie",
+    "Walkover",
+    "Super Over"
+   ],
+   "hi": [
+    "टेस्ट मैच में कोई न जीते और टाई भी न हो, तो नतीजा क्या कहलाता है?",
+    "ड्रॉ",
+    "टाई",
+    "वॉकओवर",
+    "सुपर ओवर"
+   ]
+  },
+  {
+   "en": [
+    "The first tied Test, in 1960, was between Australia and?",
+    "West Indies",
+    "England",
+    "India",
+    "Pakistan"
+   ],
+   "hi": [
+    "1960 का पहला टाई टेस्ट ऑस्ट्रेलिया और किस टीम के बीच खेला गया?",
+    "वेस्ट इंडीज़",
+    "इंग्लैंड",
+    "भारत",
+    "पाकिस्तान"
+   ]
+  },
+  {
+   "en": [
+    "Cricket bats are traditionally made from which wood?",
+    "Willow",
+    "Teak",
+    "Oak",
+    "Bamboo"
+   ],
+   "hi": [
+    "क्रिकेट बल्ले पारंपरिक रूप से किस लकड़ी से बनते हैं?",
+    "विलो",
+    "सागौन",
+    "ओक",
+    "बाँस"
+   ]
+  },
+  {
+   "en": [
+    "The raised stitched ridge around a cricket ball is the?",
+    "Seam",
+    "Lace",
+    "Grip",
+    "Shine"
+   ],
+   "hi": [
+    "क्रिकेट गेंद पर उभरी हुई सिलाई वाली धारी को क्या कहते हैं?",
+    "सीम",
+    "लेस",
+    "ग्रिप",
+    "चमक"
+   ]
+  },
+  {
+   "en": [
+    "A lower-order batter sent in late in the day to shield others is a?",
+    "Nightwatchman",
+    "Opener",
+    "Runner",
+    "Twelfth man"
+   ],
+   "hi": [
+    "दिन के आख़िर में बाक़ी बल्लेबाज़ों को बचाने भेजा गया निचले क्रम का बल्लेबाज़ कौन होता है?",
+    "नाइटवॉचमैन",
+    "ओपनर",
+    "रनर",
+    "बारहवाँ खिलाड़ी"
+   ]
+  },
+  {
+   "en": [
+    "The reserve player who traditionally fields as a substitute is the?",
+    "Twelfth man",
+    "Nightwatchman",
+    "Runner",
+    "Vice-captain"
+   ],
+   "hi": [
+    "परंपरा से सब्स्टीट्यूट फ़ील्डर बनने वाला रिज़र्व खिलाड़ी कौन कहलाता है?",
+    "बारहवाँ खिलाड़ी",
+    "नाइटवॉचमैन",
+    "रनर",
+    "उप-कप्तान"
+   ]
+  },
+  {
+   "en": [
+    "At most how many overs can one bowler bowl in an ODI?",
+    "10",
+    "12",
+    "8",
+    "15"
+   ],
+   "hi": [
+    "एक वनडे में एक गेंदबाज़ ज़्यादा से ज़्यादा कितने ओवर डाल सकता है?",
+    "10",
+    "12",
+    "8",
+    "15"
+   ]
+  },
+  {
+   "en": [
+    "At most how many overs can one bowler bowl in a T20 match?",
+    "4",
+    "5",
+    "6",
+    "3"
+   ],
+   "hi": [
+    "एक टी20 मैच में एक गेंदबाज़ ज़्यादा से ज़्यादा कितने ओवर डाल सकता है?",
+    "4",
+    "5",
+    "6",
+    "3"
+   ]
+  },
+  {
+   "en": [
+    "Chepauk cricket stadium is in which city?",
+    "Chennai",
+    "Bengaluru",
+    "Hyderabad",
+    "Kochi"
+   ],
+   "hi": [
+    "चेपॉक क्रिकेट स्टेडियम किस शहर में है?",
+    "चेन्नई",
+    "बेंगलुरु",
+    "हैदराबाद",
+    "कोच्चि"
+   ]
+  },
+  {
+   "en": [
+    "Who invented basketball in 1891?",
+    "James Naismith",
+    "Walter Camp",
+    "W.G. Grace",
+    "Tom Morris"
+   ],
+   "hi": [
+    "1891 में बास्केटबॉल का आविष्कार किसने किया?",
+    "जेम्स नाइस्मिथ",
+    "वॉल्टर कैंप",
+    "डब्ल्यू.जी. ग्रेस",
+    "टॉम मॉरिस"
+   ]
+  },
+  {
+   "en": [
+    "Who invented volleyball in 1895?",
+    "William Morgan",
+    "James Naismith",
+    "Walter Camp",
+    "W.G. Grace"
+   ],
+   "hi": [
+    "1895 में वॉलीबॉल का आविष्कार किसने किया?",
+    "विलियम मॉर्गन",
+    "जेम्स नाइस्मिथ",
+    "वॉल्टर कैंप",
+    "डब्ल्यू.जी. ग्रेस"
+   ]
+  },
+  {
+   "en": [
+    "How many players per side are on the field in field hockey?",
+    "11",
+    "10",
+    "9",
+    "7"
+   ],
+   "hi": [
+    "फ़ील्ड हॉकी में एक टीम के कितने खिलाड़ी मैदान पर होते हैं?",
+    "11",
+    "10",
+    "9",
+    "7"
+   ]
+  },
+  {
+   "en": [
+    "How many points does a win earn in most football leagues?",
+    "3",
+    "2",
+    "1",
+    "4"
+   ],
+   "hi": [
+    "ज़्यादातर फ़ुटबॉल लीग में जीत पर कितने अंक मिलते हैं?",
+    "3",
+    "2",
+    "1",
+    "4"
+   ]
+  },
+  {
+   "en": [
+    "Three goals by one player in a single football match is a?",
+    "Hat-trick",
+    "Brace",
+    "Clean sheet",
+    "Own goal"
+   ],
+   "hi": [
+    "फ़ुटबॉल के एक मैच में एक ही खिलाड़ी के तीन गोल कहलाते हैं?",
+    "हैट्रिक",
+    "ब्रेस",
+    "क्लीन शीट",
+    "आत्मघाती गोल"
+   ]
+  },
+  {
+   "en": [
+    "A goalkeeper who lets in no goals in a match keeps a?",
+    "Clean sheet",
+    "Hat-trick",
+    "Own goal",
+    "Offside"
+   ],
+   "hi": [
+    "मैच में एक भी गोल न खाने पर गोलकीपर के नाम क्या दर्ज होता है?",
+    "क्लीन शीट",
+    "हैट्रिक",
+    "आत्मघाती गोल",
+    "ऑफ़साइड"
+   ]
+  },
+  {
+   "en": [
+    "In tennis, a score of 40-40 is called?",
+    "Deuce",
+    "Love",
+    "Advantage",
+    "Let"
+   ],
+   "hi": [
+    "टेनिस में 40-40 के स्कोर को क्या कहते हैं?",
+    "ड्यूस",
+    "लव",
+    "एडवांटेज",
+    "लेट"
+   ]
+  },
+  {
+   "en": [
+    "A tennis serve the receiver cannot touch at all is an?",
+    "Ace",
+    "Let",
+    "Fault",
+    "Volley"
+   ],
+   "hi": [
+    "टेनिस की ऐसी सर्विस जिसे सामने वाला छू भी न पाए, कहलाती है?",
+    "ऐस",
+    "लेट",
+    "फ़ॉल्ट",
+    "वॉली"
+   ]
+  },
+  {
+   "en": [
+    "Which Grand Slam tennis event is played on clay?",
+    "French Open",
+    "Wimbledon",
+    "US Open",
+    "Australian Open"
+   ],
+   "hi": [
+    "कौन-सा ग्रैंड स्लैम टेनिस टूर्नामेंट क्ले कोर्ट पर खेला जाता है?",
+    "फ़्रेंच ओपन",
+    "विंबलडन",
+    "यूएस ओपन",
+    "ऑस्ट्रेलियन ओपन"
+   ]
+  },
+  {
+   "en": [
+    "How many Grand Slam tournaments are held in a tennis year?",
+    "4",
+    "3",
+    "5",
+    "6"
+   ],
+   "hi": [
+    "टेनिस में साल भर में कितने ग्रैंड स्लैम टूर्नामेंट होते हैं?",
+    "4",
+    "3",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "en": [
+    "How many pieces does each chess player start with?",
+    "16",
+    "12",
+    "20",
+    "18"
+   ],
+   "hi": [
+    "शतरंज में हर खिलाड़ी कितने मोहरों से खेल शुरू करता है?",
+    "16",
+    "12",
+    "20",
+    "18"
+   ]
+  },
+  {
+   "en": [
+    "In chess, having no legal move while not in check is a?",
+    "Stalemate",
+    "Checkmate",
+    "Castling",
+    "En passant"
+   ],
+   "hi": [
+    "शतरंज में शह न होते हुए भी कोई चाल न बचे, तो यह स्थिति क्या कहलाती है?",
+    "स्टेलमेट",
+    "शह और मात",
+    "कैसलिंग",
+    "आं पासां"
+   ]
+  },
+  {
+   "en": [
+    "In golf, two strokes under par on a hole is an?",
+    "Eagle",
+    "Birdie",
+    "Bogey",
+    "Albatross"
+   ],
+   "hi": [
+    "गोल्फ़ में किसी होल पर पार से दो स्ट्रोक कम को क्या कहते हैं?",
+    "ईगल",
+    "बर्डी",
+    "बोगी",
+    "अल्बाट्रॉस"
+   ]
+  },
+  {
+   "en": [
+    "In golf, sinking the ball with your very first shot on a hole is a?",
+    "Hole-in-one",
+    "Birdie",
+    "Bogey",
+    "Eagle"
+   ],
+   "hi": [
+    "गोल्फ़ में पहले ही शॉट में गेंद होल में डाल देना कहलाता है?",
+    "होल-इन-वन",
+    "बर्डी",
+    "बोगी",
+    "ईगल"
+   ]
+  },
+  {
+   "en": [
+    "How many players of a kho-kho team take the field at once?",
+    "9",
+    "7",
+    "11",
+    "6"
+   ],
+   "hi": [
+    "खो-खो में एक टीम के कितने खिलाड़ी एक साथ मैदान पर उतरते हैं?",
+    "9",
+    "7",
+    "11",
+    "6"
+   ]
+  },
+  {
+   "en": [
+    "The Subroto Cup is a school tournament in which sport?",
+    "Football",
+    "Hockey",
+    "Cricket",
+    "Kabaddi"
+   ],
+   "hi": [
+    "सुब्रतो कप स्कूलों का किस खेल का टूर्नामेंट है?",
+    "फ़ुटबॉल",
+    "हॉकी",
+    "क्रिकेट",
+    "कबड्डी"
+   ]
+  },
+  {
+   "en": [
+    "India's Arjuna Award honours excellence in which field?",
+    "Sports",
+    "Films",
+    "Science",
+    "Literature"
+   ],
+   "hi": [
+    "भारत का अर्जुन पुरस्कार किस क्षेत्र में उत्कृष्टता के लिए दिया जाता है?",
+    "खेल",
+    "फ़िल्म",
+    "विज्ञान",
+    "साहित्य"
+   ]
+  },
+  {
+   "en": [
+    "Judo was developed in which country?",
+    "Japan",
+    "China",
+    "South Korea",
+    "Thailand"
+   ],
+   "hi": [
+    "जूडो किस देश में विकसित हुआ?",
+    "जापान",
+    "चीन",
+    "दक्षिण कोरिया",
+    "थाईलैंड"
+   ]
+  },
+  {
+   "en": [
+    "Taekwondo comes from which country?",
+    "South Korea",
+    "Japan",
+    "China",
+    "Vietnam"
+   ],
+   "hi": [
+    "ताइक्वांडो किस देश से आया है?",
+    "दक्षिण कोरिया",
+    "जापान",
+    "चीन",
+    "वियतनाम"
+   ]
+  },
+  {
+   "en": [
+    "The Tour de France is a famous race in which sport?",
+    "Cycling",
+    "Running",
+    "Rowing",
+    "Car racing"
+   ],
+   "hi": [
+    "टूर डी फ़्रांस किस खेल की मशहूर दौड़ है?",
+    "साइकिलिंग",
+    "दौड़",
+    "नौकायन",
+    "कार रेसिंग"
+   ]
+  },
+  {
+   "en": [
+    "The Wimbledon tournament is held in which city?",
+    "London",
+    "Paris",
+    "New York",
+    "Melbourne"
+   ],
+   "hi": [
+    "विंबलडन टूर्नामेंट किस शहर में होता है?",
+    "लंदन",
+    "पेरिस",
+    "न्यूयॉर्क",
+    "मेलबर्न"
+   ]
+  },
+  {
+   "en": [
+    "Modern polo has its roots in which Indian state?",
+    "Manipur",
+    "Rajasthan",
+    "Punjab",
+    "Assam"
+   ],
+   "hi": [
+    "आधुनिक पोलो की जड़ें भारत के किस राज्य में मानी जाती हैं?",
+    "मणिपुर",
+    "राजस्थान",
+    "पंजाब",
+    "असम"
+   ]
+  },
+  {
+   "en": [
+    "Besides hurdles, the steeplechase race includes a?",
+    "Water jump",
+    "Sand pit",
+    "Rope climb",
+    "Balance beam"
+   ],
+   "hi": [
+    "स्टीपलचेज़ दौड़ में बाधाओं के अलावा और क्या होता है?",
+    "पानी की छलाँग",
+    "रेत का गड्ढा",
+    "रस्सी चढ़ाई",
+    "बैलेंस बीम"
+   ]
+  },
+  {
+   "en": [
+    "The Olympic flame is lit in which country before each Games?",
+    "Greece",
+    "Italy",
+    "France",
+    "USA"
+   ],
+   "hi": [
+    "हर ओलंपिक से पहले ओलंपिक मशाल किस देश में जलाई जाती है?",
+    "ग्रीस",
+    "इटली",
+    "फ़्रांस",
+    "अमेरिका"
+   ]
+  },
+  {
+   "en": [
+    "Which Indian city hosted the 2010 Commonwealth Games?",
+    "Delhi",
+    "Mumbai",
+    "Kolkata",
+    "Chennai"
+   ],
+   "hi": [
+    "2010 के राष्ट्रमंडल खेल भारत के किस शहर में हुए?",
+    "दिल्ली",
+    "मुंबई",
+    "कोलकाता",
+    "चेन्नई"
+   ]
+  },
+  {
+   "en": [
+    "Table tennis is also known by which name?",
+    "Ping pong",
+    "Squash",
+    "Lawn tennis",
+    "Badminton"
+   ],
+   "hi": [
+    "टेबल टेनिस को और किस नाम से जाना जाता है?",
+    "पिंग पोंग",
+    "स्क्वैश",
+    "लॉन टेनिस",
+    "बैडमिंटन"
+   ]
+  },
+  {
+   "en": [
+    "In baseball, how many strikes put a batter out?",
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "hi": [
+    "बेसबॉल में कितनी स्ट्राइक पर बल्लेबाज़ आउट हो जाता है?",
+    "3",
+    "2",
+    "4",
+    "5"
+   ]
+  },
+  {
+   "en": [
+    "How many players does a rugby union team have on the field?",
+    "15",
+    "11",
+    "13",
+    "9"
+   ],
+   "hi": [
+    "रग्बी यूनियन की एक टीम के कितने खिलाड़ी मैदान पर होते हैं?",
+    "15",
+    "11",
+    "13",
+    "9"
+   ]
+  },
+  {
+   "en": [
+    "An individual medley swimming race uses how many strokes?",
+    "4",
+    "3",
+    "5",
+    "2"
+   ],
+   "hi": [
+    "व्यक्तिगत मेडली तैराकी में कितनी शैलियाँ होती हैं?",
+    "4",
+    "3",
+    "5",
+    "2"
+   ]
+  },
+  {
+   "en": [
+    "A penalty corner is awarded in which sport?",
+    "Field hockey",
+    "Football",
+    "Basketball",
+    "Water polo"
+   ],
+   "hi": [
+    "पेनल्टी कॉर्नर किस खेल में दिया जाता है?",
+    "फ़ील्ड हॉकी",
+    "फ़ुटबॉल",
+    "बास्केटबॉल",
+    "वॉटर पोलो"
+   ]
+  },
+  {
+   "en": [
+    "Karnam Malleswari, India's first woman Olympic medallist, won it in?",
+    "Weightlifting",
+    "Boxing",
+    "Wrestling",
+    "Shooting"
+   ],
+   "hi": [
+    "भारत की पहली महिला ओलंपिक पदक विजेता कर्णम मल्लेश्वरी ने किस खेल में पदक जीता?",
+    "भारोत्तोलन",
+    "मुक्केबाज़ी",
+    "कुश्ती",
+    "निशानेबाज़ी"
+   ]
+  },
+  {
+   "en": [
+    "Leander Paes won an Olympic bronze at Atlanta 1996 in which sport?",
+    "Tennis",
+    "Badminton",
+    "Boxing",
+    "Shooting"
+   ],
+   "hi": [
+    "लिएंडर पेस ने अटलांटा 1996 में किस खेल में ओलंपिक कांस्य जीता?",
+    "टेनिस",
+    "बैडमिंटन",
+    "मुक्केबाज़ी",
+    "निशानेबाज़ी"
+   ]
+  },
+  {
+   "en": [
+    "Milkha Singh came fourth in the 400 m at which Olympics?",
+    "Rome 1960",
+    "Tokyo 1964",
+    "Melbourne 1956",
+    "Mexico 1968"
+   ],
+   "hi": [
+    "मिल्खा सिंह किस ओलंपिक की 400 मीटर दौड़ में चौथे स्थान पर रहे?",
+    "रोम 1960",
+    "टोक्यो 1964",
+    "मेलबर्न 1956",
+    "मेक्सिको 1968"
+   ]
+  },
+  {
+   "en": [
+    "M.C. Mary Kom won an Olympic bronze at London 2012 in which sport?",
+    "Boxing",
+    "Wrestling",
+    "Judo",
+    "Weightlifting"
+   ],
+   "hi": [
+    "एम.सी. मैरी कॉम ने लंदन 2012 में किस खेल में ओलंपिक कांस्य जीता?",
+    "मुक्केबाज़ी",
+    "कुश्ती",
+    "जूडो",
+    "भारोत्तोलन"
+   ]
+  },
+  {
+   "en": [
+    "In which year did India first win the men's Hockey World Cup?",
+    "1975",
+    "1971",
+    "1982",
+    "1978"
+   ],
+   "hi": [
+    "भारत ने पहली बार पुरुष हॉकी विश्व कप किस वर्ष जीता?",
+    "1975",
+    "1971",
+    "1982",
+    "1978"
+   ]
+  },
+  {
+   "en": [
+    "How long is each quarter in international field hockey?",
+    "15 minutes",
+    "10 minutes",
+    "20 minutes",
+    "12 minutes"
+   ],
+   "hi": [
+    "अंतरराष्ट्रीय फ़ील्ड हॉकी में हर क्वार्टर कितनी देर का होता है?",
+    "15 मिनट",
+    "10 मिनट",
+    "20 मिनट",
+    "12 मिनट"
+   ]
+  },
+  {
+   "en": [
+    "Which wrestling style allows holds only above the waist?",
+    "Greco-Roman",
+    "Freestyle",
+    "Sumo",
+    "Mud wrestling"
+   ],
+   "hi": [
+    "किस कुश्ती शैली में केवल कमर के ऊपर पकड़ की अनुमति होती है?",
+    "ग्रीको-रोमन",
+    "फ़्रीस्टाइल",
+    "सूमो",
+    "मिट्टी की कुश्ती"
+   ]
+  },
+  {
+   "en": [
+    "Traditional Indian wrestling takes place in a pit called an?",
+    "Akhara",
+    "Dohyo",
+    "Dojo",
+    "Ring"
+   ],
+   "hi": [
+    "पारंपरिक भारतीय कुश्ती किस मिट्टी के मैदान में होती है?",
+    "अखाड़ा",
+    "दोह्यो",
+    "डोजो",
+    "रिंग"
+   ]
+  },
+  {
+   "en": [
+    "The Indian sport mallakhamb is performed on a?",
+    "Wooden pole",
+    "Balance beam",
+    "Trampoline",
+    "Pommel horse"
+   ],
+   "hi": [
+    "भारतीय खेल मलखंब किस पर किया जाता है?",
+    "लकड़ी का खंभा",
+    "बैलेंस बीम",
+    "ट्रैम्पोलिन",
+    "पॉमेल हॉर्स"
+   ]
+  },
+  {
+   "en": [
+    "Which martial art comes from Kerala?",
+    "Kalaripayattu",
+    "Gatka",
+    "Thang-ta",
+    "Silambam"
+   ],
+   "hi": [
+    "केरल की पारंपरिक युद्ध कला कौन-सी है?",
+    "कलरिपयट्टु",
+    "गतका",
+    "थांग-ता",
+    "सिलंबम"
+   ]
+  },
+  {
+   "en": [
+    "How many red balls are set up at the start of a snooker frame?",
+    "15",
+    "10",
+    "12",
+    "21"
+   ],
+   "hi": [
+    "स्नूकर के फ़्रेम की शुरुआत में कितनी लाल गेंदें रखी जाती हैं?",
+    "15",
+    "10",
+    "12",
+    "21"
+   ]
+  },
+  {
+   "en": [
+    "What is the highest score possible with three darts?",
+    "180",
+    "150",
+    "200",
+    "120"
+   ],
+   "hi": [
+    "डार्ट्स में तीन डार्ट से सबसे ज़्यादा कितना स्कोर बन सकता है?",
+    "180",
+    "150",
+    "200",
+    "120"
+   ]
+  },
+  {
+   "en": [
+    "What is the score of a perfect game in ten-pin bowling?",
+    "300",
+    "200",
+    "250",
+    "100"
+   ],
+   "hi": [
+    "टेन-पिन बॉलिंग में परफ़ेक्ट गेम का स्कोर कितना होता है?",
+    "300",
+    "200",
+    "250",
+    "100"
+   ]
+  },
+  {
+   "en": [
+    "Who scored the first perfect 10 in Olympic gymnastics, in 1976?",
+    "Nadia Comaneci",
+    "Olga Korbut",
+    "Mary Lou Retton",
+    "Larisa Latynina"
+   ],
+   "hi": [
+    "1976 में ओलंपिक जिम्नास्टिक का पहला परफ़ेक्ट 10 किसने पाया?",
+    "नादिया कोमानेची",
+    "ओल्गा कोरबुट",
+    "मैरी लू रेटन",
+    "लारिसा लातिनिना"
+   ]
+  },
+  {
+   "en": [
+    "Jesse Owens won four gold medals at which Olympics?",
+    "Berlin 1936",
+    "London 1948",
+    "Paris 1924",
+    "Rome 1960"
+   ],
+   "hi": [
+    "जेसी ओवेन्स ने किस ओलंपिक में चार स्वर्ण पदक जीते?",
+    "बर्लिन 1936",
+    "लंदन 1948",
+    "पेरिस 1924",
+    "रोम 1960"
+   ]
+  },
+  {
+   "en": [
+    "The innermost gold ring of an archery target scores?",
+    "10",
+    "9",
+    "5",
+    "100"
+   ],
+   "hi": [
+    "तीरंदाज़ी के निशाने के सबसे अंदर वाले सुनहरे घेरे के कितने अंक होते हैं?",
+    "10",
+    "9",
+    "5",
+    "100"
+   ]
+  },
+  {
+   "en": [
+    "Which sport is played with a puck?",
+    "Ice hockey",
+    "Field hockey",
+    "Polo",
+    "Golf"
+   ],
+   "hi": [
+    "किस खेल में पक का इस्तेमाल होता है?",
+    "आइस हॉकी",
+    "फ़ील्ड हॉकी",
+    "पोलो",
+    "गोल्फ़"
+   ]
+  },
+  {
+   "en": [
+    "How many players does a polo team have on the field?",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "hi": [
+    "पोलो की एक टीम के कितने खिलाड़ी मैदान पर होते हैं?",
+    "4",
+    "5",
+    "6",
+    "7"
+   ]
+  },
+  {
+   "en": [
+    "P.T. Usha narrowly missed a 1984 Olympic medal in which event?",
+    "400 m hurdles",
+    "100 m",
+    "Long jump",
+    "Marathon"
+   ],
+   "hi": [
+    "पी.टी. उषा 1984 ओलंपिक में किस स्पर्धा में बहुत कम अंतर से पदक चूक गईं?",
+    "400 मीटर बाधा दौड़",
+    "100 मीटर दौड़",
+    "लंबी कूद",
+    "मैराथन"
+   ]
+  }
+ ]
+}

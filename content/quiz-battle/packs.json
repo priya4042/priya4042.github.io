@@ -1,0 +1,21 @@
+{
+ "schema": 1,
+ "slug": "quiz-battle",
+ "packs": [
+  {
+   "id": "cricket-sports-1",
+   "file": "cricket-sports-1.json",
+   "version": 1
+  },
+  {
+   "id": "festivals-india-1",
+   "file": "festivals-india-1.json",
+   "version": 1
+  },
+  {
+   "id": "know-your-states-1",
+   "file": "know-your-states-1.json",
+   "version": 1
+  }
+ ]
+}
