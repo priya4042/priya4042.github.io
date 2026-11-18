@@ -250,6 +250,11 @@
       "version": "1.1.0",
       "build": 2002,
       "url": "https://priya4042.github.io/apps/jaap-counter.html"
+    },
+    "raksha-sos": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/raksha-sos.html"
     }
   }
 }
