@@ -1,0 +1,12 @@
+{
+ "schema": 1,
+ "app": "neon-snake",
+ "packs": [
+  {
+   "id": "festival-arenas",
+   "file": "festival-arenas.json",
+   "version": 1,
+   "bytes": 8722
+  }
+ ]
+}
