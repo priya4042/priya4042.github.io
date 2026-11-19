@@ -1,9 +1,95 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8">
+<html lang="en">
+<head>
+<meta charset="utf-8">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob: https://priya4042.github.io; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta name="robots" content="noindex">
-<meta http-equiv="refresh" content="0; url=/apps/arrow-slide.html">
-<link rel="canonical" href="https://priya4042.github.io/apps/arrow-slide.html">
-<title>Arrow Slide</title></head>
-<body><p>Arrow Slide is now on Android. <a href="/apps/arrow-slide.html">Open the Arrow Slide page</a>.</p></body></html>
+<title>Arrow Slide - play free in your browser - Priya Tech Labs</title>
+<meta name="description" content="Tap an arrow whose path to the edge is clear, and empty the board one arrow at a time.">
+<link rel="canonical" href="https://priya4042.github.io/games/arrow-slide/">
+<meta property="og:title" content="Arrow Slide - play free in your browser - Priya Tech Labs">
+<meta property="og:description" content="Tap an arrow whose path to the edge is clear, and empty the board one arrow at a time.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://priya4042.github.io/games/arrow-slide/">
+<meta property="og:image" content="https://priya4042.github.io/assets/sites/arrow-slide-web.webp">
+<link rel="icon" href="../../assets/apps/arrow-slide.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#0C1316" />
+<style>
+  :root { --bg: #0C1316; --panel: #131E22; --line: #24373E; --text: #E9F1EF; --muted: #93AAA8; --accent: #F2A93B; --ok: #33C3A2; }
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { height: 100%; }
+  body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; color: var(--text); overflow: hidden; user-select: none; -webkit-user-select: none;
+    background: radial-gradient(1100px 700px at 50% -15%, #17272C 0%, var(--bg) 62%) fixed, var(--bg); }
+  .app { width: 100%; max-width: 1080px; height: 100%; height: 100dvh; margin: 0 auto; display: flex; flex-direction: column; align-items: stretch;
+    padding: max(8px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(8px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left)); }
+  .top { display: flex; align-items: center; gap: 8px; min-height: 48px; width: 100%; max-width: 620px; margin: 0 auto; }
+  .title { flex: 1; min-width: 0; font-size: 21px; font-weight: 800; letter-spacing: .2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .stars { font-size: 22px; letter-spacing: 1px; color: var(--accent); white-space: nowrap; }
+  .stars .off, .big .off { color: #2B4148; }
+  .icon { flex: none; width: 42px; height: 42px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel); color: var(--text); cursor: pointer; display: grid; place-items: center; }
+  .icon svg, .tool svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+  .icon.on { border-color: var(--accent); color: var(--accent); }
+  .icon:disabled { opacity: .4; cursor: default; }
+  .bar { display: flex; align-items: center; gap: 10px; width: 100%; max-width: 620px; margin: 4px auto 0; }
+  .tabs { display: flex; padding: 3px; gap: 3px; border-radius: 12px; background: var(--panel); border: 1px solid var(--line); }
+  .tab { min-height: 36px; padding: 0 16px; border-radius: 9px; border: 0; background: transparent; color: var(--muted); font-size: 15px; font-weight: 700; cursor: pointer; }
+  .tab.on { background: var(--accent); color: #1A1206; }
+  .note { flex: 1; min-width: 0; text-align: right; font-size: 14px; font-weight: 600; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .note.lift { color: var(--accent); }
+  .board-wrap { flex: 1; min-height: 0; width: 100%; position: relative; margin: 6px 0; }
+  canvas { position: absolute; inset: 0; display: block; touch-action: none; cursor: pointer; }
+  .tools { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; width: 100%; max-width: 520px; margin: 0 auto; }
+  .tool { position: relative; min-height: 58px; border-radius: 14px; border: 1px solid var(--line); background: var(--panel); color: var(--text); cursor: pointer;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font-size: 13px; font-weight: 700; }
+  .tool:disabled { opacity: .42; cursor: default; }
+  .tool.on { border: 2px solid var(--accent); color: var(--accent); }
+  .tool .badge { position: absolute; top: 5px; right: 6px; min-width: 19px; height: 19px; border-radius: 10px; background: var(--ok); color: #06201A; font-size: 11px; font-weight: 800; display: grid; place-items: center; padding: 0 4px; }
+  .tool .badge.zero { background: var(--line); color: var(--text); }
+  .applink { flex: none; align-self: center; margin-top: 6px; font-size: 13px; font-weight: 600; color: var(--ok); text-decoration: none; padding: 4px 10px; border-radius: 8px; }
+  .applink:hover { text-decoration: underline; }
+  button:focus-visible, a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  @media (hover: hover) { .tool:not(:disabled):hover, .icon:not(:disabled):hover { border-color: #3A565E; } .tab:not(.on):hover { color: var(--text); } }
+  @media (max-width: 360px) { .title { font-size: 18px; } .stars { font-size: 18px; } .icon { width: 38px; height: 38px; } .tab { padding: 0 11px; } .tool { font-size: 12px; } }
+  @media (max-height: 640px) { .tool { min-height: 48px; } .tool span { display: none; } }
+  .overlay { position: fixed; inset: 0; background: rgba(4,9,11,.66); display: none; align-items: center; justify-content: center; z-index: 10; padding: 20px; }
+  .overlay.show { display: flex; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 24px 20px 20px; text-align: center; width: min(100%, 360px); box-shadow: 0 20px 60px rgba(0,0,0,.45); }
+  .card h2 { font-size: 23px; margin-bottom: 6px; }
+  .big { font-size: 44px; color: var(--accent); letter-spacing: 6px; }
+  .card p { font-size: 16px; color: var(--muted); margin: 6px 0 18px; line-height: 1.4; }
+  .row { display: flex; gap: 10px; }
+  .btn { flex: 1; min-height: 50px; border: none; border-radius: 14px; font-size: 17px; font-weight: 800; cursor: pointer; background: var(--accent); color: #1A1206; }
+  .btn.alt { background: transparent; color: var(--text); border: 1px solid var(--line); }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <div class="title" id="title">Level 1</div>
+    <div class="stars" id="stars" role="img"></div>
+    <button class="icon" id="shp" aria-label="Shapes on arrows (high contrast)" title="Shapes on arrows (S)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="7" cy="7" r="3"/><rect x="14" y="4" width="6" height="6"/><path d="M7 14l3 3-3 3-3-3z"/><path d="M14 20l3-6 3 6z"/></svg></button>
+    <button class="icon" id="snd" aria-label="Sound" title="Sound (M)"></button>
+    <button class="icon" id="fit" aria-label="Fit board to screen" title="Fit board (F)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+  </div>
+  <div class="bar">
+    <div class="tabs"><button class="tab on" id="tabLevel">Levels</button><button class="tab" id="tabDaily">Daily</button></div>
+    <div class="note" id="note" aria-live="polite"></div>
+  </div>
+  <div class="board-wrap" id="wrap"><canvas id="board" aria-label="Puzzle board. Arrow keys move a cursor, Enter taps the arrow under it."></canvas></div>
+  <div class="tools" id="tools"></div>
+  <a class="applink" href="https://priya4042.github.io/apps/arrow-slide.html" rel="noopener">Get the Android app</a>
+<a class="ptl-back" href="../../#apps">Priya Tech Labs</a><style>.ptl-back{flex:none;align-self:center;margin-top:8px;font:600 14px/1.2 system-ui,sans-serif;color:inherit;opacity:.75;text-decoration:underline;text-underline-offset:3px;padding:6px 10px}.ptl-back:focus-visible{outline:3px solid #F2A515;outline-offset:2px;border-radius:6px}</style>
+</div>
+<div class="overlay" id="overlay">
+  <div class="card" role="dialog" aria-modal="true" aria-labelledby="winTitle"><h2 id="winTitle">Board clear</h2><div class="big" id="bigStars"></div><p id="winText"></p>
+    <div class="row"><button class="btn alt" id="replay">Play again</button><button class="btn" id="next">Next level</button></div></div>
+</div>
+<div class="overlay" id="ask">
+  <div class="card" role="dialog" aria-modal="true" aria-labelledby="askTitle"><h2 id="askTitle">Remove one arrow?</h2>
+    <p>Tap any arrow to take it off the board, even a stuck one. You get 1 a day, and this board then gives at most 2 stars.</p>
+    <div class="row"><button class="btn alt" id="askNo">Cancel</button><button class="btn" id="askYes">Remove one</button></div></div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>
