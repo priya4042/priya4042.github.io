@@ -260,6 +260,11 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/dukaan-bill.html"
+    },
+    "scan-pdf": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/scan-pdf.html"
     }
   }
 }
