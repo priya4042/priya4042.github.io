@@ -305,6 +305,11 @@
       "version": "1.0.3",
       "build": 5003,
       "url": "https://priya4042.github.io/apps/hisaab.html"
+    },
+    "kisan-diary": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/kisan-diary.html"
     }
   }
 }
