@@ -265,6 +265,11 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/scan-pdf.html"
+    },
+    "ludo-ghar": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/ludo-ghar.html"
     }
   }
 }
