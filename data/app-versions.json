@@ -295,6 +295,11 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/saral-phone.html"
+    },
+    "seva-register": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/seva-register.html"
     }
   }
 }
