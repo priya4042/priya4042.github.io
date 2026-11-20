@@ -2,8 +2,8 @@
   "schema": 1,
   "apps": {
     "biodata": {
-      "version": "1.5.4",
-      "build": 10,
+      "version": "1.5.5",
+      "build": 2011,
       "url": "https://priya4042.github.io/apps/biodata.html"
     },
     "rozana": {
@@ -112,8 +112,8 @@
       "url": "https://priya4042.github.io/apps/pass-quiz.html"
     },
     "colour-sort": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2002,
       "url": "https://priya4042.github.io/apps/colour-sort.html"
     },
     "memory-garden": {
@@ -167,8 +167,8 @@
       "url": "https://priya4042.github.io/apps/akshar-safari.html"
     },
     "carrom": {
-      "version": "1.1.0",
-      "build": 2002,
+      "version": "1.1.1",
+      "build": 4003,
       "url": "https://priya4042.github.io/apps/carrom.html"
     },
     "quiz-battle": {
@@ -197,8 +197,8 @@
       "url": "https://priya4042.github.io/apps/emoji-guess.html"
     },
     "charades": {
-      "version": "1.1.0",
-      "build": 2002,
+      "version": "1.1.1",
+      "build": 4003,
       "url": "https://priya4042.github.io/apps/charades.html"
     },
     "sach-ya-mazaa": {
@@ -212,8 +212,8 @@
       "url": "https://priya4042.github.io/apps/ginti-garden.html"
     },
     "colour-me-india": {
-      "version": "1.1.0",
-      "build": 2002,
+      "version": "1.1.1",
+      "build": 4003,
       "url": "https://priya4042.github.io/apps/colour-me-india.html"
     },
     "reflex-rush": {
@@ -237,8 +237,8 @@
       "url": "https://priya4042.github.io/apps/beat-tap.html"
     },
     "chaupar": {
-      "version": "1.1.0",
-      "build": 2002,
+      "version": "1.1.1",
+      "build": 4003,
       "url": "https://priya4042.github.io/apps/chaupar.html"
     },
     "big-sudoku": {
@@ -332,8 +332,8 @@
       "url": "https://priya4042.github.io/apps/word-jodo.html"
     },
     "cricket-captain": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2002,
       "url": "https://priya4042.github.io/apps/cricket-captain.html"
     },
     "kids-stories": {
