@@ -62,8 +62,8 @@
       "url": "https://priya4042.github.io/apps/aarti.html"
     },
     "rashan": {
-      "version": "1.0.2",
-      "build": 3,
+      "version": "1.0.3",
+      "build": 2004,
       "url": "https://priya4042.github.io/apps/rashan.html"
     },
     "habit": {
@@ -172,13 +172,13 @@
       "url": "https://priya4042.github.io/apps/carrom.html"
     },
     "quiz-battle": {
-      "version": "1.1.0",
-      "build": 2002,
+      "version": "1.1.1",
+      "build": 4003,
       "url": "https://priya4042.github.io/apps/quiz-battle.html"
     },
     "pattern-lock": {
-      "version": "1.1.0",
-      "build": 2002,
+      "version": "1.1.1",
+      "build": 4003,
       "url": "https://priya4042.github.io/apps/pattern-lock.html"
     },
     "number-path": {
@@ -217,8 +217,8 @@
       "url": "https://priya4042.github.io/apps/colour-me-india.html"
     },
     "reflex-rush": {
-      "version": "1.1.0",
-      "build": 2002,
+      "version": "1.1.1",
+      "build": 4003,
       "url": "https://priya4042.github.io/apps/reflex-rush.html"
     },
     "shape-puzzle-zoo": {
@@ -252,8 +252,8 @@
       "url": "https://priya4042.github.io/apps/jaap-counter.html"
     },
     "raksha-sos": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2002,
       "url": "https://priya4042.github.io/apps/raksha-sos.html"
     },
     "dukaan-bill": {
@@ -347,13 +347,13 @@
       "url": "https://priya4042.github.io/apps/memory-match.html"
     },
     "pehchano-india": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2002,
       "url": "https://priya4042.github.io/apps/pehchano-india.html"
     },
     "rangoli-maker": {
-      "version": "1.0.0",
-      "build": 1,
+      "version": "1.0.1",
+      "build": 2002,
       "url": "https://priya4042.github.io/apps/rangoli-maker.html"
     }
   }
