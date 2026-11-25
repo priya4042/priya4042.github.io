@@ -355,6 +355,16 @@
       "version": "1.0.1",
       "build": 2002,
       "url": "https://priya4042.github.io/apps/rangoli-maker.html"
+    },
+    "gilli-danda": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/gilli-danda.html"
+    },
+    "train-junction": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/train-junction.html"
     }
   }
 }
