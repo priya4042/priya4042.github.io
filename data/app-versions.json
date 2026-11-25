@@ -395,6 +395,16 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/lattoo-battle.html"
+    },
+    "mehndi-trace": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/mehndi-trace.html"
+    },
+    "mandi-trader": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/mandi-trader.html"
     }
   }
 }
