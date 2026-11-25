@@ -365,6 +365,26 @@
       "version": "1.0.0",
       "build": 1,
       "url": "https://priya4042.github.io/apps/train-junction.html"
+    },
+    "daily-paheli": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/daily-paheli.html"
+    },
+    "shabd-seedhi": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/shabd-seedhi.html"
+    },
+    "auto-parking": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/auto-parking.html"
+    },
+    "chai-stall": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/chai-stall.html"
     }
   }
 }
