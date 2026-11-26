@@ -405,6 +405,11 @@
       "version": "1.0.2",
       "build": 4003,
       "url": "https://priya4042.github.io/apps/mandi-trader.html"
+    },
+    "sellnest": {
+      "version": "1.0.0",
+      "build": 1,
+      "url": "https://priya4042.github.io/apps/sellnest.html"
     }
   }
 }
